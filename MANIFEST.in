@@ -1,0 +1,7 @@
+include LICENSE
+include NOTICE
+include README.rst
+include src/ssapy_data/manifest.json
+graft src/ssapy_data/data
+prune **/__pycache__
+global-exclude *.py[cod]
