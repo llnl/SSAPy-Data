@@ -5,8 +5,13 @@ SSAPy-Data stores reusable data resources for `SSAPy <https://github.com/llnl/SS
 and `SSAPy Toolkit <https://github.com/llnl/SSAPy-Toolkit>`_. The repository is
 packaged as the ``llnl-ssapy-data`` Python distribution and exposes the
 ``ssapy_data`` import package. Data files live under ``src/ssapy_data/data`` so
-users can receive the required data through normal ``pip`` installation without
-Git LFS, git submodules, or runtime GitHub downloads.
+users can receive required data through normal ``pip`` installation without Git
+LFS, git submodules, or runtime GitHub downloads.
+
+The initial package intentionally does not duplicate data already packaged by
+base SSAPy. New SSAPy Toolkit datasets should be added here when they are needed
+by toolkit functions and are not already available from the base ``llnl-ssapy``
+wheel.
 
 Installation
 ------------
@@ -48,6 +53,8 @@ Adding data
 
 Add new reusable data below ``src/ssapy_data/data``. Preserve source filenames
 when possible, and use subdirectories when a dataset has multiple sidecar files.
+Do not add files already packaged by base SSAPy unless a later migration
+explicitly moves that dependency here.
 After adding, replacing, or removing data, regenerate the manifest:
 
 .. code-block:: bash
@@ -64,8 +71,8 @@ license differs from the existing entries.
 Size guidance
 -------------
 
-The current wheel is well below the usual PyPI per-file upload limit of about
-100 MiB. Before adding large datasets, estimate the built wheel size with:
+The initial wheel contains only the package helpers and a data-directory README.
+Before adding large datasets, estimate the built wheel size with:
 
 .. code-block:: bash
 
@@ -78,17 +85,8 @@ separate companion package rather than using Git LFS in SSAPy Toolkit.
 Data provenance
 ---------------
 
-The planetary ephemerides (``de430.bsp`` when present) were downloaded from
-`NAIF generic SPK kernels <https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/>`_.
-
-Earth gravity models were downloaded from
-`GeographicLib gravity models <https://geographiclib.sourceforge.io/html/gravity.html>`_.
-GeographicLib is MIT-licensed.
-
-Moon gravity models were downloaded from
-`NASA Goddard Planetary Data Archives <https://pgda.gsfc.nasa.gov/products/50>`_.
-
-Future candidate sources include:
+Each data pull request should document the source URL, license, retrieval date,
+and any preprocessing steps for new packaged datasets. Candidate sources include:
 
 * Earth gravity fields:
   `ICGEM time-variable gravity fields <http://icgem.gfz-potsdam.de/tom_longtime>`_

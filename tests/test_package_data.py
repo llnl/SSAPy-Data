@@ -17,35 +17,32 @@ from ssapy_data import (
 
 
 def test_known_resources_are_packaged():
-    assert data_resource("earth.png").is_file()
-    assert data_resource("moon.png").is_file()
-    assert data_resource("moon_pa_de440_200625.bpc").is_file()
-    assert data_resource("Earth_graphics/ne_50m_ocean.shp").is_file()
+    assert data_resource("README.md").is_file()
 
 
 def test_text_and_binary_read_helpers():
-    assert "Name" in read_text("egm84.egm")
-    assert read_binary("earth.png").startswith(b"\x89PNG")
+    text = read_text("README.md")
+    assert "SSAPy Data Payload Directory" in text
+    assert read_binary("README.md").startswith(b"# SSAPy Data")
 
 
 def test_data_path_yields_filesystem_path():
-    with data_path("egm96.egm.cof") as path:
+    with data_path("README.md") as path:
         assert path.exists()
-        assert path.name == "egm96.egm.cof"
-        assert path.stat().st_size > 1_000_000
+        assert path.name == "README.md"
+        assert path.stat().st_size > 0
 
 
 def test_manifest_matches_packaged_files():
     payload = manifest()
     entries = payload["files"]
     entry_paths = {entry["path"] for entry in entries}
-    actual_paths = {resource.name for resource in iter_data_files() if "/" not in resource.name}
+    actual_paths = {resource.name for resource in iter_data_files()}
 
     assert payload["schema_version"] == 1
     assert payload["data_root"] == "data"
-    assert "earth.png" in entry_paths
-    assert "moon_pa_de440_200625.bpc" in entry_paths
-    assert {"earth.png", "moon.png", "egm84.egm"}.issubset(actual_paths)
+    assert entry_paths == {"README.md"}
+    assert actual_paths == {"README.md"}
 
     for entry in entries:
         resource = data_resource(entry["path"])

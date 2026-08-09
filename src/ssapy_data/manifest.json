@@ -2,84 +2,9 @@
   "data_root": "data",
   "files": [
     {
-      "bytes": 22174,
-      "path": "Earth_graphics/ne_50m_ocean.README.html",
-      "sha256": "f6987c4011e6215c45bcb9a9e7a62fa417a4f8a91f629be9e13b5f29f1c72d4c"
-    },
-    {
-      "bytes": 7,
-      "path": "Earth_graphics/ne_50m_ocean.VERSION.txt",
-      "sha256": "0874a8fe36effb87780f431845b5a7d85be657f2bd998ce8eeace717860d3b78"
-    },
-    {
-      "bytes": 5,
-      "path": "Earth_graphics/ne_50m_ocean.cpg",
-      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
-    },
-    {
-      "bytes": 176,
-      "path": "Earth_graphics/ne_50m_ocean.dbf",
-      "sha256": "162d515911b17e35d36e22c5757e75fd37bdd38db2bc0011b9c79888a28bb4f5"
-    },
-    {
-      "bytes": 143,
-      "path": "Earth_graphics/ne_50m_ocean.prj",
-      "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
-    },
-    {
-      "bytes": 978340,
-      "path": "Earth_graphics/ne_50m_ocean.shp",
-      "sha256": "6ff1190e8430e493cf8eed99393f021b7562b600b9a7a11aa23ce45b6035d8b8"
-    },
-    {
-      "bytes": 108,
-      "path": "Earth_graphics/ne_50m_ocean.shx",
-      "sha256": "449353f638399c48c4cfe59e8f945e5c3025a4e412e9bcd0eeba64ba137ae7c1"
-    },
-    {
-      "bytes": 8825662,
-      "path": "earth.png",
-      "sha256": "6e8a1296caef991dcdba963fdc72816e4095720d005e7af6688b060e5fb85aa4"
-    },
-    {
-      "bytes": 800,
-      "path": "egm84.egm",
-      "sha256": "549e21625b71a0f0daec8477e0f4928338885ed2269ff70e351b15c3e6e0d43e"
-    },
-    {
-      "bytes": 262112,
-      "path": "egm84.egm.cof",
-      "sha256": "f95fa2967091b9a0630ae7f34934446f17a02f73e5b648ea919db4174b047633"
-    },
-    {
-      "bytes": 753,
-      "path": "egm96.egm",
-      "sha256": "cdf0896bb34c1f8ad7ea1c4126cf949fe5069ad9df17c2a66cf3d81da096970e"
-    },
-    {
-      "bytes": 2085160,
-      "path": "egm96.egm.cof",
-      "sha256": "fd427a88a944e2df46d3a3e1aefdb17a68e892e3decdf1382f3ca14de9b6f2ae"
-    },
-    {
-      "bytes": 13728894,
-      "path": "moon.png",
-      "sha256": "4d9e6eebd180262aefe7555a0231927e5142954144cfcf2c4a10876b7c218027"
-    },
-    {
-      "bytes": 12863488,
-      "path": "moon_pa_de440_200625.bpc",
-      "sha256": "60cd55aa401ea2ea97360636f567554bfe4e37bb829f901b4460a455dfaf783f"
-    },
-    {
-      "bytes": 724,
-      "path": "wgs84.egm",
-      "sha256": "594ff1c9dc2363e50d663003deb9baca2e144d096d70fc9b7a6c1c86f5b781f0"
-    },
-    {
-      "bytes": 192,
-      "path": "wgs84.egm.cof",
-      "sha256": "aeedf849678826d171b731eb7a783ab5d7e47552413da551418d21445fc3a2ec"
+      "bytes": 289,
+      "path": "README.md",
+      "sha256": "b860d6a1e800c0ee4f7bd9c493e22de75545fd37f087db8b9a015a690e8b7ae1"
     }
   ],
   "generated_by": "scripts/update_manifest.py",
