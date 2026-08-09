@@ -82,6 +82,24 @@ Before adding large datasets, estimate the built wheel size with:
 If a future dataset pushes the wheel above PyPI limits, split the data into a
 separate companion package rather than using Git LFS in SSAPy Toolkit.
 
+Publishing
+----------
+
+The repository publishes ``llnl-ssapy-data`` to PyPI through GitHub Actions and
+PyPI trusted publishing. Configure PyPI before creating the first release:
+
+* Create a PyPI trusted publisher, or pending publisher, for project
+  ``llnl-ssapy-data``.
+* Set the owner to ``llnl`` and repository to ``SSAPy-Data``.
+* Set the workflow filename to ``publish.yml``.
+* Set the GitHub environment to ``pypi``.
+
+After PyPI trust is configured, publish by creating a GitHub release whose tag
+matches the version in ``pyproject.toml``, for example ``v0.1.0``. The
+``Publish to PyPI`` workflow builds a clean wheel and source distribution, runs
+tests, checks the manifest, and uploads through OpenID Connect (OIDC). No PyPI
+API token is required.
+
 Data provenance
 ---------------
 
