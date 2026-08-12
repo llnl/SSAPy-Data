@@ -94,11 +94,11 @@ PyPI trusted publishing. Configure PyPI before creating the first release:
 * Set the workflow filename to ``publish.yml``.
 * Set the GitHub environment to ``pypi``.
 
-After PyPI trust is configured, publish by creating a GitHub release whose tag
-matches the version in ``pyproject.toml``, for example ``v0.1.0``. The
-``Publish to PyPI`` workflow builds a clean wheel and source distribution, runs
-tests, checks the manifest, and uploads through OpenID Connect (OIDC). No PyPI
-API token is required.
+After PyPI trust is configured, publish by pushing a git tag that matches the
+version in ``pyproject.toml``, for example ``v0.1.1``. The ``Publish to PyPI``
+workflow builds a clean wheel and source distribution, runs tests, checks the
+manifest, and uploads through OpenID Connect (OIDC). No PyPI API token is
+required.
 
 Data provenance
 ---------------
