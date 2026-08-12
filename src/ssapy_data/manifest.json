@@ -37,9 +37,44 @@
       "sha256": "449353f638399c48c4cfe59e8f945e5c3025a4e412e9bcd0eeba64ba137ae7c1"
     },
     {
+      "bytes": 1256924,
+      "path": "bright_stars.csv",
+      "sha256": "95f0cd3b81e32c0049c99efd7004c394271ebdbf5bf41709ed564a91ecd34f7e"
+    },
+    {
+      "bytes": 5578031,
+      "path": "bright_stars_mag11.csv",
+      "sha256": "ee94024a20fb192a0160e1c30f46a66f2e69f6aa8ee296aecd19008cfbea75bb"
+    },
+    {
+      "bytes": 4026937,
+      "path": "bright_stars_mag9.csv",
+      "sha256": "d316582e1bfaec18413d8608a405ca63fef12f2e8bd766d87763040aa23f5912"
+    },
+    {
       "bytes": 8825662,
       "path": "earth.png",
       "sha256": "6e8a1296caef991dcdba963fdc72816e4095720d005e7af6688b060e5fb85aa4"
+    },
+    {
+      "bytes": 1535393,
+      "path": "earth_clouds_2048.png",
+      "sha256": "afd5c62dad99b90a4f2720a168cd9a2b4ea94c2cd030e0faad5ea7d0f8f60ef8"
+    },
+    {
+      "bytes": 459723,
+      "path": "earth_day_2048.jpg",
+      "sha256": "a67878b98ff50d81013bb050c89bb9a28f24335986c7f33ef7c7d5aece45342c"
+    },
+    {
+      "bytes": 134480,
+      "path": "earth_night_2048.jpg",
+      "sha256": "247e561456b6ff041e5996514fa3bf183eeacfddbbede4aca6f3a59790b3b697"
+    },
+    {
+      "bytes": 364187,
+      "path": "earth_specular_2048.jpg",
+      "sha256": "c4dd843e6bac8d2168dccfc810efa56ce336a0a25282d7436cb0ddbe4c4bbac9"
     },
     {
       "bytes": 800,

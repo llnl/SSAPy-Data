@@ -22,7 +22,13 @@ def sha256(path: Path) -> str:
 
 def data_entries() -> list[dict[str, str | int]]:
     entries: list[dict[str, str | int]] = []
-    for path in sorted(DATA_ROOT.rglob("*")):
+    # Sort by the POSIX relative path string, not by Path object. Path
+    # comparison orders differently on Windows (WindowsPath) than on Linux
+    # (PosixPath), so sorting Paths made this script emit a different manifest
+    # ordering depending where it ran -- and CI, which regenerates the manifest
+    # and diffs it against the committed one, failed on that alone.
+    for path in sorted(DATA_ROOT.rglob("*"),
+                       key=lambda p: p.relative_to(DATA_ROOT).as_posix()):
         if not path.is_file():
             continue
         relative_path = path.relative_to(DATA_ROOT).as_posix()
