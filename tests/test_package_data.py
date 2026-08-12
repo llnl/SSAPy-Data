@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import hashlib
-from pathlib import Path
 
 import pytest
 
@@ -18,19 +17,24 @@ from ssapy_data import (
 
 def test_known_resources_are_packaged():
     assert data_resource("README.md").is_file()
+    assert data_resource("bright_stars_mag9.csv").is_file()
+    assert data_resource("bright_stars_mag11.csv").is_file()
+    assert data_resource("earth_day_2048.jpg").is_file()
+    assert data_resource("earth_clouds_2048.png").is_file()
 
 
 def test_text_and_binary_read_helpers():
     text = read_text("README.md")
     assert "SSAPy Data Payload Directory" in text
     assert read_binary("README.md").startswith(b"# SSAPy Data")
+    assert read_binary("earth_day_2048.jpg").startswith(b"\xff\xd8")
 
 
 def test_data_path_yields_filesystem_path():
-    with data_path("README.md") as path:
+    with data_path("bright_stars_mag9.csv") as path:
         assert path.exists()
-        assert path.name == "README.md"
-        assert path.stat().st_size > 0
+        assert path.name == "bright_stars_mag9.csv"
+        assert path.stat().st_size > 4_000_000
 
 
 def test_manifest_matches_packaged_files():
@@ -41,8 +45,8 @@ def test_manifest_matches_packaged_files():
 
     assert payload["schema_version"] == 1
     assert payload["data_root"] == "data"
-    assert entry_paths == {"README.md"}
-    assert actual_paths == {"README.md"}
+    assert entry_paths == actual_paths
+    assert {"README.md", "bright_stars_mag9.csv", "earth_day_2048.jpg"}.issubset(entry_paths)
 
     for entry in entries:
         resource = data_resource(entry["path"])

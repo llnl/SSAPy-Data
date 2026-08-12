@@ -1,0 +1,11 @@
+# Data files are checksummed in src/ssapy_data/manifest.json, so their bytes
+# must be identical on every platform. Without this, git applies its text
+# heuristic to the ASCII-ish files here (the .egm gravity-model headers in
+# particular) and rewrites line endings per checkout: Windows gets CRLF, Linux
+# CI gets LF, the same committed file hashes differently, and
+# scripts/update_manifest.py emits a different manifest depending where it ran.
+#
+# Concretely: egm84.egm was 822 bytes on Windows and 800 on Linux, egm96.egm
+# 776 vs 753, wgs84.egm 745 vs 724 -- one byte per header line. CI's manifest
+# check failed for exactly that reason.
+src/ssapy_data/data/** -text
