@@ -32,6 +32,11 @@
       "sha256": "a67878b98ff50d81013bb050c89bb9a28f24335986c7f33ef7c7d5aece45342c"
     },
     {
+      "bytes": 142335,
+      "path": "earth_map.npz",
+      "sha256": "02b90f0dcd4ae17a6b36281eff73f9f61fd39f126b14ecdcec0e6e47ba0fc8b0"
+    },
+    {
       "bytes": 134480,
       "path": "earth_night_2048.jpg",
       "sha256": "247e561456b6ff041e5996514fa3bf183eeacfddbbede4aca6f3a59790b3b697"

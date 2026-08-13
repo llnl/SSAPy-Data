@@ -21,6 +21,7 @@ def test_known_resources_are_packaged():
     assert data_resource("bright_stars_mag11.csv").is_file()
     assert data_resource("earth_day_2048.jpg").is_file()
     assert data_resource("earth_clouds_2048.png").is_file()
+    assert data_resource("earth_map.npz").is_file()
 
 
 def test_text_and_binary_read_helpers():
@@ -28,6 +29,7 @@ def test_text_and_binary_read_helpers():
     assert "SSAPy Data Payload Directory" in text
     assert read_binary("README.md").startswith(b"# SSAPy Data")
     assert read_binary("earth_day_2048.jpg").startswith(b"\xff\xd8")
+    assert read_binary("earth_map.npz").startswith(b"PK")
 
 
 def test_data_path_yields_filesystem_path():
@@ -46,7 +48,7 @@ def test_manifest_matches_packaged_files():
     assert payload["schema_version"] == 1
     assert payload["data_root"] == "data"
     assert entry_paths == actual_paths
-    assert {"README.md", "bright_stars_mag9.csv", "earth_day_2048.jpg"}.issubset(entry_paths)
+    assert {"README.md", "bright_stars_mag9.csv", "earth_day_2048.jpg", "earth_map.npz"}.issubset(entry_paths)
 
     for entry in entries:
         resource = data_resource(entry["path"])
