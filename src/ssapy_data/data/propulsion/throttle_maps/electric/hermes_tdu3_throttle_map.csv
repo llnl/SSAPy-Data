@@ -1,0 +1,13 @@
+dataset,discharge_voltage_v,discharge_current_a,discharge_power_kw,average_thrust_mn,thrust_tolerance_mn,specific_impulse_s,total_efficiency_percent,baseline_thrust_mn,baseline_specific_impulse_s,baseline_total_efficiency_percent,notes
+wear_reference,300,20.83,6.25,394,5,1960,59.3,395,1970,59.8,new and historical-baseline values from Table 2
+wear_reference,400,20.83,8.33,478,5,2320,64.3,479,2320,64.4,new and historical-baseline values from Table 2
+wear_reference,500,20.83,10.42,544,5,2590,65.6,545,2600,65.8,new and historical-baseline values from Table 2
+wear_reference,600,20.83,12.50,611,5,2810,66.8,613,2830,67.2,new and historical-baseline values from Table 2
+expanded_rfc,300,8.60,2.60,158,16,,,,,preliminary thrust specification from Table 4
+expanded_rfc,300,10.00,3.00,183,17,,,,,preliminary thrust specification from Table 4
+expanded_rfc,300,15.00,4.50,292,21,,,,,preliminary thrust specification from Table 4
+expanded_rfc,300,20.00,6.00,381,20,,,,,preliminary thrust specification from Table 4
+expanded_rfc,600,15.00,9.00,446,19,,,,,preliminary thrust specification from Table 4
+expanded_rfc,600,16.67,10.00,495,22,,,,,preliminary thrust specification from Table 4
+expanded_rfc,600,18.33,11.00,542,20,,,,,preliminary thrust specification from Table 4
+expanded_rfc,600,20.00,12.00,590,20,,,,,preliminary thrust specification from Table 4

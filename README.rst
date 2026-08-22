@@ -48,6 +48,16 @@ Access packaged data with ``importlib.resources`` helpers exposed by
 Use the path only inside the context manager because zipped wheels may extract
 resources to temporary locations.
 
+Propulsion data
+---------------
+
+Reusable propulsion resources live under ``propulsion/``. Electric propulsion
+benchmark throttle maps are packaged under ``propulsion/throttle_maps/electric``.
+Solid and hybrid motor time-thrust curves should be imported only from sources
+with explicit redistribution rights. The helper script
+``scripts/import_thrustcurve_pd.py`` imports only ThrustCurve.org records marked
+``license="PD"`` and writes normalized ``time_s,thrust_n`` CSV files.
+
 Adding data
 -----------
 

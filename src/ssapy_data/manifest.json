@@ -45,6 +45,36 @@
       "bytes": 364187,
       "path": "earth_specular_2048.jpg",
       "sha256": "c4dd843e6bac8d2168dccfc810efa56ce336a0a25282d7436cb0ddbe4c4bbac9"
+    },
+    {
+      "bytes": 885,
+      "path": "propulsion/README.md",
+      "sha256": "025d32d5443d5e393b1b019ad7e596f221cd927215665f782e75cff07b42e5b8"
+    },
+    {
+      "bytes": 1952,
+      "path": "propulsion/sources.json",
+      "sha256": "0c322dd80d7d6bc7ad61b8b7f3bd300b92ab185fd878b372fe4122c231243194"
+    },
+    {
+      "bytes": 436,
+      "path": "propulsion/throttle_maps/electric/README.md",
+      "sha256": "710653b1ccfd989b13c36a27af462401d14543f4f246c8324aef96c17f7ccbe9"
+    },
+    {
+      "bytes": 1352,
+      "path": "propulsion/throttle_maps/electric/hermes_tdu3_throttle_map.csv",
+      "sha256": "34918495a4d6ba7bd6e200699101701534a63d8ebf6991a913d195687cbf0e85"
+    },
+    {
+      "bytes": 838,
+      "path": "propulsion/throttle_maps/electric/next_tt10_thrust_comparison.csv",
+      "sha256": "3be708921b56dad81eedecf03110a557cd9eb6f39d5da6231ff946c23c0fabab"
+    },
+    {
+      "bytes": 358,
+      "path": "propulsion/thrust_curves/solid_motor_pd/README.md",
+      "sha256": "9761922fe08554103c32d3ae5dccd3bb941811e302c8ad429e6dab3fc1560a76"
     }
   ],
   "generated_by": "scripts/update_manifest.py",

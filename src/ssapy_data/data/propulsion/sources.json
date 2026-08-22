@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "thrustcurve_org_pd",
+      "title": "ThrustCurve.org public-domain motor simulator files",
+      "url": "https://www.thrustcurve.org/api/v1/swagger.json",
+      "license_policy": "Only records whose download API reports license=PD may be packaged without further review.",
+      "notes": "The API exposes RASP/RockSim simulator files and sample pairs. Records marked free, other, unknown, or missing a license require manual provenance review before packaging."
+    },
+    {
+      "id": "nasa_next_tt10_thrust_comparison",
+      "title": "Thrust Stand Characterization of the NASA Evolutionary Xenon Thruster (NEXT)",
+      "ntrs_id": "20100042402",
+      "url": "https://ntrs.nasa.gov/citations/20100042402",
+      "table": "Table 2, Thrust Comparison",
+      "distribution": "PUBLIC",
+      "export_control": "NO ITAR, NO EAR",
+      "rights": "PUBLIC_USE_PERMITTED",
+      "packaged_files": [
+        "propulsion/throttle_maps/electric/next_tt10_thrust_comparison.csv"
+      ],
+      "notes": "CSV transcribes throttle level, beam power supply voltage, measured thrust, and nominal TT10 thrust values."
+    },
+    {
+      "id": "nasa_hermes_tdu3_expanded_performance",
+      "title": "Expanded Performance Characterization of the NASA HERMeS Hall Thruster",
+      "ntrs_id": "20210023838",
+      "url": "https://ntrs.nasa.gov/citations/20210023838",
+      "tables": [
+        "Table 2, Performance of TDU-3 at the wear test reference firing conditions",
+        "Table 4, Preliminary thrust specification at the expanded RFCs"
+      ],
+      "distribution": "PUBLIC",
+      "export_control": "NO ITAR, NO EAR",
+      "rights": "PUBLIC_USE_PERMITTED",
+      "packaged_files": [
+        "propulsion/throttle_maps/electric/hermes_tdu3_throttle_map.csv"
+      ],
+      "notes": "CSV combines published reference firing condition performance and expanded-RFC thrust specifications."
+    }
+  ]
+}

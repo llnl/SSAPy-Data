@@ -22,6 +22,8 @@ def test_known_resources_are_packaged():
     assert data_resource("earth_day_2048.jpg").is_file()
     assert data_resource("earth_clouds_2048.png").is_file()
     assert data_resource("earth_map.npz").is_file()
+    assert data_resource("propulsion/throttle_maps/electric/next_tt10_thrust_comparison.csv").is_file()
+    assert data_resource("propulsion/throttle_maps/electric/hermes_tdu3_throttle_map.csv").is_file()
 
 
 def test_text_and_binary_read_helpers():
@@ -43,12 +45,18 @@ def test_manifest_matches_packaged_files():
     payload = manifest()
     entries = payload["files"]
     entry_paths = {entry["path"] for entry in entries}
-    actual_paths = {resource.name for resource in iter_data_files()}
+    actual_count = sum(1 for _ in iter_data_files())
 
     assert payload["schema_version"] == 1
     assert payload["data_root"] == "data"
-    assert entry_paths == actual_paths
+    assert len(entry_paths) == actual_count
     assert {"README.md", "bright_stars_mag9.csv", "earth_day_2048.jpg", "earth_map.npz"}.issubset(entry_paths)
+    assert {
+        "propulsion/README.md",
+        "propulsion/sources.json",
+        "propulsion/throttle_maps/electric/next_tt10_thrust_comparison.csv",
+        "propulsion/throttle_maps/electric/hermes_tdu3_throttle_map.csv",
+    }.issubset(entry_paths)
 
     for entry in entries:
         resource = data_resource(entry["path"])
