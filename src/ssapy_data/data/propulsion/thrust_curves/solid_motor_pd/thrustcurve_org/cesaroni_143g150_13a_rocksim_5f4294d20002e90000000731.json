@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 146.7,
+    "burnTimeS": 0.97,
+    "caseInfo": "Pro24-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G150",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "143G150-13A",
+    "diameter": 24,
+    "impulseClass": "G",
+    "length": 228,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 247.4,
+    "motorId": "5f4294d20002310000000390",
+    "propInfo": "Blue Streak",
+    "propWeightG": 65.9,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/143G150-13A/",
+    "sparky": false,
+    "totImpulseNs": 142.5,
+    "totalWeightG": 159.9,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000731/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000731/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000390",
+    "simfileId": "5f4294d20002e90000000731",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000731/"
+  }
+}

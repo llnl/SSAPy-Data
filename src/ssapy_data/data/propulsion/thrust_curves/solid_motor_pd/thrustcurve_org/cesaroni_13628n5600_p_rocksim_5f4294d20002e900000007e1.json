@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 5636,
+    "burnTimeS": 2.42,
+    "caseInfo": "Pro98-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "N5600",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "13628N5600-P",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1010,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 6789,
+    "motorId": "5f4294d200023100000003f4",
+    "propInfo": "White Thunder",
+    "propWeightG": 6363,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/13628N5600-P/",
+    "sparky": false,
+    "totImpulseNs": 13628,
+    "totalWeightG": 11280,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007e1/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007e1/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f4",
+    "simfileId": "5f4294d20002e900000007e1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007e1/"
+  }
+}

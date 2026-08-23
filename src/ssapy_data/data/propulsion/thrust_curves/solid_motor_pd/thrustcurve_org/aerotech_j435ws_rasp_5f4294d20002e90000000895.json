@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 441.61,
+    "burnTimeS": 1.64,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J435",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "J435WS",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 365.9,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 712.85,
+    "motorId": "5f4294d20002310000000458",
+    "propInfo": "Super White Lightning",
+    "propWeightG": 352,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J435WS/",
+    "sparky": false,
+    "totImpulseNs": 742.77,
+    "totalWeightG": 616.4,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000895/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000895/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000458",
+    "simfileId": "5f4294d20002e90000000895",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000895/"
+  }
+}

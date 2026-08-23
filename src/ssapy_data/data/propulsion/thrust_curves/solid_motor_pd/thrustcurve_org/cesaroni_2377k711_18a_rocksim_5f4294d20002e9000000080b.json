@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 710.4,
+    "burnTimeS": 3.35,
+    "caseInfo": "Pro54-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K711",
+    "dataFiles": 1,
+    "delayAdjustable": true,
+    "delays": "8,9,10,11,12,13,14,15,16,17,18",
+    "designation": "2377K711-18A",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 572,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1700.6,
+    "motorId": "5f4294d2000231000000041b",
+    "propInfo": "White",
+    "propWeightG": 1398,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2377K711-18A/",
+    "sparky": false,
+    "totImpulseNs": 2377.3,
+    "totalWeightG": 2198,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000080b/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000080b/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000041b",
+    "simfileId": "5f4294d20002e9000000080b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000080b/"
+  }
+}

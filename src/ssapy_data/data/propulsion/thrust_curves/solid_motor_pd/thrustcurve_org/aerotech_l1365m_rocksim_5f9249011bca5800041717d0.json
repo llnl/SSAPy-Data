@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1365,
+    "burnTimeS": 3.5,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1365",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1365M",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 665,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1735,
+    "motorId": "5f4294d200023100000003fc",
+    "propInfo": "Metalstorm",
+    "propWeightG": 2648,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1365M/",
+    "sparky": true,
+    "totImpulseNs": 4780,
+    "totalWeightG": 4908,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9249011bca5800041717d0/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9249011bca5800041717d0/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003fc",
+    "simfileId": "5f9249011bca5800041717d0",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9249011bca5800041717d0/"
+  }
+}

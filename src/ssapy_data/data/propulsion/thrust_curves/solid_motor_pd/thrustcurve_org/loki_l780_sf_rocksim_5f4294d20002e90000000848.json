@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 783.3,
+    "burnTimeS": 3.83,
+    "caseInfo": "76/3600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L780",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L780-SF",
+    "diameter": 76,
+    "impulseClass": "L",
+    "length": 498,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 995,
+    "motorId": "5f4294d200023100000002ae",
+    "propInfo": "Spitfire",
+    "propWeightG": 1800,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/L780-SF/",
+    "sparky": true,
+    "totImpulseNs": 3006,
+    "totalWeightG": 3500,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000848/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000848/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002ae",
+    "simfileId": "5f4294d20002e90000000848",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000848/"
+  }
+}

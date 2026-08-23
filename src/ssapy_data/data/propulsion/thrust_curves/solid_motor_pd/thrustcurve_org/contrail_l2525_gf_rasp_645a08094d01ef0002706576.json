@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2456,
+    "burnTimeS": 1.9,
+    "caseInfo": "75x1524 (3200CC)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L2525",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L2525-GF",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1524,
+    "manufacturer": "Contrail Rockets",
+    "manufacturerAbbrev": "Contrail",
+    "maxThrustN": 4905.8,
+    "motorId": "5f4294d2000231000000016b",
+    "propWeightG": 1306,
+    "source_url": "http://www.thrustcurve.org/motors/Contrail/L2525-GF/",
+    "sparky": false,
+    "totImpulseNs": 4677,
+    "totalWeightG": 5579,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/645a08094d01ef0002706576/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/645a08094d01ef0002706576/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000016b",
+    "simfileId": "645a08094d01ef0002706576",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/645a08094d01ef0002706576/"
+  }
+}

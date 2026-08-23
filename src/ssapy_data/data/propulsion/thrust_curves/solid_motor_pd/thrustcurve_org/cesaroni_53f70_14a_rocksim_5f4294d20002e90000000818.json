@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 69.1,
+    "burnTimeS": 0.77,
+    "caseInfo": "Pro24-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F70",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "5,7,9,11,14",
+    "designation": "53F70-14A",
+    "diameter": 24,
+    "impulseClass": "F",
+    "length": 101,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 97,
+    "motorId": "5f4294d2000231000000040e",
+    "propInfo": "White Thunder",
+    "propWeightG": 22.5,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/53F70-14A/",
+    "sparky": false,
+    "totImpulseNs": 52.9,
+    "totalWeightG": 73,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000818/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000818/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000040e",
+    "simfileId": "5f4294d20002e90000000818",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000818/"
+  }
+}

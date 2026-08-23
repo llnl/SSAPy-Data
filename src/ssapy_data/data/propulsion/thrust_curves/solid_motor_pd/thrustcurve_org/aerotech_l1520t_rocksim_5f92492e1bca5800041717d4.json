@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1567.8,
+    "burnTimeS": 2.36,
+    "caseInfo": "RMS-75/3840",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1520",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1520T",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 517.9,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1765.25,
+    "motorId": "5f4294d2000231000000038e",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 1854,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1520T/",
+    "sparky": false,
+    "totImpulseNs": 3715.9,
+    "totalWeightG": 3651.4,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92492e1bca5800041717d4/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92492e1bca5800041717d4/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000038e",
+    "simfileId": "5f92492e1bca5800041717d4",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92492e1bca5800041717d4/"
+  }
+}

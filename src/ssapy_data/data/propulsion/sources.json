@@ -6,7 +6,103 @@
       "title": "ThrustCurve.org public-domain motor simulator files",
       "url": "https://www.thrustcurve.org/api/v1/swagger.json",
       "license_policy": "Only records whose download API reports license=PD may be packaged without further review.",
-      "notes": "The API exposes RASP/RockSim simulator files and sample pairs. Records marked free, other, unknown, or missing a license require manual provenance review before packaging."
+      "notes": "Imported 596 public-domain RASP/RockSim sample curves through scripts/import_thrustcurve_pd.py. The API exposes RASP/RockSim simulator files and sample pairs. Records marked free, other, unknown, or missing a license require manual provenance review before packaging.",
+      "retrieved": "2026-08-22",
+      "packaged_files": [
+        "propulsion/thrust_curves/solid_motor_pd/thrustcurve_org/index.csv",
+        "propulsion/thrust_curves/solid_motor_pd/thrustcurve_org/*.csv",
+        "propulsion/thrust_curves/solid_motor_pd/thrustcurve_org/*.json"
+      ]
+    },
+    {
+      "id": "nasa_ntrs_digitized_thrust_curves",
+      "title": "NASA NTRS public/export-clear thrust curves digitized from plotted figures",
+      "url": "https://ntrs.nasa.gov/",
+      "license_policy": "Only public NASA NTRS records marked NO ITAR/NO EAR and permitting public/government public use are included. Source PDFs and rendered plot images are not redistributed.",
+      "digitization_method": "Manual WebPlotDigitizer-style curve extraction from rendered PDF figures using calibrated plot axes. Each curve has a sidecar JSON with source figure, uncertainty, columns, and validation notes.",
+      "retrieved": "2026-08-22",
+      "packaged_files": [
+        "propulsion/thrust_curves/digitized/nasa_ntrs/index.csv",
+        "propulsion/thrust_curves/digitized/nasa_ntrs/*.csv",
+        "propulsion/thrust_curves/digitized/nasa_ntrs/*.json"
+      ],
+      "records": [
+        {
+          "ntrs_id": "19730015083",
+          "title": "Design assurance test of the Thiokol Te-M-521-5 apogee kick motor tested in the spin mode at simulated altitude conditions",
+          "figure": "Figure 7, Variation of Thrust, Chamber Pressure, and Test Cell Pressure during Firing",
+          "distribution": "PUBLIC",
+          "export_control": "NO ITAR, NO EAR",
+          "rights": "GOV_PUBLIC_USE_PERMITTED",
+          "packaged_files": [
+            "propulsion/thrust_curves/digitized/nasa_ntrs/ntrs_19730015083_te_m_521_5_axial_thrust_digitized.csv",
+            "propulsion/thrust_curves/digitized/nasa_ntrs/ntrs_19730015083_te_m_521_5_axial_thrust_digitized.json"
+          ]
+        },
+        {
+          "ntrs_id": "19900003335",
+          "title": "RSRM-3 (360L003) Ballistics/Mass Properties Report",
+          "figure": "Figure 2.1, RSRM-3A and 3B Reconstructed Vacuum Thrust-Time Trace at Delivered Conditions",
+          "distribution": "PUBLIC",
+          "export_control": "NO ITAR, NO EAR",
+          "rights": "GOV_PUBLIC_USE_PERMITTED",
+          "packaged_files": [
+            "propulsion/thrust_curves/digitized/nasa_ntrs/ntrs_19900003335_rsrm_3b_reconstructed_vacuum_thrust_digitized.csv",
+            "propulsion/thrust_curves/digitized/nasa_ntrs/ntrs_19900003335_rsrm_3b_reconstructed_vacuum_thrust_digitized.json"
+          ]
+        },
+        {
+          "ntrs_id": "20090026004",
+          "title": "Liquid Oxygen/Liquid Methane Test Results of the RS-18 Lunar Ascent Engine at Simulated Altitude Conditions at NASA White Sands Test Facility",
+          "figure": "Figure 8, Example non-dimensionalized thrust output from RS-18 test",
+          "distribution": "PUBLIC",
+          "export_control": "NO ITAR, NO EAR",
+          "rights": "GOV_PUBLIC_USE_PERMITTED",
+          "packaged_files": [
+            "propulsion/thrust_curves/digitized/nasa_ntrs/ntrs_20090026004_rs18_startup_normalized_thrust_digitized.csv",
+            "propulsion/thrust_curves/digitized/nasa_ntrs/ntrs_20090026004_rs18_startup_normalized_thrust_digitized.json"
+          ]
+        }
+      ],
+      "notes": "These are derived numerical curves from plots, not original tabular data. Use the sidecar uncertainties and validation fields before treating them as benchmark truth."
+    },
+    {
+      "id": "nasa_aeps_etu2_performance",
+      "title": "Performance of the 12.5-kW Advanced Electric Propulsion System Engineering Test Unit Hall Thruster",
+      "ntrs_id": "20210015721",
+      "url": "https://ntrs.nasa.gov/citations/20210015721",
+      "tables": [
+        "Table 1, Nominal AEPS reference firing conditions",
+        "Table 2, PPE AEPS reference firing conditions",
+        "Table 3, Performance of ETU-2 and the HERMeS TDUs at the nominal AEPS RFCs",
+        "Table 4, Performance of ETU-2 at the PPE AEPS RFCs"
+      ],
+      "distribution": "PUBLIC",
+      "export_control": "NO ITAR, NO EAR",
+      "rights": "GOV_PERMITTED",
+      "retrieved": "2026-08-22",
+      "packaged_files": [
+        "propulsion/throttle_maps/electric/aeps_etu2_throttle_map.csv"
+      ],
+      "notes": "CSV transcribes published steady-state AEPS ETU-2 reference-firing-condition thrust, specific impulse, total efficiency, uncertainty, and HERMeS TDU comparison values. It is a throttle/performance map, not a transient thrust-time curve."
+    },
+    {
+      "id": "nasa_spt140_performance",
+      "title": "Performance Evaluation of the SPT-140",
+      "ntrs_id": "19980016322",
+      "url": "https://ntrs.nasa.gov/citations/19980016322",
+      "tables": [
+        "Table 1, Experimental data taken at LeRC during this investigation",
+        "Table 2, Experimental data taken at Fakel with separate inner and outer magnet control"
+      ],
+      "distribution": "PUBLIC",
+      "export_control": "NO ITAR, NO EAR",
+      "rights": "GOV_PUBLIC_USE_PERMITTED",
+      "retrieved": "2026-08-22",
+      "packaged_files": [
+        "propulsion/throttle_maps/electric/spt140_performance_map.csv"
+      ],
+      "notes": "CSV transcribes published steady-state SPT-140 Hall-thruster operating points, flows, discharge settings, thrust, specific impulse, efficiency, and tank pressure. It is a performance map, not a transient thrust-time curve."
     },
     {
       "id": "nasa_next_tt10_thrust_comparison",
@@ -17,6 +113,7 @@
       "distribution": "PUBLIC",
       "export_control": "NO ITAR, NO EAR",
       "rights": "PUBLIC_USE_PERMITTED",
+      "retrieved": "2026-08-22",
       "packaged_files": [
         "propulsion/throttle_maps/electric/next_tt10_thrust_comparison.csv"
       ],
@@ -34,6 +131,7 @@
       "distribution": "PUBLIC",
       "export_control": "NO ITAR, NO EAR",
       "rights": "PUBLIC_USE_PERMITTED",
+      "retrieved": "2026-08-22",
       "packaged_files": [
         "propulsion/throttle_maps/electric/hermes_tdu3_throttle_map.csv"
       ],

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2021.9,
+    "burnTimeS": 4.17,
+    "caseInfo": "Pro75-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M2020",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "8429M2020-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 893,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 2680.4,
+    "motorId": "5f4294d200023100000003aa",
+    "propInfo": "Imax",
+    "propWeightG": 4349,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/8429M2020-P/",
+    "sparky": false,
+    "totImpulseNs": 8429.4,
+    "totalWeightG": 7031.799999999999,
+    "type": "reload",
+    "updatedOn": "2021-03-16"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000747/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000747/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003aa",
+    "simfileId": "5f4294d20002e90000000747",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000747/"
+  }
+}

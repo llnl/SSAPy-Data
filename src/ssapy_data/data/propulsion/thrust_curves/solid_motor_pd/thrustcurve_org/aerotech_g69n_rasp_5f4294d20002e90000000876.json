@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 72.3,
+    "burnTimeS": 1.88,
+    "caseInfo": "RMS-38/120",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G69",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "G69N",
+    "diameter": 38,
+    "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G69.pdf",
+    "length": 106,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 87.3,
+    "motorId": "5f4294d200023100000001d5",
+    "propInfo": "Warp 9",
+    "propWeightG": 62.199999999999996,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G69N/",
+    "sparky": false,
+    "totImpulseNs": 136.7,
+    "totalWeightG": 201,
+    "type": "reload",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000876/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000876/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001d5",
+    "simfileId": "5f4294d20002e90000000876",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000876/"
+  }
+}

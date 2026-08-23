@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 130,
+    "burnTimeS": 1.65,
+    "caseInfo": "RMS-38/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H130",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10,12,14",
+    "designation": "H130W",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 152,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 260,
+    "motorId": "5f4294d20002310000000442",
+    "propInfo": "White Lightning",
+    "propWeightG": 120,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H130W/",
+    "sparky": false,
+    "totImpulseNs": 210,
+    "totalWeightG": 237,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000087f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000087f/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000442",
+    "simfileId": "5f4294d20002e9000000087f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000087f/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1257.07,
+    "burnTimeS": 3.01,
+    "caseInfo": "RMS-75/3840",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1256",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1256WS",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 560.8,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1508.53,
+    "motorId": "5f4294d2000231000000046a",
+    "propInfo": "Super White Lightning",
+    "propWeightG": 1964,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1256WS/",
+    "sparky": false,
+    "totImpulseNs": 3784.98,
+    "totalWeightG": 3755.7,
+    "type": "reload",
+    "updatedOn": "2019-12-12"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008b6/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008b6/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000046a",
+    "simfileId": "5f4294d20002e900000008b6",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008b6/"
+  }
+}

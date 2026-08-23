@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 780,
+    "burnTimeS": 2.98,
+    "caseInfo": "RMS-75/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K780",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K780R",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 395,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 965,
+    "motorId": "5f4294d2000231000000015d",
+    "propInfo": "Redline",
+    "propWeightG": 1268,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K780R/",
+    "sparky": false,
+    "totImpulseNs": 2371,
+    "totalWeightG": 2934.4,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000007b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000007b/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000015d",
+    "simfileId": "5f4294d20002e9000000007b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000007b/"
+  }
+}

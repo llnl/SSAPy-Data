@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 135.1,
+    "burnTimeS": 1.6,
+    "caseInfo": "Pro29-4G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "H135",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,9,12",
+    "designation": "217H135-12A",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 231,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 171.8,
+    "motorId": "5f4294d2000231000000039a",
+    "propInfo": "White",
+    "propWeightG": 119.8,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/217H135-12A/",
+    "sparky": false,
+    "totImpulseNs": 216.7,
+    "totalWeightG": 251.2,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000736/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000736/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000039a",
+    "simfileId": "5f4294d20002e90000000736",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000736/"
+  }
+}

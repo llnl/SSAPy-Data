@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 125,
+    "burnTimeS": 2.6,
+    "caseInfo": "SU 29x330",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H125",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "H125W",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 330,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 307,
+    "motorId": "5f4294d20002310000000082",
+    "propInfo": "White Lightning",
+    "propWeightG": 187.9,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H125W/",
+    "sparky": false,
+    "totImpulseNs": 299.4,
+    "totalWeightG": 322.56,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000000b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000000b/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000082",
+    "simfileId": "5f4294d20002e9000000000b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000000b/"
+  }
+}

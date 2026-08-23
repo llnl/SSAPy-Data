@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 667.82,
+    "burnTimeS": 0.6,
+    "caseInfo": "RMS-54/426",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I599",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I599N",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 156,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 763.46,
+    "motorId": "5f4294d200023100000001ea",
+    "propInfo": "Warp 9",
+    "propWeightG": 195,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I599N/",
+    "sparky": false,
+    "totImpulseNs": 404.87,
+    "totalWeightG": 512,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/611e8330c6d315000487dad4/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/611e8330c6d315000487dad4/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001ea",
+    "simfileId": "611e8330c6d315000487dad4",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/611e8330c6d315000487dad4/"
+  }
+}

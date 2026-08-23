@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 330,
+    "burnTimeS": 3.19,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J330",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "835CC172JFX-J330FX",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 762,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d2000231000000010a",
+    "propWeightG": 738,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/835CC172JFX-J330FX/",
+    "sparky": false,
+    "totImpulseNs": 1051.1,
+    "totalWeightG": 1777.1999999999998,
+    "type": "hybrid",
+    "updatedOn": "2024-02-15"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000df/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000df/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000010a",
+    "simfileId": "5f4294d20002e900000000df",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000df/"
+  }
+}

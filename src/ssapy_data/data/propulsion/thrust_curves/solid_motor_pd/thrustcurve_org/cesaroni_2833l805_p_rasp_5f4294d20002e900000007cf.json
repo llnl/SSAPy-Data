@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 804.5,
+    "burnTimeS": 3.52,
+    "caseInfo": "Pro54-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L805",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2833L805-P",
+    "diameter": 54,
+    "impulseClass": "L",
+    "length": 649,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1634,
+    "motorId": "5f4294d200023100000003d5",
+    "propInfo": "White",
+    "propWeightG": 1640,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2833L805-P/",
+    "sparky": false,
+    "totImpulseNs": 2833,
+    "totalWeightG": 2502.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007cf/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007cf/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d5",
+    "simfileId": "5f4294d20002e900000007cf",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007cf/"
+  }
+}

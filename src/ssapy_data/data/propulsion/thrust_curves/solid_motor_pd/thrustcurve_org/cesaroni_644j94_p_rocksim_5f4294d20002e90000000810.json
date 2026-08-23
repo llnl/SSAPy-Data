@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 94.4,
+    "burnTimeS": 6.82,
+    "caseInfo": "Pro38-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J94",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "644J94-P",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 367,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 172.5,
+    "motorId": "5f4294d20002310000000416",
+    "propInfo": "Mellow",
+    "propWeightG": 372.9,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/644J94-P/",
+    "sparky": false,
+    "totImpulseNs": 644,
+    "totalWeightG": 660,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000810/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000810/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000416",
+    "simfileId": "5f4294d20002e90000000810",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000810/"
+  }
+}

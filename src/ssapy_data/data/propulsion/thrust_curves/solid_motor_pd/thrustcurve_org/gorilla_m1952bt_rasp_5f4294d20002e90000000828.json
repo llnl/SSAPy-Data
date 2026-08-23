@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1952,
+    "burnTimeS": 3.09,
+    "caseInfo": "75/6000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1952",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1952BT",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 785,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 2692,
+    "motorId": "5f4294d20002310000000438",
+    "propInfo": "Blue Typhoon",
+    "propWeightG": 2970,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/M1952BT/",
+    "sparky": false,
+    "totImpulseNs": 6032,
+    "totalWeightG": 5443,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000828/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000828/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000438",
+    "simfileId": "5f4294d20002e90000000828",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000828/"
+  }
+}

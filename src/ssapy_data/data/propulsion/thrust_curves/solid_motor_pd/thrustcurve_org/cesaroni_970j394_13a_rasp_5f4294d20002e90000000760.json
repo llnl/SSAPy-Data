@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 394.1,
+    "burnTimeS": 2.46,
+    "caseInfo": "Pro38-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J394",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "970J394-13A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 500,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 515.7,
+    "motorId": "5f4294d2000231000000039d",
+    "propInfo": "Green3",
+    "propWeightG": 572.1,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/970J394-13A/",
+    "sparky": false,
+    "totImpulseNs": 970.4,
+    "totalWeightG": 938.9,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000760/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000760/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000039d",
+    "simfileId": "5f4294d20002e90000000760",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000760/"
+  }
+}

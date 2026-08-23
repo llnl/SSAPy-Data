@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 350,
+    "burnTimeS": 8.694,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L350",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1685CC125L-L350",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1031,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d2000231000000016d",
+    "propWeightG": 1619.8,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/1685CC125L-L350/",
+    "sparky": false,
+    "totImpulseNs": 3042.9,
+    "totalWeightG": 3903.42,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000b9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000b9/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000016d",
+    "simfileId": "5f4294d20002e900000000b9",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000b9/"
+  }
+}

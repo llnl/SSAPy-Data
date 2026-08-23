@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 2645,
+    "burnTimeS": 9.18,
+    "caseInfo": "152/35000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "O2645",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "O2645BL",
+    "diameter": 152,
+    "impulseClass": "O",
+    "length": 1203,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 3920.22,
+    "motorId": "5f4294d2000231000000042e",
+    "propInfo": "Black Lightning",
+    "propWeightG": 15149,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/O2645BL/",
+    "sparky": true,
+    "totImpulseNs": 24333.15,
+    "totalWeightG": 33339,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000085d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000085d/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000042e",
+    "simfileId": "5f4294d20002e9000000085d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000085d/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 330,
+    "burnTimeS": 3.64,
+    "caseInfo": "38X488.9 38X517(D)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J330",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "20,P",
+    "designation": "J330",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 433,
+    "manufacturer": "Ellis Mountain",
+    "manufacturerAbbrev": "Ellis",
+    "maxThrustN": 660.7,
+    "motorId": "5f4294d20002310000000109",
+    "propWeightG": 411.9,
+    "source_url": "http://www.thrustcurve.org/motors/Ellis/J330/",
+    "sparky": false,
+    "totImpulseNs": 737.8,
+    "totalWeightG": 788,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000ad/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000ad/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000109",
+    "simfileId": "5f4294d20002e900000000ad",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000ad/"
+  }
+}

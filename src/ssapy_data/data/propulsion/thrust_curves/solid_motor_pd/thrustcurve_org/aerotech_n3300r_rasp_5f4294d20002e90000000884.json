@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3168,
+    "burnTimeS": 4.37,
+    "caseInfo": "RMS-98/15360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N3300",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N3300R",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1046,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 4301,
+    "motorId": "5f4294d2000231000000030d",
+    "propInfo": "Redline",
+    "propWeightG": 7512,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N3300R/",
+    "sparky": false,
+    "totImpulseNs": 14041,
+    "totalWeightG": 12054,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000884/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000884/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000030d",
+    "simfileId": "5f4294d20002e90000000884",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000884/"
+  }
+}

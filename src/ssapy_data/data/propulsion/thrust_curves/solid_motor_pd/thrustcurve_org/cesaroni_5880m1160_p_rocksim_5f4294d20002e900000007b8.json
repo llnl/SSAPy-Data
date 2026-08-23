@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1160.2,
+    "burnTimeS": 5.07,
+    "caseInfo": "Pro75-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M1160",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "5880M1160-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "infoUrl": "http://pro38.com/products/pro75/motor/MotorData.php?prodid=5880M1160-P",
+    "length": 757,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1381.7,
+    "motorId": "5f4294d200023100000003e2",
+    "propInfo": "Green3",
+    "propWeightG": 3454,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/5880M1160-P/",
+    "sparky": false,
+    "totImpulseNs": 5880.2,
+    "totalWeightG": 5698,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007b8/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007b8/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e2",
+    "simfileId": "5f4294d20002e900000007b8",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007b8/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 438,
+    "burnTimeS": 2.89,
+    "caseInfo": "RMS-54/1706",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K456",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "K456DM",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 401,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 534,
+    "motorId": "5f4294d200023100000003c7",
+    "propInfo": "Dark Matter",
+    "propWeightG": 866,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K456DM/",
+    "sparky": true,
+    "totImpulseNs": 1281,
+    "totalWeightG": 1484,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9247021bca5800041717ad/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9247021bca5800041717ad/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003c7",
+    "simfileId": "5f9247021bca5800041717ad",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9247021bca5800041717ad/"
+  }
+}

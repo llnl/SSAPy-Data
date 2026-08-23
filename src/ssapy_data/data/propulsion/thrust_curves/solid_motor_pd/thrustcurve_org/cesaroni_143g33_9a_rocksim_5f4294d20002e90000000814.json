@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 32.7,
+    "burnTimeS": 4.38,
+    "caseInfo": "Pro29-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G33",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "2,4,6,9",
+    "designation": "143G33-9A",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 187,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 66.1,
+    "motorId": "5f4294d20002310000000412",
+    "propInfo": "Mellow",
+    "propWeightG": 79.1,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/143G33-9A/",
+    "sparky": false,
+    "totImpulseNs": 143.1,
+    "totalWeightG": 197,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000814/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000814/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000412",
+    "simfileId": "5f4294d20002e90000000814",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000814/"
+  }
+}

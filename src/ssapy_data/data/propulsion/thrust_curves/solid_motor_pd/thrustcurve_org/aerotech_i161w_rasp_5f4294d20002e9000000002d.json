@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 161,
+    "burnTimeS": 1.82,
+    "caseInfo": "RMS-38/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I161",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "I161W",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 191,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 266.6,
+    "motorId": "5f4294d200023100000000b1",
+    "propInfo": "White Lightning",
+    "propWeightG": 193.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I161W/",
+    "sparky": false,
+    "totImpulseNs": 328.7,
+    "totalWeightG": 366,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000002d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000002d/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000b1",
+    "simfileId": "5f4294d20002e9000000002d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000002d/"
+  }
+}

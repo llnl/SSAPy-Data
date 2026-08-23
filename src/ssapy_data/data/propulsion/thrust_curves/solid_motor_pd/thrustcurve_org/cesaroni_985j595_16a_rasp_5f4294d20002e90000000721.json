@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 595.38,
+    "burnTimeS": 1.6538,
+    "caseInfo": "Pro38-6GXL",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J595",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,9,11,13,16",
+    "designation": "985J595-16A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 510,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 925.38,
+    "motorId": "5f4294d200023100000002e6",
+    "propInfo": "Blue Streak",
+    "propWeightG": 511,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/985J595-16A/",
+    "sparky": false,
+    "totImpulseNs": 985,
+    "totalWeightG": 866,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000721/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000721/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002e6",
+    "simfileId": "5f4294d20002e90000000721",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000721/"
+  }
+}

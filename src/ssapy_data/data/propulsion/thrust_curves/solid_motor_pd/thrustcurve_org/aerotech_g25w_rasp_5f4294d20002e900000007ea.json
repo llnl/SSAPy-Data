@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 22.17,
+    "burnTimeS": 5.3,
+    "caseInfo": "RMS-29/120",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G25",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "G25W",
+    "diameter": 29,
+    "impulseClass": "G",
+    "infoUrl": "http://nar.org/SandT/pdf/Aerotech/G25.pdf",
+    "length": 124,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 41.18,
+    "motorId": "5f4294d20002310000000052",
+    "propInfo": "White Lightning",
+    "propWeightG": 62.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G25W/",
+    "sparky": false,
+    "totImpulseNs": 117.5,
+    "totalWeightG": 121,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ea/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ea/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000052",
+    "simfileId": "5f4294d20002e900000007ea",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ea/"
+  }
+}

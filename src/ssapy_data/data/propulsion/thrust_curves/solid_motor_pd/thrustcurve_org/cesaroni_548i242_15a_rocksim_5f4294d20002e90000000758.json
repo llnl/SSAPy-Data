@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 242.1,
+    "burnTimeS": 2.26435357290376,
+    "caseInfo": "Pro38-4G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "I242",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,15",
+    "designation": "548I242-15A",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 303,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 284.7,
+    "motorId": "5f4294d200023100000003a1",
+    "propInfo": "White",
+    "propWeightG": 305.2,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/548I242-15A/",
+    "sparky": false,
+    "totImpulseNs": 548.2,
+    "totalWeightG": 549.9,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000758/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000758/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a1",
+    "simfileId": "5f4294d20002e90000000758",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000758/"
+  }
+}

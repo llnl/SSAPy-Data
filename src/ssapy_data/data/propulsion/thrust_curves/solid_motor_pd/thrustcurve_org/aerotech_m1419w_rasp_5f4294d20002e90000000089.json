@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1419,
+    "burnTimeS": 7.1,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1419",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1419W",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 579,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1590.9,
+    "motorId": "5f4294d200023100000001a8",
+    "propInfo": "White Lightning",
+    "propWeightG": 4077,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1419W/",
+    "sparky": false,
+    "totImpulseNs": 7755.5,
+    "totalWeightG": 6916.22,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000089/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000089/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001a8",
+    "simfileId": "5f4294d20002e90000000089",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000089/"
+  }
+}

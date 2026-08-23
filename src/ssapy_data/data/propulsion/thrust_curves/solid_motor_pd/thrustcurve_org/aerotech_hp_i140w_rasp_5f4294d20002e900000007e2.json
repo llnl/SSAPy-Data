@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 140,
+    "burnTimeS": 2.4,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I140",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-I140W",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 202.7,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 181,
+    "motorId": "5f4294d200023100000003f5",
+    "propInfo": "White Lightning",
+    "propWeightG": 183,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-I140W/",
+    "sparky": false,
+    "totImpulseNs": 336,
+    "totalWeightG": 356,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007e2/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007e2/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f5",
+    "simfileId": "5f4294d20002e900000007e2",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007e2/"
+  }
+}

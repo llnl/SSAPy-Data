@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 474,
+    "burnTimeS": 1.49,
+    "caseInfo": "38/740",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J474",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "18",
+    "designation": "J474-CT",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 416.9,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1243.1,
+    "motorId": "5f4294d20002310000000466",
+    "propInfo": "Cocktail",
+    "propWeightG": 360,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J474-CT/",
+    "sparky": false,
+    "totImpulseNs": 709.1,
+    "totalWeightG": 755.6,
+    "type": "reload",
+    "updatedOn": "2019-04-28"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008b2/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008b2/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000466",
+    "simfileId": "5f4294d20002e900000008b2",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008b2/"
+  }
+}

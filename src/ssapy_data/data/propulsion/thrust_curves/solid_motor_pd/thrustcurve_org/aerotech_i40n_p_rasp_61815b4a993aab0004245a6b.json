@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 37.73,
+    "burnTimeS": 9.95,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I40",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I40N-P",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 203,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 101.66,
+    "motorId": "616e6152763045000425980a",
+    "propInfo": "Warp 9",
+    "propWeightG": 197,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I40N-P/",
+    "sparky": false,
+    "totImpulseNs": 374.9,
+    "totalWeightG": 359.9,
+    "type": "SU",
+    "updatedOn": "2021-10-19"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/61815b4a993aab0004245a6b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/61815b4a993aab0004245a6b/",
+    "license": "PD",
+    "motorId": "616e6152763045000425980a",
+    "simfileId": "61815b4a993aab0004245a6b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/61815b4a993aab0004245a6b/"
+  }
+}

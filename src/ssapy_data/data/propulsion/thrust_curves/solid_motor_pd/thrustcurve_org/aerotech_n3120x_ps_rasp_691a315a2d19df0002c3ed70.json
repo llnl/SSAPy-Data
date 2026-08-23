@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3121,
+    "burnTimeS": 3.31,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N3120",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N3120X-PS",
+    "diameter": 75,
+    "impulseClass": "N",
+    "length": 1156,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 4084,
+    "motorId": "6919f5c92d19df0002c3a2c9",
+    "propInfo": "Propellant X",
+    "propWeightG": 4546,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N3120X-PS/",
+    "sparky": false,
+    "totImpulseNs": 10329,
+    "totalWeightG": 8200,
+    "type": "SU",
+    "updatedOn": "2025-11-16"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/691a315a2d19df0002c3ed70/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/691a315a2d19df0002c3ed70/",
+    "license": "PD",
+    "motorId": "6919f5c92d19df0002c3a2c9",
+    "simfileId": "691a315a2d19df0002c3ed70",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/691a315a2d19df0002c3ed70/"
+  }
+}

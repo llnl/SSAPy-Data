@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2000,
+    "burnTimeS": 4,
+    "caseInfo": "RMS-98/10240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M2000R",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 732,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2327,
+    "motorId": "5f4294d200023100000001b2",
+    "propInfo": "Redline",
+    "propWeightG": 5368,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M2000R/",
+    "sparky": false,
+    "totImpulseNs": 9218,
+    "totalWeightG": 8986.88,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000091/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000091/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001b2",
+    "simfileId": "5f4294d20002e90000000091",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000091/"
+  }
+}

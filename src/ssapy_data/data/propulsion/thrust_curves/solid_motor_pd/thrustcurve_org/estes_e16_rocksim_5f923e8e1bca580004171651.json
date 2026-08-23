@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 15.97,
+    "burnTimeS": 2.09,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "E16",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "0,4,6,8",
+    "designation": "E16",
+    "diameter": 29,
+    "impulseClass": "E",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/E16.pdf",
+    "length": 114,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 26.44,
+    "motorId": "5f4294d200023100000003f8",
+    "propInfo": "black powder",
+    "propWeightG": 40,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/E16/",
+    "sparky": false,
+    "totImpulseNs": 33.38,
+    "totalWeightG": 84,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923e8e1bca580004171651/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923e8e1bca580004171651/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f8",
+    "simfileId": "5f923e8e1bca580004171651",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923e8e1bca580004171651/"
+  }
+}

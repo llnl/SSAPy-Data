@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3654.3,
+    "burnTimeS": 8.19,
+    "caseInfo": "Pro150-40k",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "O3700",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "29920O3700-P",
+    "diameter": 161,
+    "impulseClass": "O",
+    "length": 957,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 4081.6,
+    "motorId": "5f4294d200023100000003ae",
+    "propInfo": "Skidmark",
+    "propWeightG": 17157,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/29920O3700-P/",
+    "sparky": true,
+    "totImpulseNs": 29919.9,
+    "totalWeightG": 31350.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000073f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000073f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ae",
+    "simfileId": "5f4294d20002e9000000073f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000073f/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 128,
+    "burnTimeS": 1.27,
+    "caseInfo": "RMS-29/180",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H128",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H128W",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 194,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 168.7,
+    "motorId": "5f4294d20002310000000083",
+    "propInfo": "White Lightning",
+    "propWeightG": 94.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H128W/",
+    "sparky": false,
+    "totImpulseNs": 172.9,
+    "totalWeightG": 206,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000000d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000000d/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000083",
+    "simfileId": "5f4294d20002e9000000000d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000000d/"
+  }
+}

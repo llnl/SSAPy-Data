@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 69,
+    "burnTimeS": 1.6,
+    "caseInfo": "38/120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G69",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "5,8,10,13,17",
+    "designation": "HP-G69-SF",
+    "diameter": 38,
+    "impulseClass": "G",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20Spitfire.pdf",
+    "length": 127,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 97,
+    "motorId": "5f4294d200023100000002f3",
+    "propInfo": "Spitfire",
+    "propWeightG": 63,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/HP-G69-SF/",
+    "sparky": true,
+    "totImpulseNs": 110,
+    "totalWeightG": 240,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000084f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000084f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002f3",
+    "simfileId": "5f4294d20002e9000000084f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000084f/"
+  }
+}

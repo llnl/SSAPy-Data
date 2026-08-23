@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 0.284,
+    "burnTimeS": 0.772,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "1/8A0.3",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "1",
+    "designation": "MICRO_MAXX_II",
+    "diameter": 6,
+    "impulseClass": "A",
+    "length": 26,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 2.108,
+    "motorId": "5f4294d20002310000000001",
+    "propInfo": "black powder",
+    "propWeightG": 0.5,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/MICRO_MAXX_II/",
+    "sparky": false,
+    "totImpulseNs": 0.218,
+    "totalWeightG": 1,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000078b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000078b/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000001",
+    "simfileId": "5f4294d20002e9000000078b",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000078b/"
+  }
+}

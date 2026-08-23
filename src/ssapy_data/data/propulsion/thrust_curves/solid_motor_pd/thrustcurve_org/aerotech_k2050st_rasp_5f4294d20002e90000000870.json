@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1874,
+    "burnTimeS": 0.73,
+    "caseInfo": "RMS-54/1706",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K2050",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K2050ST",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 383,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2086,
+    "motorId": "5f4294d20002310000000453",
+    "propInfo": "Super Thunder",
+    "propWeightG": 674,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K2050ST/",
+    "sparky": false,
+    "totImpulseNs": 1384,
+    "totalWeightG": 1292,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000870/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000870/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000453",
+    "simfileId": "5f4294d20002e90000000870",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000870/"
+  }
+}

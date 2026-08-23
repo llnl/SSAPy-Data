@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 200,
+    "burnTimeS": 13.1965,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L200",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1685CC098L-L200",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1031,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000169",
+    "propWeightG": 1613.9,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/1685CC098L-L200/",
+    "sparky": false,
+    "totImpulseNs": 2639.3,
+    "totalWeightG": 3894.91,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000b5/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000b5/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000169",
+    "simfileId": "5f4294d20002e900000000b5",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000b5/"
+  }
+}

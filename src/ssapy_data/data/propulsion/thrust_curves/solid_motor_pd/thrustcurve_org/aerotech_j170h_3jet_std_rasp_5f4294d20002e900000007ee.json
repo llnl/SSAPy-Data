@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 170,
+    "burnTimeS": 4.4,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J170",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J170H_3JET_STD",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 709,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d200023100000000ed",
+    "propWeightG": 409.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J170H_3JET_STD/",
+    "sparky": false,
+    "totImpulseNs": 739,
+    "type": "hybrid",
+    "updatedOn": "2022-06-15"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ee/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ee/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ed",
+    "simfileId": "5f4294d20002e900000007ee",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ee/"
+  }
+}

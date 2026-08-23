@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 317,
+    "burnTimeS": 3.15078864353312,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J317",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "835CC172J-J317",
+    "diameter": 81,
+    "impulseClass": "J",
+    "length": 552,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000107",
+    "propWeightG": 711.9,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/835CC172J-J317/",
+    "sparky": false,
+    "totImpulseNs": 998.8,
+    "totalWeightG": 1757.5,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000dd/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000dd/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000107",
+    "simfileId": "5f4294d20002e900000000dd",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000dd/"
+  }
+}

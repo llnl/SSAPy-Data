@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 270,
+    "burnTimeS": 3.47,
+    "caseInfo": "38X438.1 38X467(D)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J270",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "20,P",
+    "designation": "J270",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 384,
+    "manufacturer": "Ellis Mountain",
+    "manufacturerAbbrev": "Ellis",
+    "maxThrustN": 427.6,
+    "motorId": "5f4294d200023100000000fc",
+    "propWeightG": 347.1,
+    "source_url": "http://www.thrustcurve.org/motors/Ellis/J270/",
+    "sparky": false,
+    "totImpulseNs": 648.5,
+    "totalWeightG": 712,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000ab/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000ab/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000fc",
+    "simfileId": "5f4294d20002e900000000ab",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000ab/"
+  }
+}

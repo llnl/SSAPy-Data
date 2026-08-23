@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1970.7,
+    "burnTimeS": 7.04,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N1975",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N1975W-PS",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1110.1000000000001,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2903.3,
+    "motorId": "616e64637630450004259814",
+    "propInfo": "White Lightning",
+    "propWeightG": 7676,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N1975W-PS/",
+    "sparky": false,
+    "totImpulseNs": 13893.1,
+    "totalWeightG": 12208.4,
+    "type": "SU",
+    "updatedOn": "2021-10-19"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/61815946993aab0004245a68/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/61815946993aab0004245a68/",
+    "license": "PD",
+    "motorId": "616e64637630450004259814",
+    "simfileId": "61815946993aab0004245a68",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/61815946993aab0004245a68/"
+  }
+}

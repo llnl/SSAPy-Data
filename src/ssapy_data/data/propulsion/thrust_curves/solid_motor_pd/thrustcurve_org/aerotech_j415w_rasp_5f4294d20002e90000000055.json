@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 415,
+    "burnTimeS": 2.88,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J415",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J415W",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 314,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 732.8,
+    "motorId": "5f4294d2000231000000011a",
+    "propInfo": "White Lightning",
+    "propWeightG": 693.3,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J415W/",
+    "sparky": false,
+    "totImpulseNs": 1231.7,
+    "totalWeightG": 1168,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000055/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000055/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000011a",
+    "simfileId": "5f4294d20002e90000000055",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000055/"
+  }
+}

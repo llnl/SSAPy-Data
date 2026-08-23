@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 757.7,
+    "burnTimeS": 1.67,
+    "caseInfo": "Pro54-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J760",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "9,10,11,12,13,14,15,16,17,18,19",
+    "designation": "1266J760-19A",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 329,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 937.3,
+    "motorId": "5f4294d200023100000003a8",
+    "propInfo": "White Thunder",
+    "propWeightG": 576,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/1266J760-19A/",
+    "sparky": false,
+    "totImpulseNs": 1265.7,
+    "totalWeightG": 1076.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000074a/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000074a/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a8",
+    "simfileId": "5f4294d20002e9000000074a",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000074a/"
+  }
+}

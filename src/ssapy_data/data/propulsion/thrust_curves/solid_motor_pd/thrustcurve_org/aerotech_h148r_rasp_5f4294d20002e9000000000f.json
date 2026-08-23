@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 148,
+    "burnTimeS": 1.39189189189189,
+    "caseInfo": "RMS-38/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H148",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H148R",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 152,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d20002310000000087",
+    "propInfo": "Redline",
+    "propWeightG": 122,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H148R/",
+    "sparky": false,
+    "totImpulseNs": 206,
+    "totalWeightG": 309.12,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000000f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000000f/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000087",
+    "simfileId": "5f4294d20002e9000000000f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000000f/"
+  }
+}

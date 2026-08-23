@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 200,
+    "burnTimeS": 1.65,
+    "caseInfo": "RMS-29/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I200",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I200W",
+    "diameter": 29,
+    "impulseClass": "I",
+    "length": 333,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 463.3,
+    "motorId": "5f4294d200023100000000b5",
+    "propInfo": "White Lightning",
+    "propWeightG": 187.3,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I200W/",
+    "sparky": false,
+    "totImpulseNs": 324.5,
+    "totalWeightG": 357.504,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000033/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000033/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000b5",
+    "simfileId": "5f4294d20002e90000000033",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000033/"
+  }
+}

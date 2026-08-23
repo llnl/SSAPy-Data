@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 535,
+    "burnTimeS": 2.8,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K535",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-K535W",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 358,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 655,
+    "motorId": "5f4294d2000231000000040a",
+    "propInfo": "White Lightning",
+    "propWeightG": 745,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-K535W/",
+    "sparky": false,
+    "totImpulseNs": 1434,
+    "totalWeightG": 1264,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ff/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ff/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000040a",
+    "simfileId": "5f4294d20002e900000007ff",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ff/"
+  }
+}

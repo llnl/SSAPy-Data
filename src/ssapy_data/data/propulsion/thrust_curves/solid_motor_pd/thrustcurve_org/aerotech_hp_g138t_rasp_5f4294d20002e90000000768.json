@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 138,
+    "burnTimeS": 1.14,
+    "caseInfo": "RMS-29/40-120",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G138",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-G138T",
+    "diameter": 29,
+    "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G138T.pdf",
+    "length": 124,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 190.1,
+    "motorId": "5f4294d200023100000003b1",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 70,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-G138T/",
+    "sparky": false,
+    "totImpulseNs": 157.1,
+    "totalWeightG": 148,
+    "type": "reload",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000768/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000768/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003b1",
+    "simfileId": "5f4294d20002e90000000768",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000768/"
+  }
+}

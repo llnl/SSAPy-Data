@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1100,
+    "burnTimeS": 1.61,
+    "caseInfo": "RMS-54/1706",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1100",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "K1100T",
+    "diameter": 54,
+    "impulseClass": "K",
+    "infoUrl": "https://aerotech-rocketry.com/products/product_63cb0ac6-6573-be54-7b08-7d5f1beb1684",
+    "length": 398,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1245,
+    "motorId": "5f4294d20002310000000166",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 773.3,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K1100T/",
+    "sparky": false,
+    "totImpulseNs": 1472,
+    "totalWeightG": 1336,
+    "type": "reload",
+    "updatedOn": "2026-05-19"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000065/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000065/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000166",
+    "simfileId": "5f4294d20002e90000000065",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000065/"
+  }
+}

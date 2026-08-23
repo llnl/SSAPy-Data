@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 250,
+    "burnTimeS": 2.9,
+    "caseInfo": "RMS-54/852",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J250",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J250FJ",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 241,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d200023100000001ec",
+    "propInfo": "Black Max",
+    "propWeightG": 487,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J250FJ/",
+    "sparky": false,
+    "totImpulseNs": 731,
+    "totalWeightG": 907,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92460f1bca58000417179d/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92460f1bca58000417179d/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001ec",
+    "simfileId": "5f92460f1bca58000417179d",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92460f1bca58000417179d/"
+  }
+}

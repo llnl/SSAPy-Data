@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 20,
+    "burnTimeS": 1,
+    "certOrg": "Uncertified",
+    "commonName": "D20",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "0,2,4,6,8",
+    "designation": "D20",
+    "diameter": 24,
+    "impulseClass": "D",
+    "length": 70,
+    "manufacturer": "Piotr Tendera Rocket Motors",
+    "manufacturerAbbrev": "TSP",
+    "motorId": "66a0d3eaa8c15d000226a805",
+    "propInfo": "composite",
+    "propWeightG": 14.8,
+    "source_url": "http://www.thrustcurve.org/motors/TSP/D20/",
+    "sparky": false,
+    "totImpulseNs": 20,
+    "totalWeightG": 45.5,
+    "type": "SU",
+    "updatedOn": "2024-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66a2fb7fd1517d00027c3ff0/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66a2fb7fd1517d00027c3ff0/",
+    "license": "PD",
+    "motorId": "66a0d3eaa8c15d000226a805",
+    "simfileId": "66a2fb7fd1517d00027c3ff0",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/66a2fb7fd1517d00027c3ff0/"
+  }
+}

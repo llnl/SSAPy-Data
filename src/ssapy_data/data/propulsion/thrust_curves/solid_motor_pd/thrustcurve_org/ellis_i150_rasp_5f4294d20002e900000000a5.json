@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 150,
+    "burnTimeS": 2.75,
+    "caseInfo": "38X285.7 38X314(D)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I150",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "20,P",
+    "designation": "I150",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 229,
+    "manufacturer": "Ellis Mountain",
+    "manufacturerAbbrev": "Ellis",
+    "maxThrustN": 155.5,
+    "motorId": "5f4294d200023100000000ac",
+    "propWeightG": 171.8,
+    "source_url": "http://www.thrustcurve.org/motors/Ellis/I150/",
+    "sparky": false,
+    "totImpulseNs": 346.2,
+    "totalWeightG": 422,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000a5/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000a5/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ac",
+    "simfileId": "5f4294d20002e900000000a5",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000a5/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1150,
+    "burnTimeS": 3.07,
+    "caseInfo": "RMS-75/3840",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1150",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1150R",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 530,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1346,
+    "motorId": "5f4294d2000231000000018f",
+    "propInfo": "Redline",
+    "propWeightG": 1902,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1150R/",
+    "sparky": false,
+    "totImpulseNs": 3517,
+    "totalWeightG": 3673.6,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000007f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000007f/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000018f",
+    "simfileId": "5f4294d20002e9000000007f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000007f/"
+  }
+}

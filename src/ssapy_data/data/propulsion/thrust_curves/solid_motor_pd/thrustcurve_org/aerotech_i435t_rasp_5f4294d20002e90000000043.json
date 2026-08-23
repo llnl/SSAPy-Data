@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 435,
+    "burnTimeS": 1.1,
+    "caseInfo": "RMS-38/600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I435",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I435T",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 299,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 785.6,
+    "motorId": "5f4294d200023100000000da",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 269.9,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I435T/",
+    "sparky": false,
+    "totImpulseNs": 568.9,
+    "totalWeightG": 518,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000043/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000043/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000da",
+    "simfileId": "5f4294d20002e90000000043",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000043/"
+  }
+}

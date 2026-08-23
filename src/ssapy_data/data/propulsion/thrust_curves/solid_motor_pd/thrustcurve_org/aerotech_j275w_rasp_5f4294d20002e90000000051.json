@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 275,
+    "burnTimeS": 3.3,
+    "caseInfo": "RMS-54/852",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J275",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J275W",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 230,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 370,
+    "motorId": "5f4294d200023100000000ff",
+    "propInfo": "White Lightning",
+    "propWeightG": 472,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J275W/",
+    "sparky": false,
+    "totImpulseNs": 774,
+    "totalWeightG": 864.192,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000051/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000051/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ff",
+    "simfileId": "5f4294d20002e90000000051",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000051/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 176.45,
+    "burnTimeS": 1.89,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I175",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "5,7,9,11,13",
+    "designation": "I175WS",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 214,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 260.41,
+    "motorId": "5f4294d2000231000000046f",
+    "propInfo": "Super White Lightning",
+    "propWeightG": 168,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I175WS/",
+    "sparky": false,
+    "totImpulseNs": 333.04,
+    "totalWeightG": 348,
+    "type": "SU",
+    "updatedOn": "2025-11-21"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9245ad1bca580004171795/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9245ad1bca580004171795/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000046f",
+    "simfileId": "5f9245ad1bca580004171795",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9245ad1bca580004171795/"
+  }
+}

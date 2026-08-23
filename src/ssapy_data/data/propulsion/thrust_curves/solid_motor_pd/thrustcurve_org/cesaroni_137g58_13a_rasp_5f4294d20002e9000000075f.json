@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 57.9,
+    "burnTimeS": 2.36,
+    "caseInfo": "Pro38-1G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G58",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "137G58-13A",
+    "diameter": 38,
+    "impulseClass": "G",
+    "length": 127,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 97.7,
+    "motorId": "5f4294d2000231000000039e",
+    "propInfo": "White",
+    "propWeightG": 76.3,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/137G58-13A/",
+    "sparky": false,
+    "totImpulseNs": 136.8,
+    "totalWeightG": 212.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000075f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000075f/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000039e",
+    "simfileId": "5f4294d20002e9000000075f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000075f/"
+  }
+}

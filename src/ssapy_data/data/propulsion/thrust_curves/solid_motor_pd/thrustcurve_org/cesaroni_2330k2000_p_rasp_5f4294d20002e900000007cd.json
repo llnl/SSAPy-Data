@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2036.1,
+    "burnTimeS": 1.14,
+    "caseInfo": "Pro75-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K2000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2330K2000-P",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 350,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 2480.9,
+    "motorId": "5f4294d200023100000003d7",
+    "propInfo": "Vmax",
+    "propWeightG": 1102,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2330K2000-P/",
+    "sparky": false,
+    "totImpulseNs": 2329.9,
+    "totalWeightG": 2464.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007cd/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007cd/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d7",
+    "simfileId": "5f4294d20002e900000007cd",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007cd/"
+  }
+}

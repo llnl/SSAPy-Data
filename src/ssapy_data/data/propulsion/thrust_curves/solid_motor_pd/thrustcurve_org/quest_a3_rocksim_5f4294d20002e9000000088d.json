@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3.24,
+    "burnTimeS": 0.77,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "A3",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,6",
+    "designation": "A3",
+    "diameter": 18,
+    "impulseClass": "A",
+    "length": 81,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 8.4,
+    "motorId": "5f4294d2000231000000045b",
+    "propInfo": "Black Max",
+    "propWeightG": 2.1,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/A3/",
+    "sparky": false,
+    "totImpulseNs": 2.5,
+    "totalWeightG": 18.2,
+    "type": "SU",
+    "updatedOn": "2024-06-12"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000088d/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000088d/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000045b",
+    "simfileId": "5f4294d20002e9000000088d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000088d/"
+  }
+}

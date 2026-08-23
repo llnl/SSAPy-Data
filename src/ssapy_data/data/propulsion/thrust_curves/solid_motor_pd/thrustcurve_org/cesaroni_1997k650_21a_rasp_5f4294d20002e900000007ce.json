@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 651.5,
+    "burnTimeS": 3.07,
+    "caseInfo": "Pro54-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K650",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "11,12,13,14,15,16,17,18,19,20,21",
+    "designation": "1997K650-21A",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 488,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1354.9,
+    "motorId": "5f4294d200023100000003d6",
+    "propInfo": "Pink",
+    "propWeightG": 1135,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/1997K650-21A/",
+    "sparky": false,
+    "totImpulseNs": 1997.1,
+    "totalWeightG": 1710,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ce/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ce/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d6",
+    "simfileId": "5f4294d20002e900000007ce",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ce/"
+  }
+}

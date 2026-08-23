@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 115,
+    "burnTimeS": 5.85826086956522,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J115",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "440CC076J-J115",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 614,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000000e1",
+    "propWeightG": 415.9,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/440CC076J-J115/",
+    "sparky": false,
+    "totImpulseNs": 673.7,
+    "totalWeightG": 1282.18,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000cd/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000cd/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000e1",
+    "simfileId": "5f4294d20002e900000000cd",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000cd/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 819.9,
+    "burnTimeS": 3.59,
+    "caseInfo": "Pro75-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L820",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2946L820-P",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 486,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 984.8,
+    "motorId": "5f4294d200023100000003ab",
+    "propInfo": "Skidmark",
+    "propWeightG": 1760,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2946L820-P/",
+    "sparky": true,
+    "totImpulseNs": 2945.6,
+    "totalWeightG": 3420,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000744/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000744/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ab",
+    "simfileId": "5f4294d20002e90000000744",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000744/"
+  }
+}

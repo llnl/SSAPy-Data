@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 270,
+    "burnTimeS": 2.97111111111111,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J270",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "440CC125JFX-J270FX",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 614,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000000fd",
+    "propWeightG": 423.2,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/440CC125JFX-J270FX/",
+    "sparky": false,
+    "totImpulseNs": 802.2,
+    "totalWeightG": 1296.06,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000d7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000d7/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000fd",
+    "simfileId": "5f4294d20002e900000000d7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000d7/"
+  }
+}

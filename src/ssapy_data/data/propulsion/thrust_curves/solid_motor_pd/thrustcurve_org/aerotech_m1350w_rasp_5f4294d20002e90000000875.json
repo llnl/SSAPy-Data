@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1356.725,
+    "burnTimeS": 3.8166,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1350",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1350W",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 622,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1765.489,
+    "motorId": "5f4294d20002310000000431",
+    "propInfo": "White Lightning",
+    "propWeightG": 2690,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1350W/",
+    "sparky": false,
+    "totImpulseNs": 5178.154,
+    "totalWeightG": 4808,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000875/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000875/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000431",
+    "simfileId": "5f4294d20002e90000000875",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000875/"
+  }
+}

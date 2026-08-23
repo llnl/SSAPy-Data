@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 114.16,
+    "burnTimeS": 0.69,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "F115",
+    "dataFiles": 1,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,12",
+    "designation": "F115SN-12A",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 123,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 146.7,
+    "motorId": "6919efdd2d19df0002c39e51",
+    "propInfo": "Slo Nine",
+    "propWeightG": 38.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F115SN-12A/",
+    "sparky": false,
+    "totImpulseNs": 79.15,
+    "totalWeightG": 92.5,
+    "type": "SU",
+    "updatedOn": "2025-11-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/691a270b2d19df0002c3d0c9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/691a270b2d19df0002c3d0c9/",
+    "license": "PD",
+    "motorId": "6919efdd2d19df0002c39e51",
+    "simfileId": "691a270b2d19df0002c3d0c9",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/691a270b2d19df0002c3d0c9/"
+  }
+}

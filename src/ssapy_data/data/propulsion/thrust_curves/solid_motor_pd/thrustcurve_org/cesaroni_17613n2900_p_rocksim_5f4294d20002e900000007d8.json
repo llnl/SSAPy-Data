@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2867.5,
+    "burnTimeS": 6.14,
+    "caseInfo": "Pro98-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "N2900",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "17613N2900-P",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1239,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 4164.5,
+    "motorId": "5f4294d200023100000002fd",
+    "propInfo": "Classic",
+    "propWeightG": 8449,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/17613N2900-P/",
+    "sparky": false,
+    "totImpulseNs": 17613.7,
+    "totalWeightG": 14166,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007d8/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007d8/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002fd",
+    "simfileId": "5f4294d20002e900000007d8",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007d8/"
+  }
+}

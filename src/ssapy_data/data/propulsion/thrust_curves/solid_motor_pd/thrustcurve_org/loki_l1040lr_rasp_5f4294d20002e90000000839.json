@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1036,
+    "burnTimeS": 3.57,
+    "caseInfo": "54/2800",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1040",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1040LR",
+    "diameter": 54,
+    "impulseClass": "L",
+    "length": 736,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1422,
+    "motorId": "5f4294d2000231000000043d",
+    "propInfo": "Loki Red",
+    "propWeightG": 1684,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/L1040LR/",
+    "sparky": false,
+    "totImpulseNs": 3707,
+    "totalWeightG": 2962,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000839/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000839/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000043d",
+    "simfileId": "5f4294d20002e90000000839",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000839/"
+  }
+}

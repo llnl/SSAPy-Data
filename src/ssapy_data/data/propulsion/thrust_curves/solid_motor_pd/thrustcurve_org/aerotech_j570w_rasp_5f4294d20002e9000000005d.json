@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 509.3,
+    "burnTimeS": 1.91,
+    "caseInfo": "RMS-38/1080",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J570",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "J570W",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 479,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1142.5,
+    "motorId": "5f4294d20002310000000126",
+    "propInfo": "White Lightning",
+    "propWeightG": 535.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J570W/",
+    "sparky": false,
+    "totImpulseNs": 973.1,
+    "totalWeightG": 902,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000005d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000005d/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000126",
+    "simfileId": "5f4294d20002e9000000005d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000005d/"
+  }
+}

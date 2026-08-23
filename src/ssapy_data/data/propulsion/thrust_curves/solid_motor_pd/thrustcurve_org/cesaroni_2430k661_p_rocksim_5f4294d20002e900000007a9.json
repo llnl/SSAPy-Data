@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 660.5,
+    "burnTimeS": 3.68,
+    "caseInfo": "Pro75-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K661",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2430K661-P",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 350,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 761.3,
+    "motorId": "5f4294d200023100000003dd",
+    "propInfo": "Blue Streak",
+    "propWeightG": 1182,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2430K661-P/",
+    "sparky": false,
+    "totImpulseNs": 2430.4,
+    "totalWeightG": 2527.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007a9/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007a9/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003dd",
+    "simfileId": "5f4294d20002e900000007a9",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007a9/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 78.8,
+    "burnTimeS": 0.86,
+    "caseInfo": "Pro24-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F79",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "68F79-13A",
+    "diameter": 24,
+    "impulseClass": "F",
+    "length": 133,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 98.3,
+    "motorId": "5f4294d20002310000000397",
+    "propInfo": "Smoky Sam",
+    "propWeightG": 40.1,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/68F79-13A/",
+    "sparky": false,
+    "totImpulseNs": 67.8,
+    "totalWeightG": 107.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000723/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000723/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000397",
+    "simfileId": "5f4294d20002e90000000723",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000723/"
+  }
+}

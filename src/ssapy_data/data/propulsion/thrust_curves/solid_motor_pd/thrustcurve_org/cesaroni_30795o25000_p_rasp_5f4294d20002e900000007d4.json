@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 23507,
+    "burnTimeS": 1.31,
+    "caseInfo": "Pro130-",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "O25000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "30795O25000-P",
+    "diameter": 132,
+    "impulseClass": "O",
+    "infoUrl": "http://www.pro38.com/products/pro130/motor/MotorData.php?prodid=30795O25000-P",
+    "length": 1407,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 29275,
+    "motorId": "5f4294d200023100000003c4",
+    "propInfo": "Vmax",
+    "propWeightG": 14471,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/30795O25000-P/",
+    "sparky": false,
+    "totImpulseNs": 30794,
+    "totalWeightG": 23558,
+    "type": "SU",
+    "updatedOn": "2021-07-04"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007d4/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007d4/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003c4",
+    "simfileId": "5f4294d20002e900000007d4",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007d4/"
+  }
+}

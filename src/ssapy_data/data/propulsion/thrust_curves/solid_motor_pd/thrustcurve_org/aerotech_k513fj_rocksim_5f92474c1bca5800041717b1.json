@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 556.84,
+    "burnTimeS": 2.79,
+    "caseInfo": "RMS-54/1706",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K513",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "K513FJ",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 410,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 658.25,
+    "motorId": "5f4294d200023100000001ee",
+    "propInfo": "Black Max",
+    "propWeightG": 974,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K513FJ/",
+    "sparky": false,
+    "totImpulseNs": 1496.27,
+    "totalWeightG": 1647,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92474c1bca5800041717b1/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92474c1bca5800041717b1/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001ee",
+    "simfileId": "5f92474c1bca5800041717b1",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92474c1bca5800041717b1/"
+  }
+}

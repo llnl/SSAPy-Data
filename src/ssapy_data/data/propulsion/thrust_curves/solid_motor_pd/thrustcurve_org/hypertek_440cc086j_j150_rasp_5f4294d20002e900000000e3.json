@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 150,
+    "burnTimeS": 5.00933333333333,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J150",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "440CC086J-J150",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 645,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000000ea",
+    "propWeightG": 433.5,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/440CC086J-J150/",
+    "sparky": false,
+    "totImpulseNs": 751.4,
+    "totalWeightG": 1305.92,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000e3/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000e3/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ea",
+    "simfileId": "5f4294d20002e900000000e3",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000e3/"
+  }
+}

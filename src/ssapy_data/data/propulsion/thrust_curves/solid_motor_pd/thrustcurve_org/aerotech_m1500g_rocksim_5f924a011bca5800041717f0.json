@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1508.67052023121,
+    "burnTimeS": 3.46,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1500",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1500G",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 681,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d2000231000000024c",
+    "propInfo": "Mojave Green",
+    "propWeightG": 2631,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1500G/",
+    "sparky": false,
+    "totImpulseNs": 5220,
+    "totalWeightG": 4896,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f924a011bca5800041717f0/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f924a011bca5800041717f0/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000024c",
+    "simfileId": "5f924a011bca5800041717f0",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f924a011bca5800041717f0/"
+  }
+}

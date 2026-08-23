@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 999,
+    "burnTimeS": 0.32022022022022,
+    "caseInfo": "RMS-38/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H999",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "H999N",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 203,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1710,
+    "motorId": "5f4294d2000231000000009c",
+    "propInfo": "Warp 9",
+    "propWeightG": 147,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H999N/",
+    "sparky": false,
+    "totImpulseNs": 319.9,
+    "totalWeightG": 331,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/685351934a21c50002d2dec9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/685351934a21c50002d2dec9/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000009c",
+    "simfileId": "685351934a21c50002d2dec9",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/685351934a21c50002d2dec9/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 627,
+    "burnTimeS": 2.42,
+    "caseInfo": "38/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K627",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "5,7,11,14",
+    "designation": "K627LR",
+    "diameter": 38,
+    "impulseClass": "K",
+    "length": 625.48,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 987,
+    "motorId": "5f4294d20002310000000446",
+    "propInfo": "Loki Red",
+    "propWeightG": 688,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/K627LR/",
+    "sparky": false,
+    "totImpulseNs": 1519,
+    "totalWeightG": 1236,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000861/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000861/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000446",
+    "simfileId": "5f4294d20002e90000000861",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000861/"
+  }
+}

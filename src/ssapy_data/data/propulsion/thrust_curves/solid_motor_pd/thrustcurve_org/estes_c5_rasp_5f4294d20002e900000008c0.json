@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3.91,
+    "burnTimeS": 1.99,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "C5",
+    "dataFiles": 4,
+    "delayAdjustable": false,
+    "delays": "3",
+    "designation": "C5",
+    "diameter": 18,
+    "impulseClass": "C",
+    "infoUrl": "https://nar.org/SandT/pdf/Estes/Estes_C5_2019.pdf",
+    "length": 70,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 20.41,
+    "motorId": "5f4294d20002310000000014",
+    "propInfo": "black powder",
+    "propWeightG": 11.299999999999999,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/C5/",
+    "sparky": false,
+    "totImpulseNs": 7.79,
+    "totalWeightG": 24.8,
+    "type": "SU",
+    "updatedOn": "2022-07-27"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008c0/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008c0/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000014",
+    "simfileId": "5f4294d20002e900000008c0",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008c0/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 610,
+    "burnTimeS": 5.13262295081967,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L610",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1685CCRGLFX-L610FX",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1031,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000178",
+    "propWeightG": 1603.3,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/1685CCRGLFX-L610FX/",
+    "sparky": false,
+    "totImpulseNs": 3130.9,
+    "totalWeightG": 3950.91,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000c3/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000c3/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000178",
+    "simfileId": "5f4294d20002e900000000c3",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000c3/"
+  }
+}

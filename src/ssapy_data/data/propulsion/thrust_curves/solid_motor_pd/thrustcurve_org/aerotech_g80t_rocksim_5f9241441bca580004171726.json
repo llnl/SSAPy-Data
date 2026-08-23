@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 77.6,
+    "burnTimeS": 1.7,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G80",
+    "dataFiles": 4,
+    "delayAdjustable": false,
+    "delays": "6,7,8,9,10,11,12,13,14",
+    "designation": "G80T",
+    "diameter": 29,
+    "impulseClass": "G",
+    "infoUrl": "https://www.nar.org/SandT/pdf/Aerotech/G80-20071207.pdf",
+    "length": 124,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 108.5,
+    "motorId": "5f4294d20002310000000068",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 62.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G80T/",
+    "sparky": false,
+    "totImpulseNs": 136.6,
+    "totalWeightG": 127.90000000000002,
+    "type": "SU",
+    "updatedOn": "2021-01-19"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9241441bca580004171726/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9241441bca580004171726/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000068",
+    "simfileId": "5f9241441bca580004171726",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9241441bca580004171726/"
+  }
+}

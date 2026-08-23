@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 354.1,
+    "burnTimeS": 1.836,
+    "caseInfo": "RMS-38/720",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J340",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J340M",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 337,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 605,
+    "motorId": "5f4294d20002310000000388",
+    "propInfo": "Metalstorm",
+    "propWeightG": 365,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J340M/",
+    "sparky": true,
+    "totImpulseNs": 651.68,
+    "totalWeightG": 577.3,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000071a/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000071a/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000388",
+    "simfileId": "5f4294d20002e9000000071a",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000071a/"
+  }
+}

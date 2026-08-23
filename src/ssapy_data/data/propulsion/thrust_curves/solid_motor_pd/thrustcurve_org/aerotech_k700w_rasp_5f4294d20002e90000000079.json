@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 700,
+    "burnTimeS": 3.51,
+    "caseInfo": "RMS-54/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K700",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K700W",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 568,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1617,
+    "motorId": "5f4294d2000231000000015a",
+    "propInfo": "White Lightning",
+    "propWeightG": 1303.3,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K700W/",
+    "sparky": false,
+    "totImpulseNs": 2261,
+    "totalWeightG": 2035.26,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000079/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000079/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000015a",
+    "simfileId": "5f4294d20002e90000000079",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000079/"
+  }
+}

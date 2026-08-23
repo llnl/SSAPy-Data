@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2199,
+    "burnTimeS": 5.4,
+    "caseInfo": "RMS-98/15360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N2220",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N2220DM",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1046,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 4472,
+    "motorId": "5f4294d200023100000003fe",
+    "propInfo": "Dark Matter",
+    "propWeightG": 7183,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N2220DM/",
+    "sparky": true,
+    "totImpulseNs": 10657,
+    "totalWeightG": 11997,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ed/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ed/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003fe",
+    "simfileId": "5f4294d20002e900000007ed",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ed/"
+  }
+}

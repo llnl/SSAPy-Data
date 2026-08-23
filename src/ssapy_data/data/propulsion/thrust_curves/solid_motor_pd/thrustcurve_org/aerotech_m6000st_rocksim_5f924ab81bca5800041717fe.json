@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 5958.9,
+    "burnTimeS": 1.38,
+    "caseInfo": "RMS-98/10240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M6000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M6000ST",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 808,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 6788.7,
+    "motorId": "5f4294d2000231000000044d",
+    "propInfo": "Super Thunder",
+    "propWeightG": 3868,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M6000ST/",
+    "sparky": false,
+    "totImpulseNs": 8247.1,
+    "totalWeightG": 8029.6,
+    "type": "reload",
+    "updatedOn": "2022-05-11"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f924ab81bca5800041717fe/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f924ab81bca5800041717fe/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000044d",
+    "simfileId": "5f924ab81bca5800041717fe",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f924ab81bca5800041717fe/"
+  }
+}

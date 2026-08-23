@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 162,
+    "burnTimeS": 1.74,
+    "caseInfo": "RMS-38/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H178",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "H178DM",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 191,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 202,
+    "motorId": "5f4294d200023100000003c5",
+    "propInfo": "Dark Matter",
+    "propWeightG": 177,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H178DM/",
+    "sparky": true,
+    "totImpulseNs": 283,
+    "totalWeightG": 324,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92429c1bca580004171732/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92429c1bca580004171732/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003c5",
+    "simfileId": "5f92429c1bca580004171732",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92429c1bca580004171732/"
+  }
+}

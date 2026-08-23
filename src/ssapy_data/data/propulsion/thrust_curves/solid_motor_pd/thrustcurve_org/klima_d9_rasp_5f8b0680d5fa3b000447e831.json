@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 9,
+    "burnTimeS": 2.1,
+    "certOrg": "Uncertified",
+    "commonName": "D9",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "0,3,5,7,P",
+    "designation": "D9",
+    "diameter": 18,
+    "impulseClass": "D",
+    "infoUrl": "https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Motor-D9-0-inkl-Elektrozuender-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0400&t=23&c=712&p=712",
+    "length": 70,
+    "manufacturer": "Raketenmodellbau Klima",
+    "manufacturerAbbrev": "Klima",
+    "maxThrustN": 25,
+    "motorId": "5f7697979503a10004898859",
+    "propInfo": "composite",
+    "propWeightG": 16.1,
+    "source_url": "http://www.thrustcurve.org/motors/Klima/D9/",
+    "sparky": false,
+    "totImpulseNs": 20,
+    "totalWeightG": 27.099999999999998,
+    "type": "SU",
+    "updatedOn": "2020-12-06"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8b0680d5fa3b000447e831/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f8b0680d5fa3b000447e831/",
+    "license": "PD",
+    "motorId": "5f7697979503a10004898859",
+    "simfileId": "5f8b0680d5fa3b000447e831",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8b0680d5fa3b000447e831/"
+  }
+}

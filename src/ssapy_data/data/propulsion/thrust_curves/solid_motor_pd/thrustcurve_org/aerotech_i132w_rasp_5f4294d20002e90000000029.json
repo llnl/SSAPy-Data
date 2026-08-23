@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 132,
+    "burnTimeS": 4.83,
+    "caseInfo": "SU 38x335",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I132",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "I132W",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 335,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 512.9,
+    "motorId": "5f4294d200023100000000a7",
+    "propInfo": "White Lightning",
+    "propWeightG": 376.4,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I132W/",
+    "sparky": false,
+    "totImpulseNs": 610.7,
+    "totalWeightG": 512.064,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000029/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000029/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000a7",
+    "simfileId": "5f4294d20002e90000000029",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000029/"
+  }
+}

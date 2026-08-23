@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1300,
+    "burnTimeS": 3.51307692307692,
+    "caseInfo": "RMS-98/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1300",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1300R",
+    "diameter": 98,
+    "impulseClass": "L",
+    "length": 443,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1552,
+    "motorId": "5f4294d20002310000000192",
+    "propInfo": "Redline",
+    "propWeightG": 2632,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1300R/",
+    "sparky": false,
+    "totImpulseNs": 4567,
+    "totalWeightG": 4884,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000087d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000087d/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000192",
+    "simfileId": "5f4294d20002e9000000087d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000087d/"
+  }
+}

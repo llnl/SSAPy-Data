@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 4800,
+    "burnTimeS": 4.44,
+    "caseInfo": "RMS-98/18000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N4800",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N4800T",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1201,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 6599.35,
+    "motorId": "5f4294d200023100000001c2",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 9570.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N4800T/",
+    "sparky": false,
+    "totImpulseNs": 19361,
+    "totalWeightG": 14784,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000099/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000099/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001c2",
+    "simfileId": "5f4294d20002e90000000099",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000099/"
+  }
+}

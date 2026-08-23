@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 14.38,
+    "burnTimeS": 3.45,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F15",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "0,4,6,8",
+    "designation": "F15",
+    "diameter": 29,
+    "impulseClass": "F",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/F15.pdf",
+    "length": 114,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 25.26,
+    "motorId": "5f4294d200023100000003f2",
+    "propInfo": "black powder",
+    "propWeightG": 60,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/F15/",
+    "sparky": false,
+    "totImpulseNs": 49.61,
+    "totalWeightG": 102,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923edb1bca5800041716ab/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923edb1bca5800041716ab/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f2",
+    "simfileId": "5f923edb1bca5800041716ab",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923edb1bca5800041716ab/"
+  }
+}

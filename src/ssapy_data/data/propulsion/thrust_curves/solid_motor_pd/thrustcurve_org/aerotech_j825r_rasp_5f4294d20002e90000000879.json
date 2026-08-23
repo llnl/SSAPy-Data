@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 892.9,
+    "burnTimeS": 1.15,
+    "caseInfo": "RMS-38/1080",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J825",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "J825R",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 478,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1244.3,
+    "motorId": "5f4294d200023100000001d6",
+    "propInfo": "Redline",
+    "propWeightG": 500,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J825R/",
+    "sparky": false,
+    "totImpulseNs": 974.9,
+    "totalWeightG": 875,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000879/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000879/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001d6",
+    "simfileId": "5f4294d20002e90000000879",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000879/"
+  }
+}

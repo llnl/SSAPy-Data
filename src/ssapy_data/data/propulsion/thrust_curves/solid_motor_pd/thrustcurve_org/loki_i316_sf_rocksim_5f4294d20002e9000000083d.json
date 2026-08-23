@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 316,
+    "burnTimeS": 1.5,
+    "caseInfo": "38/480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I316",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "5,8,10,13,17",
+    "designation": "I316-SF",
+    "diameter": 38,
+    "impulseClass": "I",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20Spitfire.pdf",
+    "length": 292,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "motorId": "5f4294d200023100000002ac",
+    "propInfo": "Spitfire",
+    "propWeightG": 240,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/I316-SF/",
+    "sparky": true,
+    "totImpulseNs": 408.58,
+    "totalWeightG": 540,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000083d/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000083d/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002ac",
+    "simfileId": "5f4294d20002e9000000083d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000083d/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 920,
+    "burnTimeS": 6,
+    "caseInfo": "76/6000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M900",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M900-LR",
+    "diameter": 76,
+    "impulseClass": "M",
+    "length": 785,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1060,
+    "motorId": "5f4294d200023100000002f0",
+    "propInfo": "Loki Red",
+    "propWeightG": 3130,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/M900-LR/",
+    "sparky": false,
+    "totImpulseNs": 5477,
+    "totalWeightG": 5530,
+    "type": "reload",
+    "updatedOn": "2019-11-22"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000850/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000850/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002f0",
+    "simfileId": "5f4294d20002e90000000850",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000850/"
+  }
+}

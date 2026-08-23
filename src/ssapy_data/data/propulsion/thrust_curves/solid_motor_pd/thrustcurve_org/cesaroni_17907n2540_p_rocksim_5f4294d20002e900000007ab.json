@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2543.4,
+    "burnTimeS": 7.04,
+    "caseInfo": "Pro98-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "N2540",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "17907N2540-P",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1239,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 2915.3,
+    "motorId": "5f4294d200023100000003df",
+    "propInfo": "Green3",
+    "propWeightG": 10700,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/17907N2540-P/",
+    "sparky": false,
+    "totImpulseNs": 17907,
+    "totalWeightG": 16280.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ab/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ab/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003df",
+    "simfileId": "5f4294d20002e900000007ab",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ab/"
+  }
+}

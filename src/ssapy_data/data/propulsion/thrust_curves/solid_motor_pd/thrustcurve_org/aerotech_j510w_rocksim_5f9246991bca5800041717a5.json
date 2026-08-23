@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 509.9,
+    "burnTimeS": 2.27,
+    "caseInfo": "RMS-38/1320",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J510",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J510W",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 584.2,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1041.7,
+    "motorId": "5f4294d2000231000000030a",
+    "propInfo": "White Lightning",
+    "propWeightG": 662,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J510W/",
+    "sparky": false,
+    "totImpulseNs": 1162,
+    "totalWeightG": 1080,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9246991bca5800041717a5/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9246991bca5800041717a5/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000030a",
+    "simfileId": "5f9246991bca5800041717a5",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9246991bca5800041717a5/"
+  }
+}

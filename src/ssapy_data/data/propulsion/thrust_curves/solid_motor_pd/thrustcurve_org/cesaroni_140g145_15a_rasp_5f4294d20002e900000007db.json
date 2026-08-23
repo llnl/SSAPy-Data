@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 145.2,
+    "burnTimeS": 0.96,
+    "caseInfo": "Pro24-6G",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G145",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,15",
+    "designation": "140G145-15A",
+    "diameter": 24,
+    "impulseClass": "G",
+    "length": 228,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 346.9,
+    "motorId": "5f4294d200023100000003ea",
+    "propInfo": "Pink",
+    "propWeightG": 66.7,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/140G145-15A/",
+    "sparky": false,
+    "totImpulseNs": 139.7,
+    "totalWeightG": 161.9,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007db/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007db/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ea",
+    "simfileId": "5f4294d20002e900000007db",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007db/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 355,
+    "burnTimeS": 1.52,
+    "caseInfo": "RMS-38/600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I366",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I366R",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 299,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 507,
+    "motorId": "5f4294d200023100000000d5",
+    "propInfo": "Redline",
+    "propWeightG": 300,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I366R/",
+    "sparky": false,
+    "totImpulseNs": 539,
+    "totalWeightG": 555.5,
+    "type": "reload",
+    "updatedOn": "2021-09-28"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000041/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000041/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000d5",
+    "simfileId": "5f4294d20002e90000000041",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000041/"
+  }
+}

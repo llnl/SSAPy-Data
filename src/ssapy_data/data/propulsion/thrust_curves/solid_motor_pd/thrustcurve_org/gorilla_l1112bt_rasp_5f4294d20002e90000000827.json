@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1127,
+    "burnTimeS": 3.29,
+    "caseInfo": "75/3500",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1112",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1112BT",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 498,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 1297,
+    "motorId": "5f4294d20002310000000437",
+    "propInfo": "Blue Typhoon",
+    "propWeightG": 1800,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/L1112BT/",
+    "sparky": false,
+    "totImpulseNs": 3709,
+    "totalWeightG": 3628,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000827/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000827/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000437",
+    "simfileId": "5f4294d20002e90000000827",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000827/"
+  }
+}

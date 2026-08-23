@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 62.54,
+    "burnTimeS": 23.1,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K62",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K62N",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 274,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 258.7,
+    "motorId": "63bb643e1d26f30004b4b077",
+    "propInfo": "Warp 9",
+    "propWeightG": 831,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K62N/",
+    "sparky": false,
+    "totImpulseNs": 1438.5,
+    "totalWeightG": 1277,
+    "type": "SU",
+    "updatedOn": "2023-01-09"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/63bd1c3e292aef00048b8be1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/63bd1c3e292aef00048b8be1/",
+    "license": "PD",
+    "motorId": "63bb643e1d26f30004b4b077",
+    "simfileId": "63bd1c3e292aef00048b8be1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/63bd1c3e292aef00048b8be1/"
+  }
+}

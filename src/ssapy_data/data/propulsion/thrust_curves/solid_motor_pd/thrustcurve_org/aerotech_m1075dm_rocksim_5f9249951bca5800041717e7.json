@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1070,
+    "burnTimeS": 5.2,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1075",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1075DM",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 597,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1330,
+    "motorId": "5f4294d200023100000003cd",
+    "propInfo": "Dark Matter",
+    "propWeightG": 3846,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1075DM/",
+    "sparky": true,
+    "totImpulseNs": 5571,
+    "totalWeightG": 6971,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9249951bca5800041717e7/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9249951bca5800041717e7/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003cd",
+    "simfileId": "5f9249951bca5800041717e7",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9249951bca5800041717e7/"
+  }
+}

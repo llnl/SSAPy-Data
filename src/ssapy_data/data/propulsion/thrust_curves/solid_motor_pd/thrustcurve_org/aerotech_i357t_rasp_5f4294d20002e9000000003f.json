@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 357,
+    "burnTimeS": 1,
+    "caseInfo": "RMS-38/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I357",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "I357T",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 203,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 432.8,
+    "motorId": "5f4294d200023100000000d3",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 174.4,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I357T/",
+    "sparky": false,
+    "totImpulseNs": 342,
+    "totalWeightG": 343,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000003f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000003f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000d3",
+    "simfileId": "5f4294d20002e9000000003f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000003f/"
+  }
+}

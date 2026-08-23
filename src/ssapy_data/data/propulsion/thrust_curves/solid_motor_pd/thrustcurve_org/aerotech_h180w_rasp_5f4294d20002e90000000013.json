@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 180,
+    "burnTimeS": 1.3,
+    "caseInfo": "RMS-29/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H180",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H180W",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 238,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 228.5,
+    "motorId": "5f4294d2000231000000008b",
+    "propInfo": "White Lightning",
+    "propWeightG": 123.9,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H180W/",
+    "sparky": false,
+    "totImpulseNs": 217.7,
+    "totalWeightG": 252,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000013/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000013/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000008b",
+    "simfileId": "5f4294d20002e90000000013",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000013/"
+  }
+}

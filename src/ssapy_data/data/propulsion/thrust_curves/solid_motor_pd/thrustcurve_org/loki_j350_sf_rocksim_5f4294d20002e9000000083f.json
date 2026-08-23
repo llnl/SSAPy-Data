@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 350,
+    "burnTimeS": 2.67,
+    "caseInfo": "54/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J350",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J350-SF",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 327,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 448,
+    "motorId": "5f4294d200023100000002b1",
+    "propInfo": "Spitfire",
+    "propWeightG": 590,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J350-SF/",
+    "sparky": true,
+    "totImpulseNs": 931,
+    "totalWeightG": 1260,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000083f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000083f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002b1",
+    "simfileId": "5f4294d20002e9000000083f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000083f/"
+  }
+}

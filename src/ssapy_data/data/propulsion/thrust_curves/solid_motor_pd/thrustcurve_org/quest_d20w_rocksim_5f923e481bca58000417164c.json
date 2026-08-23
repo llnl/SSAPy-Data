@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 18.25,
+    "burnTimeS": 0.76,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "D20",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8",
+    "designation": "D20W",
+    "diameter": 18,
+    "impulseClass": "D",
+    "length": 81,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 24.34,
+    "motorId": "5f7d30aa606b5d00041d9abc",
+    "propInfo": "Fast White Lightning",
+    "propWeightG": 8.7,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/D20W/",
+    "sparky": false,
+    "totImpulseNs": 13.83,
+    "totalWeightG": 24.1,
+    "type": "SU",
+    "updatedOn": "2020-10-07"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923e481bca58000417164c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923e481bca58000417164c/",
+    "license": "PD",
+    "motorId": "5f7d30aa606b5d00041d9abc",
+    "simfileId": "5f923e481bca58000417164c",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923e481bca58000417164c/"
+  }
+}

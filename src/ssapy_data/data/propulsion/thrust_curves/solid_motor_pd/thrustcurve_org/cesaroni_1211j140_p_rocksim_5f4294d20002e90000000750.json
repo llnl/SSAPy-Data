@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 142.9,
+    "burnTimeS": 8.47,
+    "caseInfo": "Pro54-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J140",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1211J140-P",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 329,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 221.8,
+    "motorId": "5f4294d200023100000003a5",
+    "propInfo": "White",
+    "propWeightG": 680,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/1211J140-P/",
+    "sparky": false,
+    "totImpulseNs": 1210.6,
+    "totalWeightG": 1279.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000750/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000750/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a5",
+    "simfileId": "5f4294d20002e90000000750",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000750/"
+  }
+}

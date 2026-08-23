@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 70,
+    "burnTimeS": 1.7,
+    "caseInfo": "38/120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G70",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "8,10,12,14,18",
+    "designation": "G70-CT",
+    "diameter": 38,
+    "impulseClass": "G",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20cocktail.pdf",
+    "length": 122.2,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 101,
+    "motorId": "5f4294d2000231000000044a",
+    "propInfo": "Cocktail",
+    "propWeightG": 64,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/G70-CT/",
+    "sparky": false,
+    "totImpulseNs": 119,
+    "totalWeightG": 242,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000865/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000865/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000044a",
+    "simfileId": "5f4294d20002e90000000865",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000865/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 148.4,
+    "burnTimeS": 6.4,
+    "caseInfo": "Pro38-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J150",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "949J150-P",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 500,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 343.2,
+    "motorId": "5f4294d20002310000000417",
+    "propInfo": "Mellow",
+    "propWeightG": 567.7,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/949J150-P/",
+    "sparky": false,
+    "totImpulseNs": 949.2,
+    "totalWeightG": 951,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000080f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000080f/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000417",
+    "simfileId": "5f4294d20002e9000000080f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000080f/"
+  }
+}

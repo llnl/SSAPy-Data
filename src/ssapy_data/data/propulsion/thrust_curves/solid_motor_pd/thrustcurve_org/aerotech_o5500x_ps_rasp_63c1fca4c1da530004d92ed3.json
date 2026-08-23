@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 5514.6,
+    "burnTimeS": 4.03,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "O5500",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "O5500X-PS",
+    "diameter": 98,
+    "impulseClass": "O",
+    "length": 1507,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 7551.5,
+    "motorId": "5f4294d2000231000000046c",
+    "propInfo": "Propellant X",
+    "propWeightG": 9779,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/O5500X-PS/",
+    "sparky": false,
+    "totImpulseNs": 21384,
+    "totalWeightG": 16783,
+    "type": "SU",
+    "updatedOn": "2023-01-11"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/63c1fca4c1da530004d92ed3/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/63c1fca4c1da530004d92ed3/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000046c",
+    "simfileId": "63c1fca4c1da530004d92ed3",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/63c1fca4c1da530004d92ed3/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1648,
+    "burnTimeS": 4,
+    "caseInfo": "76/6000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1650",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1650LC",
+    "diameter": 76,
+    "impulseClass": "M",
+    "length": 784,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 3719,
+    "motorId": "5f4294d20002310000000435",
+    "propInfo": "Cocktail",
+    "propWeightG": 3230,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/M1650LC/",
+    "sparky": false,
+    "totImpulseNs": 6535,
+    "totalWeightG": 5630,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000825/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000825/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000435",
+    "simfileId": "5f4294d20002e90000000825",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000825/"
+  }
+}

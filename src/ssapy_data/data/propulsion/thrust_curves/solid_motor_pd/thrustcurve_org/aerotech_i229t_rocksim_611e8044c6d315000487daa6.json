@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 229,
+    "burnTimeS": 1.77729257641921,
+    "caseInfo": "RMS-54/426",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I229",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I229T",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 156,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d200023100000001e8",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 196,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I229T/",
+    "sparky": false,
+    "totImpulseNs": 407,
+    "totalWeightG": 514,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/611e8044c6d315000487daa6/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/611e8044c6d315000487daa6/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001e8",
+    "simfileId": "611e8044c6d315000487daa6",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/611e8044c6d315000487daa6/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 458,
+    "burnTimeS": 6,
+    "caseInfo": "RMS-98/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K458",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K458W",
+    "diameter": 98,
+    "impulseClass": "K",
+    "length": 275,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 585.8,
+    "motorId": "5f4294d2000231000000013e",
+    "propInfo": "White Lightning",
+    "propWeightG": 1425,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K458W/",
+    "sparky": false,
+    "totImpulseNs": 2464.6,
+    "totalWeightG": 3163.78,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000006d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000006d/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000013e",
+    "simfileId": "5f4294d20002e9000000006d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000006d/"
+  }
+}

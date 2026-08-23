@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 519.404,
+    "burnTimeS": 1.634,
+    "caseInfo": "Pro38-6GXL",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J520",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,9,11,13,16",
+    "designation": "848J520-16A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 510,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 658.16,
+    "motorId": "5f4294d200023100000002ed",
+    "propInfo": "Skidmark",
+    "propWeightG": 498,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/848J520-16A/",
+    "sparky": true,
+    "totImpulseNs": 848.43,
+    "totalWeightG": 850,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000071e/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000071e/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002ed",
+    "simfileId": "5f4294d20002e9000000071e",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000071e/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 552,
+    "burnTimeS": 0.56,
+    "caseInfo": "38 DMS",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H550",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-H550ST",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 206,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 640,
+    "motorId": "5f4294d20002310000000432",
+    "propInfo": "Super Thunder",
+    "propWeightG": 176,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-H550ST/",
+    "sparky": false,
+    "totImpulseNs": 312,
+    "totalWeightG": 316,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9244531bca580004171747/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9244531bca580004171747/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000432",
+    "simfileId": "5f9244531bca580004171747",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9244531bca580004171747/"
+  }
+}

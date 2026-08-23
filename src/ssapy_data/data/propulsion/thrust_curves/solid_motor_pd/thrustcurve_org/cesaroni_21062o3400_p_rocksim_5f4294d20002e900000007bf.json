@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3416.7,
+    "burnTimeS": 6.16,
+    "caseInfo": "Pro98-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "O3400",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "21062O3400-P",
+    "diameter": 98,
+    "impulseClass": "O",
+    "length": 1239,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 4750.3,
+    "motorId": "5f4294d200023100000003ee",
+    "propInfo": "Imax",
+    "propWeightG": 10930,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/21062O3400-P/",
+    "sparky": false,
+    "totImpulseNs": 21062.2,
+    "totalWeightG": 16842,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007bf/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007bf/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ee",
+    "simfileId": "5f4294d20002e900000007bf",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007bf/"
+  }
+}

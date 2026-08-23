@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 242,
+    "burnTimeS": 1.06,
+    "caseInfo": "RMS-38/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H242",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H242T",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 152,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 276.6,
+    "motorId": "5f4294d20002310000000091",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 114.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H242T/",
+    "sparky": false,
+    "totImpulseNs": 231.7,
+    "totalWeightG": 264,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000019/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000019/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000091",
+    "simfileId": "5f4294d20002e90000000019",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000019/"
+  }
+}

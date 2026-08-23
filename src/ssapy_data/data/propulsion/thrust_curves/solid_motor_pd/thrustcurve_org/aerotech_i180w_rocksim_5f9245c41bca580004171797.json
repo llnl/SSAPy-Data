@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 180,
+    "burnTimeS": 1.8,
+    "caseInfo": "RMS-38/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I180",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10,12,14",
+    "designation": "I180W",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 191,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 362,
+    "motorId": "5f4294d20002310000000443",
+    "propInfo": "White Lightning",
+    "propWeightG": 180,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I180W/",
+    "sparky": false,
+    "totImpulseNs": 326,
+    "totalWeightG": 385,
+    "type": "reload",
+    "updatedOn": "2020-11-25"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9245c41bca580004171797/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9245c41bca580004171797/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000443",
+    "simfileId": "5f9245c41bca580004171797",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9245c41bca580004171797/"
+  }
+}

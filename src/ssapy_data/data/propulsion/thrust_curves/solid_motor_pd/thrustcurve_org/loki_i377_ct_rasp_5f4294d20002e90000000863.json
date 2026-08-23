@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 377,
+    "burnTimeS": 1.38,
+    "caseInfo": "38/480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I377",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "8,10,12,14,18",
+    "designation": "I377-CT",
+    "diameter": 38,
+    "impulseClass": "I",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20cocktail.pdf",
+    "length": 292.1,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 659,
+    "motorId": "5f4294d20002310000000448",
+    "propInfo": "Cocktail",
+    "propWeightG": 250,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/I377-CT/",
+    "sparky": false,
+    "totImpulseNs": 522,
+    "totalWeightG": 560,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000863/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000863/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000448",
+    "simfileId": "5f4294d20002e90000000863",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000863/"
+  }
+}

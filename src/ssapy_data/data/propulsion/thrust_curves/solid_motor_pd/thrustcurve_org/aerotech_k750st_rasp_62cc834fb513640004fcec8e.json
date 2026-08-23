@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 746.56,
+    "burnTimeS": 1.74,
+    "caseInfo": "RMS-75/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K750",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K750ST",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 267,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 835.69,
+    "motorId": "627bbef01b11ab0004a4bb20",
+    "propInfo": "Super Thunder",
+    "propWeightG": 595,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K750ST/",
+    "sparky": false,
+    "totImpulseNs": 1298.73,
+    "totalWeightG": 1947.5,
+    "type": "reload",
+    "updatedOn": "2022-05-11"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/62cc834fb513640004fcec8e/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/62cc834fb513640004fcec8e/",
+    "license": "PD",
+    "motorId": "627bbef01b11ab0004a4bb20",
+    "simfileId": "62cc834fb513640004fcec8e",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/62cc834fb513640004fcec8e/"
+  }
+}

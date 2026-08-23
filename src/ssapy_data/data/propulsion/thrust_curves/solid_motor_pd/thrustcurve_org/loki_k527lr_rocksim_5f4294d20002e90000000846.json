@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 526,
+    "burnTimeS": 3.9,
+    "caseInfo": "54/2000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K527",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K527LR",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 492,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 754,
+    "motorId": "5f4294d20002310000000434",
+    "propInfo": "Loki Red",
+    "propWeightG": 1014.9999999999999,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/K527LR/",
+    "sparky": false,
+    "totImpulseNs": 1983,
+    "totalWeightG": 1973,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000846/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000846/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000434",
+    "simfileId": "5f4294d20002e90000000846",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000846/"
+  }
+}

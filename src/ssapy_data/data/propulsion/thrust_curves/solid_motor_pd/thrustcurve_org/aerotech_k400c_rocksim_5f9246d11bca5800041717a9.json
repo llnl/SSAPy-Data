@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 409,
+    "burnTimeS": 3.2,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K400",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "K400C",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 359,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 546,
+    "motorId": "5f4294d20002310000000450",
+    "propInfo": "Classic",
+    "propWeightG": 493,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K400C/",
+    "sparky": false,
+    "totImpulseNs": 1304,
+    "totalWeightG": 1194,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9246d11bca5800041717a9/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9246d11bca5800041717a9/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000450",
+    "simfileId": "5f9246d11bca5800041717a9",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9246d11bca5800041717a9/"
+  }
+}

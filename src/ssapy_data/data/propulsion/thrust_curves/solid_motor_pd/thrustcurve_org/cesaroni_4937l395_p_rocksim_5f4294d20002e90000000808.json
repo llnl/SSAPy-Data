@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 393.7,
+    "burnTimeS": 12.52,
+    "caseInfo": "Pro75-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L395",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "4937L395-P",
+    "diameter": 75,
+    "impulseClass": "L",
+    "infoUrl": "http://www.pro38.com/products/pro75/motor/MotorData.php?prodid=4937L395-P",
+    "length": 757,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 587.5,
+    "motorId": "5f4294d2000231000000041e",
+    "propInfo": "Mellow",
+    "propWeightG": 3423,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/4937L395-P/",
+    "sparky": false,
+    "totImpulseNs": 4936.8,
+    "totalWeightG": 5706,
+    "type": "reload",
+    "updatedOn": "2021-12-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000808/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000808/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000041e",
+    "simfileId": "5f4294d20002e90000000808",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000808/"
+  }
+}

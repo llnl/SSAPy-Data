@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 315.1,
+    "burnTimeS": 2.08,
+    "caseInfo": "Pro38-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J316",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "8,10,12,14,17",
+    "designation": "654J316-17A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 367,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 448.7,
+    "motorId": "5f4294d200023100000003d4",
+    "propInfo": "Pink",
+    "propWeightG": 256.3,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/654J316-17A/",
+    "sparky": false,
+    "totImpulseNs": 654.3,
+    "totalWeightG": 607.1,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007a0/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007a0/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d4",
+    "simfileId": "5f4294d20002e900000007a0",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007a0/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 94,
+    "burnTimeS": 1.29,
+    "caseInfo": "38/120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G94",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "5,8,11,14,18",
+    "designation": "HP-G94-IB",
+    "diameter": 38,
+    "impulseClass": "G",
+    "infoUrl": "http://www.lokiresearch.com/images/Documents/38mm%20Ice%20Blue.pdf",
+    "length": 122,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 131,
+    "motorId": "5f4294d2000231000000044b",
+    "propInfo": "Ice Blue",
+    "propWeightG": 62,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/HP-G94-IB/",
+    "sparky": false,
+    "totImpulseNs": 121,
+    "totalWeightG": 240,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000866/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000866/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000044b",
+    "simfileId": "5f4294d20002e90000000866",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000866/"
+  }
+}

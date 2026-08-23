@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 236.2,
+    "burnTimeS": 0.29,
+    "caseInfo": "Pro24-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F240",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "8,10,12,15",
+    "designation": "68F240-15A",
+    "diameter": 24,
+    "impulseClass": "F",
+    "length": 133,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 285.9,
+    "motorId": "5f4294d20002310000000392",
+    "propInfo": "Vmax",
+    "propWeightG": 30.3,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/68F240-15A/",
+    "sparky": false,
+    "totImpulseNs": 68.3,
+    "totalWeightG": 91.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000072c/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000072c/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000392",
+    "simfileId": "5f4294d20002e9000000072c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000072c/"
+  }
+}

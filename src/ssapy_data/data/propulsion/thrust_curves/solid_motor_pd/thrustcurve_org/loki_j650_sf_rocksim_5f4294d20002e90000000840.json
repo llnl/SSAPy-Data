@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 648,
+    "burnTimeS": 1.45,
+    "caseInfo": "38/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J650",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J650-SF",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 625,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 974,
+    "motorId": "5f4294d200023100000002b2",
+    "propInfo": "Spitfire",
+    "propWeightG": 573,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J650-SF/",
+    "sparky": true,
+    "totImpulseNs": 942,
+    "totalWeightG": 1143,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000840/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000840/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002b2",
+    "simfileId": "5f4294d20002e90000000840",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000840/"
+  }
+}

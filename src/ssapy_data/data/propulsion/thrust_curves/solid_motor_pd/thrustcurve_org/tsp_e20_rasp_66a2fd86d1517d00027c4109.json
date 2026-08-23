@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 20,
+    "burnTimeS": 2,
+    "certOrg": "Uncertified",
+    "commonName": "E20",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "0,2,4,6,8",
+    "designation": "E20",
+    "diameter": 24,
+    "impulseClass": "E",
+    "length": 95,
+    "manufacturer": "Piotr Tendera Rocket Motors",
+    "manufacturerAbbrev": "TSP",
+    "motorId": "66a0d44ba8c15d000226a854",
+    "propInfo": "composite",
+    "propWeightG": 27.599999999999998,
+    "source_url": "http://www.thrustcurve.org/motors/TSP/E20/",
+    "sparky": false,
+    "totImpulseNs": 36,
+    "totalWeightG": 64,
+    "type": "SU",
+    "updatedOn": "2024-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66a2fd86d1517d00027c4109/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66a2fd86d1517d00027c4109/",
+    "license": "PD",
+    "motorId": "66a0d44ba8c15d000226a854",
+    "simfileId": "66a2fd86d1517d00027c4109",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/66a2fd86d1517d00027c4109/"
+  }
+}

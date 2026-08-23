@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 283,
+    "burnTimeS": 0.7,
+    "caseInfo": "DMS",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H283",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,9,11,13,15",
+    "designation": "H283ST-15A",
+    "diameter": 38,
+    "impulseClass": "H",
+    "infoUrl": "https://aerotech-rocketry.com/products/product_3b93c88c-21ab-ae24-dc14-a061c82ff2e1",
+    "length": 155,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 327,
+    "motorId": "5f4294d20002310000000455",
+    "propInfo": "Super Thunder",
+    "propWeightG": 97,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H283ST-15A/",
+    "sparky": false,
+    "totImpulseNs": 201,
+    "totalWeightG": 247,
+    "type": "SU",
+    "updatedOn": "2026-02-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9242b61bca580004171734/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9242b61bca580004171734/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000455",
+    "simfileId": "5f9242b61bca580004171734",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9242b61bca580004171734/"
+  }
+}

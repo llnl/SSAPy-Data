@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 32.95,
+    "burnTimeS": 1.02,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "E30",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,7",
+    "designation": "E30",
+    "diameter": 24,
+    "impulseClass": "E",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/E30.pdf",
+    "length": 70,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 49.3,
+    "motorId": "5f4294d200023100000003e4",
+    "propInfo": "black powder",
+    "propWeightG": 17.8,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/E30/",
+    "sparky": false,
+    "totImpulseNs": 33.56,
+    "totalWeightG": 47,
+    "type": "SU",
+    "updatedOn": "2020-12-02"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923ea81bca580004171654/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923ea81bca580004171654/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e4",
+    "simfileId": "5f923ea81bca580004171654",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923ea81bca580004171654/"
+  }
+}

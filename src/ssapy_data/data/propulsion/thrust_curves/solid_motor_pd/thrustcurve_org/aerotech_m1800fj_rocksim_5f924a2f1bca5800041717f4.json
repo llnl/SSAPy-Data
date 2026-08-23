@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1833.29,
+    "burnTimeS": 4.5,
+    "caseInfo": "RMS-98/10240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1800",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1800FJ",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 751,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 3956,
+    "motorId": "5f4294d20002310000000248",
+    "propInfo": "Black Max",
+    "propWeightG": 5599,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1800FJ/",
+    "sparky": false,
+    "totImpulseNs": 8207.7,
+    "totalWeightG": 9162,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f924a2f1bca5800041717f4/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f924a2f1bca5800041717f4/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000248",
+    "simfileId": "5f924a2f1bca5800041717f4",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f924a2f1bca5800041717f4/"
+  }
+}

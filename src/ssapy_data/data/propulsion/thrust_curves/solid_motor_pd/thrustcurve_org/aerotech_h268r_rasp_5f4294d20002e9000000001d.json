@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 268,
+    "burnTimeS": 1.19,
+    "caseInfo": "RMS-29/360",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "H268",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H268R",
+    "diameter": 29,
+    "impulseClass": "H",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/H268.pdf",
+    "length": 333,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d20002310000000093",
+    "propInfo": "Redline",
+    "propWeightG": 166,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H268R/",
+    "sparky": false,
+    "totImpulseNs": 320,
+    "totalWeightG": 358.4,
+    "type": "reload",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000001d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000001d/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000093",
+    "simfileId": "5f4294d20002e9000000001d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000001d/"
+  }
+}

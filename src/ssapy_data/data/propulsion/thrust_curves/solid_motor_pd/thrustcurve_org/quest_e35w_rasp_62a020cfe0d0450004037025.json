@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 33.81,
+    "burnTimeS": 1.08,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "E35",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "5,8,11",
+    "designation": "E35W",
+    "diameter": 24,
+    "impulseClass": "E",
+    "length": 113,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 43.96,
+    "motorId": "629ee7b1e0d0450004036826",
+    "propInfo": "White Lightning",
+    "propWeightG": 25.4,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/E35W/",
+    "sparky": false,
+    "totImpulseNs": 39.38,
+    "totalWeightG": 55,
+    "type": "SU",
+    "updatedOn": "2022-06-07"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/62a020cfe0d0450004037025/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/62a020cfe0d0450004037025/",
+    "license": "PD",
+    "motorId": "629ee7b1e0d0450004036826",
+    "simfileId": "62a020cfe0d0450004037025",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/62a020cfe0d0450004037025/"
+  }
+}

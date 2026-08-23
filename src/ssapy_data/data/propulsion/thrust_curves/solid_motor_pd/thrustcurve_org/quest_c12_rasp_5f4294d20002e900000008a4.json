@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 11.7,
+    "burnTimeS": 0.84,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "C12",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8",
+    "designation": "C12",
+    "diameter": 18,
+    "impulseClass": "C",
+    "length": 78.7,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 17.5,
+    "motorId": "5f4294d2000231000000045e",
+    "propInfo": "Black Max",
+    "propWeightG": 10.4,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/C12/",
+    "sparky": false,
+    "totImpulseNs": 9.8,
+    "totalWeightG": 23.7,
+    "type": "SU",
+    "updatedOn": "2024-06-12"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008a4/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008a4/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000045e",
+    "simfileId": "5f4294d20002e900000008a4",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008a4/"
+  }
+}

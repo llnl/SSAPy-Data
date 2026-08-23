@@ -1,0 +1,27 @@
+dataset,anode_flow_mg_s,cathode_flow_mg_s,total_flow_mg_s,discharge_current_a,discharge_voltage_v,aux_magnet_current_a,inner_magnet_current_a,outer_magnet_current_a,discharge_power_w,thrust_mn,specific_impulse_s,total_efficiency,tank_pressure_torr,notes
+nasa_lerc_1997,15.5,2.0,17.5,15.4,250,0,,,3850,251,1464,0.47,3.8e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.5,2.0,17.5,15.4,250,0,,,3850,251,1464,0.47,3.8e-6,Table 1 duplicate operating condition retained from source table
+nasa_lerc_1997,15.5,2.0,17.5,15.7,248,0,,,3894,251,1464,0.46,3.8e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.5,2.0,17.5,16.0,246,2,,,3937,251,1461,0.46,3.8e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.8,2.0,17.8,15.4,298,0,,,4589,287,1647,0.50,3.8e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.8,0.7,16.5,15.4,300,0,,,4620,270,1670,0.48,3.5e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.7,0.7,16.4,15.3,298,3,,,4561,264,1645,0.47,3.5e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,13.2,0.7,13.9,12.5,300,3,,,3752,221,1617,0.47,3.0e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,12.9,0.7,13.6,12.5,300,0,,,3750,215,1614,0.45,2.9e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,13.2,0.7,13.9,12.5,300,5,,,3758,217,1597,0.45,3.0e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,13.2,0.7,13.9,12.5,399,2,,,4989,263,1929,0.50,3.0e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,13.3,0.7,14.0,12.46,351,2,,,4375,246,1790,0.49,3.0e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,13.1,0.7,13.8,12.51,251,2,,,3142,191,1409,0.42,3.0e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.4,0.7,16.2,15.0,300,2,,,4502,260,1641,0.46,3.5e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,10.7,0.7,11.4,10.02,300,2,,,3008,177,1579,0.46,2.5e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,5.4,0.7,6.1,5.04,300,2,,,1514,87,1449,0.41,1.3e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,14.0,0.7,14.7,14.0,240,0,,,3360,198,1371,0.40,3.2e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.0,0.7,15.8,15.35,220,0,,,3377,201,1302,0.38,3.4e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,15.6,0.7,16.3,17.25,197.2,0,,,3402,189,1181,0.32,3.5e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,16.4,0.7,17.1,19.2,180.2,-1,,,3460,184,1099,0.29,3.7e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,17.5,0.7,18.2,21.1,160,-1,,,3376,175,979,0.25,3.9e-6,Table 1 experimental data at NASA Lewis Research Center
+nasa_lerc_1997,19.7,0.7,20.4,23.2,148.4,-1,,,3446,185,925,0.24,4.4e-6,Table 1 experimental data at NASA Lewis Research Center
+fakel_1997,10.4,0.7,11.1,10.0,340,,11,11,3400,187,1717,0.46,6.1e-5,Table 2 experimental data at Fakel with separate inner and outer magnet control
+fakel_1997,16.8,0.7,17.5,17.0,200,,17,13.5,3400,239,1392,0.48,8.9e-5,Table 2 experimental data at Fakel with separate inner and outer magnet control
+fakel_1997,19.1,0.7,19.8,20.0,170,,17,13.5,3400,242,1246,0.43,1.0e-5,Table 2 experimental data at Fakel with separate inner and outer magnet control
+fakel_1997,21.0,0.7,21.7,21.9,155,,17,13.5,3395,246,1156,0.41,1.1e-5,Table 2 experimental data at Fakel with separate inner and outer magnet control

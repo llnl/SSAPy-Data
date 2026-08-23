@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 55.2,
+    "burnTimeS": 7.51,
+    "caseInfo": "Pro38-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "I55",
+    "dataFiles": 1,
+    "delayAdjustable": true,
+    "delays": "2,4,6,9",
+    "designation": "395I55-9A",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 245,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 94.5,
+    "motorId": "5f4294d20002310000000415",
+    "propInfo": "Mellow",
+    "propWeightG": 223.8,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/395I55-9A/",
+    "sparky": false,
+    "totImpulseNs": 394.6,
+    "totalWeightG": 437,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000811/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000811/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000415",
+    "simfileId": "5f4294d20002e90000000811",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000811/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 475,
+    "burnTimeS": 5.84084210526316,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L475",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1685CC172L-L475",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1031,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000170",
+    "propWeightG": 1543.3,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/1685CC172L-L475/",
+    "sparky": false,
+    "totImpulseNs": 2774.4,
+    "totalWeightG": 3898.05,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000bd/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000bd/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000170",
+    "simfileId": "5f4294d20002e900000000bd",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000bd/"
+  }
+}

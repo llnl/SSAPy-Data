@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 195,
+    "burnTimeS": 2.1,
+    "caseInfo": "RMS-38/600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I195",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I195J",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 299,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 216.3,
+    "motorId": "5f4294d200023100000000b4",
+    "propInfo": "Blackjack",
+    "propWeightG": 301,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I195J/",
+    "sparky": false,
+    "totImpulseNs": 426.1,
+    "totalWeightG": 572,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000002f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000002f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000b4",
+    "simfileId": "5f4294d20002e9000000002f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000002f/"
+  }
+}

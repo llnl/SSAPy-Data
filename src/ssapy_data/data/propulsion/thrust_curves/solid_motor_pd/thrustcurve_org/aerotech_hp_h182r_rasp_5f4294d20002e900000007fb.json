@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 182,
+    "burnTimeS": 1.2,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H182",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-H182R",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 203,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 192,
+    "motorId": "5f4294d20002310000000405",
+    "propInfo": "Redline",
+    "propWeightG": 115,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-H182R/",
+    "sparky": false,
+    "totImpulseNs": 218,
+    "totalWeightG": 207,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007fb/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007fb/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000405",
+    "simfileId": "5f4294d20002e900000007fb",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007fb/"
+  }
+}

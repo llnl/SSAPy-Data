@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 106.9,
+    "burnTimeS": 1.3,
+    "caseInfo": "Pro24-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G107",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,9,12",
+    "designation": "139G107-12A",
+    "diameter": 24,
+    "impulseClass": "G",
+    "length": 228,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 230.7,
+    "motorId": "5f4294d20002310000000391",
+    "propInfo": "White Thunder",
+    "propWeightG": 75.7,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/139G107-12A/",
+    "sparky": false,
+    "totImpulseNs": 139.1,
+    "totalWeightG": 169.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000072f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000072f/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000391",
+    "simfileId": "5f4294d20002e9000000072f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000072f/"
+  }
+}

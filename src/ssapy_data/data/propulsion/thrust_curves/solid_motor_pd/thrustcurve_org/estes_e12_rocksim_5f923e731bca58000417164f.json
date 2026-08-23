@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 11.17,
+    "burnTimeS": 2.44,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "E12",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "0,4,6,8",
+    "designation": "E12",
+    "diameter": 24,
+    "impulseClass": "E",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/E12.pdf",
+    "length": 95,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 33.29,
+    "motorId": "5f4294d200023100000003e3",
+    "propInfo": "black powder",
+    "propWeightG": 35.9,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/E12/",
+    "sparky": false,
+    "totImpulseNs": 27.24,
+    "totalWeightG": 58.7,
+    "type": "SU",
+    "updatedOn": "2026-08-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923e731bca58000417164f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923e731bca58000417164f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e3",
+    "simfileId": "5f923e731bca58000417164f",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923e731bca58000417164f/"
+  }
+}

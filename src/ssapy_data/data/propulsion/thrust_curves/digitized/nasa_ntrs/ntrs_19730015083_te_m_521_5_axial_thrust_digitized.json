@@ -1,0 +1,32 @@
+{
+  "columns": {
+    "thrust_lbf": "Digitized axial thrust in pounds-force from the source figure.",
+    "thrust_n": "Digitized axial thrust converted with 1 lbf = 4.4482216152605 N.",
+    "time_s": "Time after ignition in seconds."
+  },
+  "digitization": {
+    "curve": "Current test axial thrust curve, T=40 deg F, spin=46 rpm.",
+    "estimated_uncertainty": {
+      "notes": "Aged scan, skew, symbols, labels, and overlapping pressure traces limit precision.",
+      "thrust_lbf": 150.0,
+      "time_s": 0.15
+    },
+    "method": "Manual curve digitization from a 250 dpi rendered PDF page using calibrated plot axes."
+  },
+  "schema_version": 1,
+  "source": {
+    "distribution": "PUBLIC",
+    "export_control": "NO ITAR, NO EAR",
+    "figure": "Figure 7, Variation of Thrust, Chamber Pressure, and Test Cell Pressure during Firing",
+    "ntrs_id": "19730015083",
+    "retrieved": "2026-08-22",
+    "rights": "GOV_PUBLIC_USE_PERMITTED",
+    "title": "Design assurance test of the Thiokol Te-M-521-5 apogee kick motor tested in the spin mode at simulated altitude conditions",
+    "url": "https://ntrs.nasa.gov/citations/19730015083"
+  },
+  "title": "TE-M-521-5 apogee kick motor axial thrust curve, digitized from Fig. 7",
+  "validation": {
+    "integrated_digitized_impulse_lbf_s": 60827.5,
+    "published_context": "Report text gives vacuum total impulse of 71,469 lbf-s; this CSV digitizes plotted axial thrust, not the vacuum-corrected total impulse."
+  }
+}

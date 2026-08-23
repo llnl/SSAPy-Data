@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1241.6,
+    "burnTimeS": 4.485,
+    "caseInfo": "76/6000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1200",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1200-SF",
+    "diameter": 76,
+    "impulseClass": "M",
+    "length": 785,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1550,
+    "motorId": "5f4294d200023100000002ad",
+    "propInfo": "Spitfire",
+    "propWeightG": 2968,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/M1200-SF/",
+    "sparky": true,
+    "totImpulseNs": 5122.6,
+    "totalWeightG": 5368,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000084b/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000084b/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002ad",
+    "simfileId": "5f4294d20002e9000000084b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000084b/"
+  }
+}

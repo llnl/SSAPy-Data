@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2504,
+    "burnTimeS": 1.86,
+    "caseInfo": "RMS-98/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L2500",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L2500ST",
+    "diameter": 98,
+    "impulseClass": "L",
+    "length": 443,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2830,
+    "motorId": "5f4294d20002310000000444",
+    "propInfo": "Super Thunder",
+    "propWeightG": 2313,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L2500ST/",
+    "sparky": false,
+    "totImpulseNs": 4668,
+    "totalWeightG": 4989,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9249591bca5800041717d8/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9249591bca5800041717d8/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000444",
+    "simfileId": "5f9249591bca5800041717d8",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9249591bca5800041717d8/"
+  }
+}

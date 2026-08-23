@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1437,
+    "burnTimeS": 1.65,
+    "caseInfo": "Pro54-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K1440",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,8,9,10,11,12,13,14,15,16,17",
+    "designation": "2372K1440-17A",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 572,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1828.9,
+    "motorId": "5f4294d20002310000000261",
+    "propInfo": "White Thunder",
+    "propWeightG": 1129,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2372K1440-17A/",
+    "sparky": false,
+    "totImpulseNs": 2372,
+    "totalWeightG": 1892.6,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000852/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000852/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000261",
+    "simfileId": "5f4294d20002e90000000852",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000852/"
+  }
+}

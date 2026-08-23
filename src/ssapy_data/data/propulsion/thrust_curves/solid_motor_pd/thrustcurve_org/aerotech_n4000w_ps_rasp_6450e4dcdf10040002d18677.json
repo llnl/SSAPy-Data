@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3905.9,
+    "burnTimeS": 4.65,
+    "caseInfo": "RMS-98/20480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N4000",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N4000W-PS",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1433,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 5398.3,
+    "motorId": "645072a02cdedd00028df82d",
+    "propInfo": "White Lightning",
+    "propWeightG": 9800,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N4000W-PS/",
+    "sparky": false,
+    "totImpulseNs": 18183.8,
+    "totalWeightG": 16375,
+    "type": "reload",
+    "updatedOn": "2023-05-02"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/6450e4dcdf10040002d18677/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/6450e4dcdf10040002d18677/",
+    "license": "PD",
+    "motorId": "645072a02cdedd00028df82d",
+    "simfileId": "6450e4dcdf10040002d18677",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/6450e4dcdf10040002d18677/"
+  }
+}

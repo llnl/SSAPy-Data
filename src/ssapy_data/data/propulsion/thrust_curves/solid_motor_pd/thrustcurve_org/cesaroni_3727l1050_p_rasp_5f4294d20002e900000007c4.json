@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1046.1,
+    "burnTimeS": 3.56,
+    "caseInfo": "Pro75-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L1050",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "3727L1050-P",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 486,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1208.4,
+    "motorId": "5f4294d200023100000003de",
+    "propInfo": "Blue Streak",
+    "propWeightG": 1774,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/3727L1050-P/",
+    "sparky": false,
+    "totImpulseNs": 3727,
+    "totalWeightG": 3447.7,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007c4/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007c4/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003de",
+    "simfileId": "5f4294d20002e900000007c4",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007c4/"
+  }
+}

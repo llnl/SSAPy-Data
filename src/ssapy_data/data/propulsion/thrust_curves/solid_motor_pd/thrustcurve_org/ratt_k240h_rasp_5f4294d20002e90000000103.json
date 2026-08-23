@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 240,
+    "burnTimeS": 7.68625,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K240",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K240H",
+    "diameter": 64,
+    "impulseClass": "K",
+    "length": 908,
+    "manufacturer": "R.A.T.T. Works",
+    "manufacturerAbbrev": "RATT",
+    "motorId": "5f4294d20002310000000130",
+    "propWeightG": 1292,
+    "source_url": "http://www.thrustcurve.org/motors/RATT/K240H/",
+    "sparky": false,
+    "totImpulseNs": 1844.7,
+    "totalWeightG": 2814.34,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000103/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000103/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000130",
+    "simfileId": "5f4294d20002e90000000103",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000103/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 259.8,
+    "burnTimeS": 7.78,
+    "caseInfo": "Pro54-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K261",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2021K261-P",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 488,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 370.1,
+    "motorId": "5f4294d200023100000003a6",
+    "propInfo": "White",
+    "propWeightG": 1151.9,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2021K261-P/",
+    "sparky": false,
+    "totImpulseNs": 2020.9,
+    "totalWeightG": 1931.7,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000074f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000074f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a6",
+    "simfileId": "5f4294d20002e9000000074f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000074f/"
+  }
+}

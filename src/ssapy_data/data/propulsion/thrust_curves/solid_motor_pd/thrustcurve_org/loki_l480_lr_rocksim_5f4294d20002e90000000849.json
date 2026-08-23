@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 500,
+    "burnTimeS": 6.4,
+    "caseInfo": "76/3600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L480",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L480-LR",
+    "diameter": 76,
+    "impulseClass": "L",
+    "length": 498,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 567,
+    "motorId": "5f4294d200023100000002ef",
+    "propInfo": "Loki Red",
+    "propWeightG": 1814,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/L480-LR/",
+    "sparky": false,
+    "totImpulseNs": 3200,
+    "totalWeightG": 3538,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000849/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000849/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002ef",
+    "simfileId": "5f4294d20002e90000000849",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000849/"
+  }
+}

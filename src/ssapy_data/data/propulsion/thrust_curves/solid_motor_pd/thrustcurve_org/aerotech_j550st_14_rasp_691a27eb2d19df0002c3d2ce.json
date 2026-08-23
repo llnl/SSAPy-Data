@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 557,
+    "burnTimeS": 1.31,
+    "caseInfo": "RMS-54/852",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J550",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "14",
+    "designation": "J550ST-14",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 231,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 649,
+    "motorId": "6919f2962d19df0002c3a09f",
+    "propInfo": "Super Thunder",
+    "propWeightG": 371,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J550ST-14/",
+    "sparky": false,
+    "totImpulseNs": 732,
+    "totalWeightG": 828,
+    "type": "reload",
+    "updatedOn": "2025-11-16"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/691a27eb2d19df0002c3d2ce/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/691a27eb2d19df0002c3d2ce/",
+    "license": "PD",
+    "motorId": "6919f2962d19df0002c3a09f",
+    "simfileId": "691a27eb2d19df0002c3d2ce",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/691a27eb2d19df0002c3d2ce/"
+  }
+}

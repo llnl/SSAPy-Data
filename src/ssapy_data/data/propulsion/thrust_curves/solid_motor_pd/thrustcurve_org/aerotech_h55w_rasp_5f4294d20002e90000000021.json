@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 55,
+    "burnTimeS": 2.45,
+    "caseInfo": "SU 29x191",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H55",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "H55W",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 191,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 113.3,
+    "motorId": "5f4294d20002310000000076",
+    "propInfo": "White Lightning",
+    "propWeightG": 99.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H55W/",
+    "sparky": false,
+    "totImpulseNs": 162.3,
+    "totalWeightG": 188.16,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000021/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000021/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000076",
+    "simfileId": "5f4294d20002e90000000021",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000021/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 44,
+    "burnTimeS": 1,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F44",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8",
+    "designation": "F44W",
+    "diameter": 24,
+    "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F44W.pdf",
+    "length": 70,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 50,
+    "motorId": "5f4294d200023100000003ff",
+    "propInfo": "White Lightning",
+    "propWeightG": 19.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F44W/",
+    "sparky": false,
+    "totImpulseNs": 41.5,
+    "totalWeightG": 48,
+    "type": "SU",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9240051bca580004171711/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9240051bca580004171711/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ff",
+    "simfileId": "5f9240051bca580004171711",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9240051bca580004171711/"
+  }
+}

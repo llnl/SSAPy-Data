@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 15.6,
+    "burnTimeS": 0.79,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "D16",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8",
+    "designation": "D16",
+    "diameter": 18,
+    "impulseClass": "D",
+    "length": 79.69999999999999,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 22.3,
+    "motorId": "5f4294d2000231000000045f",
+    "propInfo": "Black Max",
+    "propWeightG": 12.5,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/D16/",
+    "sparky": false,
+    "totImpulseNs": 12.4,
+    "totalWeightG": 25.6,
+    "type": "SU",
+    "updatedOn": "2024-06-12"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000894/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000894/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000045f",
+    "simfileId": "5f4294d20002e90000000894",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000894/"
+  }
+}

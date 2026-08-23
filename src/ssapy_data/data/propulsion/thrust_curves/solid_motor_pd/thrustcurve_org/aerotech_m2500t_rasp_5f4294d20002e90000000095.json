@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2500,
+    "burnTimeS": 3.85,
+    "caseInfo": "RMS-98/10240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2500",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M2500T",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 751,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 3710.9,
+    "motorId": "5f4294d200023100000001b8",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 4711.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M2500T/",
+    "sparky": false,
+    "totImpulseNs": 9671,
+    "totalWeightG": 8064,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000095/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000095/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001b8",
+    "simfileId": "5f4294d20002e90000000095",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000095/"
+  }
+}

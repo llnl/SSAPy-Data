@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 315,
+    "burnTimeS": 2.4231746031746,
+    "caseInfo": "RMS-54/852",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J315",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J315R",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 230,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d20002310000000106",
+    "propInfo": "Redline",
+    "propWeightG": 438,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J315R/",
+    "sparky": false,
+    "totImpulseNs": 763.3,
+    "totalWeightG": 851.2,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000053/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000053/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000106",
+    "simfileId": "5f4294d20002e90000000053",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000053/"
+  }
+}

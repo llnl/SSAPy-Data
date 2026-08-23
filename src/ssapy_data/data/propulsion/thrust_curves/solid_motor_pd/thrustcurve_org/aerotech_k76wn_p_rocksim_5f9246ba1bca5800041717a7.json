@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 66.76,
+    "burnTimeS": 20.22,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K76",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K76WN-P",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 368,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 299.73,
+    "motorId": "5f7d2b90606b5d00041d9ab1",
+    "propInfo": "White Lightning/Warp 9",
+    "propWeightG": 840,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K76WN-P/",
+    "sparky": false,
+    "totImpulseNs": 1349.83,
+    "totalWeightG": 1277.9,
+    "type": "SU",
+    "updatedOn": "2020-10-07"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9246ba1bca5800041717a7/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9246ba1bca5800041717a7/",
+    "license": "PD",
+    "motorId": "5f7d2b90606b5d00041d9ab1",
+    "simfileId": "5f9246ba1bca5800041717a7",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9246ba1bca5800041717a7/"
+  }
+}

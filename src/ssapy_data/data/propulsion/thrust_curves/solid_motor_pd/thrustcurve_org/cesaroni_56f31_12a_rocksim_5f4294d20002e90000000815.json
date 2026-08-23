@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 31.1,
+    "burnTimeS": 1.78,
+    "caseInfo": "Pro29-1G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F31",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,9,12",
+    "designation": "56F31-12A",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 98,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 65,
+    "motorId": "5f4294d20002310000000411",
+    "propInfo": "Classic",
+    "propWeightG": 70,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/56F31-12A/",
+    "sparky": false,
+    "totImpulseNs": 55.5,
+    "totalWeightG": 102,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000815/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000815/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000411",
+    "simfileId": "5f4294d20002e90000000815",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000815/"
+  }
+}

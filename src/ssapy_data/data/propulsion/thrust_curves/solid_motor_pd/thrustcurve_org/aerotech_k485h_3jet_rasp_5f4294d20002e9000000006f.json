@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 485,
+    "burnTimeS": 3.5,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K485",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K485H-3JET",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 699,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 851.1,
+    "motorId": "5f4294d20002310000000142",
+    "propWeightG": 923.4,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K485H-3JET/",
+    "sparky": false,
+    "totImpulseNs": 1686.8,
+    "totalWeightG": 2220.2999999999997,
+    "type": "hybrid",
+    "updatedOn": "2022-06-15"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000006f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000006f/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000142",
+    "simfileId": "5f4294d20002e9000000006f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000006f/"
+  }
+}

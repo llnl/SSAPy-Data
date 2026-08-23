@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 124,
+    "burnTimeS": 1.94,
+    "caseInfo": "38/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H125",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "8,10,12,14,18",
+    "designation": "H125-CT",
+    "diameter": 38,
+    "impulseClass": "H",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20cocktail.pdf",
+    "length": 177.8,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 206,
+    "motorId": "5f4294d20002310000000447",
+    "propInfo": "Cocktail",
+    "propWeightG": 122,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/H125-CT/",
+    "sparky": false,
+    "totImpulseNs": 240,
+    "totalWeightG": 342,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000862/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000862/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000447",
+    "simfileId": "5f4294d20002e90000000862",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000862/"
+  }
+}

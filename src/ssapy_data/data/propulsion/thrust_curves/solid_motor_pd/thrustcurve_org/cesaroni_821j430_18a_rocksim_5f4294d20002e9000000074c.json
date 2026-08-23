@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 432.4,
+    "burnTimeS": 1.9,
+    "caseInfo": "Pro54-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J430",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "8,9,10,11,12,13,14,15,16,17,18",
+    "designation": "821J430-18A",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 236,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 546.8,
+    "motorId": "5f4294d200023100000003a7",
+    "propInfo": "White Thunder",
+    "propWeightG": 384,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/821J430-18A/",
+    "sparky": false,
+    "totImpulseNs": 821.1,
+    "totalWeightG": 799.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000074c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000074c/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a7",
+    "simfileId": "5f4294d20002e9000000074c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000074c/"
+  }
+}

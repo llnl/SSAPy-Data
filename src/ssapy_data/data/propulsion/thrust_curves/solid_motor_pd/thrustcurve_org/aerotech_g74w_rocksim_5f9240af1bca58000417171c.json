@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 74,
+    "burnTimeS": 1.1,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G74",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8",
+    "designation": "G74W",
+    "diameter": 29,
+    "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G74W.pdf",
+    "length": 93,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 95,
+    "motorId": "5f4294d20002310000000400",
+    "propInfo": "White Lightning",
+    "propWeightG": 39.300000000000004,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G74W/",
+    "sparky": false,
+    "totImpulseNs": 82.75,
+    "totalWeightG": 87,
+    "type": "SU",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9240af1bca58000417171c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9240af1bca58000417171c/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000400",
+    "simfileId": "5f9240af1bca58000417171c",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9240af1bca58000417171c/"
+  }
+}

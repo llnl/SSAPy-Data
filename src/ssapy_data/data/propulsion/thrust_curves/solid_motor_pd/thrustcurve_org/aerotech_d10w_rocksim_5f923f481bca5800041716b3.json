@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 13.39,
+    "burnTimeS": 1.4,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "D10",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "3,5,7",
+    "designation": "D10W",
+    "diameter": 18,
+    "impulseClass": "D",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/D10.pdf",
+    "length": 70,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 25.13,
+    "motorId": "5f4294d200023100000002e3",
+    "propInfo": "White Lightning",
+    "propWeightG": 9.799999999999999,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/D10W/",
+    "sparky": false,
+    "totImpulseNs": 18.75,
+    "totalWeightG": 25.9,
+    "type": "SU",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923f481bca5800041716b3/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923f481bca5800041716b3/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002e3",
+    "simfileId": "5f923f481bca5800041716b3",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923f481bca5800041716b3/"
+  }
+}

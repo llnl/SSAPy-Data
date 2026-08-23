@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 71.6,
+    "burnTimeS": 1.9,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G65",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "11",
+    "designation": "G65DH",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 206,
+    "manufacturer": "Kosdon TRM",
+    "manufacturerAbbrev": "Kosdon",
+    "motorId": "5f4294d2000231000000034a",
+    "propInfo": "Dirty Harry",
+    "propWeightG": 93.6,
+    "source_url": "http://www.thrustcurve.org/motors/Kosdon/G65DH/",
+    "sparky": false,
+    "totImpulseNs": 136.6,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000802/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000802/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000034a",
+    "simfileId": "5f4294d20002e90000000802",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000802/"
+  }
+}

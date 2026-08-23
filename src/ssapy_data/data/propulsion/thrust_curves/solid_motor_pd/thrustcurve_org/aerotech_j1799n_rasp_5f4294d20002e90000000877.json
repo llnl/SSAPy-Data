@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1963.39,
+    "burnTimeS": 0.61,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J1799",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J1799N",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 330,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2965.88,
+    "motorId": "5f4294d200023100000001cf",
+    "propInfo": "Warp 9",
+    "propWeightG": 591,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J1799N/",
+    "sparky": false,
+    "totImpulseNs": 1214.8,
+    "totalWeightG": 1111,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000877/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000877/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001cf",
+    "simfileId": "5f4294d20002e90000000877",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000877/"
+  }
+}

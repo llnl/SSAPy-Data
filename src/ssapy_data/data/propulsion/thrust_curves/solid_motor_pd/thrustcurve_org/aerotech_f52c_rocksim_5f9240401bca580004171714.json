@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 52.65,
+    "burnTimeS": 1.26,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "F52",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "5,6,8,10,12",
+    "designation": "F52C",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 111.4,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 64.33,
+    "motorId": "5f5e57811e865c0004c955d8",
+    "propInfo": "Classic",
+    "propWeightG": 30,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F52C/",
+    "sparky": false,
+    "totImpulseNs": 66.2,
+    "totalWeightG": 81.4,
+    "type": "SU",
+    "updatedOn": "2021-07-03"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9240401bca580004171714/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9240401bca580004171714/",
+    "license": "PD",
+    "motorId": "5f5e57811e865c0004c955d8",
+    "simfileId": "5f9240401bca580004171714",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9240401bca580004171714/"
+  }
+}

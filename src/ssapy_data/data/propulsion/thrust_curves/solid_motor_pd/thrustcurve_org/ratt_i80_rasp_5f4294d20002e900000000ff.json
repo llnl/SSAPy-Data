@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 80,
+    "burnTimeS": 5.8,
+    "caseInfo": "H 276 cc",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I80",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I80",
+    "diameter": 29,
+    "impulseClass": "I",
+    "length": 730,
+    "manufacturer": "R.A.T.T. Works",
+    "manufacturerAbbrev": "RATT",
+    "maxThrustN": 104.4,
+    "motorId": "5f4294d2000231000000009f",
+    "propWeightG": 221.8,
+    "source_url": "http://www.thrustcurve.org/motors/RATT/I80/",
+    "sparky": false,
+    "totImpulseNs": 359.5,
+    "totalWeightG": 553,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000ff/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000ff/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000009f",
+    "simfileId": "5f4294d20002e900000000ff",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000ff/"
+  }
+}

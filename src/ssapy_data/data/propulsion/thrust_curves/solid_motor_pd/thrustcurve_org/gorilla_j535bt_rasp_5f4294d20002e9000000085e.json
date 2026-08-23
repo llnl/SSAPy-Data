@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 535,
+    "burnTimeS": 2.07,
+    "caseInfo": "54/1050",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J535",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J535BT",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 326,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 662.35,
+    "motorId": "5f4294d20002310000000430",
+    "propInfo": "Blue Typhoon",
+    "propWeightG": 635,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/J535BT/",
+    "sparky": false,
+    "totImpulseNs": 1113.8,
+    "totalWeightG": 1225,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000085e/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000085e/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000430",
+    "simfileId": "5f4294d20002e9000000085e",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000085e/"
+  }
+}

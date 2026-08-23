@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 166.8,
+    "burnTimeS": 1.91,
+    "caseInfo": "RMS-38/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H170",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "H170M",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 191,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 208,
+    "motorId": "5f4294d20002310000000387",
+    "propInfo": "Metalstorm",
+    "propWeightG": 182.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H170M/",
+    "sparky": true,
+    "totImpulseNs": 319.9,
+    "totalWeightG": 330,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000719/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000719/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000387",
+    "simfileId": "5f4294d20002e90000000719",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000719/"
+  }
+}

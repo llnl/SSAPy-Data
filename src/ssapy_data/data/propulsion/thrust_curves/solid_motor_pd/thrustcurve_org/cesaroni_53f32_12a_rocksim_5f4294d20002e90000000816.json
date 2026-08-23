@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 31.6,
+    "burnTimeS": 1.67,
+    "caseInfo": "Pro29-1G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F32",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,9,12",
+    "designation": "53F32-12A",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 98,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 49.3,
+    "motorId": "5f4294d20002310000000410",
+    "propInfo": "White",
+    "propWeightG": 29.9,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/53F32-12A/",
+    "sparky": false,
+    "totImpulseNs": 52.8,
+    "totalWeightG": 107,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000816/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000816/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000410",
+    "simfileId": "5f4294d20002e90000000816",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000816/"
+  }
+}

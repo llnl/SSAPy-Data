@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 30.4,
+    "burnTimeS": 1.55,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F30",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8",
+    "designation": "F30FJ",
+    "diameter": 24,
+    "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F30FJ.pdf",
+    "length": 95,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 40.6,
+    "motorId": "5f4294d200023100000003b0",
+    "propInfo": "Black Max",
+    "propWeightG": 31.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F30FJ/",
+    "sparky": false,
+    "totImpulseNs": 47,
+    "totalWeightG": 70.6,
+    "type": "SU",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923fc91bca58000417170e/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923fc91bca58000417170e/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003b0",
+    "simfileId": "5f923fc91bca58000417170e",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923fc91bca58000417170e/"
+  }
+}

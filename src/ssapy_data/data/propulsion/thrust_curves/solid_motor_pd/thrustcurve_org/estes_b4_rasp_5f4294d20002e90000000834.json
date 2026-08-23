@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 4.17,
+    "burnTimeS": 1.03,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "B4",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "2,4,6",
+    "designation": "B4",
+    "diameter": 18,
+    "impulseClass": "B",
+    "infoUrl": "http://nar.org/SandT/pdf/Estes/B4.pdf",
+    "length": 70,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 12.75,
+    "motorId": "5f4294d2000231000000000e",
+    "propInfo": "black powder",
+    "propWeightG": 6,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/B4/",
+    "sparky": false,
+    "totImpulseNs": 5,
+    "totalWeightG": 18.9,
+    "type": "SU",
+    "updatedOn": "2025-09-26"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000834/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000834/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000000e",
+    "simfileId": "5f4294d20002e90000000834",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000834/"
+  }
+}

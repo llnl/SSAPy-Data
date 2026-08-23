@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 73,
+    "burnTimeS": 2.55,
+    "caseInfo": "RMS-38/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H73",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H73J",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 152,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 97.1,
+    "motorId": "5f4294d2000231000000007a",
+    "propInfo": "Blackjack",
+    "propWeightG": 142.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H73J/",
+    "sparky": false,
+    "totImpulseNs": 185.6,
+    "totalWeightG": 309.12,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000025/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000025/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000007a",
+    "simfileId": "5f4294d20002e90000000025",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000025/"
+  }
+}

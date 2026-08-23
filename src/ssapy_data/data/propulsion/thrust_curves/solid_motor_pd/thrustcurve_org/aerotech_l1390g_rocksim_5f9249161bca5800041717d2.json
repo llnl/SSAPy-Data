@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1390,
+    "burnTimeS": 2.63,
+    "caseInfo": "RMS-75/3840",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1390",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1390G",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 530,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d20002310000000258",
+    "propInfo": "Mojave Green",
+    "propWeightG": 1973,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1390G/",
+    "sparky": false,
+    "totImpulseNs": 3949,
+    "totalWeightG": 3879,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9249161bca5800041717d2/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9249161bca5800041717d2/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000258",
+    "simfileId": "5f9249161bca5800041717d2",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9249161bca5800041717d2/"
+  }
+}

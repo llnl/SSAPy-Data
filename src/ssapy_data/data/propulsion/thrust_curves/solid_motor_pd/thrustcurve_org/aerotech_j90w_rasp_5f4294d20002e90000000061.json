@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 90,
+    "burnTimeS": 6.85,
+    "caseInfo": "RMS-54/852",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J90",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J90W",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 243,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 188,
+    "motorId": "5f4294d200023100000000df",
+    "propInfo": "White Lightning",
+    "propWeightG": 426,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J90W/",
+    "sparky": false,
+    "totImpulseNs": 707,
+    "totalWeightG": 852.544,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000061/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000061/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000df",
+    "simfileId": "5f4294d20002e90000000061",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000061/"
+  }
+}

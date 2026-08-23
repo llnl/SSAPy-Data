@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2773.5,
+    "burnTimeS": 1.14,
+    "caseInfo": "RMS-75/3840",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L2775",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L2775ST-PS",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 558.2,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 3095.6,
+    "motorId": "6623cea6f873440002ac69a1",
+    "propInfo": "Super Thunder",
+    "propWeightG": 1418,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L2775ST-PS/",
+    "sparky": false,
+    "totImpulseNs": 3149.9,
+    "totalWeightG": 3479.1,
+    "type": "reload",
+    "updatedOn": "2024-04-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66266b86f307ea0002dca9a7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66266b86f307ea0002dca9a7/",
+    "license": "PD",
+    "motorId": "6623cea6f873440002ac69a1",
+    "simfileId": "66266b86f307ea0002dca9a7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/66266b86f307ea0002dca9a7/"
+  }
+}

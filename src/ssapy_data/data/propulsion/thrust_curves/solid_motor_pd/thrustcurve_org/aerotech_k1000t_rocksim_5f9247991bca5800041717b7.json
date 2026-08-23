@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1066,
+    "burnTimeS": 2.35,
+    "caseInfo": "RMS-75/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K1000T",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 382.9,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1674,
+    "motorId": "5f4294d20002310000000377",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 1234,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K1000T/",
+    "sparky": false,
+    "totImpulseNs": 2511.5,
+    "totalWeightG": 2602,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9247991bca5800041717b7/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9247991bca5800041717b7/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000377",
+    "simfileId": "5f9247991bca5800041717b7",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9247991bca5800041717b7/"
+  }
+}

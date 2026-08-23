@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1073,
+    "burnTimeS": 2.09,
+    "caseInfo": "AMW 54-2550",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K1075",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2245K1075-P",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 728,
+    "manufacturer": "Animal Motor Works",
+    "manufacturerAbbrev": "AMW",
+    "maxThrustN": 1607,
+    "motorId": "5f4294d200023100000003af",
+    "propInfo": "Skidmark",
+    "propWeightG": 1259,
+    "source_url": "http://www.thrustcurve.org/motors/AMW/2245K1075-P/",
+    "sparky": true,
+    "totImpulseNs": 2245.1,
+    "totalWeightG": 2638.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000073c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000073c/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003af",
+    "simfileId": "5f4294d20002e9000000073c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000073c/"
+  }
+}

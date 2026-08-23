@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 21.66,
+    "burnTimeS": 0.89,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "D22",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,7,8,10",
+    "designation": "D22W",
+    "diameter": 24,
+    "impulseClass": "D",
+    "length": 86.7,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 27.58,
+    "motorId": "60159ce4b94d0e00040a8402",
+    "propInfo": "White Lightning",
+    "propWeightG": 12,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/D22W/",
+    "sparky": false,
+    "totImpulseNs": 19.33,
+    "totalWeightG": 37.5,
+    "type": "SU",
+    "updatedOn": "2025-07-23"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/6016b2f03f5c3700044cc279/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/6016b2f03f5c3700044cc279/",
+    "license": "PD",
+    "motorId": "60159ce4b94d0e00040a8402",
+    "simfileId": "6016b2f03f5c3700044cc279",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/6016b2f03f5c3700044cc279/"
+  }
+}

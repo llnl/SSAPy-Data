@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1720,
+    "burnTimeS": 8.3,
+    "caseInfo": "98/17500",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N1720",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N1720WC",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1213,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 3613.41,
+    "motorId": "5f4294d2000231000000042d",
+    "propInfo": "White Cloud",
+    "propWeightG": 7380,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/N1720WC/",
+    "sparky": false,
+    "totImpulseNs": 14236.77,
+    "totalWeightG": 15421,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000085c/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000085c/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000042d",
+    "simfileId": "5f4294d20002e9000000085c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000085c/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 22.35,
+    "burnTimeS": 1.64,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "E24",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "4,7,10",
+    "designation": "E24C",
+    "diameter": 29,
+    "impulseClass": "E",
+    "length": 110,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 33,
+    "motorId": "63628c12a244550004a0cf01",
+    "propInfo": "Classic",
+    "propWeightG": 18.4,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/E24C/",
+    "sparky": false,
+    "totImpulseNs": 36.32,
+    "totalWeightG": 70.7,
+    "type": "SU",
+    "updatedOn": "2022-11-02"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/6394ed0b67012f00045fc15e/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/6394ed0b67012f00045fc15e/",
+    "license": "PD",
+    "motorId": "63628c12a244550004a0cf01",
+    "simfileId": "6394ed0b67012f00045fc15e",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/6394ed0b67012f00045fc15e/"
+  }
+}

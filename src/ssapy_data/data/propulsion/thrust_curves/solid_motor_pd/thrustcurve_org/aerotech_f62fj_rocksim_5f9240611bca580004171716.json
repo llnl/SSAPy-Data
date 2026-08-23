@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 56.91,
+    "burnTimeS": 0.84,
+    "caseInfo": "RMS-24/60",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F62",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "F62FJ",
+    "diameter": 24,
+    "impulseClass": "F",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Aerotech/AT_F62FJ_2017.pdf",
+    "length": 95,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 73.1,
+    "motorId": "5f4294d20002310000000460",
+    "propInfo": "Black Max",
+    "propWeightG": 32.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F62FJ/",
+    "sparky": false,
+    "totImpulseNs": 47.57,
+    "totalWeightG": 88.1,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9240611bca580004171716/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9240611bca580004171716/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000460",
+    "simfileId": "5f9240611bca580004171716",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9240611bca580004171716/"
+  }
+}

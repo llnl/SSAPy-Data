@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 120,
+    "burnTimeS": 6.3125,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J120",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "440CC076JFX-J120FX",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 614,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000000e2",
+    "propWeightG": 446.2,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/440CC076JFX-J120FX/",
+    "sparky": false,
+    "totImpulseNs": 757.5,
+    "totalWeightG": 1293.38,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000cf/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000cf/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000e2",
+    "simfileId": "5f4294d20002e900000000cf",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000cf/"
+  }
+}

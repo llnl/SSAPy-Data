@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1939,
+    "burnTimeS": 6.2,
+    "caseInfo": "RMS-98/10240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1939",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1939W",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 732,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2429.7,
+    "motorId": "5f4294d200023100000001b1",
+    "propInfo": "White Lightning",
+    "propWeightG": 5719.1,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1939W/",
+    "sparky": false,
+    "totImpulseNs": 10481.5,
+    "totalWeightG": 8988.22,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000008f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000008f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001b1",
+    "simfileId": "5f4294d20002e9000000008f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000008f/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1261.1,
+    "burnTimeS": 0.85,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J1265",
+    "dataFiles": 1,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "J1265T",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 397,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1745.3,
+    "motorId": "63bb65281d26f30004b4b07b",
+    "propInfo": "Super Thunder",
+    "propWeightG": 507,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J1265T/",
+    "sparky": false,
+    "totImpulseNs": 1073.3,
+    "totalWeightG": 1095,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/63bd1a4b292aef00048b8bde/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/63bd1a4b292aef00048b8bde/",
+    "license": "PD",
+    "motorId": "63bb65281d26f30004b4b07b",
+    "simfileId": "63bd1a4b292aef00048b8bde",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/63bd1a4b292aef00048b8bde/"
+  }
+}

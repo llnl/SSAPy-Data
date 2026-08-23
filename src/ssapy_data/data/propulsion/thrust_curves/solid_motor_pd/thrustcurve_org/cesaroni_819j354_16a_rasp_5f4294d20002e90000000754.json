@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 354.7,
+    "burnTimeS": 2.31,
+    "caseInfo": "Pro38-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J354",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,9,11,13,16",
+    "designation": "819J354-16A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 421,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 521.8,
+    "motorId": "5f4294d200023100000003a3",
+    "propInfo": "White",
+    "propWeightG": 457.8,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/819J354-16A/",
+    "sparky": false,
+    "totImpulseNs": 818.7,
+    "totalWeightG": 778.2,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000754/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000754/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a3",
+    "simfileId": "5f4294d20002e90000000754",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000754/"
+  }
+}

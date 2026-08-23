@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 171.9,
+    "burnTimeS": 0.97,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H155",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "7",
+    "designation": "H155F",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 203,
+    "manufacturer": "Kosdon TRM",
+    "manufacturerAbbrev": "Kosdon",
+    "motorId": "5f4294d20002310000000349",
+    "propInfo": "Fast",
+    "propWeightG": 80,
+    "source_url": "http://www.thrustcurve.org/motors/Kosdon/H155F/",
+    "sparky": false,
+    "totImpulseNs": 160.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000803/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000803/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000349",
+    "simfileId": "5f4294d20002e90000000803",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000803/"
+  }
+}

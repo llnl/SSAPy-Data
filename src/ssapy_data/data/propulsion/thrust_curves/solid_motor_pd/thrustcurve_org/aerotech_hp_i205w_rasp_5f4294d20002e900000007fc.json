@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 205,
+    "burnTimeS": 1.7,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I205",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-I205W",
+    "diameter": 29,
+    "impulseClass": "I",
+    "length": 305,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 253,
+    "motorId": "5f4294d20002310000000406",
+    "propInfo": "White Lightning",
+    "propWeightG": 188,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-I205W/",
+    "sparky": false,
+    "totImpulseNs": 345,
+    "totalWeightG": 315,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007fc/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007fc/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000406",
+    "simfileId": "5f4294d20002e900000007fc",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007fc/"
+  }
+}

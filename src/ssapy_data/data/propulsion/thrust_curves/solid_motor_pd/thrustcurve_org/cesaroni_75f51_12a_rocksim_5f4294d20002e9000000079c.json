@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 50,
+    "burnTimeS": 1.5,
+    "caseInfo": "Pro24-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F51",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,9,12",
+    "designation": "75F51-12A",
+    "diameter": 24,
+    "impulseClass": "F",
+    "length": 133,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 85.1,
+    "motorId": "5f4294d200023100000003d2",
+    "propInfo": "Classic",
+    "propWeightG": 33,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/75F51-12A/",
+    "sparky": false,
+    "totImpulseNs": 75,
+    "totalWeightG": 95,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000079c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000079c/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d2",
+    "simfileId": "5f4294d20002e9000000079c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000079c/"
+  }
+}

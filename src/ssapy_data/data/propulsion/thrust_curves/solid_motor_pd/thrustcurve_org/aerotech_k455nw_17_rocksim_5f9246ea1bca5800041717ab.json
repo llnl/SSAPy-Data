@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 455.42,
+    "burnTimeS": 5.09,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K455",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,9,11,13,15,17",
+    "designation": "K455NW-17",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 674.9000000000001,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1307.87,
+    "motorId": "5f4294d20002310000000469",
+    "propInfo": "White Lightning/Warp 9",
+    "propWeightG": 1456,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K455NW-17/",
+    "sparky": false,
+    "totImpulseNs": 2327.9,
+    "totalWeightG": 2285.8,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9246ea1bca5800041717ab/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9246ea1bca5800041717ab/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000469",
+    "simfileId": "5f9246ea1bca5800041717ab",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9246ea1bca5800041717ab/"
+  }
+}

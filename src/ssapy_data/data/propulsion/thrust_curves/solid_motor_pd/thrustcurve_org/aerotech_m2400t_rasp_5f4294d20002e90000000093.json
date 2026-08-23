@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2400,
+    "burnTimeS": 3.2,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2400",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M2400T",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 597,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 3401.6,
+    "motorId": "5f4294d200023100000001b6",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 3692.6,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M2400T/",
+    "sparky": false,
+    "totImpulseNs": 7716.5,
+    "totalWeightG": 6451.2,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000093/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000093/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001b6",
+    "simfileId": "5f4294d20002e90000000093",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000093/"
+  }
+}

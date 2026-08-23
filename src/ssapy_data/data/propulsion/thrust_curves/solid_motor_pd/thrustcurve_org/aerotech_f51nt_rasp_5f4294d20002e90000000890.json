@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 55.89,
+    "burnTimeS": 0.99,
+    "caseInfo": "RMS-24/60",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F51",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "5,7,9",
+    "designation": "F51NT",
+    "diameter": 24,
+    "impulseClass": "F",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Aerotech/AT_F51NT_2017.pdf",
+    "length": 95,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 76.53,
+    "motorId": "5f4294d2000231000000045d",
+    "propInfo": "New Blue Thunder",
+    "propWeightG": 26.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F51NT/",
+    "sparky": false,
+    "totImpulseNs": 55.11,
+    "totalWeightG": 81,
+    "type": "reload",
+    "updatedOn": "2022-07-16"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000890/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000890/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000045d",
+    "simfileId": "5f4294d20002e90000000890",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000890/"
+  }
+}

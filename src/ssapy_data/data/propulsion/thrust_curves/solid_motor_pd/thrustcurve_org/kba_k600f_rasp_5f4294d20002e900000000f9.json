@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 600,
+    "burnTimeS": 2.38,
+    "caseInfo": "54X403(1400)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K600",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "S,M,L,P",
+    "designation": "K600F",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 403,
+    "manufacturer": "Kosdon by AeroTech",
+    "manufacturerAbbrev": "KBA",
+    "maxThrustN": 874,
+    "motorId": "5f4294d2000231000000014d",
+    "propWeightG": 724.3,
+    "source_url": "http://www.thrustcurve.org/motors/KBA/K600F/",
+    "sparky": false,
+    "totImpulseNs": 1428.5,
+    "totalWeightG": 1415.68,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000f9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000f9/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000014d",
+    "simfileId": "5f4294d20002e900000000f9",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000f9/"
+  }
+}

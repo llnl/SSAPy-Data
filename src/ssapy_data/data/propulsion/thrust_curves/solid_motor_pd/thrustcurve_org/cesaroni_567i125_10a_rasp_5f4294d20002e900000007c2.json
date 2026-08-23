@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 128.5,
+    "burnTimeS": 4.41,
+    "caseInfo": "Pro38-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "I125",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,10",
+    "designation": "567I125-10A",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 367,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 294.3,
+    "motorId": "5f4294d200023100000003ec",
+    "propInfo": "White",
+    "propWeightG": 335,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/567I125-10A/",
+    "sparky": false,
+    "totImpulseNs": 566.6,
+    "totalWeightG": 647,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007c2/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007c2/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ec",
+    "simfileId": "5f4294d20002e900000007c2",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007c2/"
+  }
+}

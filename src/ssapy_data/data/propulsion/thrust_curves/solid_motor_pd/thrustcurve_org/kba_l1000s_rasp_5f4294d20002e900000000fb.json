@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1000,
+    "burnTimeS": 2.6,
+    "caseInfo": "54-2550 (K1100)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1000S",
+    "diameter": 54,
+    "impulseClass": "L",
+    "length": 728,
+    "manufacturer": "Kosdon by AeroTech",
+    "manufacturerAbbrev": "KBA",
+    "maxThrustN": 1738,
+    "motorId": "5f4294d20002310000000187",
+    "propWeightG": 1301,
+    "source_url": "http://www.thrustcurve.org/motors/KBA/L1000S/",
+    "sparky": false,
+    "totImpulseNs": 2592,
+    "totalWeightG": 2325.12,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000fb/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000fb/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000187",
+    "simfileId": "5f4294d20002e900000000fb",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000fb/"
+  }
+}

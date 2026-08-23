@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 2645,
+    "burnTimeS": 9.2,
+    "caseInfo": "152/35000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "O2700",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "O2700BL",
+    "diameter": 152,
+    "impulseClass": "O",
+    "length": 1206,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 3920,
+    "motorId": "5f4294d20002310000000401",
+    "propInfo": "Black Lightning",
+    "propWeightG": 15149,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/O2700BL/",
+    "sparky": true,
+    "totImpulseNs": 24333,
+    "totalWeightG": 33339,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007f1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007f1/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000401",
+    "simfileId": "5f4294d20002e900000007f1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007f1/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 115,
+    "burnTimeS": 1.5,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H115",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-H115DM",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 203,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 126,
+    "motorId": "5f4294d200023100000003fa",
+    "propInfo": "Dark Matter",
+    "propWeightG": 113,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-H115DM/",
+    "sparky": true,
+    "totImpulseNs": 172,
+    "totalWeightG": 205,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007e8/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007e8/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003fa",
+    "simfileId": "5f4294d20002e900000007e8",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007e8/"
+  }
+}

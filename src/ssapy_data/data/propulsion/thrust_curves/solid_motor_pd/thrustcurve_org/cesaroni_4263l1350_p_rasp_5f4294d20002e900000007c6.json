@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1349.6,
+    "burnTimeS": 3.16,
+    "caseInfo": "Pro75-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L1350",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "4263L1350-P",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 486,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1672.5,
+    "motorId": "5f4294d200023100000003dc",
+    "propInfo": "C-Star",
+    "propWeightG": 1905,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/4263L1350-P/",
+    "sparky": false,
+    "totImpulseNs": 4263.1,
+    "totalWeightG": 3570.7,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007c6/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007c6/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003dc",
+    "simfileId": "5f4294d20002e900000007c6",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007c6/"
+  }
+}

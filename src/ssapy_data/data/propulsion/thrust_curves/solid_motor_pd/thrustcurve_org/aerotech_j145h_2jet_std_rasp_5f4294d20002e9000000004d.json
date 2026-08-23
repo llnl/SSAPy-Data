@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 145,
+    "burnTimeS": 5.65,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J145",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J145H_2JET_STD",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 709,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 303.3,
+    "motorId": "5f4294d200023100000000e7",
+    "propWeightG": 409.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J145H_2JET_STD/",
+    "sparky": false,
+    "totImpulseNs": 825.7,
+    "totalWeightG": 1797.4,
+    "type": "hybrid",
+    "updatedOn": "2022-06-15"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000004d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000004d/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000e7",
+    "simfileId": "5f4294d20002e9000000004d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000004d/"
+  }
+}

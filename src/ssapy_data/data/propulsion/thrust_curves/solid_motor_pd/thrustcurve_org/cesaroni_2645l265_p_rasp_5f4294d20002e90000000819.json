@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 266.8,
+    "burnTimeS": 9.91,
+    "caseInfo": "Pro54-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L265",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2645L265-P",
+    "diameter": 54,
+    "impulseClass": "L",
+    "length": 649,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 471.1,
+    "motorId": "5f4294d20002310000000418",
+    "propInfo": "Mellow",
+    "propWeightG": 1603,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2645L265-P/",
+    "sparky": false,
+    "totImpulseNs": 2644.6,
+    "totalWeightG": 2481,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000819/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000819/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000418",
+    "simfileId": "5f4294d20002e90000000819",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000819/"
+  }
+}

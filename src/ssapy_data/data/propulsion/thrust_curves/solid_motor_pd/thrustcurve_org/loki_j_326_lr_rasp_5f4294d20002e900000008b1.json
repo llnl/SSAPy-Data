@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 326.2,
+    "burnTimeS": 2.25,
+    "caseInfo": "38/740",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J326",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "8,11,15",
+    "designation": "J-326-LR",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 417,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 925.8,
+    "motorId": "5f4294d20002310000000465",
+    "propInfo": "Loki Red",
+    "propWeightG": 360,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J-326-LR/",
+    "sparky": false,
+    "totImpulseNs": 732.9,
+    "totalWeightG": 766,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008b1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008b1/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000465",
+    "simfileId": "5f4294d20002e900000008b1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008b1/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 976,
+    "burnTimeS": 1.25,
+    "caseInfo": "38/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J1000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "7,9,12,15",
+    "designation": "J1000-LW",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 625,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1400,
+    "motorId": "5f4294d200023100000002ee",
+    "propInfo": "Loki White",
+    "propWeightG": 573,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J1000-LW/",
+    "sparky": false,
+    "totImpulseNs": 1220,
+    "totalWeightG": 1143,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000842/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000842/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002ee",
+    "simfileId": "5f4294d20002e90000000842",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000842/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 97.7,
+    "burnTimeS": 2.32,
+    "caseInfo": "DMS",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H100",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10",
+    "designation": "H100W_DMS",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 153.10000000000002,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 137.75,
+    "motorId": "5f4294d20002310000000440",
+    "propInfo": "White Lightning",
+    "propWeightG": 121,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H100W_DMS/",
+    "sparky": false,
+    "totImpulseNs": 226.8,
+    "totalWeightG": 261,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9242581bca58000417172e/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9242581bca58000417172e/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000440",
+    "simfileId": "5f9242581bca58000417172e",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9242581bca58000417172e/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 297,
+    "burnTimeS": 4.1,
+    "caseInfo": "54/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J300",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J300LR",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 327,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 401,
+    "motorId": "5f4294d20002310000000433",
+    "propInfo": "Loki Red",
+    "propWeightG": 620,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J300LR/",
+    "sparky": false,
+    "totImpulseNs": 1208,
+    "totalWeightG": 1315,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000841/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000841/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000433",
+    "simfileId": "5f4294d20002e90000000841",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000841/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 32.38,
+    "burnTimeS": 1.02,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "E30",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,7",
+    "designation": "E30T",
+    "diameter": 24,
+    "impulseClass": "E",
+    "infoUrl": "http://nar.org/SandT/pdf/Aerotech/E30.pdf",
+    "length": 70,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 49.3,
+    "motorId": "5f4294d20002310000000034",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 17.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/E30T/",
+    "sparky": false,
+    "totImpulseNs": 33.56,
+    "totalWeightG": 47,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/62431a34ee302a00044520da/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/62431a34ee302a00044520da/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000034",
+    "simfileId": "62431a34ee302a00044520da",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/62431a34ee302a00044520da/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 69,
+    "burnTimeS": 0.88,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F67",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,7,9",
+    "designation": "F67W",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 83,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 86,
+    "motorId": "5f4294d2000231000000045a",
+    "propInfo": "White Lightning",
+    "propWeightG": 30,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F67W/",
+    "sparky": false,
+    "totImpulseNs": 61.1,
+    "totalWeightG": 80.8,
+    "type": "SU",
+    "updatedOn": "2025-09-22"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000088b/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000088b/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000045a",
+    "simfileId": "5f4294d20002e9000000088b",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000088b/"
+  }
+}

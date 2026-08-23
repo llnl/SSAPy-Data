@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 69,
+    "burnTimeS": 1.94,
+    "caseInfo": "38/120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G66",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "5,8,11,15",
+    "designation": "G66-LR",
+    "diameter": 38,
+    "impulseClass": "G",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20Red.pdf",
+    "length": 122.2,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 115,
+    "motorId": "5f4294d20002310000000449",
+    "propWeightG": 72,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/G66-LR/",
+    "sparky": false,
+    "totImpulseNs": 134,
+    "totalWeightG": 250,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000864/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000864/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000449",
+    "simfileId": "5f4294d20002e90000000864",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000864/"
+  }
+}

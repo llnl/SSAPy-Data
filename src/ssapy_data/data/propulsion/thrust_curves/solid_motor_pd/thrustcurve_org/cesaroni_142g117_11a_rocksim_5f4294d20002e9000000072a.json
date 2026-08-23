@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 116.8,
+    "burnTimeS": 1.22,
+    "caseInfo": "Pro24-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G117",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,11",
+    "designation": "142G117-11A",
+    "diameter": 24,
+    "impulseClass": "G",
+    "length": 228,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 181.2,
+    "motorId": "5f4294d20002310000000393",
+    "propInfo": "White",
+    "propWeightG": 79.10000000000001,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/142G117-11A/",
+    "sparky": false,
+    "totImpulseNs": 142.3,
+    "totalWeightG": 172.5,
+    "type": "reload",
+    "updatedOn": "2022-08-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000072a/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000072a/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000393",
+    "simfileId": "5f4294d20002e9000000072a",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000072a/"
+  }
+}

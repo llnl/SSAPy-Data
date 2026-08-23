@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 24.4,
+    "burnTimeS": 2.03,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F27",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8",
+    "designation": "F27R/L",
+    "diameter": 29,
+    "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F27.pdf",
+    "length": 83,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 37.7,
+    "motorId": "5f4294d200023100000001d4",
+    "propInfo": "Redline",
+    "propWeightG": 28.400000000000002,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F27R%2FL/",
+    "sparky": false,
+    "totImpulseNs": 49.6,
+    "totalWeightG": 80,
+    "type": "SU",
+    "updatedOn": "2022-08-09"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923fa81bca58000417170b/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923fa81bca58000417170b/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001d4",
+    "simfileId": "5f923fa81bca58000417170b",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923fa81bca58000417170b/"
+  }
+}

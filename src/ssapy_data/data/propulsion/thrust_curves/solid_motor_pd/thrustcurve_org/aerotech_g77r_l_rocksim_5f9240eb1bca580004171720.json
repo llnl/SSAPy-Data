@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 80.12,
+    "burnTimeS": 1.28,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G77",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,7,8,10",
+    "designation": "G77R/L",
+    "diameter": 29,
+    "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G77.pdf",
+    "length": 124,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 100.5,
+    "motorId": "5f4294d20002310000000246",
+    "propInfo": "Redline",
+    "propWeightG": 64,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G77R%2FL/",
+    "sparky": false,
+    "totImpulseNs": 102.86,
+    "totalWeightG": 122.5,
+    "type": "SU",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9240eb1bca580004171720/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9240eb1bca580004171720/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000246",
+    "simfileId": "5f9240eb1bca580004171720",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9240eb1bca580004171720/"
+  }
+}

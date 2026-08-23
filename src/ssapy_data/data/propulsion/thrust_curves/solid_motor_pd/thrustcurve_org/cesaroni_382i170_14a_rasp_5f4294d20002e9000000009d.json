@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 169.2,
+    "burnTimeS": 2.26,
+    "caseInfo": "Pro38-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "I170",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "5,7,9,11,14",
+    "designation": "382I170-14A",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 245,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 260.6,
+    "motorId": "5f4294d200023100000000b2",
+    "propInfo": "Classic",
+    "propWeightG": 187.5,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/382I170-14A/",
+    "sparky": false,
+    "totImpulseNs": 382,
+    "totalWeightG": 392,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000009d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000009d/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000b2",
+    "simfileId": "5f4294d20002e9000000009d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000009d/"
+  }
+}

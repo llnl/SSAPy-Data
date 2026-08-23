@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 316.5,
+    "burnTimeS": 8.82,
+    "caseInfo": "RMS-98/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L339",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L339N",
+    "diameter": 98,
+    "impulseClass": "L",
+    "length": 302,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 445.5,
+    "motorId": "5f4294d2000231000000024d",
+    "propInfo": "Warp 9",
+    "propWeightG": 1796,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L339N/",
+    "sparky": false,
+    "totImpulseNs": 3042.9,
+    "totalWeightG": 3210,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000793/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000793/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000024d",
+    "simfileId": "5f4294d20002e90000000793",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000793/"
+  }
+}

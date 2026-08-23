@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 64.7,
+    "burnTimeS": 2.23,
+    "caseInfo": "Pro24-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G65",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,8",
+    "designation": "144G65-8A",
+    "diameter": 24,
+    "impulseClass": "G",
+    "length": 228,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 159.7,
+    "motorId": "5f4294d20002310000000395",
+    "propInfo": "White Thunder",
+    "propWeightG": 80,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/144G65-8A/",
+    "sparky": false,
+    "totImpulseNs": 144.3,
+    "totalWeightG": 174,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000727/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000727/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000395",
+    "simfileId": "5f4294d20002e90000000727",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000727/"
+  }
+}

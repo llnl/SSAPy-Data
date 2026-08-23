@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 168.8,
+    "burnTimeS": 1.38,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H169",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "5,7,9,11,13",
+    "designation": "H169WS-13",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 220.70000000000002,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 231.41,
+    "motorId": "5f4294d20002310000000468",
+    "propInfo": "Super White Lightning",
+    "propWeightG": 112,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H169WS-13/",
+    "sparky": false,
+    "totImpulseNs": 232.95,
+    "totalWeightG": 202.2,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008b4/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008b4/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000468",
+    "simfileId": "5f4294d20002e900000008b4",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008b4/"
+  }
+}

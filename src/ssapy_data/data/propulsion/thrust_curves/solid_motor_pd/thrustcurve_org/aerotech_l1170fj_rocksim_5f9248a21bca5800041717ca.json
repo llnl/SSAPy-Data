@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1141,
+    "burnTimeS": 3.7,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1170",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1170FJ",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 665,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1489,
+    "motorId": "5f4294d200023100000002e4",
+    "propInfo": "Black Max",
+    "propWeightG": 2800,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1170FJ/",
+    "sparky": false,
+    "totImpulseNs": 4232,
+    "totalWeightG": 4990,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9248a21bca5800041717ca/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9248a21bca5800041717ca/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002e4",
+    "simfileId": "5f9248a21bca5800041717ca",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9248a21bca5800041717ca/"
+  }
+}

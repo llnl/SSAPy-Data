@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 2717,
+    "burnTimeS": 4.1,
+    "caseInfo": "98/11000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N2717",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N2717WC",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 870,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 4200.08,
+    "motorId": "5f4294d2000231000000042c",
+    "propInfo": "White Cloud",
+    "propWeightG": 5328,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/N2717WC/",
+    "sparky": false,
+    "totImpulseNs": 10812.7,
+    "totalWeightG": 10138,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000085b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000085b/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000042c",
+    "simfileId": "5f4294d20002e9000000085b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000085b/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 625,
+    "burnTimeS": 7.9208,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L625",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2800CCRGLFX-L625FX",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1387,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000179",
+    "propWeightG": 2602.1,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/2800CCRGLFX-L625FX/",
+    "sparky": false,
+    "totImpulseNs": 4950.5,
+    "totalWeightG": 5706.18,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000cb/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000cb/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000179",
+    "simfileId": "5f4294d20002e900000000cb",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000cb/"
+  }
+}

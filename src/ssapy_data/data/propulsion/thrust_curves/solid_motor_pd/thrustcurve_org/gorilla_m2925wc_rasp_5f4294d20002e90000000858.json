@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 2925,
+    "burnTimeS": 2.71,
+    "caseInfo": "75/7600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2925",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M2925WC",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 1039,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 4532.2,
+    "motorId": "5f4294d2000231000000042a",
+    "propInfo": "White Cloud",
+    "propWeightG": 3810,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/M2925WC/",
+    "sparky": false,
+    "totImpulseNs": 7897.7,
+    "totalWeightG": 7058,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000858/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000858/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000042a",
+    "simfileId": "5f4294d20002e90000000858",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000858/"
+  }
+}

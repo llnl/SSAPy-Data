@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 650,
+    "burnTimeS": 3.67,
+    "caseInfo": "RMS-98/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K650",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K650T",
+    "diameter": 98,
+    "impulseClass": "K",
+    "length": 289,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 752.8,
+    "motorId": "5f4294d20002310000000153",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 1280,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K650T/",
+    "sparky": false,
+    "totImpulseNs": 2405.7,
+    "totalWeightG": 2935.3,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000075/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000075/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000153",
+    "simfileId": "5f4294d20002e90000000075",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000075/"
+  }
+}

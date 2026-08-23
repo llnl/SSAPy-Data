@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 74.74,
+    "burnTimeS": 1.61,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G75",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "4,6,7,8,10",
+    "designation": "HP-G75M",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 123.9,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 102,
+    "motorId": "5f4294d20002310000000386",
+    "propInfo": "Metalstorm",
+    "propWeightG": 66.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-G75M/",
+    "sparky": true,
+    "totImpulseNs": 120.39,
+    "totalWeightG": 131,
+    "type": "SU",
+    "updatedOn": "2020-05-01"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000718/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000718/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000386",
+    "simfileId": "5f4294d20002e90000000718",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000718/"
+  }
+}

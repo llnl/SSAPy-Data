@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 58.06,
+    "burnTimeS": 0.85,
+    "caseInfo": "RMS-24/60",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F63",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "F63R",
+    "diameter": 24,
+    "impulseClass": "F",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Aerotech/AT_F63R_2017.pdf",
+    "length": 95,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 69.94,
+    "motorId": "5f4294d20002310000000461",
+    "propInfo": "Redline",
+    "propWeightG": 27.6,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F63R/",
+    "sparky": false,
+    "totImpulseNs": 49.5,
+    "totalWeightG": 82.2,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92407d1bca580004171718/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92407d1bca580004171718/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000461",
+    "simfileId": "5f92407d1bca580004171718",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92407d1bca580004171718/"
+  }
+}

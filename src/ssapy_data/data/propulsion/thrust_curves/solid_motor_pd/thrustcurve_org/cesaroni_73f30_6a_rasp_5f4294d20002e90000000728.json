@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 31,
+    "burnTimeS": 2.36,
+    "caseInfo": "Pro24-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F30",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,6",
+    "designation": "73F30-6A",
+    "diameter": 24,
+    "impulseClass": "F",
+    "length": 133,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 56.8,
+    "motorId": "5f4294d20002310000000394",
+    "propInfo": "White Thunder",
+    "propWeightG": 40,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/73F30-6A/",
+    "sparky": false,
+    "totImpulseNs": 73.1,
+    "totalWeightG": 102.2,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000728/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000728/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000394",
+    "simfileId": "5f4294d20002e90000000728",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000728/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1111.2,
+    "burnTimeS": 4.68,
+    "caseInfo": "Pro75-4G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M1101",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "5198M1101-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 621,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1475,
+    "motorId": "5f4294d2000231000000041d",
+    "propInfo": "White",
+    "propWeightG": 2993,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/5198M1101-P/",
+    "sparky": false,
+    "totImpulseNs": 5197.6,
+    "totalWeightG": 4938,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000809/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000809/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000041d",
+    "simfileId": "5f4294d20002e90000000809",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000809/"
+  }
+}

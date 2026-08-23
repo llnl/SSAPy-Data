@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 425.67,
+    "burnTimeS": 1.19,
+    "caseInfo": "38/480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I426",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I426LB",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 306.8,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 718.26,
+    "motorId": "66225d52b1ba54000208d807",
+    "propInfo": "Loki Blue",
+    "propWeightG": 234,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/I426LB/",
+    "sparky": false,
+    "totImpulseNs": 505.04,
+    "totalWeightG": 553.1,
+    "type": "reload",
+    "updatedOn": "2024-04-22"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66229b94f873440002ab2f24/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66229b94f873440002ab2f24/",
+    "license": "PD",
+    "motorId": "66225d52b1ba54000208d807",
+    "simfileId": "66229b94f873440002ab2f24",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/66229b94f873440002ab2f24/"
+  }
+}

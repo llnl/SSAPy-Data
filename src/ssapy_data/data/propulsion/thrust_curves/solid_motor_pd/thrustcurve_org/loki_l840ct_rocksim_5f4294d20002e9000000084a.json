@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 834,
+    "burnTimeS": 4.6,
+    "caseInfo": "76/3600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L840",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L840CT",
+    "diameter": 76,
+    "impulseClass": "L",
+    "length": 498,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1170,
+    "motorId": "5f4294d2000231000000043b",
+    "propInfo": "Cocktail",
+    "propWeightG": 2074,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/L840CT/",
+    "sparky": false,
+    "totImpulseNs": 3889,
+    "totalWeightG": 3748,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000084a/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000084a/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000043b",
+    "simfileId": "5f4294d20002e9000000084a",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000084a/"
+  }
+}

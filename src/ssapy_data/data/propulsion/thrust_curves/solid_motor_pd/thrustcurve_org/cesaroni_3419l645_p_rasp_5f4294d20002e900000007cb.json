@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 644.8,
+    "burnTimeS": 5.3,
+    "caseInfo": "Pro75-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L645",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "3419L645-P",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 486,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 776.6,
+    "motorId": "5f4294d200023100000003d9",
+    "propInfo": "Green3",
+    "propWeightG": 2072,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/3419L645-P/",
+    "sparky": false,
+    "totImpulseNs": 3419.8,
+    "totalWeightG": 3751.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007cb/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007cb/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d9",
+    "simfileId": "5f4294d20002e900000007cb",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007cb/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 215,
+    "burnTimeS": 1.85581395348837,
+    "caseInfo": "RMS-54/426",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I215",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I215R",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 156,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d200023100000001e9",
+    "propInfo": "Redline",
+    "propWeightG": 208,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I215R/",
+    "sparky": false,
+    "totImpulseNs": 399,
+    "totalWeightG": 527,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/611e7ff0c6d315000487da97/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/611e7ff0c6d315000487da97/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001e9",
+    "simfileId": "611e7ff0c6d315000487da97",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/611e7ff0c6d315000487da97/"
+  }
+}

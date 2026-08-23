@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 76.33,
+    "burnTimeS": 8.26,
+    "caseInfo": "SU 54x235",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "I65",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I65W",
+    "diameter": 54,
+    "impulseClass": "I",
+    "infoUrl": "http://nar.org/SandT/pdf/Aerotech/I65.pdf",
+    "length": 235,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 150.07,
+    "motorId": "5f4294d2000231000000009d",
+    "propInfo": "White Lightning",
+    "propWeightG": 369.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I65W/",
+    "sparky": false,
+    "totImpulseNs": 630.5,
+    "totalWeightG": 761.6,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000047/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000047/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000009d",
+    "simfileId": "5f4294d20002e90000000047",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000047/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 225,
+    "burnTimeS": 12.3942222222222,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L225",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1685CC098LFX-L225FX",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1031,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d2000231000000016a",
+    "propWeightG": 1688.4,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/1685CC098LFX-L225FX/",
+    "sparky": false,
+    "totImpulseNs": 2788.7,
+    "totalWeightG": 3948.22,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000b7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000b7/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000016a",
+    "simfileId": "5f4294d20002e900000000b7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000b7/"
+  }
+}

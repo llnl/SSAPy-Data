@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 53.73,
+    "burnTimeS": 1.43,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F50",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "6",
+    "designation": "F50",
+    "diameter": 29,
+    "impulseClass": "F",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/F50T.pdf",
+    "length": 98,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 79.59,
+    "motorId": "5f4294d200023100000003e6",
+    "propWeightG": 37.900000000000006,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/F50/",
+    "sparky": false,
+    "totImpulseNs": 76.83,
+    "totalWeightG": 84.4,
+    "type": "SU",
+    "updatedOn": "2020-12-01"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007b3/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007b3/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e6",
+    "simfileId": "5f4294d20002e900000007b3",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007b3/"
+  }
+}

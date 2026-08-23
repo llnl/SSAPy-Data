@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2,
+    "burnTimeS": 5,
+    "certOrg": "Uncertified",
+    "commonName": "C2",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "0,P",
+    "designation": "C2",
+    "diameter": 18,
+    "impulseClass": "C",
+    "infoUrl": "https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Motor-C2-0-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0320&t=23&c=712&p=712",
+    "length": 70,
+    "manufacturer": "Raketenmodellbau Klima",
+    "manufacturerAbbrev": "Klima",
+    "maxThrustN": 5,
+    "motorId": "5f7696fb9503a10004898857",
+    "propInfo": "composite",
+    "propWeightG": 11.299999999999999,
+    "source_url": "http://www.thrustcurve.org/motors/Klima/C2/",
+    "sparky": false,
+    "totImpulseNs": 9.8,
+    "totalWeightG": 22.4,
+    "type": "SU",
+    "updatedOn": "2020-10-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8b060ed5fa3b000447e82a/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f8b060ed5fa3b000447e82a/",
+    "license": "PD",
+    "motorId": "5f7696fb9503a10004898857",
+    "simfileId": "5f8b060ed5fa3b000447e82a",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8b060ed5fa3b000447e82a/"
+  }
+}

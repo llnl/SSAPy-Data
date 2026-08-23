@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2.12,
+    "burnTimeS": 8.14,
+    "caseInfo": "RMS-18/20",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "D2",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "D2.3T",
+    "diameter": 18,
+    "impulseClass": "D",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Aerotech/D2.3.pdf",
+    "length": 72,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 10.14,
+    "motorId": "5f4294d2000231000000040d",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 10.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/D2.3T/",
+    "sparky": false,
+    "totImpulseNs": 17.21,
+    "totalWeightG": 29.3,
+    "type": "reload",
+    "updatedOn": "2022-03-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923f261bca5800041716b0/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923f261bca5800041716b0/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000040d",
+    "simfileId": "5f923f261bca5800041716b0",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923f261bca5800041716b0/"
+  }
+}

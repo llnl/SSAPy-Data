@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 80.78,
+    "burnTimeS": 1.3,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G72",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "G72DM-14A",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 156.4,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 105.57,
+    "motorId": "5f4294d20002310000000467",
+    "propInfo": "Dark Matter",
+    "propWeightG": 62.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G72DM-14A/",
+    "sparky": true,
+    "totImpulseNs": 105.02,
+    "totalWeightG": 131.6,
+    "type": "SU",
+    "updatedOn": "2019-05-21"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9240991bca58000417171a/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9240991bca58000417171a/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000467",
+    "simfileId": "5f9240991bca58000417171a",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9240991bca58000417171a/"
+  }
+}

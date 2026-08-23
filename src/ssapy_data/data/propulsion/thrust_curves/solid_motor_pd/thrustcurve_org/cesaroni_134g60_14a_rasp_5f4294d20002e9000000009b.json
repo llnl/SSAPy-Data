@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 60.3,
+    "burnTimeS": 2.23,
+    "caseInfo": "Pro38-1G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G60",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "5,7,9,11,14",
+    "designation": "134G60-14A",
+    "diameter": 38,
+    "impulseClass": "G",
+    "length": 127,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 87.8,
+    "motorId": "5f4294d2000231000000005d",
+    "propInfo": "Red Lightning",
+    "propWeightG": 68.3,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/134G60-14A/",
+    "sparky": false,
+    "totImpulseNs": 134.2,
+    "totalWeightG": 206,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000009b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000009b/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000005d",
+    "simfileId": "5f4294d20002e9000000009b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000009b/"
+  }
+}

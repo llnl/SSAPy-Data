@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 79.9,
+    "burnTimeS": 1.38,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G78",
+    "dataFiles": 4,
+    "delayAdjustable": false,
+    "delays": "4,6,7,8,10",
+    "designation": "G78G/L",
+    "diameter": 29,
+    "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/G78G.pdf",
+    "length": 124,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 101.9,
+    "motorId": "5f4294d20002310000000230",
+    "propInfo": "Mojave Green",
+    "propWeightG": 59.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G78G%2FL/",
+    "sparky": false,
+    "totImpulseNs": 109.94,
+    "totalWeightG": 125,
+    "type": "SU",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92410b1bca580004171722/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92410b1bca580004171722/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000230",
+    "simfileId": "5f92410b1bca580004171722",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92410b1bca580004171722/"
+  }
+}

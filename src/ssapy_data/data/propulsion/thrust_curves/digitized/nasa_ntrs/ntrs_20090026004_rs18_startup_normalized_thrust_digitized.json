@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "filtered_fraction_steady_state": "Filtered thrust divided by steady-state thrust.",
+    "filtered_percent_steady_state": "Filtered thrust in percent of steady-state thrust.",
+    "measured_fraction_steady_state": "Measured thrust divided by steady-state thrust.",
+    "measured_percent_steady_state": "Measured thrust in percent of steady-state thrust.",
+    "time_s": "Time in seconds."
+  },
+  "digitization": {
+    "curves": [
+      "Measured thrust, normalized to steady state and read from the left axis.",
+      "Filtered thrust, normalized to steady state and read from the right axis."
+    ],
+    "estimated_uncertainty": {
+      "fraction_steady_state": 0.03,
+      "notes": "Source figure is color and clear, but high-frequency measured oscillations are under-sampled by this compact CSV.",
+      "time_s": 0.01
+    },
+    "method": "Manual curve digitization from a 250 dpi rendered PDF page using calibrated plot axes."
+  },
+  "schema_version": 1,
+  "source": {
+    "distribution": "PUBLIC",
+    "export_control": "NO ITAR, NO EAR",
+    "figure": "Figure 8, Example non-dimensionalized thrust output from RS-18 test",
+    "ntrs_id": "20090026004",
+    "retrieved": "2026-08-22",
+    "rights": "GOV_PUBLIC_USE_PERMITTED",
+    "title": "Liquid Oxygen/Liquid Methane Test Results of the RS-18 Lunar Ascent Engine at Simulated Altitude Conditions at NASA White Sands Test Facility",
+    "url": "https://ntrs.nasa.gov/citations/20090026004"
+  },
+  "title": "RS-18 LOX/LCH4 startup and shutdown normalized thrust shape, digitized from Fig. 8",
+  "validation": {
+    "notes": "This is a normalized shape curve. Scale it by a chosen steady-state thrust before use as an absolute thrust-time curve.",
+    "published_context": "Report text states valve-open-command to 90% full-thrust response was about 0.28 s and repeatable over 0.25-0.28 s."
+  }
+}

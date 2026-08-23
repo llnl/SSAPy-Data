@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1103,
+    "burnTimeS": 1.6,
+    "caseInfo": "RMS-54/1706",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1103",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "K1103X",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 401,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1780,
+    "motorId": "5f4294d200023100000003c9",
+    "propInfo": "Propellant X",
+    "propWeightG": 830,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K1103X/",
+    "sparky": false,
+    "totImpulseNs": 1789,
+    "totalWeightG": 1459,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9247e51bca5800041717ba/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9247e51bca5800041717ba/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003c9",
+    "simfileId": "5f9247e51bca5800041717ba",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9247e51bca5800041717ba/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 657,
+    "burnTimeS": 11.5,
+    "caseInfo": "RMS-75/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M685",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M685W",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 935.9,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1517,
+    "motorId": "5f4294d200023100000003f0",
+    "propInfo": "White Lightning",
+    "propWeightG": 4320,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M685W/",
+    "sparky": false,
+    "totImpulseNs": 7561,
+    "totalWeightG": 7008,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92497e1bca5800041717e5/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92497e1bca5800041717e5/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f0",
+    "simfileId": "5f92497e1bca5800041717e5",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92497e1bca5800041717e5/"
+  }
+}

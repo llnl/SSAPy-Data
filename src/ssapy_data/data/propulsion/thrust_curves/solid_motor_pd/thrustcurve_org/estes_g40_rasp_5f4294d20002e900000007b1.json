@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 40.88,
+    "burnTimeS": 2.38,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "G40",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,7",
+    "designation": "G40",
+    "diameter": 29,
+    "impulseClass": "G",
+    "infoUrl": "https://nar.org/SandT/pdf/Estes/G40.pdf",
+    "length": 124,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 84.51,
+    "motorId": "5f4294d200023100000003e7",
+    "propWeightG": 55.1,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/G40/",
+    "sparky": false,
+    "totImpulseNs": 97.14,
+    "totalWeightG": 122.89999999999999,
+    "type": "SU",
+    "updatedOn": "2022-07-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007b1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007b1/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e7",
+    "simfileId": "5f4294d20002e900000007b1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007b1/"
+  }
+}

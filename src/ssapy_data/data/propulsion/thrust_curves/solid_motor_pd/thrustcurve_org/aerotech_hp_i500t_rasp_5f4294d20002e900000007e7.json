@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 500,
+    "burnTimeS": 1.24,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I500",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-I500T",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 356,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 613,
+    "motorId": "5f4294d200023100000003fb",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 312,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-I500T/",
+    "sparky": false,
+    "totImpulseNs": 620,
+    "totalWeightG": 576,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007e7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007e7/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003fb",
+    "simfileId": "5f4294d20002e900000007e7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007e7/"
+  }
+}

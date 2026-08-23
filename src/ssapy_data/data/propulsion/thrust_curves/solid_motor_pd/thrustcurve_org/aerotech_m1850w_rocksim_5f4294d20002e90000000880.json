@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1909.6,
+    "burnTimeS": 4.01,
+    "caseInfo": "RMS-75/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1850",
+    "dataFiles": 4,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1850W",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 923,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 4489.4,
+    "motorId": "5f4294d200023100000001cd",
+    "propInfo": "White Lightning",
+    "propWeightG": 4122,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1850W/",
+    "sparky": false,
+    "totImpulseNs": 7658.6,
+    "totalWeightG": 6032,
+    "type": "reload",
+    "updatedOn": "2024-01-23"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000880/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000880/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001cd",
+    "simfileId": "5f4294d20002e90000000880",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000880/"
+  }
+}

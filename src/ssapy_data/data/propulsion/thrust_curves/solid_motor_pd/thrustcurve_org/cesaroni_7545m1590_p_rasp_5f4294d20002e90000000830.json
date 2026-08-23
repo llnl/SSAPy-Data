@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1592.4,
+    "burnTimeS": 4.74,
+    "caseInfo": "Pro75-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M1590",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "7545M1590-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 893,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 2499.2,
+    "motorId": "5f4294d20002310000000315",
+    "propInfo": "Classic",
+    "propWeightG": 3590,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/7545M1590-P/",
+    "sparky": false,
+    "totImpulseNs": 7544.6,
+    "totalWeightG": 6076,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000830/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000830/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000315",
+    "simfileId": "5f4294d20002e90000000830",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000830/"
+  }
+}

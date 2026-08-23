@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 370,
+    "burnTimeS": 1.7,
+    "caseInfo": "AMW 38-640",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I370",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I370F",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 368,
+    "manufacturer": "Kosdon by AeroTech",
+    "manufacturerAbbrev": "KBA",
+    "maxThrustN": 539.2,
+    "motorId": "5f4294d200023100000000d6",
+    "propWeightG": 316.9,
+    "source_url": "http://www.thrustcurve.org/motors/KBA/I370F/",
+    "sparky": false,
+    "totImpulseNs": 634.3,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000004fe/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000004fe/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000d6",
+    "simfileId": "5f4294d20002e900000004fe",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000004fe/"
+  }
+}

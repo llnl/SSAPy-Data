@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 327,
+    "burnTimeS": 1.72,
+    "caseInfo": "RMS-38/720",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I327",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "I327DM",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 337,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 400,
+    "motorId": "5f4294d200023100000003c6",
+    "propInfo": "Dark Matter",
+    "propWeightG": 354,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I327DM/",
+    "sparky": true,
+    "totImpulseNs": 539,
+    "totalWeightG": 628,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9245e01bca580004171799/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9245e01bca580004171799/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003c6",
+    "simfileId": "5f9245e01bca580004171799",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9245e01bca580004171799/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1826.5,
+    "burnTimeS": 3.07,
+    "caseInfo": "Pro75-4G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M1830",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "5604M1830-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "infoUrl": "http://pro38.com/products/pro75/motor/MotorData.php?prodid=5604M1830-P",
+    "length": 621,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 2342.3,
+    "motorId": "5f4294d200023100000003e0",
+    "propInfo": "C-Star",
+    "propWeightG": 2542,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/5604M1830-P/",
+    "sparky": false,
+    "totImpulseNs": 5603.7,
+    "totalWeightG": 4524,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007d9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007d9/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e0",
+    "simfileId": "5f4294d20002e900000007d9",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007d9/"
+  }
+}

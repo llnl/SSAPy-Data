@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 260,
+    "burnTimeS": 2.7,
+    "caseInfo": "DMS",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J250",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "J250W",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 218.20000000000002,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 338,
+    "motorId": "5f4294d2000231000000043f",
+    "propInfo": "White Lightning",
+    "propWeightG": 363,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J250W/",
+    "sparky": false,
+    "totImpulseNs": 704,
+    "totalWeightG": 708,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9246421bca58000417179f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9246421bca58000417179f/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000043f",
+    "simfileId": "5f9246421bca58000417179f",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9246421bca58000417179f/"
+  }
+}

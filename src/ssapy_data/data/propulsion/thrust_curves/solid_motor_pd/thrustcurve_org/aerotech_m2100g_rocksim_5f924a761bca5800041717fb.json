@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2100,
+    "burnTimeS": 3.7,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2100",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M2100G",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 598,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d20002310000000213",
+    "propInfo": "Mojave Green",
+    "propWeightG": 3948,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M2100G/",
+    "sparky": false,
+    "totImpulseNs": 7802,
+    "totalWeightG": 6918,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f924a761bca5800041717fb/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f924a761bca5800041717fb/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000213",
+    "simfileId": "5f924a761bca5800041717fb",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f924a761bca5800041717fb/"
+  }
+}

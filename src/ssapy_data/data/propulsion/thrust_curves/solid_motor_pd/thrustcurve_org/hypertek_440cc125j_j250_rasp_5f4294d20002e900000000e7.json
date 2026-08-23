@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 250,
+    "burnTimeS": 2.978,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J250",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "440CC125J-J250",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 614,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000000fa",
+    "propWeightG": 404.6,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/440CC125J-J250/",
+    "sparky": false,
+    "totImpulseNs": 744.5,
+    "totalWeightG": 1292.48,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000e7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000e7/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000fa",
+    "simfileId": "5f4294d20002e900000000e7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000e7/"
+  }
+}

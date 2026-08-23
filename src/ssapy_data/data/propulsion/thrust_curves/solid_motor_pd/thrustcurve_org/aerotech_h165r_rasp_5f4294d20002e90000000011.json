@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 165,
+    "burnTimeS": 1,
+    "caseInfo": "RMS-29/180",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H165",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H165R",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 194,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d2000231000000008a",
+    "propInfo": "Redline",
+    "propWeightG": 90,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H165R/",
+    "sparky": false,
+    "totImpulseNs": 165,
+    "totalWeightG": 201.6,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000011/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000011/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000008a",
+    "simfileId": "5f4294d20002e90000000011",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000011/"
+  }
+}

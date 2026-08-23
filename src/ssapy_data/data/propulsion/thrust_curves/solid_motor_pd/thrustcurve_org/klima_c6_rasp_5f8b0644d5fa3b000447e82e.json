@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 6,
+    "burnTimeS": 1.6,
+    "certOrg": "Uncertified",
+    "commonName": "C6",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "0,3,5,7,P",
+    "designation": "C6",
+    "diameter": 18,
+    "impulseClass": "C",
+    "infoUrl": "https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Motor-C6-0-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0360&t=23&c=712&p=712",
+    "length": 70,
+    "manufacturer": "Raketenmodellbau Klima",
+    "manufacturerAbbrev": "Klima",
+    "maxThrustN": 15,
+    "motorId": "5f76974c9503a10004898858",
+    "propInfo": "composite",
+    "propWeightG": 9.6,
+    "source_url": "http://www.thrustcurve.org/motors/Klima/C6/",
+    "sparky": false,
+    "totImpulseNs": 10,
+    "totalWeightG": 20.5,
+    "type": "SU",
+    "updatedOn": "2020-10-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8b0644d5fa3b000447e82e/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f8b0644d5fa3b000447e82e/",
+    "license": "PD",
+    "motorId": "5f76974c9503a10004898858",
+    "simfileId": "5f8b0644d5fa3b000447e82e",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8b0644d5fa3b000447e82e/"
+  }
+}

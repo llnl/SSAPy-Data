@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 171.78,
+    "burnTimeS": 2.4,
+    "caseInfo": "RMS-54/426",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I170",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I170G",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 147.1,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 207.35,
+    "motorId": "5f4294d2000231000000038f",
+    "propInfo": "Mojave Green",
+    "propWeightG": 227,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I170G/",
+    "sparky": false,
+    "totImpulseNs": 418.54,
+    "totalWeightG": 528,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000076b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000076b/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000038f",
+    "simfileId": "5f4294d20002e9000000076b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000076b/"
+  }
+}

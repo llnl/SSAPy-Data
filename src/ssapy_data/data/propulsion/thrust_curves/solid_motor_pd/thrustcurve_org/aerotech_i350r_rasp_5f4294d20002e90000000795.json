@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 340,
+    "burnTimeS": 1.86,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I350",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10",
+    "designation": "I350R",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 355.6,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 473,
+    "motorId": "5f4294d200023100000003b7",
+    "propInfo": "Redline",
+    "propWeightG": 348,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I350R/",
+    "sparky": false,
+    "totImpulseNs": 634.6,
+    "totalWeightG": 616,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000795/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000795/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003b7",
+    "simfileId": "5f4294d20002e90000000795",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000795/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1029,
+    "burnTimeS": 1.24,
+    "caseInfo": "38/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1127",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "5,7,11,14",
+    "designation": "K1127-LB",
+    "diameter": 38,
+    "impulseClass": "K",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20Blue%201200%20case.pdf",
+    "length": 625.5,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1428,
+    "motorId": "5f4294d2000231000000043a",
+    "propInfo": "Loki Blue",
+    "propWeightG": 624,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/K1127-LB/",
+    "sparky": false,
+    "totImpulseNs": 1285,
+    "totalWeightG": 1172,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000844/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000844/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000043a",
+    "simfileId": "5f4294d20002e90000000844",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000844/"
+  }
+}

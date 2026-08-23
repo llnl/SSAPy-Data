@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 18.58,
+    "burnTimeS": 2.21,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F23",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "4,7",
+    "designation": "F23FJ",
+    "diameter": 29,
+    "impulseClass": "F",
+    "infoUrl": "https://www.nar.org/SandT/pdf/AeroTech/F23FJ.pdf",
+    "length": 83,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 29.8,
+    "motorId": "654b01231b5ae70002c2beae",
+    "propInfo": "Black Max",
+    "propWeightG": 30,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F23FJ/",
+    "sparky": false,
+    "totImpulseNs": 41.2,
+    "totalWeightG": 83,
+    "type": "SU",
+    "updatedOn": "2023-11-08"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/654b1ae91b5ae70002c2dbb3/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/654b1ae91b5ae70002c2dbb3/",
+    "license": "PD",
+    "motorId": "654b01231b5ae70002c2beae",
+    "simfileId": "654b1ae91b5ae70002c2dbb3",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/654b1ae91b5ae70002c2dbb3/"
+  }
+}

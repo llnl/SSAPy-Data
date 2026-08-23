@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 394.2,
+    "burnTimeS": 1.78,
+    "caseInfo": "RMS-38/720",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J350",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10,12,14",
+    "designation": "J350W-OLD",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 337,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 890.4,
+    "motorId": "5f4294d2000231000000010e",
+    "propInfo": "White Lightning",
+    "propWeightG": 381.1,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J350W-OLD/",
+    "sparky": false,
+    "totImpulseNs": 697.4,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000002a7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000002a7/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000010e",
+    "simfileId": "5f4294d20002e900000002a7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000002a7/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2,
+    "burnTimeS": 2.5,
+    "certOrg": "Uncertified",
+    "commonName": "B2",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "0,4,P",
+    "designation": "B2",
+    "diameter": 18,
+    "impulseClass": "B",
+    "infoUrl": "https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Motor-B2-0-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0220&t=23&c=712&p=712",
+    "length": 70,
+    "manufacturer": "Raketenmodellbau Klima",
+    "manufacturerAbbrev": "Klima",
+    "motorId": "5f7695bd9503a10004898855",
+    "propInfo": "composite",
+    "source_url": "http://www.thrustcurve.org/motors/Klima/B2/",
+    "sparky": false,
+    "totImpulseNs": 5,
+    "type": "SU",
+    "updatedOn": "2020-10-02"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8c7be563ef420004f3dfcc/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f8c7be563ef420004f3dfcc/",
+    "license": "PD",
+    "motorId": "5f7695bd9503a10004898855",
+    "simfileId": "5f8c7be563ef420004f3dfcc",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8c7be563ef420004f3dfcc/"
+  }
+}

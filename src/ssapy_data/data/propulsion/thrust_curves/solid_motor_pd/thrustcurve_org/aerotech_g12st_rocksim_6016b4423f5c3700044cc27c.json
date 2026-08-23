@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 11.31,
+    "burnTimeS": 12.7,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G12",
+    "dataFiles": 4,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "G12ST",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 156,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 30.88,
+    "motorId": "5f4294d20002310000000464",
+    "propInfo": "Super Thunder",
+    "propWeightG": 82,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G12ST/",
+    "sparky": false,
+    "totImpulseNs": 143.97,
+    "totalWeightG": 150.29999999999998,
+    "type": "SU",
+    "updatedOn": "2021-01-30"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/6016b4423f5c3700044cc27c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/6016b4423f5c3700044cc27c/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000464",
+    "simfileId": "6016b4423f5c3700044cc27c",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/6016b4423f5c3700044cc27c/"
+  }
+}

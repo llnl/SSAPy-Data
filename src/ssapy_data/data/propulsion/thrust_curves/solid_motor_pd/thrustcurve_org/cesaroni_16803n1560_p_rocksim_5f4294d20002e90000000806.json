@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1561.4,
+    "burnTimeS": 10.76,
+    "caseInfo": "Pro98-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "N1560",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "16803N1560-P",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1239,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 3216.3,
+    "motorId": "5f4294d2000231000000041f",
+    "propInfo": "White",
+    "propWeightG": 9946,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/16803N1560-P/",
+    "sparky": false,
+    "totImpulseNs": 16803,
+    "totalWeightG": 15858,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000806/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000806/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000041f",
+    "simfileId": "5f4294d20002e90000000806",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000806/"
+  }
+}

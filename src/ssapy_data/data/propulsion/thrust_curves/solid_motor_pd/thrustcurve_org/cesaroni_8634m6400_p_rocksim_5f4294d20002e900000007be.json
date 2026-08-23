@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 6365.2,
+    "burnTimeS": 1.36,
+    "caseInfo": "Pro98-4G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M6400",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "8634M6400-P",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 702,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 7237.8,
+    "motorId": "5f4294d200023100000003ed",
+    "propInfo": "Vmax",
+    "propWeightG": 4175,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/8634M6400-P/",
+    "sparky": false,
+    "totImpulseNs": 8634.4,
+    "totalWeightG": 7919,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007be/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007be/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ed",
+    "simfileId": "5f4294d20002e900000007be",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007be/"
+  }
+}

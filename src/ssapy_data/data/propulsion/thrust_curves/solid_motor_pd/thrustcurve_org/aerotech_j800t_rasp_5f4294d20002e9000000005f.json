@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 696.5,
+    "burnTimeS": 1.76,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J800",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J800T",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 316,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1001,
+    "motorId": "5f4294d20002310000000129",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 618,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J800T/",
+    "sparky": false,
+    "totImpulseNs": 1229.11,
+    "totalWeightG": 1085.95,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000005f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000005f/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000129",
+    "simfileId": "5f4294d20002e9000000005f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000005f/"
+  }
+}

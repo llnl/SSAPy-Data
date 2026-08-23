@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 6.56,
+    "burnTimeS": 19.81,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G8",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "G8ST",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 156,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 7.85,
+    "motorId": "5f4294d20002310000000462",
+    "propInfo": "Super Thunder",
+    "propWeightG": 83.4,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G8ST/",
+    "sparky": false,
+    "totImpulseNs": 129.99,
+    "totalWeightG": 157.1,
+    "type": "SU",
+    "updatedOn": "2021-01-30"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008a3/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000008a3/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000462",
+    "simfileId": "5f4294d20002e900000008a3",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008a3/"
+  }
+}

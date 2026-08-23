@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 600.3,
+    "burnTimeS": 3.55,
+    "caseInfo": "Pro54-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K600",
+    "dataFiles": 1,
+    "delayAdjustable": true,
+    "delays": "7,8,9,10,11,12,13,14,15,16,17",
+    "designation": "2130K600-17A",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 488,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 799.7,
+    "motorId": "5f4294d2000231000000041a",
+    "propInfo": "White",
+    "propWeightG": 1180,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2130K600-17A/",
+    "sparky": false,
+    "totImpulseNs": 2129.8,
+    "totalWeightG": 1892,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000080c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000080c/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000041a",
+    "simfileId": "5f4294d20002e9000000080c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000080c/"
+  }
+}

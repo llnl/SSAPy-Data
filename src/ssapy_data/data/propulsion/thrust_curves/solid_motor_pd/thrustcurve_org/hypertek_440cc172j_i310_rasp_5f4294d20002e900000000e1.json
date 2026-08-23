@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 310,
+    "burnTimeS": 1.85322580645161,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I310",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "440CC172J-I310",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 645,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000000cd",
+    "propWeightG": 401.2,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/440CC172J-I310/",
+    "sparky": false,
+    "totImpulseNs": 574.5,
+    "totalWeightG": 1305.02,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000e1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000e1/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000cd",
+    "simfileId": "5f4294d20002e900000000e1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000e1/"
+  }
+}

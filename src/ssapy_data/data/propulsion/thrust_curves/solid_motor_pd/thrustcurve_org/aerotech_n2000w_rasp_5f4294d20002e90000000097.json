@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2000,
+    "burnTimeS": 6.9,
+    "caseInfo": "RMS-98/15360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N2000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N2000W",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1046,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 3140.8,
+    "motorId": "5f4294d200023100000001bf",
+    "propInfo": "White Lightning",
+    "propWeightG": 7752.6,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N2000W/",
+    "sparky": false,
+    "totImpulseNs": 13347.1,
+    "totalWeightG": 12282.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000097/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000097/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001bf",
+    "simfileId": "5f4294d20002e90000000097",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000097/"
+  }
+}

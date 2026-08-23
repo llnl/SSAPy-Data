@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 615.06,
+    "burnTimeS": 1.2,
+    "caseInfo": "RMS-54/852",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J615",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,8,12,16,20",
+    "designation": "J615ST-20A",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 240.4,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 933.94,
+    "motorId": "616e62f1763045000425980d",
+    "propInfo": "Super Thunder",
+    "propWeightG": 370.5,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J615ST-20A/",
+    "sparky": false,
+    "totImpulseNs": 745.45,
+    "totalWeightG": 801.6999999999999,
+    "type": "reload",
+    "updatedOn": "2021-10-19"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/63b8c4a793c0ec0004f1e136/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/63b8c4a793c0ec0004f1e136/",
+    "license": "PD",
+    "motorId": "616e62f1763045000425980d",
+    "simfileId": "63b8c4a793c0ec0004f1e136",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/63b8c4a793c0ec0004f1e136/"
+  }
+}

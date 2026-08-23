@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1.89,
+    "burnTimeS": 1.31,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "A2",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "0,3,5,7",
+    "designation": "A2",
+    "diameter": 10.5,
+    "impulseClass": "A",
+    "infoUrl": "http://nar.org/SandT/pdf/Apogee/A2.pdf",
+    "length": 57,
+    "manufacturer": "Apogee Components",
+    "manufacturerAbbrev": "Apogee",
+    "maxThrustN": 4.82,
+    "motorId": "5f4294d20002310000000008",
+    "propWeightG": 3,
+    "source_url": "http://www.thrustcurve.org/motors/Apogee/A2/",
+    "sparky": false,
+    "totImpulseNs": 2.47,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/686c63c5d5f12000029ed1e9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/686c63c5d5f12000029ed1e9/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000008",
+    "simfileId": "686c63c5d5f12000029ed1e9",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/686c63c5d5f12000029ed1e9/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 280,
+    "burnTimeS": 1.9,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I280",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-I280DM",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 356.4,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 386,
+    "motorId": "5f4294d200023100000003f6",
+    "propInfo": "Dark Matter",
+    "propWeightG": 355,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-I280DM/",
+    "sparky": true,
+    "totImpulseNs": 561,
+    "totalWeightG": 616,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9244e11bca580004171750/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9244e11bca580004171750/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f6",
+    "simfileId": "5f9244e11bca580004171750",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9244e11bca580004171750/"
+  }
+}

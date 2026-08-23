@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 238,
+    "burnTimeS": 0.71,
+    "caseInfo": "RMS-29/180",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H238",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H238T",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 194,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 263.4,
+    "motorId": "5f4294d20002310000000090",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 83.4,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H238T/",
+    "sparky": false,
+    "totImpulseNs": 165.5,
+    "totalWeightG": 196,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000017/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000017/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000090",
+    "simfileId": "5f4294d20002e90000000017",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000017/"
+  }
+}

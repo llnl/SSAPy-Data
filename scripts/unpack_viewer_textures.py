@@ -9,10 +9,8 @@ in a single .npz holding raw encoded image bytes (plus a "<key>_ext" array per
 texture recording its extension). That was chosen to match earth_map.npz's
 convention and to avoid needing an image library at build time.
 
-Both reasons have lapsed: earth_map.npz is being dropped (its 512x1024
-classification raster is too coarse to use), and no image library is needed to
-write the files either -- the archive already holds encoded JPEG/PNG bytes, so
-unpacking is a byte copy.
+No image library is needed to write the files -- the archive already holds
+encoded JPEG/PNG bytes, so unpacking is a byte copy.
 
 Unpacking is worth doing because:
 

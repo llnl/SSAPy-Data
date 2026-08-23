@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 4533,
+    "burnTimeS": 1.6,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M4500",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M4500ST",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 597,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 5549,
+    "motorId": "5f4294d20002310000000445",
+    "propInfo": "Super Thunder",
+    "propWeightG": 3425,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M4500ST/",
+    "sparky": false,
+    "totImpulseNs": 7301,
+    "totalWeightG": 6622,
+    "type": "reload",
+    "updatedOn": "2020-11-25"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000860/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000860/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000445",
+    "simfileId": "5f4294d20002e90000000860",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000860/"
+  }
+}

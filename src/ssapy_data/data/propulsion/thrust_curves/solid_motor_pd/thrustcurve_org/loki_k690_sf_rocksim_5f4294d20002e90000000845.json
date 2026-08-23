@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 687,
+    "burnTimeS": 2.35,
+    "caseInfo": "54/2000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K690",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K690-SF",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 498,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 910,
+    "motorId": "5f4294d200023100000002b0",
+    "propInfo": "Spitfire",
+    "propWeightG": 1400,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/K690-SF/",
+    "sparky": true,
+    "totImpulseNs": 1616,
+    "totalWeightG": 2400,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000845/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000845/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002b0",
+    "simfileId": "5f4294d20002e90000000845",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000845/"
+  }
+}

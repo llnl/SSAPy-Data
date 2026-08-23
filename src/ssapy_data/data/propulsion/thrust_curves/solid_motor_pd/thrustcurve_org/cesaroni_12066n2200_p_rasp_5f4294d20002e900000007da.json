@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2174,
+    "burnTimeS": 5.55,
+    "caseInfo": "Pro98-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "N2200",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "12066N2200-P",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1010,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 2879,
+    "motorId": "5f4294d200023100000003eb",
+    "propInfo": "Pink",
+    "propWeightG": 6122,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/12066N2200-P/",
+    "sparky": false,
+    "totImpulseNs": 12066,
+    "totalWeightG": 11356,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007da/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007da/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003eb",
+    "simfileId": "5f4294d20002e900000007da",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007da/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1378,
+    "burnTimeS": 3.88,
+    "caseInfo": "54/4000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1378",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1378LR",
+    "diameter": 54,
+    "impulseClass": "M",
+    "length": 1108,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 2270,
+    "motorId": "5f4294d2000231000000044c",
+    "propInfo": "Loki Red",
+    "propWeightG": 2600,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/M1378LR/",
+    "sparky": false,
+    "totImpulseNs": 5363,
+    "totalWeightG": 4331,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000867/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000867/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000044c",
+    "simfileId": "5f4294d20002e90000000867",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000867/"
+  }
+}

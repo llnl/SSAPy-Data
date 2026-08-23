@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 211,
+    "burnTimeS": 1.72,
+    "caseInfo": "RMS-38/480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I211",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "I211W",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 248,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 399.5,
+    "motorId": "5f4294d200023100000000b9",
+    "propInfo": "White Lightning",
+    "propWeightG": 251.3,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I211W/",
+    "sparky": false,
+    "totImpulseNs": 441.6,
+    "totalWeightG": 455,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000035/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000035/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000b9",
+    "simfileId": "5f4294d20002e90000000035",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000035/"
+  }
+}

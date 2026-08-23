@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 242.7,
+    "burnTimeS": 1.57,
+    "caseInfo": "Pro29-6GXL",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I243",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "382I243-13A",
+    "diameter": 29,
+    "impulseClass": "I",
+    "length": 365,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 445.8,
+    "motorId": "5f4294d2000231000000039b",
+    "propInfo": "White",
+    "propWeightG": 212.1,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/382I243-13A/",
+    "sparky": false,
+    "totImpulseNs": 381.7,
+    "totalWeightG": 398.6,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000739/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000739/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000039b",
+    "simfileId": "5f4294d20002e90000000739",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000739/"
+  }
+}

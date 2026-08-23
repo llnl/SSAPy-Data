@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 210,
+    "burnTimeS": 3.99,
+    "caseInfo": "Pro54-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J210",
+    "dataFiles": 3,
+    "delayAdjustable": true,
+    "delays": "6,7,8,9,10,11,12,13,14,15,16",
+    "designation": "836J210-16A",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 236,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 335,
+    "motorId": "5f4294d200023100000000f0",
+    "propInfo": "Classic",
+    "propWeightG": 396,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/836J210-16A/",
+    "sparky": false,
+    "totImpulseNs": 836,
+    "totalWeightG": 842,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008b9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008b9/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000f0",
+    "simfileId": "5f4294d20002e900000008b9",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008b9/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 250,
+    "burnTimeS": 9,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K250",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K250W",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 673,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 545.8,
+    "motorId": "5f4294d20002310000000132",
+    "propInfo": "White Lightning",
+    "propWeightG": 1434,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K250W/",
+    "sparky": false,
+    "totImpulseNs": 2353,
+    "totalWeightG": 2211.33,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000006b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000006b/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000132",
+    "simfileId": "5f4294d20002e9000000006b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000006b/"
+  }
+}

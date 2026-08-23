@@ -39,9 +39,9 @@ Access packaged data with ``importlib.resources`` helpers exposed by
 
    from ssapy_data import data_path, read_text
 
-   gravity_header = read_text("egm84.egm")
+   data_readme = read_text("README.md")
 
-   with data_path("Earth_graphics/ne_50m_ocean.shp") as path:
+   with data_path("earth_day_2048.jpg") as path:
        print(path)
 
 ``data_path`` yields a real filesystem path for libraries that require paths.
@@ -53,10 +53,26 @@ Propulsion data
 
 Reusable propulsion resources live under ``propulsion/``. Electric propulsion
 benchmark throttle maps are packaged under ``propulsion/throttle_maps/electric``.
+These electric files are steady-state operating-point tables, not transient
+start-up or shutdown curves.
+Digitized thrust curves from public NASA Technical Reports Server (NTRS) plots
+are packaged under ``propulsion/thrust_curves/digitized/nasa_ntrs`` with one
+CSV and one sidecar JSON metadata file per curve. These files are derived from
+calibrated plot extraction rather than original tabular source data, so use the
+recorded uncertainty and validation notes when treating them as benchmarks.
 Solid and hybrid motor time-thrust curves should be imported only from sources
 with explicit redistribution rights. The helper script
 ``scripts/import_thrustcurve_pd.py`` imports only ThrustCurve.org records marked
-``license="PD"`` and writes normalized ``time_s,thrust_n`` CSV files.
+``license="PD"`` from RASP and RockSim simulator files, then writes normalized
+``time_s,thrust_n`` CSV files.
+
+The packaged ThrustCurve.org snapshot includes an ``index.csv`` summary under
+``propulsion/thrust_curves/solid_motor_pd/thrustcurve_org``. Use the index to
+select a curve by manufacturer, designation, impulse class, burn time, thrust,
+or total impulse before loading the neighboring normalized CSV.
+The propulsion directory also includes ``sources.json`` and
+``source_audit.md`` to record source URLs, rights metadata, transformations,
+and searched sources that were packaged, rejected, or deferred.
 
 Adding data
 -----------
@@ -114,7 +130,9 @@ Data provenance
 ---------------
 
 Each data pull request should document the source URL, license, retrieval date,
-and any preprocessing steps for new packaged datasets. Candidate sources include:
+and any preprocessing steps for new packaged datasets. Top-level source records
+live in ``src/ssapy_data/data/sources.json``. Propulsion source records live in
+``src/ssapy_data/data/propulsion/sources.json``. Candidate sources include:
 
 * Earth gravity fields:
   `ICGEM time-variable gravity fields <http://icgem.gfz-potsdam.de/tom_longtime>`_

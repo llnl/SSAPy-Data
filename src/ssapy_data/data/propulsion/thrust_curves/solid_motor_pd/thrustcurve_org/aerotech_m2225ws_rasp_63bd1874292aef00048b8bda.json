@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2239.2,
+    "burnTimeS": 2.32,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2225",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M2225WS",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 692,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2418.4,
+    "motorId": "63bb66061d26f30004b4b07e",
+    "propInfo": "Super White Lightning",
+    "propWeightG": 2331,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M2225WS/",
+    "sparky": false,
+    "totImpulseNs": 5205,
+    "totalWeightG": 4695,
+    "type": "reload",
+    "updatedOn": "2023-01-09"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/63bd1874292aef00048b8bda/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/63bd1874292aef00048b8bda/",
+    "license": "PD",
+    "motorId": "63bb66061d26f30004b4b07e",
+    "simfileId": "63bd1874292aef00048b8bda",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/63bd1874292aef00048b8bda/"
+  }
+}

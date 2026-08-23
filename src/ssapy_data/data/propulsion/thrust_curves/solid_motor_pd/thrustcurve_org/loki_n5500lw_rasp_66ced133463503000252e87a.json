@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 5343.5,
+    "burnTimeS": 3.58,
+    "caseInfo": "Pro-98 6g XL",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N5500",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N5500LW",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1382.7,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 6677.8,
+    "motorId": "66225b8cb1ba54000208d749",
+    "propInfo": "Loki White",
+    "propWeightG": 9182,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/N5500LW/",
+    "sparky": false,
+    "totImpulseNs": 19137,
+    "totalWeightG": 14855,
+    "type": "reload",
+    "updatedOn": "2024-04-22"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66ced133463503000252e87a/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66ced133463503000252e87a/",
+    "license": "PD",
+    "motorId": "66225b8cb1ba54000208d749",
+    "simfileId": "66ced133463503000252e87a",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/66ced133463503000252e87a/"
+  }
+}

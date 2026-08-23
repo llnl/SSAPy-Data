@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 69.32,
+    "burnTimeS": 1.85,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G73",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "7,11,15",
+    "designation": "G73C",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 153,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 89.9,
+    "motorId": "6919f1512d19df0002c39fbb",
+    "propInfo": "Classic",
+    "propWeightG": 62,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G73C/",
+    "sparky": false,
+    "totImpulseNs": 128.64,
+    "totalWeightG": 127,
+    "type": "SU",
+    "updatedOn": "2025-11-16"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/691a279d2d19df0002c3d279/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/691a279d2d19df0002c3d279/",
+    "license": "PD",
+    "motorId": "6919f1512d19df0002c39fbb",
+    "simfileId": "691a279d2d19df0002c3d279",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/691a279d2d19df0002c3d279/"
+  }
+}

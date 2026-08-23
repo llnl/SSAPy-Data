@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 23.4,
+    "burnTimeS": 1.03,
+    "caseInfo": "Pro24-1G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "E22",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "24E22-13A",
+    "diameter": 24,
+    "impulseClass": "E",
+    "length": 69,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 34.4,
+    "motorId": "5f4294d200023100000003d0",
+    "propInfo": "Smoky Sam",
+    "propWeightG": 13.4,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/24E22-13A/",
+    "sparky": false,
+    "totImpulseNs": 24.2,
+    "totalWeightG": 56.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ac/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ac/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d0",
+    "simfileId": "5f4294d20002e900000007ac",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ac/"
+  }
+}

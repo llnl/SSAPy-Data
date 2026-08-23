@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 170,
+    "burnTimeS": 4.28235294117647,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J170",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "440CC098J-J170",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 614,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000000ec",
+    "propWeightG": 407.5,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/440CC098J-J170/",
+    "sparky": false,
+    "totImpulseNs": 728,
+    "totalWeightG": 1282.18,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000d1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000d1/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ec",
+    "simfileId": "5f4294d20002e900000000d1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000d1/"
+  }
+}

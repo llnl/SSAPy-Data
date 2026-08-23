@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 125,
+    "burnTimeS": 7.75,
+    "caseInfo": "SU 54x368",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J125",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J125W",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 368,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 338.9,
+    "motorId": "5f4294d200023100000000e3",
+    "propInfo": "White Lightning",
+    "propWeightG": 638.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J125W/",
+    "sparky": false,
+    "totImpulseNs": 1202.4,
+    "totalWeightG": 1288,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000049/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000049/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000e3",
+    "simfileId": "5f4294d20002e90000000049",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000049/"
+  }
+}

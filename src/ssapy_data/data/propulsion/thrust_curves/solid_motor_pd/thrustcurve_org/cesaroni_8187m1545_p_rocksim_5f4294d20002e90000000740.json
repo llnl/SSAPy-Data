@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1547.3,
+    "burnTimeS": 5.29,
+    "caseInfo": "Pro75-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M1545",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "8187M1545-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 1025,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1840.2,
+    "motorId": "5f4294d200023100000003ad",
+    "propInfo": "Green3",
+    "propWeightG": 4835,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/8187M1545-P/",
+    "sparky": false,
+    "totImpulseNs": 8186.7,
+    "totalWeightG": 7878.3,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000740/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000740/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ad",
+    "simfileId": "5f4294d20002e90000000740",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000740/"
+  }
+}

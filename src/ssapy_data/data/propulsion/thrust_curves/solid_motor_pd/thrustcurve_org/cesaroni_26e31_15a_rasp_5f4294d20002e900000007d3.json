@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 30.8,
+    "burnTimeS": 0.85,
+    "caseInfo": "Pro24-1G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "E31",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,15",
+    "designation": "26E31-15A",
+    "diameter": 24,
+    "impulseClass": "E",
+    "length": 69,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 52.6,
+    "motorId": "5f4294d200023100000003cf",
+    "propInfo": "White Thunder",
+    "propWeightG": 11.1,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/26E31-15A/",
+    "sparky": false,
+    "totImpulseNs": 26.1,
+    "totalWeightG": 52,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007d3/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007d3/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003cf",
+    "simfileId": "5f4294d20002e900000007d3",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007d3/"
+  }
+}

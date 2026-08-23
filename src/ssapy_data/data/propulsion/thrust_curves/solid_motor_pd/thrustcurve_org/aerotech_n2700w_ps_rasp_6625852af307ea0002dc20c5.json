@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2692.6,
+    "burnTimeS": 3.8,
+    "caseInfo": "RMS-75/10240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N2700",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N2700W-PS",
+    "diameter": 75,
+    "impulseClass": "N",
+    "length": 1232.5,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 5553.5,
+    "motorId": "6623cf91f873440002ac6a28",
+    "propInfo": "White Lightning",
+    "propWeightG": 5275,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/N2700W-PS/",
+    "sparky": false,
+    "totImpulseNs": 10637,
+    "totalWeightG": 9058.199999999999,
+    "type": "reload",
+    "updatedOn": "2025-04-14"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/6625852af307ea0002dc20c5/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/6625852af307ea0002dc20c5/",
+    "license": "PD",
+    "motorId": "6623cf91f873440002ac6a28",
+    "simfileId": "6625852af307ea0002dc20c5",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/6625852af307ea0002dc20c5/"
+  }
+}

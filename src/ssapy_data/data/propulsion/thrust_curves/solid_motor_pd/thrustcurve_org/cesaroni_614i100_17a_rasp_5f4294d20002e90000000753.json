@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 98.5,
+    "burnTimeS": 6.23,
+    "caseInfo": "Pro54-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "I100",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,8,9,10,11,12,13,14,15,16,17",
+    "designation": "614I100-17A",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 236,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 358.4,
+    "motorId": "5f4294d200023100000003a4",
+    "propInfo": "Red Lightning",
+    "propWeightG": 350.1,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/614I100-17A/",
+    "sparky": false,
+    "totImpulseNs": 613.6,
+    "totalWeightG": 807,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000753/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000753/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a4",
+    "simfileId": "5f4294d20002e90000000753",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000753/"
+  }
+}

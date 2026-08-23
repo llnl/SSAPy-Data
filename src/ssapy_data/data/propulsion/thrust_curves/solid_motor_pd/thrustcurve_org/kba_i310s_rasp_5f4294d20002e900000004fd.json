@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 310,
+    "burnTimeS": 2.1,
+    "caseInfo": "AMW 38-640",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I310",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I310S",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 368,
+    "manufacturer": "Kosdon by AeroTech",
+    "manufacturerAbbrev": "KBA",
+    "maxThrustN": 473.9,
+    "motorId": "5f4294d200023100000000ce",
+    "propWeightG": 316.3,
+    "source_url": "http://www.thrustcurve.org/motors/KBA/I310S/",
+    "sparky": false,
+    "totImpulseNs": 633.8,
+    "type": "reload",
+    "updatedOn": "2022-02-19"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000004fd/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000004fd/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ce",
+    "simfileId": "5f4294d20002e900000004fd",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000004fd/"
+  }
+}

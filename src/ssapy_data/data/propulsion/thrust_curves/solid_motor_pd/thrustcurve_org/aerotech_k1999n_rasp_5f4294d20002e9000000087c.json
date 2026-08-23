@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1887.37,
+    "burnTimeS": 1.34,
+    "caseInfo": "RMS-98/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1999",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K1999N",
+    "diameter": 98,
+    "impulseClass": "K",
+    "length": 289,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2159.6,
+    "motorId": "5f4294d200023100000001ca",
+    "propInfo": "Warp 9",
+    "propWeightG": 1225,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K1999N/",
+    "sparky": false,
+    "totImpulseNs": 2540,
+    "totalWeightG": 2989,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000087c/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000087c/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001ca",
+    "simfileId": "5f4294d20002e9000000087c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000087c/"
+  }
+}

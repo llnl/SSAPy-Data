@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 463,
+    "burnTimeS": 3.89,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K350",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K350TR-P",
+    "diameter": 64,
+    "impulseClass": "K",
+    "length": 908,
+    "manufacturer": "R.A.T.T. Works",
+    "manufacturerAbbrev": "RATT",
+    "maxThrustN": 853,
+    "motorId": "5f4294d2000231000000038b",
+    "propInfo": "Tribrid: ABS/Alcohol/Nitrous",
+    "propWeightG": 1672,
+    "source_url": "http://www.thrustcurve.org/motors/RATT/K350TR-P/",
+    "sparky": false,
+    "totImpulseNs": 1861,
+    "totalWeightG": 11660,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/618811b3df914c0004442462/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/618811b3df914c0004442462/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000038b",
+    "simfileId": "618811b3df914c0004442462",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/618811b3df914c0004442462/"
+  }
+}

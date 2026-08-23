@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 23.5,
+    "burnTimeS": 1.18,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "E26",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,7,8,10",
+    "designation": "E26W",
+    "diameter": 24,
+    "impulseClass": "E",
+    "length": 87.7,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 27.89,
+    "motorId": "60159d7db94d0e00040a8404",
+    "propInfo": "White Lightning",
+    "propWeightG": 18.3,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/E26W/",
+    "sparky": false,
+    "totImpulseNs": 27.85,
+    "totalWeightG": 44,
+    "type": "SU",
+    "updatedOn": "2021-01-30"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/60159eecb94d0e00040a8433/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/60159eecb94d0e00040a8433/",
+    "license": "PD",
+    "motorId": "60159d7db94d0e00040a8404",
+    "simfileId": "60159eecb94d0e00040a8433",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/60159eecb94d0e00040a8433/"
+  }
+}

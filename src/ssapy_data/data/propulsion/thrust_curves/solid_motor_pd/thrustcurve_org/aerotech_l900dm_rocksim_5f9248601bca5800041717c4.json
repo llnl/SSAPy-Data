@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 900,
+    "burnTimeS": 4.4,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L900",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L900DM",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 665,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d200023100000003c8",
+    "propInfo": "Dark Matter",
+    "propWeightG": 2472,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L900DM/",
+    "sparky": true,
+    "totImpulseNs": 3868,
+    "totalWeightG": 4724,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9248601bca5800041717c4/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9248601bca5800041717c4/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003c8",
+    "simfileId": "5f9248601bca5800041717c4",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9248601bca5800041717c4/"
+  }
+}

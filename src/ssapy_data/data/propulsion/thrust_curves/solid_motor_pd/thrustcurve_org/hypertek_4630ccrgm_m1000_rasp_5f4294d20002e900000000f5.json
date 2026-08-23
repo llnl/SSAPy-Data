@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1000,
+    "burnTimeS": 9.155,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "4630CCRGM-M1000",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 1405,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d2000231000000019e",
+    "propWeightG": 4236.4,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/4630CCRGM-M1000/",
+    "sparky": false,
+    "totImpulseNs": 9155,
+    "totalWeightG": 8907.14,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000f5/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000f5/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000019e",
+    "simfileId": "5f4294d20002e900000000f5",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000f5/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 545.27,
+    "burnTimeS": 4.26,
+    "caseInfo": "RMS-54/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K480",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K480W",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 579,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1017.79,
+    "motorId": "5f4294d20002310000000383",
+    "propInfo": "White Lightning",
+    "propWeightG": 1292,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K480W/",
+    "sparky": false,
+    "totImpulseNs": 2273.26,
+    "totalWeightG": 2078,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000714/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000714/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000383",
+    "simfileId": "5f4294d20002e90000000714",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000714/"
+  }
+}

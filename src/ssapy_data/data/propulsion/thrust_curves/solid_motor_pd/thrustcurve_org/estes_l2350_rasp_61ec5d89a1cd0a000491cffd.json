@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2129,
+    "burnTimeS": 1.82,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "L2350",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L2350",
+    "diameter": 152,
+    "impulseClass": "L",
+    "length": 210,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 2585,
+    "motorId": "61ec46faa1cd0a000491cf48",
+    "propWeightG": 1680,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/L2350/",
+    "sparky": false,
+    "totImpulseNs": 3886,
+    "totalWeightG": 5550,
+    "type": "SU",
+    "updatedOn": "2022-01-22"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/61ec5d89a1cd0a000491cffd/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/61ec5d89a1cd0a000491cffd/",
+    "license": "PD",
+    "motorId": "61ec46faa1cd0a000491cf48",
+    "simfileId": "61ec5d89a1cd0a000491cffd",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/61ec5d89a1cd0a000491cffd/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1010,
+    "burnTimeS": 9.02415841584158,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1010",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "4630CCRGMFX-M1010FX",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 1405,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d200023100000001a1",
+    "propWeightG": 4301.4,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/4630CCRGMFX-M1010FX/",
+    "sparky": false,
+    "totImpulseNs": 9114.4,
+    "totalWeightG": 8999.87,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000f7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000f7/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001a1",
+    "simfileId": "5f4294d20002e900000000f7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000f7/"
+  }
+}

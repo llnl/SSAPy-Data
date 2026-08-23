@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 12,
+    "burnTimeS": 1.4,
+    "certOrg": "Uncertified",
+    "commonName": "D12",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "0,2,4,6,8",
+    "designation": "D12",
+    "diameter": 24,
+    "impulseClass": "D",
+    "length": 70,
+    "manufacturer": "Piotr Tendera Rocket Motors",
+    "manufacturerAbbrev": "TSP",
+    "motorId": "66a288cdd1517d00027bf3fc",
+    "propInfo": "composite",
+    "propWeightG": 14.8,
+    "source_url": "http://www.thrustcurve.org/motors/TSP/D12/",
+    "sparky": false,
+    "totImpulseNs": 19,
+    "totalWeightG": 45.5,
+    "type": "SU",
+    "updatedOn": "2024-07-25"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66a2fae4d1517d00027c3f75/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66a2fae4d1517d00027c3f75/",
+    "license": "PD",
+    "motorId": "66a288cdd1517d00027bf3fc",
+    "simfileId": "66a2fae4d1517d00027c3f75",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/66a2fae4d1517d00027c3f75/"
+  }
+}

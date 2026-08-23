@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 669.88,
+    "burnTimeS": 1.89,
+    "caseInfo": "54/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J670",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J670LB",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 330,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 824.15,
+    "motorId": "66225c88b1ba54000208d7b9",
+    "propInfo": "Loki Blue",
+    "propWeightG": 578,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J670LB/",
+    "sparky": false,
+    "totImpulseNs": 1269.8,
+    "totalWeightG": 1204.2,
+    "type": "reload",
+    "updatedOn": "2024-07-08"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66229756f873440002ab2cbc/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66229756f873440002ab2cbc/",
+    "license": "PD",
+    "motorId": "66225c88b1ba54000208d7b9",
+    "simfileId": "66229756f873440002ab2cbc",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/66229756f873440002ab2cbc/"
+  }
+}

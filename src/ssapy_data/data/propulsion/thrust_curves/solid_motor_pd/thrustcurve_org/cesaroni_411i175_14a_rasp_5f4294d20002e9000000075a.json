@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 174.4,
+    "burnTimeS": 2.36,
+    "caseInfo": "Pro38-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "I175",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "5,7,9,11,14",
+    "designation": "411I175-14A",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 245,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 197.9,
+    "motorId": "5f4294d200023100000003a0",
+    "propInfo": "White",
+    "propWeightG": 228.9,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/411I175-14A/",
+    "sparky": false,
+    "totImpulseNs": 411.4,
+    "totalWeightG": 437.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000075a/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000075a/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a0",
+    "simfileId": "5f4294d20002e9000000075a",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000075a/"
+  }
+}

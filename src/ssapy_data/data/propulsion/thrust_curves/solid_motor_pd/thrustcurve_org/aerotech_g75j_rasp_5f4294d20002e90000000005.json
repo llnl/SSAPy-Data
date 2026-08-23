@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 75,
+    "burnTimeS": 2.43,
+    "caseInfo": "RMS-29/180",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G75",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "G75J",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 194,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 70.3,
+    "motorId": "5f4294d20002310000000064",
+    "propInfo": "Blackjack",
+    "propWeightG": 104.3,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G75J/",
+    "sparky": false,
+    "totImpulseNs": 135.6,
+    "totalWeightG": 232.96,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000005/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000005/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000064",
+    "simfileId": "5f4294d20002e90000000005",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000005/"
+  }
+}

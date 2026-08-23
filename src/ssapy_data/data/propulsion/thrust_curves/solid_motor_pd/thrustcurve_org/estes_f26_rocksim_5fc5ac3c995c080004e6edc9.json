@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 26.96,
+    "burnTimeS": 2.31,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F26",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6",
+    "designation": "F26",
+    "diameter": 29,
+    "impulseClass": "F",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Estes/F26FJ.pdf",
+    "length": 98,
+    "manufacturer": "Estes Industries",
+    "manufacturerAbbrev": "Estes",
+    "maxThrustN": 39.16,
+    "motorId": "5f4294d200023100000003e5",
+    "propWeightG": 43.1,
+    "source_url": "http://www.thrustcurve.org/motors/Estes/F26/",
+    "sparky": false,
+    "totImpulseNs": 62.19,
+    "totalWeightG": 100.8,
+    "type": "SU",
+    "updatedOn": "2019-10-05"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5fc5ac3c995c080004e6edc9/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5fc5ac3c995c080004e6edc9/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e5",
+    "simfileId": "5fc5ac3c995c080004e6edc9",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5fc5ac3c995c080004e6edc9/"
+  }
+}

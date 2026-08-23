@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 123,
+    "burnTimeS": 1.76,
+    "caseInfo": "RMS-38/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H123",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H123W",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 152,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 174.2,
+    "motorId": "5f4294d20002310000000080",
+    "propInfo": "White Lightning",
+    "propWeightG": 128.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H123W/",
+    "sparky": false,
+    "totImpulseNs": 223.6,
+    "totalWeightG": 275,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000009/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000009/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000080",
+    "simfileId": "5f4294d20002e90000000009",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000009/"
+  }
+}

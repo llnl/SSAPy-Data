@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 240,
+    "burnTimeS": 2,
+    "caseInfo": "Pro38-4G",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I240",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I240",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 302,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 279,
+    "motorId": "5f4294d200023100000000c0",
+    "propWeightG": 279,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/I240/",
+    "sparky": false,
+    "totImpulseNs": 556,
+    "totalWeightG": 503.552,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000009f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000009f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000c0",
+    "simfileId": "5f4294d20002e9000000009f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000009f/"
+  }
+}

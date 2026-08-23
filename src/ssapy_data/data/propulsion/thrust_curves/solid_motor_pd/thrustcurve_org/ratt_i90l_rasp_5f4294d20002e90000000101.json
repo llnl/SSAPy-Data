@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 90,
+    "burnTimeS": 5.39111111111111,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I90",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I90L",
+    "diameter": 29,
+    "impulseClass": "I",
+    "length": 921,
+    "manufacturer": "R.A.T.T. Works",
+    "manufacturerAbbrev": "RATT",
+    "motorId": "5f4294d200023100000000a1",
+    "propWeightG": 289.3,
+    "source_url": "http://www.thrustcurve.org/motors/RATT/I90L/",
+    "sparky": false,
+    "totImpulseNs": 485.2,
+    "totalWeightG": 684.544,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000101/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000101/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000a1",
+    "simfileId": "5f4294d20002e90000000101",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000101/"
+  }
+}

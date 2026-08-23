@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 270.8,
+    "burnTimeS": 2.4,
+    "caseInfo": "Pro38-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J270",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "650J270-13A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 367,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 238.3,
+    "motorId": "5f4294d2000231000000039c",
+    "propInfo": "Green3",
+    "propWeightG": 376,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/650J270-13A/",
+    "sparky": false,
+    "totImpulseNs": 650.3,
+    "totalWeightG": 654.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000073b/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000073b/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000039c",
+    "simfileId": "5f4294d20002e9000000073b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000073b/"
+  }
+}

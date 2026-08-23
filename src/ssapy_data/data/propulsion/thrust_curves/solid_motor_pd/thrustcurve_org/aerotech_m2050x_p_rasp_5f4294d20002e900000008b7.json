@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2047.6,
+    "burnTimeS": 2.7,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M2050",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M2050X-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 699.7,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2544.2,
+    "motorId": "5f4294d2000231000000046b",
+    "propInfo": "Propellant X",
+    "propWeightG": 2268,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M2050X-P/",
+    "sparky": false,
+    "totImpulseNs": 5493.35,
+    "totalWeightG": 4558.6,
+    "type": "reload",
+    "updatedOn": "2021-02-14"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000008b7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000008b7/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000046b",
+    "simfileId": "5f4294d20002e900000008b7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000008b7/"
+  }
+}

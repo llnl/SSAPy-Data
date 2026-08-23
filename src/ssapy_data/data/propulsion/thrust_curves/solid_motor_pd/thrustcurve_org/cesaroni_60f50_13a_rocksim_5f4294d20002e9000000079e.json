@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 50,
+    "burnTimeS": 1.19,
+    "caseInfo": "Pro24-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "F50",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "4,6,8,10,13",
+    "designation": "60F50-13A",
+    "diameter": 24,
+    "impulseClass": "F",
+    "length": 133,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 69.9,
+    "motorId": "5f4294d200023100000003d1",
+    "propInfo": "Skidmark",
+    "propWeightG": 31.7,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/60F50-13A/",
+    "sparky": true,
+    "totImpulseNs": 59.7,
+    "totalWeightG": 93.9,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000079e/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000079e/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d1",
+    "simfileId": "5f4294d20002e9000000079e",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000079e/"
+  }
+}

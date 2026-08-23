@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1875,
+    "burnTimeS": 4.43,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1845",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1845NT",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 597,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 3081,
+    "motorId": "5f4294d2000231000000030c",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 3772,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1845NT/",
+    "sparky": false,
+    "totImpulseNs": 8307,
+    "totalWeightG": 6682,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f924a461bca5800041717f6/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f924a461bca5800041717f6/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000030c",
+    "simfileId": "5f924a461bca5800041717f6",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f924a461bca5800041717f6/"
+  }
+}

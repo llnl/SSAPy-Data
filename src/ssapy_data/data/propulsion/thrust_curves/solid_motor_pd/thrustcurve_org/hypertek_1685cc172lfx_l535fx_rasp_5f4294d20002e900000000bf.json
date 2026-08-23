@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 535,
+    "burnTimeS": 5.59682242990654,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L535",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1685CC172LFX-L535FX",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1031,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000171",
+    "propWeightG": 1615.7,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/1685CC172LFX-L535FX/",
+    "sparky": false,
+    "totImpulseNs": 2994.3,
+    "totalWeightG": 3948.22,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000bf/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000bf/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000171",
+    "simfileId": "5f4294d20002e900000000bf",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000bf/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1085,
+    "burnTimeS": 7,
+    "caseInfo": "75/7600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1085",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1085WC",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 1039,
+    "manufacturer": "Gorilla Rocket Motors",
+    "manufacturerAbbrev": "Gorilla",
+    "maxThrustN": 2267.46,
+    "motorId": "5f4294d20002310000000429",
+    "propInfo": "White Cloud",
+    "propWeightG": 3810,
+    "source_url": "http://www.thrustcurve.org/motors/Gorilla/M1085WC/",
+    "sparky": false,
+    "totImpulseNs": 6957.99,
+    "totalWeightG": 7058,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000859/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000859/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000429",
+    "simfileId": "5f4294d20002e90000000859",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000859/"
+  }
+}

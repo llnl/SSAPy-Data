@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 560,
+    "burnTimeS": 4.09,
+    "caseInfo": "RMS-75/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K560",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K560W",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 396,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 753.7,
+    "motorId": "5f4294d20002310000000149",
+    "propInfo": "White Lightning",
+    "propWeightG": 1424.9,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K560W/",
+    "sparky": false,
+    "totImpulseNs": 2417,
+    "totalWeightG": 2744,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000073/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000073/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000149",
+    "simfileId": "5f4294d20002e90000000073",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000073/"
+  }
+}

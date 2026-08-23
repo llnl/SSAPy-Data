@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1254,
+    "burnTimeS": 3.7,
+    "caseInfo": "RMS-75/6400",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1250",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1250DM",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 801,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2042,
+    "motorId": "5f4294d200023100000003fd",
+    "propInfo": "Dark Matter",
+    "propWeightG": 2565,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1250DM/",
+    "sparky": true,
+    "totImpulseNs": 4374,
+    "totalWeightG": 5647,
+    "type": "reload",
+    "updatedOn": "2020-08-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9248b91bca5800041717cc/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9248b91bca5800041717cc/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003fd",
+    "simfileId": "5f9248b91bca5800041717cc",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9248b91bca5800041717cc/"
+  }
+}

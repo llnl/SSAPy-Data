@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 408.88,
+    "burnTimeS": 2.8,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J401",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J401FJ",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 325,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 479.99,
+    "motorId": "5f4294d2000231000000024a",
+    "propInfo": "Black Max",
+    "propWeightG": 511,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J401FJ/",
+    "sparky": false,
+    "totImpulseNs": 1115.38,
+    "totalWeightG": 912,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9246651bca5800041717a1/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9246651bca5800041717a1/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000024a",
+    "simfileId": "5f9246651bca5800041717a1",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9246651bca5800041717a1/"
+  }
+}

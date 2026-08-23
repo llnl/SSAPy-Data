@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1406,
+    "burnTimeS": 4.8,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1305",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1305M",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 597,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2098,
+    "motorId": "5f4294d200023100000003cc",
+    "propInfo": "Metalstorm",
+    "propWeightG": 4080,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1305M/",
+    "sparky": true,
+    "totImpulseNs": 6891,
+    "totalWeightG": 7098,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9249b61bca5800041717e9/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9249b61bca5800041717e9/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003cc",
+    "simfileId": "5f9249b61bca5800041717e9",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9249b61bca5800041717e9/"
+  }
+}

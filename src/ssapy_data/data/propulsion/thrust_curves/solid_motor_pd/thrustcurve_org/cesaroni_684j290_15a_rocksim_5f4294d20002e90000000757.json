@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 295.4,
+    "burnTimeS": 2.31,
+    "caseInfo": "Pro38-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J290",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,15",
+    "designation": "684J290-15A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 367,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 391.6,
+    "motorId": "5f4294d200023100000003a2",
+    "propInfo": "White",
+    "propWeightG": 381.5,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/684J290-15A/",
+    "sparky": false,
+    "totImpulseNs": 683.6,
+    "totalWeightG": 659.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000757/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000757/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003a2",
+    "simfileId": "5f4294d20002e90000000757",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000757/"
+  }
+}

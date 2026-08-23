@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 112,
+    "burnTimeS": 2.92,
+    "caseInfo": "RMS-38/360",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H112",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H112J",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 191,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 121.7,
+    "motorId": "5f4294d2000231000000007e",
+    "propInfo": "Blackjack",
+    "propWeightG": 191.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H112J/",
+    "sparky": false,
+    "totImpulseNs": 261.1,
+    "totalWeightG": 379.456,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000007/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000007/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000007e",
+    "simfileId": "5f4294d20002e90000000007",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000007/"
+  }
+}

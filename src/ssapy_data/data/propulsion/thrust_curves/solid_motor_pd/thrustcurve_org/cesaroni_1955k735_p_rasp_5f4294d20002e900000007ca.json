@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 735.7,
+    "burnTimeS": 2.66,
+    "caseInfo": "Pro75-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "K735",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1955K735-P",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 350,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 911,
+    "motorId": "5f4294d200023100000003da",
+    "propInfo": "Skidmark",
+    "propWeightG": 1173,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/1955K735-P/",
+    "sparky": true,
+    "totImpulseNs": 1955.2,
+    "totalWeightG": 2508.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007ca/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007ca/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003da",
+    "simfileId": "5f4294d20002e900000007ca",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007ca/"
+  }
+}

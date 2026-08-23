@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1248,
+    "burnTimeS": 5.4,
+    "caseInfo": "RMS-75/6400",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1315",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1315W",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 801,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2362,
+    "motorId": "5f4294d200023100000001a5",
+    "propInfo": "White Lightning",
+    "propWeightG": 3499.4,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1315W/",
+    "sparky": false,
+    "totImpulseNs": 6713.5,
+    "totalWeightG": 5644.8,
+    "type": "reload",
+    "updatedOn": "2023-03-11"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000087/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000087/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001a5",
+    "simfileId": "5f4294d20002e90000000087",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000087/"
+  }
+}

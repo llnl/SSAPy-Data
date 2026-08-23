@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 4.93,
+    "burnTimeS": 3.98,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "D5",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "D5-P",
+    "diameter": 20,
+    "impulseClass": "D",
+    "infoUrl": "http://www.nar.org/SandT/pdf/Quest/D5_cn.pdf",
+    "length": 88,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 11.49,
+    "motorId": "5f4294d20002310000000210",
+    "propInfo": "black powder",
+    "propWeightG": 25,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/D5-P/",
+    "sparky": false,
+    "totImpulseNs": 19.61,
+    "totalWeightG": 38,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923e281bca58000417164a/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923e281bca58000417164a/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000210",
+    "simfileId": "5f923e281bca58000417164a",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923e281bca58000417164a/"
+  }
+}

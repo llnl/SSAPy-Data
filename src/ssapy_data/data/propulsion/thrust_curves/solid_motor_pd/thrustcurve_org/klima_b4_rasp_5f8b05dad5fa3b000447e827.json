@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 4,
+    "burnTimeS": 1.2,
+    "certOrg": "Uncertified",
+    "commonName": "B4",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "0,4,P",
+    "designation": "B4",
+    "diameter": 18,
+    "impulseClass": "B",
+    "infoUrl": "https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Motor-B4-0-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0240&t=23&c=712&p=712",
+    "length": 70,
+    "manufacturer": "Raketenmodellbau Klima",
+    "manufacturerAbbrev": "Klima",
+    "maxThrustN": 8,
+    "motorId": "5f8b05a5d5fa3b000447e825",
+    "propInfo": "composite",
+    "propWeightG": 5.4,
+    "source_url": "http://www.thrustcurve.org/motors/Klima/B4/",
+    "sparky": false,
+    "totImpulseNs": 5,
+    "totalWeightG": 16.299999999999997,
+    "type": "SU",
+    "updatedOn": "2020-10-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8b05dad5fa3b000447e827/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f8b05dad5fa3b000447e827/",
+    "license": "PD",
+    "motorId": "5f8b05a5d5fa3b000447e825",
+    "simfileId": "5f8b05dad5fa3b000447e827",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8b05dad5fa3b000447e827/"
+  }
+}

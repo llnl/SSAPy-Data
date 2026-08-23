@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 45,
+    "burnTimeS": 6,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H45",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "HP-H45W",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 203,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 87,
+    "motorId": "5f4294d20002310000000407",
+    "propInfo": "White Lightning",
+    "propWeightG": 180,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-H45W/",
+    "sparky": false,
+    "totImpulseNs": 320,
+    "totalWeightG": 365,
+    "type": "SU",
+    "updatedOn": "2022-03-11"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9242d71bca580004171737/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9242d71bca580004171737/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000407",
+    "simfileId": "5f9242d71bca580004171737",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9242d71bca580004171737/"
+  }
+}

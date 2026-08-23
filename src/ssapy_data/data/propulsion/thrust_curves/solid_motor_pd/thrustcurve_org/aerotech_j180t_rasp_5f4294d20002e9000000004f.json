@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 180,
+    "burnTimeS": 4.5,
+    "caseInfo": "RMS-54/852",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J180",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J180T",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 230,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 392,
+    "motorId": "5f4294d200023100000000ee",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 437.1,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J180T/",
+    "sparky": false,
+    "totImpulseNs": 764,
+    "totalWeightG": 809.088,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000004f/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000004f/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ee",
+    "simfileId": "5f4294d20002e9000000004f",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000004f/"
+  }
+}

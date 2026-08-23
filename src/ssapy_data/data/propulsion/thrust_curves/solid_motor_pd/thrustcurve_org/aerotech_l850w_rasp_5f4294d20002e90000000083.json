@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 850,
+    "burnTimeS": 4.42,
+    "caseInfo": "RMS-75/3840",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L850",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L850W",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 531,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1866.2,
+    "motorId": "5f4294d20002310000000181",
+    "propInfo": "White Lightning",
+    "propWeightG": 2094.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L850W/",
+    "sparky": false,
+    "totImpulseNs": 3646.2,
+    "totalWeightG": 3742,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000083/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000083/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000181",
+    "simfileId": "5f4294d20002e90000000083",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000083/"
+  }
+}

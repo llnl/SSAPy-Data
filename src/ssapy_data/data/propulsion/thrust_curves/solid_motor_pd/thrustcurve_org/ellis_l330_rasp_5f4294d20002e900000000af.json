@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 330,
+    "burnTimeS": 7.3,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L330",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L330",
+    "diameter": 76,
+    "impulseClass": "L",
+    "length": 381,
+    "manufacturer": "Ellis Mountain",
+    "manufacturerAbbrev": "Ellis",
+    "maxThrustN": 484.56,
+    "motorId": "5f4294d2000231000000016c",
+    "propWeightG": 1489.9,
+    "source_url": "http://www.thrustcurve.org/motors/Ellis/L330/",
+    "sparky": false,
+    "totImpulseNs": 2972.57,
+    "totalWeightG": 2670.08,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000af/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000af/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000016c",
+    "simfileId": "5f4294d20002e900000000af",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000af/"
+  }
+}

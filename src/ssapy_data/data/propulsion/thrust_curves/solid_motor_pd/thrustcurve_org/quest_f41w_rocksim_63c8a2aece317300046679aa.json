@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 42.19,
+    "burnTimeS": 1.12,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "F41",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "5,8,11",
+    "designation": "F41W",
+    "diameter": 24,
+    "impulseClass": "F",
+    "length": 113,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 54.16,
+    "motorId": "629ee8bae0d045000403682e",
+    "propInfo": "White Lightning",
+    "propWeightG": 27.099999999999998,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/F41W/",
+    "sparky": false,
+    "totImpulseNs": 47.65,
+    "totalWeightG": 56.9,
+    "type": "SU",
+    "updatedOn": "2023-09-23"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/63c8a2aece317300046679aa/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/63c8a2aece317300046679aa/",
+    "license": "PD",
+    "motorId": "629ee8bae0d045000403682e",
+    "simfileId": "63c8a2aece317300046679aa",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/63c8a2aece317300046679aa/"
+  }
+}

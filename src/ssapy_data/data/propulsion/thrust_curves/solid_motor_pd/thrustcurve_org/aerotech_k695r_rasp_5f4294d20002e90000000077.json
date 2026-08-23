@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 695,
+    "burnTimeS": 2.17841726618705,
+    "caseInfo": "RMS-54/1706",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K695",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "K695R",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 410,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d20002310000000158",
+    "propInfo": "Redline",
+    "propWeightG": 903,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K695R/",
+    "sparky": false,
+    "totImpulseNs": 1514,
+    "totalWeightG": 1487.36,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000077/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000077/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000158",
+    "simfileId": "5f4294d20002e90000000077",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000077/"
+  }
+}

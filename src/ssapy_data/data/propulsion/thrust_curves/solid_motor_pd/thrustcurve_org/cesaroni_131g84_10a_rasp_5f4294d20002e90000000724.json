@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 84.2,
+    "burnTimeS": 1.56,
+    "caseInfo": "Pro24-6G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "G84",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,10",
+    "designation": "131G84-10A",
+    "diameter": 24,
+    "impulseClass": "G",
+    "length": 228,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 132.3,
+    "motorId": "5f4294d20002310000000396",
+    "propInfo": "Green3",
+    "propWeightG": 77.3,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/131G84-10A/",
+    "sparky": false,
+    "totImpulseNs": 131,
+    "totalWeightG": 172,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000724/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000724/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000396",
+    "simfileId": "5f4294d20002e90000000724",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000724/"
+  }
+}

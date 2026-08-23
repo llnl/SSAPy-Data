@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 230,
+    "burnTimeS": 3.07,
+    "caseInfo": "38X387.4 38X416(D)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I230",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "20,P",
+    "designation": "I230",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 331,
+    "manufacturer": "Ellis Mountain",
+    "manufacturerAbbrev": "Ellis",
+    "maxThrustN": 359.2,
+    "motorId": "5f4294d200023100000000bf",
+    "propWeightG": 292,
+    "source_url": "http://www.thrustcurve.org/motors/Ellis/I230/",
+    "sparky": false,
+    "totImpulseNs": 540,
+    "totalWeightG": 610,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000a9/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000a9/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000bf",
+    "simfileId": "5f4294d20002e900000000a9",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000a9/"
+  }
+}

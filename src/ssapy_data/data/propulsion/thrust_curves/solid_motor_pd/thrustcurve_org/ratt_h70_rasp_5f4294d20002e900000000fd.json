@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 70,
+    "burnTimeS": 3.6,
+    "caseInfo": "29 h 136cc",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H70",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "H70",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 457,
+    "manufacturer": "R.A.T.T. Works",
+    "manufacturerAbbrev": "RATT",
+    "maxThrustN": 204.25,
+    "motorId": "5f4294d20002310000000077",
+    "propWeightG": 145.2,
+    "source_url": "http://www.thrustcurve.org/motors/RATT/H70/",
+    "sparky": false,
+    "totImpulseNs": 207.5,
+    "totalWeightG": 352,
+    "type": "hybrid",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000fd/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000fd/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000077",
+    "simfileId": "5f4294d20002e900000000fd",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000fd/"
+  }
+}

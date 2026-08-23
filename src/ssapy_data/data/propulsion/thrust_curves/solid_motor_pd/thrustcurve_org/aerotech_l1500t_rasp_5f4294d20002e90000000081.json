@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1500,
+    "burnTimeS": 3.47,
+    "caseInfo": "RMS-98/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1500",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1500T",
+    "diameter": 98,
+    "impulseClass": "L",
+    "length": 443,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1752,
+    "motorId": "5f4294d20002310000000196",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 2490.9,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1500T/",
+    "sparky": false,
+    "totImpulseNs": 5089.3,
+    "totalWeightG": 4659.2,
+    "type": "reload",
+    "updatedOn": "2021-10-27"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000081/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000081/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000196",
+    "simfileId": "5f4294d20002e90000000081",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000081/"
+  }
+}

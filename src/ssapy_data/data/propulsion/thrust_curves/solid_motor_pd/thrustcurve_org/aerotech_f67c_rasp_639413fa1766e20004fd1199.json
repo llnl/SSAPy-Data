@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 55.22,
+    "burnTimeS": 1.41,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "F67",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "6,9,14",
+    "designation": "F67C",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 112,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 72.79,
+    "motorId": "63628d72a244550004a0cf0a",
+    "propInfo": "Classic",
+    "propWeightG": 36.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F67C/",
+    "sparky": false,
+    "totImpulseNs": 77.46,
+    "totalWeightG": 85.7,
+    "type": "SU",
+    "updatedOn": "2022-11-03"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/639413fa1766e20004fd1199/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/639413fa1766e20004fd1199/",
+    "license": "PD",
+    "motorId": "63628d72a244550004a0cf0a",
+    "simfileId": "639413fa1766e20004fd1199",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/639413fa1766e20004fd1199/"
+  }
+}

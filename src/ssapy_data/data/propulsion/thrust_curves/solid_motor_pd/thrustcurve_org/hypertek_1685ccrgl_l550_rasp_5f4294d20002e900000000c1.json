@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 550,
+    "burnTimeS": 5.62672727272727,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L550",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "1685CCRGL-L550",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1031,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000173",
+    "propWeightG": 1551.6,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/1685CCRGL-L550/",
+    "sparky": false,
+    "totImpulseNs": 3094.7,
+    "totalWeightG": 3898.05,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000c1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000c1/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000173",
+    "simfileId": "5f4294d20002e900000000c1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000c1/"
+  }
+}

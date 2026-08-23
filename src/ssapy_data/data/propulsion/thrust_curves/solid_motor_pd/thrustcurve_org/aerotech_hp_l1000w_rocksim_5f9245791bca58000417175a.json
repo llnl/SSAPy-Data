@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1000,
+    "burnTimeS": 2.7,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1000",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "10,12,14,16,18",
+    "designation": "HP-L1000W",
+    "diameter": 54,
+    "impulseClass": "L",
+    "length": 635,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1261,
+    "motorId": "5f4294d2000231000000040b",
+    "propInfo": "White Lightning",
+    "propWeightG": 1400,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-L1000W/",
+    "sparky": false,
+    "totImpulseNs": 2714,
+    "totalWeightG": 2194,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9245791bca58000417175a/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9245791bca58000417175a/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000040b",
+    "simfileId": "5f9245791bca58000417175a",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9245791bca58000417175a/"
+  }
+}

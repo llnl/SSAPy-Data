@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 157,
+    "burnTimeS": 6.83,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J135",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J135W",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 368,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 274,
+    "motorId": "5f4294d200023100000000e4",
+    "propInfo": "White Lightning",
+    "propWeightG": 633,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J135W/",
+    "sparky": false,
+    "totImpulseNs": 1069,
+    "totalWeightG": 1141.06,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000004b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000004b/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000e4",
+    "simfileId": "5f4294d20002e9000000004b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000004b/"
+  }
+}

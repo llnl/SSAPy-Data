@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 34.9,
+    "burnTimeS": 1.63,
+    "caseInfo": "RMS-24/60",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "F35",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,5,6,7,8,9,11",
+    "designation": "F35W",
+    "diameter": 24,
+    "impulseClass": "F",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/F35W.pdf",
+    "length": 95,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 55.2,
+    "motorId": "5f4294d2000231000000022f",
+    "propInfo": "White Lightning",
+    "propWeightG": 30,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/F35W/",
+    "sparky": false,
+    "totImpulseNs": 57.1,
+    "totalWeightG": 85,
+    "type": "reload",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923fe01bca58000417170f/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923fe01bca58000417170f/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000022f",
+    "simfileId": "5f923fe01bca58000417170f",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923fe01bca58000417170f/"
+  }
+}

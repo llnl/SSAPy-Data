@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 13.21,
+    "burnTimeS": 18.26,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H14",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "H14ST",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 240,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 42.13,
+    "motorId": "6457b5ce8cd35f00024615fc",
+    "propInfo": "Super Thunder",
+    "propWeightG": 134,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H14ST/",
+    "sparky": false,
+    "totImpulseNs": 240.12,
+    "totalWeightG": 230,
+    "type": "SU",
+    "updatedOn": "2023-05-07"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/645a18264d01ef0002706951/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/645a18264d01ef0002706951/",
+    "license": "PD",
+    "motorId": "6457b5ce8cd35f00024615fc",
+    "simfileId": "645a18264d01ef0002706951",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/645a18264d01ef0002706951/"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 600,
+    "burnTimeS": 8,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L600",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L600",
+    "diameter": 76,
+    "impulseClass": "L",
+    "length": 584,
+    "manufacturer": "Ellis Mountain",
+    "manufacturerAbbrev": "Ellis",
+    "maxThrustN": 1056,
+    "motorId": "5f4294d20002310000000177",
+    "propWeightG": 2472.8,
+    "source_url": "http://www.thrustcurve.org/motors/Ellis/L600/",
+    "sparky": false,
+    "totImpulseNs": 4995.4,
+    "totalWeightG": 4119.81,
+    "type": "reload",
+    "updatedOn": "2021-06-13"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000b1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000b1/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000177",
+    "simfileId": "5f4294d20002e900000000b1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000b1/"
+  }
+}

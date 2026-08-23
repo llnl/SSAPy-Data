@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2052,
+    "burnTimeS": 2.34,
+    "caseInfo": "54/4000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L2050",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L2050LW",
+    "diameter": 54,
+    "impulseClass": "L",
+    "length": 1113.8,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 3331,
+    "motorId": "5f4294d2000231000000043e",
+    "propInfo": "Loki White",
+    "propWeightG": 2388,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/L2050LW/",
+    "sparky": false,
+    "totImpulseNs": 4802,
+    "totalWeightG": 4056,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000083a/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000083a/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000043e",
+    "simfileId": "5f4294d20002e9000000083a",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000083a/"
+  }
+}

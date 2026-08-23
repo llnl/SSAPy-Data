@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2326.4,
+    "burnTimeS": 4.29,
+    "caseInfo": "Pro75-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M2245",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "9977M2245-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 1025,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 3357,
+    "motorId": "5f4294d200023100000003e9",
+    "propInfo": "Imax",
+    "propWeightG": 5074,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/9977M2245-P/",
+    "sparky": false,
+    "totImpulseNs": 9976.7,
+    "totalWeightG": 8182,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007b5/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007b5/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003e9",
+    "simfileId": "5f4294d20002e900000007b5",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007b5/"
+  }
+}

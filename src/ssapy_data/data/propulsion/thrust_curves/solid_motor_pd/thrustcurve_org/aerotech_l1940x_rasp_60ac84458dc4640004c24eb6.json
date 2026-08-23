@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1939.3,
+    "burnTimeS": 2.23,
+    "caseInfo": "RMS-75/3840",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1940",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1940X",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 560,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2318.5,
+    "motorId": "60ac748b8dc4640004c24d85",
+    "propInfo": "Propellant X",
+    "propWeightG": 1825,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1940X/",
+    "sparky": false,
+    "totImpulseNs": 4329.2,
+    "totalWeightG": 3855.5,
+    "type": "reload",
+    "updatedOn": "2021-05-25"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/60ac84458dc4640004c24eb6/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/60ac84458dc4640004c24eb6/",
+    "license": "PD",
+    "motorId": "60ac748b8dc4640004c24d85",
+    "simfileId": "60ac84458dc4640004c24eb6",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/60ac84458dc4640004c24eb6/"
+  }
+}

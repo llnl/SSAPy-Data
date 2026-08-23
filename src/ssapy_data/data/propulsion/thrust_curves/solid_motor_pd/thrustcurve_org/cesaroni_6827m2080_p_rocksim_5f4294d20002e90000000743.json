@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2081.5,
+    "burnTimeS": 3.28,
+    "caseInfo": "Pro75-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "M2080",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "6827M2080-P",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 1025,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 2611.3,
+    "motorId": "5f4294d200023100000003ac",
+    "propInfo": "Skidmark",
+    "propWeightG": 4107,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/6827M2080-P/",
+    "sparky": true,
+    "totImpulseNs": 6827.3,
+    "totalWeightG": 7039.5,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000743/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000743/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003ac",
+    "simfileId": "5f4294d20002e90000000743",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000743/"
+  }
+}

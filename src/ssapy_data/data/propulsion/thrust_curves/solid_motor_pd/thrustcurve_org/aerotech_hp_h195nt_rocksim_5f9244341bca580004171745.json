@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 206.68,
+    "burnTimeS": 1.14,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H195",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "HP-H195NT",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 203,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 247.16,
+    "motorId": "5f4294d200023100000003f3",
+    "propInfo": "New Blue Thunder",
+    "propWeightG": 115,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-H195NT/",
+    "sparky": false,
+    "totImpulseNs": 236.09,
+    "totalWeightG": 197,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9244341bca580004171745/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9244341bca580004171745/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f3",
+    "simfileId": "5f9244341bca580004171745",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9244341bca580004171745/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3851,
+    "burnTimeS": 3.25,
+    "caseInfo": "98/12500",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N3800",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "N3800-LW",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1016,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 4965,
+    "motorId": "5f4294d200023100000002f2",
+    "propInfo": "Loki White",
+    "propWeightG": 6125,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/N3800-LW/",
+    "sparky": false,
+    "totImpulseNs": 12500,
+    "totalWeightG": 11600,
+    "type": "reload",
+    "updatedOn": "2021-07-04"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000851/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000851/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000002f2",
+    "simfileId": "5f4294d20002e90000000851",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000851/"
+  }
+}

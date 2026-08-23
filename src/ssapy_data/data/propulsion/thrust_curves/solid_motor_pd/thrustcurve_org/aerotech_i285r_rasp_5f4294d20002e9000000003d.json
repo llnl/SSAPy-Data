@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 285,
+    "burnTimeS": 1.47,
+    "caseInfo": "RMS-38/480",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "I285",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I285R",
+    "diameter": 38,
+    "impulseClass": "I",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/I285R.pdf",
+    "length": 250,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d200023100000000c7",
+    "propInfo": "Redline",
+    "propWeightG": 230.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I285R/",
+    "sparky": false,
+    "totImpulseNs": 420,
+    "totalWeightG": 492.8,
+    "type": "reload",
+    "updatedOn": "2022-07-23"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000003d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000003d/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000c7",
+    "simfileId": "5f4294d20002e9000000003d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000003d/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1275,
+    "burnTimeS": 1.75,
+    "caseInfo": "RMS-54/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1275",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K1275R",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 568,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1554,
+    "motorId": "5f4294d20002310000000167",
+    "propInfo": "Redline",
+    "propWeightG": 1222,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K1275R/",
+    "sparky": false,
+    "totImpulseNs": 2224.9,
+    "totalWeightG": 1986,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000067/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000067/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000167",
+    "simfileId": "5f4294d20002e90000000067",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000067/"
+  }
+}

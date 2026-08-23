@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 379.15,
+    "burnTimeS": 12.24,
+    "caseInfo": "RMS-98/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L400",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L400W",
+    "diameter": 98,
+    "impulseClass": "L",
+    "length": 443.9,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 770.24,
+    "motorId": "5f4294d2000231000000038d",
+    "propInfo": "White Lightning",
+    "propWeightG": 2696,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L400W/",
+    "sparky": false,
+    "totImpulseNs": 4641.58,
+    "totalWeightG": 5170,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92482f1bca5800041717c0/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92482f1bca5800041717c0/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000038d",
+    "simfileId": "5f92482f1bca5800041717c0",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92482f1bca5800041717c0/"
+  }
+}

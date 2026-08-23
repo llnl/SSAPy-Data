@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 922,
+    "burnTimeS": 2,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K850",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "8,10,12,14,16",
+    "designation": "K850DM",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 635,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1094,
+    "motorId": "5f4294d20002310000000451",
+    "propInfo": "Dark Matter",
+    "propWeightG": 1224,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K850DM/",
+    "sparky": true,
+    "totImpulseNs": 1869,
+    "totalWeightG": 2041,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000086d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000086d/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000451",
+    "simfileId": "5f4294d20002e9000000086d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000086d/"
+  }
+}

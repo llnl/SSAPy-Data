@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3464,
+    "burnTimeS": 2.7,
+    "caseInfo": "76/8000",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M3464",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M3464LB",
+    "diameter": 76,
+    "impulseClass": "M",
+    "length": 1038,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 4328,
+    "motorId": "5f4294d20002310000000436",
+    "propInfo": "Loki Blue",
+    "propWeightG": 4464,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/M3464LB/",
+    "sparky": false,
+    "totImpulseNs": 9395,
+    "totalWeightG": 7597,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000084e/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000084e/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000436",
+    "simfileId": "5f4294d20002e9000000084e",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000084e/"
+  }
+}

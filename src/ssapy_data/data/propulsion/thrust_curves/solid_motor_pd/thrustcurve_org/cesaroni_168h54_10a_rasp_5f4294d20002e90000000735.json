@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 53.8,
+    "burnTimeS": 3.12,
+    "caseInfo": "Pro29-3G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "H54",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "3,5,7,10",
+    "designation": "168H54-10A",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 187,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 105,
+    "motorId": "5f4294d20002310000000398",
+    "propInfo": "White",
+    "propWeightG": 96.6,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/168H54-10A/",
+    "sparky": false,
+    "totImpulseNs": 167.7,
+    "totalWeightG": 209,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000735/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000735/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000398",
+    "simfileId": "5f4294d20002e90000000735",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000735/"
+  }
+}

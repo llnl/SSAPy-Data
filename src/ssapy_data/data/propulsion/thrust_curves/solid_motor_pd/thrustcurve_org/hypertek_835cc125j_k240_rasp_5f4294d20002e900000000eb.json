@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 240,
+    "burnTimeS": 5.38,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K240",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "835CC125J-K240",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 815,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d2000231000000012f",
+    "propWeightG": 799.2,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/835CC125J-K240/",
+    "sparky": false,
+    "totImpulseNs": 1292,
+    "totalWeightG": 1807.1999999999998,
+    "type": "hybrid",
+    "updatedOn": "2024-02-15"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000eb/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000eb/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000012f",
+    "simfileId": "5f4294d20002e900000000eb",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000eb/"
+  }
+}

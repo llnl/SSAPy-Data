@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 875,
+    "burnTimeS": 4.44,
+    "caseInfo": "DMS",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L875",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L875DM",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 638,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1355,
+    "motorId": "5f4294d20002310000000457",
+    "propInfo": "Dark Matter",
+    "propWeightG": 2472,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L875DM/",
+    "sparky": true,
+    "totImpulseNs": 3887,
+    "totalWeightG": 4577,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000874/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000874/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000457",
+    "simfileId": "5f4294d20002e90000000874",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000874/"
+  }
+}

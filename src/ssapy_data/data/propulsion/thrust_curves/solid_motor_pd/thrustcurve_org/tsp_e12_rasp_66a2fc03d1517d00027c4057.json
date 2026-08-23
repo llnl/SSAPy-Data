@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 12,
+    "burnTimeS": 3.3,
+    "certOrg": "Uncertified",
+    "commonName": "E12",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "0,2,4,6,8",
+    "designation": "E12",
+    "diameter": 24,
+    "impulseClass": "E",
+    "length": 95,
+    "manufacturer": "Piotr Tendera Rocket Motors",
+    "manufacturerAbbrev": "TSP",
+    "motorId": "66a28863d1517d00027bf38d",
+    "propInfo": "composite",
+    "propWeightG": 27.599999999999998,
+    "source_url": "http://www.thrustcurve.org/motors/TSP/E12/",
+    "sparky": false,
+    "totImpulseNs": 39,
+    "totalWeightG": 64,
+    "type": "SU",
+    "updatedOn": "2024-07-26"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66a2fc03d1517d00027c4057/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66a2fc03d1517d00027c4057/",
+    "license": "PD",
+    "motorId": "66a28863d1517d00027bf38d",
+    "simfileId": "66a2fc03d1517d00027c4057",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/66a2fc03d1517d00027c4057/"
+  }
+}

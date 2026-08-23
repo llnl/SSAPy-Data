@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 452.7,
+    "burnTimeS": 2.24,
+    "caseInfo": "Pro38-6GXL",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "J453",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "7,9,11,13,16",
+    "designation": "1013J453-16A",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 500,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 725.3,
+    "motorId": "5f4294d200023100000003d3",
+    "propInfo": "White",
+    "propWeightG": 585.5,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/1013J453-16A/",
+    "sparky": false,
+    "totImpulseNs": 1012.6,
+    "totalWeightG": 964.3000000000001,
+    "type": "reload",
+    "updatedOn": "2021-02-26"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007d1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007d1/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003d3",
+    "simfileId": "5f4294d20002e900000007d1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007d1/"
+  }
+}

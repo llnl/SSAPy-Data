@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 300,
+    "burnTimeS": 2.05,
+    "caseInfo": "Pro38-5G",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J300",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J300",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 360,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 552,
+    "motorId": "5f4294d20002310000000105",
+    "propWeightG": 345.4,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/J300/",
+    "sparky": false,
+    "totImpulseNs": 694,
+    "totalWeightG": 606.592,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000a1/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000a1/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000105",
+    "simfileId": "5f4294d20002e900000000a1",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000a1/"
+  }
+}

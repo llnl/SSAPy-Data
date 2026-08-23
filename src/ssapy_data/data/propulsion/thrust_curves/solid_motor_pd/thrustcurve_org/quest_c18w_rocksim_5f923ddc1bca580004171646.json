@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 19.1,
+    "burnTimeS": 0.52,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "C18",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8",
+    "designation": "C18W",
+    "diameter": 18,
+    "impulseClass": "C",
+    "length": 81,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 23.6,
+    "motorId": "5f7d2f71606b5d00041d9aba",
+    "propInfo": "Fast White Lightning",
+    "propWeightG": 5.6,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/C18W/",
+    "sparky": false,
+    "totImpulseNs": 9.83,
+    "totalWeightG": 20.9,
+    "type": "SU",
+    "updatedOn": "2020-10-07"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923ddc1bca580004171646/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923ddc1bca580004171646/",
+    "license": "PD",
+    "motorId": "5f7d2f71606b5d00041d9aba",
+    "simfileId": "5f923ddc1bca580004171646",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923ddc1bca580004171646/"
+  }
+}

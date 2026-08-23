@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 2200,
+    "burnTimeS": 2.32,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L2200",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L2200G",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 681,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d2000231000000024b",
+    "propInfo": "Mojave Green",
+    "propWeightG": 2518,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L2200G/",
+    "sparky": false,
+    "totImpulseNs": 5104,
+    "totalWeightG": 4783,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9249431bca5800041717d6/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9249431bca5800041717d6/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000024b",
+    "simfileId": "5f9249431bca5800041717d6",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9249431bca5800041717d6/"
+  }
+}

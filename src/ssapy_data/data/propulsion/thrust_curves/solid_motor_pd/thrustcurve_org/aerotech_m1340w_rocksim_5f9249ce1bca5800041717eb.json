@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1340,
+    "burnTimeS": 5.5,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1340",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1340W",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 557,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1865,
+    "motorId": "5f4294d20002310000000454",
+    "propInfo": "White Lightning",
+    "propWeightG": 4035.9999999999995,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1340W/",
+    "sparky": false,
+    "totImpulseNs": 7369,
+    "totalWeightG": 6998,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9249ce1bca5800041717eb/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9249ce1bca5800041717eb/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000454",
+    "simfileId": "5f9249ce1bca5800041717eb",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9249ce1bca5800041717eb/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 80.16,
+    "burnTimeS": 7.92,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I65",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "HP-I65W",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 218,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 145,
+    "motorId": "5f4294d20002310000000409",
+    "propInfo": "White Lightning",
+    "propWeightG": 377,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/HP-I65W/",
+    "sparky": false,
+    "totImpulseNs": 634.97,
+    "totalWeightG": 752,
+    "type": "SU",
+    "updatedOn": "2022-08-31"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007fa/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007fa/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000409",
+    "simfileId": "5f4294d20002e900000007fa",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007fa/"
+  }
+}

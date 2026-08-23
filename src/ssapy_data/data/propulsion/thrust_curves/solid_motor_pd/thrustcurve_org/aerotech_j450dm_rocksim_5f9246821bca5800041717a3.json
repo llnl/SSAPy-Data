@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 465,
+    "burnTimeS": 2.27,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J450",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "J450DM",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 359,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 558,
+    "motorId": "5f4294d2000231000000044f",
+    "propInfo": "Dark Matter",
+    "propWeightG": 510,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J450DM/",
+    "sparky": true,
+    "totImpulseNs": 1055,
+    "totalWeightG": 1223,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9246821bca5800041717a3/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9246821bca5800041717a3/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000044f",
+    "simfileId": "5f9246821bca5800041717a3",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9246821bca5800041717a3/"
+  }
+}

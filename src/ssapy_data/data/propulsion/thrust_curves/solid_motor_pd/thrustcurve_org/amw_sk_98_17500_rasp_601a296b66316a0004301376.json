@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 2775.6,
+    "burnTimeS": 5.2,
+    "caseInfo": "AMW 98-17500",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "N2801",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "SK-98-17500",
+    "diameter": 98,
+    "impulseClass": "N",
+    "length": 1213,
+    "manufacturer": "Animal Motor Works",
+    "manufacturerAbbrev": "AMW",
+    "maxThrustN": 4199,
+    "motorId": "5f4294d2000231000000027f",
+    "propInfo": "Skidmark",
+    "source_url": "http://www.thrustcurve.org/motors/AMW/SK-98-17500/",
+    "sparky": true,
+    "totImpulseNs": 11939.73,
+    "totalWeightG": 13675,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/601a296b66316a0004301376/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/601a296b66316a0004301376/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000027f",
+    "simfileId": "601a296b66316a0004301376",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/601a296b66316a0004301376/"
+  }
+}

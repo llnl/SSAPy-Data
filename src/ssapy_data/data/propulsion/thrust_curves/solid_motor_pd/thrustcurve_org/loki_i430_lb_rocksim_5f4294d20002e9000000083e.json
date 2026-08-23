@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 436.96,
+    "burnTimeS": 1.21,
+    "caseInfo": "38/480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I430",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "7,9,12,15",
+    "designation": "I430-LB",
+    "diameter": 38,
+    "impulseClass": "I",
+    "infoUrl": "https://www.lokiresearch.com/images/Documents/38mm%20Blue.pdf",
+    "length": 292,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 639.5,
+    "motorId": "5f4294d20002310000000240",
+    "propInfo": "Loki Blue",
+    "propWeightG": 240,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/I430-LB/",
+    "sparky": false,
+    "totImpulseNs": 532.55,
+    "totalWeightG": 540,
+    "type": "reload",
+    "updatedOn": "2021-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000083e/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e9000000083e/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000240",
+    "simfileId": "5f4294d20002e9000000083e",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000083e/"
+  }
+}

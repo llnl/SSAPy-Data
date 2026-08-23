@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 13,
+    "burnTimeS": 0.38,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "B14",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "3,5,7",
+    "designation": "B14T",
+    "diameter": 18,
+    "impulseClass": "B",
+    "length": 79,
+    "manufacturer": "Quest Aerospace",
+    "manufacturerAbbrev": "Quest",
+    "maxThrustN": 17.65,
+    "motorId": "6623d0bcf873440002ac79dc",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 2.3,
+    "source_url": "http://www.thrustcurve.org/motors/Quest/B14T/",
+    "sparky": false,
+    "totImpulseNs": 4.97,
+    "totalWeightG": 16.1,
+    "type": "SU",
+    "updatedOn": "2024-04-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66253719f307ea0002dbd83d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66253719f307ea0002dbd83d/",
+    "license": "PD",
+    "motorId": "6623d0bcf873440002ac79dc",
+    "simfileId": "66253719f307ea0002dbd83d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/66253719f307ea0002dbd83d/"
+  }
+}

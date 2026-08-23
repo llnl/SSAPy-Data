@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 6,
+    "burnTimeS": 0.6,
+    "certOrg": "Uncertified",
+    "commonName": "A6",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4",
+    "designation": "A6",
+    "diameter": 18,
+    "impulseClass": "A",
+    "infoUrl": "https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Motor-A6-4-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0164&t=23&c=712&p=712",
+    "length": 70,
+    "manufacturer": "Raketenmodellbau Klima",
+    "manufacturerAbbrev": "Klima",
+    "maxThrustN": 10.5,
+    "motorId": "5f76951c9503a10004898852",
+    "propInfo": "composite",
+    "propWeightG": 3.5,
+    "source_url": "http://www.thrustcurve.org/motors/Klima/A6/",
+    "sparky": false,
+    "totImpulseNs": 2.5,
+    "totalWeightG": 14.5,
+    "type": "SU",
+    "updatedOn": "2020-10-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8b0495d5fa3b000447e824/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f8b0495d5fa3b000447e824/",
+    "license": "PD",
+    "motorId": "5f76951c9503a10004898852",
+    "simfileId": "5f8b0495d5fa3b000447e824",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8b0495d5fa3b000447e824/"
+  }
+}

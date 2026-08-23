@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1050,
+    "burnTimeS": 2.28,
+    "caseInfo": "SU 54x676",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1050",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K1050W-SU",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 676,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2164,
+    "motorId": "5f4294d20002310000000164",
+    "propInfo": "White Lightning",
+    "propWeightG": 1362.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K1050W-SU/",
+    "sparky": false,
+    "totImpulseNs": 2530,
+    "totalWeightG": 2128.45,
+    "type": "SU",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000063/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000063/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000164",
+    "simfileId": "5f4294d20002e90000000063",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000063/"
+  }
+}

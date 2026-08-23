@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 1120,
+    "burnTimeS": 4.43,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1120",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1120W",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 665,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1794,
+    "motorId": "5f4294d2000231000000018e",
+    "propInfo": "White Lightning",
+    "propWeightG": 2777.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1120W/",
+    "sparky": false,
+    "totImpulseNs": 4947,
+    "totalWeightG": 4657.86,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000007d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000007d/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000018e",
+    "simfileId": "5f4294d20002e9000000007d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000007d/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 109.3,
+    "burnTimeS": 2.47,
+    "caseInfo": "Pro38-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "H110",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "5,7,9,11,14",
+    "designation": "269H110-14A",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 186,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 127.5,
+    "motorId": "5f4294d2000231000000039f",
+    "propInfo": "White",
+    "propWeightG": 152.6,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/269H110-14A/",
+    "sparky": false,
+    "totImpulseNs": 269.1,
+    "totalWeightG": 325.3,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000075c/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000075c/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000039f",
+    "simfileId": "5f4294d20002e9000000075c",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000075c/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1090,
+    "burnTimeS": 2.45,
+    "caseInfo": "RMS-54/2800",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L1090",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L1090W",
+    "diameter": 54,
+    "impulseClass": "L",
+    "length": 625.8000000000001,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1487,
+    "motorId": "5f4294d20002310000000441",
+    "propInfo": "White Lightning",
+    "propWeightG": 1400,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L1090W/",
+    "sparky": false,
+    "totImpulseNs": 2671,
+    "totalWeightG": 2432,
+    "type": "reload",
+    "updatedOn": "2020-11-25"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92488b1bca5800041717c8/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92488b1bca5800041717c8/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000441",
+    "simfileId": "5f92488b1bca5800041717c8",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92488b1bca5800041717c8/"
+  }
+}

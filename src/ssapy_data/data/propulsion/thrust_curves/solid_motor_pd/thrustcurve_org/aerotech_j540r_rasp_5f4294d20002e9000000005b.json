@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 540,
+    "burnTimeS": 2.15,
+    "caseInfo": "RMS-54/1280",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J540",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "J540R",
+    "diameter": 54,
+    "impulseClass": "J",
+    "length": 314,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d20002310000000124",
+    "propInfo": "Redline",
+    "propWeightG": 679,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/J540R/",
+    "sparky": false,
+    "totImpulseNs": 1161,
+    "totalWeightG": 1084.16,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000005b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000005b/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000124",
+    "simfileId": "5f4294d20002e9000000005b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000005b/"
+  }
+}

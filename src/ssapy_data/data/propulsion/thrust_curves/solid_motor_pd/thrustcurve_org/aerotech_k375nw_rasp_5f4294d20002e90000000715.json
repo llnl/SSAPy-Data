@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 430.58,
+    "burnTimeS": 5.78,
+    "caseInfo": "RMS-54/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K375",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K375NW",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 579,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1371.77,
+    "motorId": "5f4294d20002310000000382",
+    "propInfo": "White Lightning/Warp 9",
+    "propWeightG": 1318,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K375NW/",
+    "sparky": false,
+    "totImpulseNs": 2228.14,
+    "totalWeightG": 2106,
+    "type": "reload",
+    "updatedOn": "2020-11-12"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000715/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000715/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000382",
+    "simfileId": "5f4294d20002e90000000715",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000715/"
+  }
+}

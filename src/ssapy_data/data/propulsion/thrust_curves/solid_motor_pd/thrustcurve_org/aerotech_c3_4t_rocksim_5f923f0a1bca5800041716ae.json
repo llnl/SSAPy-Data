@@ -1,0 +1,40 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3.14,
+    "burnTimeS": 2.86,
+    "caseInfo": "RMS-18/20",
+    "certOrg": "National Association of Rocketry",
+    "commonName": "C3",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "C3.4T",
+    "diameter": 18,
+    "impulseClass": "C",
+    "infoUrl": "https://nar.org/SandT/pdf/Aerotech/AT_C3.4_2015.pdf",
+    "length": 72,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 9.08,
+    "motorId": "5f4294d2000231000000040c",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 5.2,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/C3.4T/",
+    "sparky": false,
+    "totImpulseNs": 8.96,
+    "totalWeightG": 23.900000000000002,
+    "type": "reload",
+    "updatedOn": "2022-07-20"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f923f0a1bca5800041716ae/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f923f0a1bca5800041716ae/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000040c",
+    "simfileId": "5f923f0a1bca5800041716ae",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f923f0a1bca5800041716ae/"
+  }
+}

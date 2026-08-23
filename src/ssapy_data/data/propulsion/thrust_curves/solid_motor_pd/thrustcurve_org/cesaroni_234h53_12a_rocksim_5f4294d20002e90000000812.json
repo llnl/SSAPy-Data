@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 52.7,
+    "burnTimeS": 4.44,
+    "caseInfo": "Pro29-5G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "H53",
+    "dataFiles": 1,
+    "delayAdjustable": true,
+    "delays": "3,5,7,9,12",
+    "designation": "234H53-12A",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 276,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 101.8,
+    "motorId": "5f4294d20002310000000414",
+    "propInfo": "Mellow",
+    "propWeightG": 131.9,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/234H53-12A/",
+    "sparky": false,
+    "totImpulseNs": 234.2,
+    "totalWeightG": 286,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000812/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000812/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000414",
+    "simfileId": "5f4294d20002e90000000812",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000812/"
+  }
+}

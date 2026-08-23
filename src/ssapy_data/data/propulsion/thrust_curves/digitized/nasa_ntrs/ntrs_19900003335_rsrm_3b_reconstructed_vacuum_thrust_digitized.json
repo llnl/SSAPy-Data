@@ -1,0 +1,37 @@
+{
+  "columns": {
+    "thrust_lbf": "Digitized reconstructed vacuum thrust in pounds-force.",
+    "thrust_n": "Digitized reconstructed vacuum thrust converted with 1 lbf = 4.4482216152605 N.",
+    "time_s": "Time in seconds from the source figure."
+  },
+  "digitization": {
+    "curve": "Solid RSRM-3B trace.",
+    "estimated_uncertainty": {
+      "notes": "Scan skew, thick gridlines, legend overlap near 10-50 s, and overplotted RSRM-3A/3B traces limit precision.",
+      "thrust_lbf": 50000.0,
+      "time_s": 1.0
+    },
+    "method": "Manual curve digitization from a 250 dpi rendered PDF page using calibrated plot axes."
+  },
+  "schema_version": 1,
+  "source": {
+    "distribution": "PUBLIC",
+    "export_control": "NO ITAR, NO EAR",
+    "figure": "Figure 2.1, RSRM-3A and 3B Reconstructed Vacuum Thrust-Time Trace at Delivered Conditions",
+    "ntrs_id": "19900003335",
+    "retrieved": "2026-08-22",
+    "rights": "GOV_PUBLIC_USE_PERMITTED",
+    "title": "RSRM-3 (360L003) Ballistics/Mass Properties Report",
+    "url": "https://ntrs.nasa.gov/citations/19900003335"
+  },
+  "title": "RSRM-3B reconstructed vacuum thrust-time trace, digitized from Fig. 2.1",
+  "validation": {
+    "integrated_digitized_impulse_lbf_s": 296645000.0,
+    "notes": "Integrated digitized curve is close to the report's standard-nominal impulse gates, but the plot is delivered-condition reconstructed thrust.",
+    "published_standard_nominal_impulse_gates_lbf_s": {
+      "20_s": 64500000.0,
+      "60_s": 172500000.0,
+      "action_time": 296300000.0
+    }
+  }
+}

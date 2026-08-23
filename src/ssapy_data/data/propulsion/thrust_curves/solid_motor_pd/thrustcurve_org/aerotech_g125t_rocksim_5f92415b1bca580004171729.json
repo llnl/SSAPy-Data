@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 125,
+    "burnTimeS": 0.95,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "G125",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "G125T",
+    "diameter": 29,
+    "impulseClass": "G",
+    "length": 124,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 160,
+    "motorId": "5f4294d200023100000003f9",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 59.6,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/G125T/",
+    "sparky": false,
+    "totImpulseNs": 128,
+    "totalWeightG": 125,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f92415b1bca580004171729/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f92415b1bca580004171729/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003f9",
+    "simfileId": "5f92415b1bca580004171729",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f92415b1bca580004171729/"
+  }
+}

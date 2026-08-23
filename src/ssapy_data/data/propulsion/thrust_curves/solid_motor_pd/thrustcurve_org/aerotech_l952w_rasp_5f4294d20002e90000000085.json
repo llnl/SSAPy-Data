@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 952,
+    "burnTimeS": 6.15,
+    "caseInfo": "RMS-98/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L952",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "L952W",
+    "diameter": 98,
+    "impulseClass": "L",
+    "length": 427,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1021.5,
+    "motorId": "5f4294d20002310000000185",
+    "propInfo": "White Lightning",
+    "propWeightG": 2749.7,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/L952W/",
+    "sparky": false,
+    "totImpulseNs": 4656,
+    "totalWeightG": 5012.22,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000085/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000085/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000185",
+    "simfileId": "5f4294d20002e90000000085",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000085/"
+  }
+}

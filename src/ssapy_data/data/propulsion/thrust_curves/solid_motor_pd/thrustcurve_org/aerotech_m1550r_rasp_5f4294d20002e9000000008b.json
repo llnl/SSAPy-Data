@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1550,
+    "burnTimeS": 3,
+    "caseInfo": "RMS-75/6400",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1550",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1550R",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 801,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2180,
+    "motorId": "5f4294d200023100000001aa",
+    "propInfo": "Redline",
+    "propWeightG": 3170,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1550R/",
+    "sparky": false,
+    "totImpulseNs": 5600,
+    "totalWeightG": 5644.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000008b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000008b/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001aa",
+    "simfileId": "5f4294d20002e9000000008b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000008b/"
+  }
+}

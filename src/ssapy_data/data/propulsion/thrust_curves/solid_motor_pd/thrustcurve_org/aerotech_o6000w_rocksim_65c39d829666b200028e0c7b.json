@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 5853,
+    "burnTimeS": 6.77,
+    "certOrg": "National Association of Rocketry",
+    "commonName": "O6000",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "O6000W",
+    "diameter": 152,
+    "impulseClass": "O",
+    "length": 1120,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 9564,
+    "motorId": "656e92d97f1a4b00027f1588",
+    "propInfo": "White Lightning",
+    "propWeightG": 22000,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/O6000W/",
+    "sparky": false,
+    "totImpulseNs": 39620,
+    "totalWeightG": 31520,
+    "type": "SU",
+    "updatedOn": "2023-12-05"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/65c39d829666b200028e0c7b/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/65c39d829666b200028e0c7b/",
+    "license": "PD",
+    "motorId": "656e92d97f1a4b00027f1588",
+    "simfileId": "65c39d829666b200028e0c7b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/65c39d829666b200028e0c7b/"
+  }
+}

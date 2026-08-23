@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 3,
+    "burnTimeS": 5.5,
+    "certOrg": "Uncertified",
+    "commonName": "D3",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "0,P",
+    "designation": "D3",
+    "diameter": 18,
+    "impulseClass": "D",
+    "infoUrl": "https://www.raketenmodellbau-klima.de/Raketenmodellbau/Motoren-Treibsaetze/Motor-D3-0-6-Stueck-.htm?shop=raketenklima&SessionId=&a=article&ProdNr=0430&t=23&c=712&p=712",
+    "length": 70,
+    "manufacturer": "Raketenmodellbau Klima",
+    "manufacturerAbbrev": "Klima",
+    "maxThrustN": 9.01,
+    "motorId": "5f8b0753d5fa3b000447e835",
+    "propInfo": "composite",
+    "propWeightG": 17,
+    "source_url": "http://www.thrustcurve.org/motors/Klima/D3/",
+    "sparky": false,
+    "totImpulseNs": 17.4,
+    "totalWeightG": 27.900000000000002,
+    "type": "SU",
+    "updatedOn": "2020-10-27"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8b0767d5fa3b000447e837/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f8b0767d5fa3b000447e837/",
+    "license": "PD",
+    "motorId": "5f8b0753d5fa3b000447e835",
+    "simfileId": "5f8b0767d5fa3b000447e837",
+    "source": "mfr",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8b0767d5fa3b000447e837/"
+  }
+}

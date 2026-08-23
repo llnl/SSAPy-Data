@@ -1,0 +1,36 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 570,
+    "burnTimeS": 8.27280701754386,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "L570",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2800CC172LFX-L570FX",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 1387,
+    "manufacturer": "Hypertek",
+    "manufacturerAbbrev": "Hypertek",
+    "motorId": "5f4294d20002310000000174",
+    "propWeightG": 2607.9,
+    "source_url": "http://www.thrustcurve.org/motors/Hypertek/2800CC172LFX-L570FX/",
+    "sparky": false,
+    "totImpulseNs": 4715.5,
+    "totalWeightG": 5706.18,
+    "type": "hybrid",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000c7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000c7/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000174",
+    "simfileId": "5f4294d20002e900000000c7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000c7/"
+  }
+}

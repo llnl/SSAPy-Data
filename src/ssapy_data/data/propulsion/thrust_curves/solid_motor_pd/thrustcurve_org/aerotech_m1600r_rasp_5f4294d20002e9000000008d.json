@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1600,
+    "burnTimeS": 4,
+    "caseInfo": "RMS-98/7680",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1600",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1600R",
+    "diameter": 98,
+    "impulseClass": "M",
+    "length": 579,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1917,
+    "motorId": "5f4294d200023100000001ac",
+    "propInfo": "Redline",
+    "propWeightG": 4026,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1600R/",
+    "sparky": false,
+    "totImpulseNs": 7084,
+    "totalWeightG": 6917.12,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000008d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000008d/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001ac",
+    "simfileId": "5f4294d20002e9000000008d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000008d/"
+  }
+}

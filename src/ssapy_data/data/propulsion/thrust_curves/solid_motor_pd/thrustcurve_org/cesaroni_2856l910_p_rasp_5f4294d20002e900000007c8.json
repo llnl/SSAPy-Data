@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 907.1,
+    "burnTimeS": 3.15,
+    "caseInfo": "Pro75-2G",
+    "certOrg": "Canadian Association of Rocketry",
+    "commonName": "L910",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "2856L910-P",
+    "diameter": 75,
+    "impulseClass": "L",
+    "length": 350,
+    "manufacturer": "Cesaroni Technology",
+    "manufacturerAbbrev": "Cesaroni",
+    "maxThrustN": 1086.1,
+    "motorId": "5f4294d200023100000003db",
+    "propInfo": "C-Star",
+    "propWeightG": 1270,
+    "source_url": "http://www.thrustcurve.org/motors/Cesaroni/2856L910-P/",
+    "sparky": false,
+    "totImpulseNs": 2856.1,
+    "totalWeightG": 2615.8,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000007c8/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000007c8/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000003db",
+    "simfileId": "5f4294d20002e900000007c8",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000007c8/"
+  }
+}

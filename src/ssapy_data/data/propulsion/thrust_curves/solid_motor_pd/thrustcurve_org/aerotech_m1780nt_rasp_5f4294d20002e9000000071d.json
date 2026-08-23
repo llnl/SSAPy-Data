@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1859,
+    "burnTimeS": 3.1,
+    "caseInfo": "RMS-75/5120",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "M1780",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "M1780NT",
+    "diameter": 75,
+    "impulseClass": "M",
+    "length": 665,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 3056,
+    "motorId": "5f4294d2000231000000030b",
+    "propInfo": "New Blue Thunder",
+    "propWeightG": 2560,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/M1780NT/",
+    "sparky": false,
+    "totImpulseNs": 5783,
+    "totalWeightG": 4715,
+    "type": "reload",
+    "updatedOn": "2020-11-26"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000071d/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000071d/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000030b",
+    "simfileId": "5f4294d20002e9000000071d",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000071d/"
+  }
+}

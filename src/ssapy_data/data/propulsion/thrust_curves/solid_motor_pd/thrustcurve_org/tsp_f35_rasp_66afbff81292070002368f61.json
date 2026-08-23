@@ -1,0 +1,37 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 35,
+    "burnTimeS": 2,
+    "certOrg": "Uncertified",
+    "commonName": "F35",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "0,2,4,6,8",
+    "designation": "F35",
+    "diameter": 29,
+    "impulseClass": "F",
+    "length": 95,
+    "manufacturer": "Piotr Tendera Rocket Motors",
+    "manufacturerAbbrev": "TSP",
+    "motorId": "66a0d4a4a8c15d000226a881",
+    "propInfo": "composite",
+    "propWeightG": 42.3,
+    "source_url": "http://www.thrustcurve.org/motors/TSP/F35/",
+    "sparky": false,
+    "totImpulseNs": 65,
+    "totalWeightG": 91.5,
+    "type": "SU",
+    "updatedOn": "2024-07-24"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/66afbff81292070002368f61/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/66afbff81292070002368f61/",
+    "license": "PD",
+    "motorId": "66a0d4a4a8c15d000226a881",
+    "simfileId": "66afbff81292070002368f61",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/66afbff81292070002368f61/"
+  }
+}

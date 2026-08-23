@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 117,
+    "burnTimeS": 3.1,
+    "caseInfo": "RMS-54/426",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I117",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I117FJ",
+    "diameter": 54,
+    "impulseClass": "I",
+    "length": 156,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "motorId": "5f4294d200023100000001eb",
+    "propInfo": "Black Max",
+    "propWeightG": 243,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I117FJ/",
+    "sparky": false,
+    "totImpulseNs": 361,
+    "totalWeightG": 566,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f9245911bca58000417175c/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f9245911bca58000417175c/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000001eb",
+    "simfileId": "5f9245911bca58000417175c",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f9245911bca58000417175c/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1026,
+    "burnTimeS": 1.2,
+    "caseInfo": "38/1200",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "J1026",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "J1026CT",
+    "diameter": 38,
+    "impulseClass": "J",
+    "length": 625.5,
+    "manufacturer": "Loki Research",
+    "manufacturerAbbrev": "Loki",
+    "maxThrustN": 1212,
+    "motorId": "5f4294d20002310000000439",
+    "propInfo": "Cocktail",
+    "propWeightG": 616,
+    "source_url": "http://www.thrustcurve.org/motors/Loki/J1026CT/",
+    "sparky": false,
+    "totImpulseNs": 1267,
+    "totalWeightG": 1172,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000843/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f4294d20002e90000000843/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000439",
+    "simfileId": "5f4294d20002e90000000843",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000843/"
+  }
+}

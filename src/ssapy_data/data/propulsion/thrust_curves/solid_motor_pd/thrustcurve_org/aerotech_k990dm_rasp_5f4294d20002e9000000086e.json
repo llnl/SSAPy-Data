@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 931,
+    "burnTimeS": 2.04,
+    "caseInfo": "RMS-54/2800",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K990",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "K990DM",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 598,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 1075,
+    "motorId": "5f4294d20002310000000452",
+    "propInfo": "Dark Matter",
+    "propWeightG": 1224,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K990DM/",
+    "sparky": true,
+    "totImpulseNs": 1867,
+    "totalWeightG": 2109,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000086e/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000086e/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000452",
+    "simfileId": "5f4294d20002e9000000086e",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000086e/"
+  }
+}

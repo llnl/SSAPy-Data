@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 1776.5,
+    "burnTimeS": 1.37,
+    "caseInfo": "RMS-75/2560",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K1800",
+    "dataFiles": 1,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "K1800ST-P",
+    "diameter": 75,
+    "impulseClass": "K",
+    "length": 402,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 2082.4,
+    "motorId": "62f9c49d6ae9e200040442ab",
+    "propInfo": "Super Thunder",
+    "propWeightG": 1113,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K1800ST-P/",
+    "sparky": false,
+    "totImpulseNs": 2443.7,
+    "totalWeightG": 2771.5,
+    "type": "reload",
+    "updatedOn": "2023-10-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/62fa61998859e1000491b7e4/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/62fa61998859e1000491b7e4/",
+    "license": "PD",
+    "motorId": "62f9c49d6ae9e200040442ab",
+    "simfileId": "62fa61998859e1000491b7e4",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/62fa61998859e1000491b7e4/"
+  }
+}

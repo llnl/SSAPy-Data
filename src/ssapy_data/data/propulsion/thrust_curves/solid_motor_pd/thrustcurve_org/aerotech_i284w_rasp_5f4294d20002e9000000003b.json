@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 284,
+    "burnTimeS": 1.94,
+    "caseInfo": "RMS-38/600",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I284",
+    "dataFiles": 3,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I284W",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 299,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 570.6,
+    "motorId": "5f4294d200023100000000c5",
+    "propInfo": "White Lightning",
+    "propWeightG": 315.9,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I284W/",
+    "sparky": false,
+    "totImpulseNs": 607.3,
+    "totalWeightG": 555.52,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000003b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000003b/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000c5",
+    "simfileId": "5f4294d20002e9000000003b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000003b/"
+  }
+}

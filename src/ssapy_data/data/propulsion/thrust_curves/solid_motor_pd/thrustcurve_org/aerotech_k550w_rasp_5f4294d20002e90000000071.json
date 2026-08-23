@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 396.8,
+    "burnTimeS": 3.879,
+    "caseInfo": "RMS-54/1706",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "K550",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "6,8,10,12,14",
+    "designation": "K550W",
+    "diameter": 54,
+    "impulseClass": "K",
+    "length": 410,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 655.3,
+    "motorId": "5f4294d20002310000000146",
+    "propInfo": "White Lightning",
+    "propWeightG": 889.1,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/K550W/",
+    "sparky": false,
+    "totImpulseNs": 1539.118,
+    "totalWeightG": 1487.36,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000071/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000071/",
+    "license": "PD",
+    "motorId": "5f4294d20002310000000146",
+    "simfileId": "5f4294d20002e90000000071",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000071/"
+  }
+}

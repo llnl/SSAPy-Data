@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "hyg_database_trimmed_star_catalogs",
+      "title": "HYG Database trimmed star catalogues",
+      "source_title": "HYG Database",
+      "source_url": "https://codeberg.org/astronexus/hyg",
+      "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "retrieved": "2026-08-12",
+      "packaged_files": [
+        "bright_stars.csv",
+        "bright_stars_mag9.csv",
+        "bright_stars_mag11.csv"
+      ],
+      "transformation": "scripts/trim_bright_stars.py filters the full HYG catalogue into magnitude tiers and keeps only ra, dec, mag, pmra, pmdec, ci, spect, and proper columns used by SSAPy Toolkit renderers.",
+      "notes": "The original full catalogue is not redistributed in this package. The preprocessing script verifies retained rows and columns against the local source file when run with --verify."
+    },
+    {
+      "id": "viewer_earth_textures_2048",
+      "title": "SSAPy Toolkit 2048x1024 Earth viewer texture layers",
+      "source_title": "matteason/live-cloud-maps Earth, night, specular, and cloud texture products",
+      "source_url": "https://github.com/matteason/live-cloud-maps",
+      "license": "CC0 1.0 Universal for repository code/images, with EUMETSAT attribution required for cloud data and NASA public-domain base imagery",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "additional_attribution": [
+        "Contains modified EUMETSAT data",
+        "NASA Earth imagery / Blue Marble base imagery"
+      ],
+      "retrieved": "2026-08-12",
+      "packaged_files": [
+        "earth_day_2048.jpg",
+        "earth_night_2048.jpg",
+        "earth_specular_2048.jpg",
+        "earth_clouds_2048.png"
+      ],
+      "transformation": "scripts/unpack_viewer_textures.py split a legacy SSAPy Toolkit satellite_viewer_textures.npz archive into individual image files with one manifest checksum per texture.",
+      "notes": "The exact upstream image timestamp from the original texture archive was not recorded. Do not replace or add Earth texture layers without recording the upstream URL, retrieval time, license, and checksum."
+    },
+    {
+      "id": "earth_surface_classification_map",
+      "title": "Earth surface classification raster for solar-body rendering",
+      "source_title": "NASA Visible Earth Blue Marble imagery",
+      "source_url": "https://visibleearth.nasa.gov/collection/1484/blue-marble",
+      "license": "NASA public-domain imagery policy",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "retrieved": "2026-08-13",
+      "packaged_files": [
+        "earth_map.npz"
+      ],
+      "transformation": "Compressed NumPy archive containing a 512x1024 uint8 surface-classification raster used by SSAPy Toolkit plotting code.",
+      "notes": "The generating script and exact source mosaic checksum were not present in this repository when the citation ledger was added. Keep this entry as legacy provenance until the classification can be regenerated from a recorded NASA source image."
+    },
+    {
+      "id": "propulsion_sources",
+      "title": "Propulsion data source ledger",
+      "source_url": "propulsion/sources.json",
+      "packaged_files": [
+        "propulsion/**"
+      ],
+      "notes": "Propulsion source records, including NASA NTRS table transcriptions, digitized NTRS thrust curves, and ThrustCurve.org public-domain imports, are maintained in propulsion/sources.json."
+    }
+  ]
+}

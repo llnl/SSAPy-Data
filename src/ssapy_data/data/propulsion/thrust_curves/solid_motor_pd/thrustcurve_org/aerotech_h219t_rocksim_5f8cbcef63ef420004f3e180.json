@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 222,
+    "burnTimeS": 1.05,
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H219",
+    "dataFiles": 2,
+    "delayAdjustable": true,
+    "delays": "6,8,10,12,14",
+    "designation": "H219T",
+    "diameter": 38,
+    "impulseClass": "H",
+    "length": 155,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 279,
+    "motorId": "5f4294d2000231000000044e",
+    "propInfo": "Blue Thunder",
+    "propWeightG": 109,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H219T/",
+    "sparky": false,
+    "totImpulseNs": 233,
+    "totalWeightG": 261,
+    "type": "SU",
+    "updatedOn": "2025-08-10"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f8cbcef63ef420004f3e180/download/data.rse",
+    "format": "RockSim",
+    "infoUrl": "/simfiles/5f8cbcef63ef420004f3e180/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000044e",
+    "simfileId": "5f8cbcef63ef420004f3e180",
+    "source": "user",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f8cbcef63ef420004f3e180/"
+  }
+}

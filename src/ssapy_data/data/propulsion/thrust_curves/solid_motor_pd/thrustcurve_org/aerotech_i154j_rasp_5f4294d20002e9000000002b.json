@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 154,
+    "burnTimeS": 2.99,
+    "caseInfo": "RMS-38/480",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I154",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "I154J",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 241,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 170.5,
+    "motorId": "5f4294d200023100000000ad",
+    "propInfo": "Blackjack",
+    "propWeightG": 252.8,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/I154J/",
+    "sparky": false,
+    "totImpulseNs": 378,
+    "totalWeightG": 491.904,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e9000000002b/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e9000000002b/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000ad",
+    "simfileId": "5f4294d20002e9000000002b",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e9000000002b/"
+  }
+}

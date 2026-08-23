@@ -1,0 +1,39 @@
+{
+  "motor": {
+    "availability": "regular",
+    "avgThrustN": 97,
+    "burnTimeS": 2.23,
+    "caseInfo": "RMS-29/240",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "H97",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "4,6,8,10",
+    "designation": "H97J",
+    "diameter": 29,
+    "impulseClass": "H",
+    "length": 238,
+    "manufacturer": "AeroTech",
+    "manufacturerAbbrev": "AeroTech",
+    "maxThrustN": 111.5,
+    "motorId": "5f4294d2000231000000007c",
+    "propInfo": "Blackjack",
+    "propWeightG": 137.1,
+    "source_url": "http://www.thrustcurve.org/motors/AeroTech/H97J/",
+    "sparky": false,
+    "totImpulseNs": 177.3,
+    "totalWeightG": 277.76,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e90000000027/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e90000000027/",
+    "license": "PD",
+    "motorId": "5f4294d2000231000000007c",
+    "simfileId": "5f4294d20002e90000000027",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e90000000027/"
+  }
+}

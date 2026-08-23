@@ -1,0 +1,38 @@
+{
+  "motor": {
+    "availability": "OOP",
+    "avgThrustN": 160,
+    "burnTimeS": 3.5,
+    "caseInfo": "38X336.6 38X365(D)",
+    "certOrg": "Tripoli Rocketry Association, Inc.",
+    "commonName": "I160",
+    "dataFiles": 2,
+    "delayAdjustable": false,
+    "delays": "P",
+    "designation": "I160",
+    "diameter": 38,
+    "impulseClass": "I",
+    "length": 280,
+    "manufacturer": "Ellis Mountain",
+    "manufacturerAbbrev": "Ellis",
+    "maxThrustN": 265.3,
+    "motorId": "5f4294d200023100000000b0",
+    "propWeightG": 231.9,
+    "source_url": "http://www.thrustcurve.org/motors/Ellis/I160/",
+    "sparky": false,
+    "totImpulseNs": 462.7,
+    "totalWeightG": 516,
+    "type": "reload",
+    "updatedOn": "2019-04-17"
+  },
+  "simfile": {
+    "dataUrl": "/simfiles/5f4294d20002e900000000a7/download/data.eng",
+    "format": "RASP",
+    "infoUrl": "/simfiles/5f4294d20002e900000000a7/",
+    "license": "PD",
+    "motorId": "5f4294d200023100000000b0",
+    "simfileId": "5f4294d20002e900000000a7",
+    "source": "cert",
+    "source_url": "http://www.thrustcurve.org/simfiles/5f4294d20002e900000000a7/"
+  }
+}

@@ -1,0 +1,13 @@
+dataset,discharge_voltage_v,discharge_current_a,discharge_power_kw,cathode_flow_fraction_percent,average_thrust_mn,thrust_tolerance_mn,specific_impulse_s,specific_impulse_tolerance_percent,total_efficiency_percent,total_efficiency_tolerance_percent,baseline_label,baseline_thrust_mn,baseline_specific_impulse_s,baseline_total_efficiency_percent,notes
+nominal_aeps_rfc,300,20.83,6.25,7,397,5,1968,0.9,60.5,1.7,HERMeS TDU,394,1960,59.5,Table 3 nominal AEPS reference firing conditions averaged over ETU-2 test campaign
+nominal_aeps_rfc,400,20.83,8.33,7,480,5,2327,0.9,65.1,1.7,HERMeS TDU,478,2318,64.3,Table 3 nominal AEPS reference firing conditions averaged over ETU-2 test campaign
+nominal_aeps_rfc,500,20.83,10.417,7,545,5,2611,0.9,66.6,1.7,HERMeS TDU,545,2596,65.8,Table 3 nominal AEPS reference firing conditions averaged over ETU-2 test campaign
+nominal_aeps_rfc,600,20.83,12.50,7,611,5,2826,0.9,67.4,1.7,HERMeS TDU,611,2825,67.1,Table 3 nominal AEPS reference firing conditions averaged over ETU-2 test campaign
+ppe_aeps_rfc,300,8.6,2.60,8,159,5,1745,0.9,51.4,1.7,,,,Table 4 PPE AEPS reference firing conditions
+ppe_aeps_rfc,300,10.0,3.00,8,184,5,1775,0.9,51.9,1.7,,,,Table 4 PPE AEPS reference firing conditions
+ppe_aeps_rfc,300,15.0,4.50,8,294,5,1909,0.9,60.4,1.7,,,,Table 4 PPE AEPS reference firing conditions
+ppe_aeps_rfc,300,20.0,6.00,8,383,5,1980,0.9,61.3,1.7,,,,Table 4 PPE AEPS reference firing conditions
+ppe_aeps_rfc,300,20.83,6.25,8,396,5,1999,0.9,61.5,1.7,,,,Table 4 PPE AEPS reference firing conditions
+ppe_aeps_rfc,600,15.0,9.00,8,446,5,2736,0.9,66.0,1.7,,,,Table 4 PPE AEPS reference firing conditions
+ppe_aeps_rfc,600,20.0,12.00,8,591,5,2812,0.9,67.5,1.7,,,,Table 4 PPE AEPS reference firing conditions
+ppe_aeps_rfc,600,20.0,12.00,14,594,5,2740,0.9,66.1,1.7,,,,Table 4 PPE AEPS reference firing conditions; alternate 14 percent cathode flow fraction
