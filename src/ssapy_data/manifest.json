@@ -7,9 +7,9 @@
       "sha256": "f0dc60b83b2d6481b941051f17335fef67bbfdc2ee34123b428498a25b5a4b9f"
     },
     {
-      "bytes": 857,
+      "bytes": 1154,
       "path": "benchmarks/README.md",
-      "sha256": "ac59048b128eb7b7263af854f32d2fce46bc1d8feefdd9171e633d1d39f2ff00"
+      "sha256": "8aac38eb27c6759523a39f765ec9f34cbd0f5858707da26136e8584fc4bc7326"
     },
     {
       "bytes": 207806,
@@ -42,9 +42,74 @@
       "sha256": "bafeafdaea0fd07d4bb2441c05035c4c75c29550d59b61955e62737705a48584"
     },
     {
-      "bytes": 2607,
+      "bytes": 2759,
       "path": "benchmarks/long_term_propagation_results.json",
-      "sha256": "78ddac97204b0986e7ade25a7e198a74568b1c37d9591f42ac49e30ac3f76a93"
+      "sha256": "1f8800d1065992dacf0441b6d3ef15b60e6ebda3a012c0a7fd6e6e218a293293"
+    },
+    {
+      "bytes": 201566,
+      "path": "benchmarks/nbody/earth_moon_sun_cislunar_radius_gmat_states.csv",
+      "sha256": "ff9da986a3b2bc3beac56c34e4738e7d8fc1a646e34a1bd4727ef2ababdf7bfe"
+    },
+    {
+      "bytes": 178703,
+      "path": "benchmarks/nbody/earth_moon_sun_cislunar_radius_orekit_states.csv",
+      "sha256": "61b31f61ffe5991ab2636dee4a95b5512bdcf2d03e0c6ea7959d50b7fd5d6da7"
+    },
+    {
+      "bytes": 400504,
+      "path": "benchmarks/nbody/earth_moon_sun_geo_gmat_states.csv",
+      "sha256": "1b27564fd99c83d102dbf07020031ee6d0e2deeeb001f64f026ca9698e42c037"
+    },
+    {
+      "bytes": 357979,
+      "path": "benchmarks/nbody/earth_moon_sun_geo_orekit_states.csv",
+      "sha256": "d5cca716b12d5fb8c12b2821df9dfbb52ee5bbb38a101c52cc6043ef1a122a10"
+    },
+    {
+      "bytes": 284429,
+      "path": "benchmarks/nbody/earth_moon_sun_leo_gmat_states.csv",
+      "sha256": "c5b1da9c619b84085f4831c6b0ceb183e9b818045c8b8e4b97794cf4fee14eb1"
+    },
+    {
+      "bytes": 251720,
+      "path": "benchmarks/nbody/earth_moon_sun_leo_orekit_states.csv",
+      "sha256": "9a084c816844548abaeb4ab2ff0dbff0cc74755a1f1c984dfd317d7eeff19571"
+    },
+    {
+      "bytes": 201452,
+      "path": "benchmarks/nbody/solar_system_cislunar_radius_gmat_states.csv",
+      "sha256": "1d0f38ebbe449698b554922ba16adbedc00f5dd6ee821b75aa7b686b3866c6cb"
+    },
+    {
+      "bytes": 178674,
+      "path": "benchmarks/nbody/solar_system_cislunar_radius_orekit_states.csv",
+      "sha256": "9870b777d308d75008a2f36cf674eb3c6b258f59fd64ad2769fb8a4dc14a73b3"
+    },
+    {
+      "bytes": 400182,
+      "path": "benchmarks/nbody/solar_system_geo_gmat_states.csv",
+      "sha256": "c0448abc5fd3fdf2e2d801a703bd9dda8aa993262b2c36bc3639469abf349d51"
+    },
+    {
+      "bytes": 358095,
+      "path": "benchmarks/nbody/solar_system_geo_orekit_states.csv",
+      "sha256": "dfb5201a71fe3422aeb4b46169562e8043f964f151415a85194396000c7580ad"
+    },
+    {
+      "bytes": 284373,
+      "path": "benchmarks/nbody/solar_system_leo_gmat_states.csv",
+      "sha256": "1098c3745d02dad6326588fec28c6216ec6201d4391cba898755dfa6a6ef0f16"
+    },
+    {
+      "bytes": 251706,
+      "path": "benchmarks/nbody/solar_system_leo_orekit_states.csv",
+      "sha256": "a1fc594c910b3327fa59827f7657aaaefdca6c10347dabc5c10d452ddb998b87"
+    },
+    {
+      "bytes": 6089,
+      "path": "benchmarks/nbody_propagation_results.json",
+      "sha256": "353769cca1a59c1c2941de6dba1ef0f2cab9387f0b33f09db350091ad908433b"
     },
     {
       "bytes": 1256924,

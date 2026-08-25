@@ -17,3 +17,8 @@ not model the Earth-Moon-Sun system or claim lunar-transfer fidelity.
 CSV columns are `elapsed_seconds, x, y, z, vx, vy, vz`; GMAT values use km and
 km/s, while Orekit values use m and m/s, matching the native report units of
 each benchmark runner.
+
+The `nbody/` directory contains the corresponding 7-day LEO and 30-day GEO and
+cislunar-radius comparisons for Earth–Moon–Sun and full planetary point-mass
+models. These comparisons use SSAPy DE430, GMAT DE421, and Orekit DE440; their
+residuals therefore include ephemeris-model differences.

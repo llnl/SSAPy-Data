@@ -1,0 +1,182 @@
+{
+  "benchmark": "SSATK higher n-body propagation comparison",
+  "cases": [
+    {
+      "duration_s": 604800.0,
+      "expected_sample_count": 2017,
+      "label": "LEO",
+      "mode": "earth_moon_sun",
+      "mode_label": "Earth–Moon–Sun",
+      "name": "leo",
+      "radius_m": 7000000.0,
+      "step_s": 300.0,
+      "tools": {
+        "GMAT": {
+          "duration_s": 604800.0000081724,
+          "max_position_error_m": 0.08523530287956486,
+          "max_velocity_error_m_s": 0.0000918841841375367,
+          "rms_position_error_m": 0.041555641458853106,
+          "rms_velocity_error_m_s": 0.00004479724441366089,
+          "sample_count": 2017
+        },
+        "Orekit": {
+          "duration_s": 604800.0,
+          "max_position_error_m": 0.831577465538894,
+          "max_velocity_error_m_s": 0.0008965402451623464,
+          "rms_position_error_m": 0.3588026278887388,
+          "rms_velocity_error_m_s": 0.00038678476098278285,
+          "sample_count": 2017
+        }
+      }
+    },
+    {
+      "duration_s": 2592000.0,
+      "expected_sample_count": 2881,
+      "label": "GEO",
+      "mode": "earth_moon_sun",
+      "mode_label": "Earth–Moon–Sun",
+      "name": "geo",
+      "radius_m": 42164169.0,
+      "step_s": 900.0,
+      "tools": {
+        "GMAT": {
+          "duration_s": 2592000.000000943,
+          "max_position_error_m": 0.13090830091217234,
+          "max_velocity_error_m_s": 0.000009520022564824728,
+          "rms_position_error_m": 0.07292523969612336,
+          "rms_velocity_error_m_s": 0.000005316901589201463,
+          "sample_count": 2881
+        },
+        "Orekit": {
+          "duration_s": 2592000.0,
+          "max_position_error_m": 0.07994721394659222,
+          "max_velocity_error_m_s": 0.000005831336746864186,
+          "rms_position_error_m": 0.04600074910110206,
+          "rms_velocity_error_m_s": 0.0000033536677126444688,
+          "sample_count": 2881
+        }
+      }
+    },
+    {
+      "duration_s": 2592000.0,
+      "expected_sample_count": 1441,
+      "label": "Cislunar radius",
+      "mode": "earth_moon_sun",
+      "mode_label": "Earth–Moon–Sun",
+      "name": "cislunar_radius",
+      "radius_m": 384400000.0,
+      "step_s": 1800.0,
+      "tools": {
+        "GMAT": {
+          "duration_s": 2591999.9999654246,
+          "max_position_error_m": 42.530994858122206,
+          "max_velocity_error_m_s": 0.00010998865395214429,
+          "rms_position_error_m": 25.16710697305366,
+          "rms_velocity_error_m_s": 0.00006678981180381247,
+          "sample_count": 1441
+        },
+        "Orekit": {
+          "duration_s": 2592000.0,
+          "max_position_error_m": 31.599405305145357,
+          "max_velocity_error_m_s": 0.00008206064662368576,
+          "rms_position_error_m": 18.304449277843638,
+          "rms_velocity_error_m_s": 0.00004883608203763219,
+          "sample_count": 1441
+        }
+      }
+    },
+    {
+      "duration_s": 604800.0,
+      "expected_sample_count": 2017,
+      "label": "LEO",
+      "mode": "solar_system",
+      "mode_label": "Earth + Moon + Sun + planets",
+      "name": "leo",
+      "radius_m": 7000000.0,
+      "step_s": 300.0,
+      "tools": {
+        "GMAT": {
+          "duration_s": 604799.999981455,
+          "max_position_error_m": 0.11509009584374398,
+          "max_velocity_error_m_s": 0.0001240684377156216,
+          "rms_position_error_m": 0.062497629585456536,
+          "rms_velocity_error_m_s": 0.00006737295357176905,
+          "sample_count": 2017
+        },
+        "Orekit": {
+          "duration_s": 604800.0,
+          "max_position_error_m": 0.8314610932135112,
+          "max_velocity_error_m_s": 0.0008964148509015435,
+          "rms_position_error_m": 0.35874440705030297,
+          "rms_velocity_error_m_s": 0.00038672199781096046,
+          "sample_count": 2017
+        }
+      }
+    },
+    {
+      "duration_s": 2592000.0,
+      "expected_sample_count": 2881,
+      "label": "GEO",
+      "mode": "solar_system",
+      "mode_label": "Earth + Moon + Sun + planets",
+      "name": "geo",
+      "radius_m": 42164169.0,
+      "step_s": 900.0,
+      "tools": {
+        "GMAT": {
+          "duration_s": 2591999.9999984284,
+          "max_position_error_m": 0.14234491771031657,
+          "max_velocity_error_m_s": 0.000010384431975060134,
+          "rms_position_error_m": 0.08124645987993138,
+          "rms_velocity_error_m_s": 0.000005923536080898409,
+          "sample_count": 2881
+        },
+        "Orekit": {
+          "duration_s": 2592000.0,
+          "max_position_error_m": 0.08005276160389199,
+          "max_velocity_error_m_s": 0.00000583930903952167,
+          "rms_position_error_m": 0.04607512301516376,
+          "rms_velocity_error_m_s": 0.0000033590856240975876,
+          "sample_count": 2881
+        }
+      }
+    },
+    {
+      "duration_s": 2592000.0,
+      "expected_sample_count": 1441,
+      "label": "Cislunar radius",
+      "mode": "solar_system",
+      "mode_label": "Earth + Moon + Sun + planets",
+      "name": "cislunar_radius",
+      "radius_m": 384400000.0,
+      "step_s": 1800.0,
+      "tools": {
+        "GMAT": {
+          "duration_s": 2591999.999992142,
+          "max_position_error_m": 42.50770931723936,
+          "max_velocity_error_m_s": 0.00010993789112228135,
+          "rms_position_error_m": 25.14829714030715,
+          "rms_velocity_error_m_s": 0.00006675354236262851,
+          "sample_count": 1441
+        },
+        "Orekit": {
+          "duration_s": 2592000.0,
+          "max_position_error_m": 31.553786605015507,
+          "max_velocity_error_m_s": 0.00008194652888705197,
+          "rms_position_error_m": 18.267917038197663,
+          "rms_velocity_error_m_s": 0.000048746667730720824,
+          "sample_count": 1441
+        }
+      }
+    }
+  ],
+  "earth_mu_m3_s2": 398600441500000.0,
+  "ephemeris_sources": {
+    "gmat": "DE421",
+    "orekit": "DE440",
+    "ssatk": "DE430"
+  },
+  "epoch_utc": "2026-01-01T12:00:00",
+  "force_models": "Earth degree/order-0 point mass plus listed third-body point masses",
+  "ssatk_method": "DOP853, rtol=1e-12, atol=1e-9, SSAPy AccelThirdBody"
+}

@@ -2,6 +2,12 @@
   "benchmark": "SSATK long-term propagation comparison",
   "cislunar_definition": "Earth-centered two-body case at lunar orbital radius; not an Earth-Moon-Sun model",
   "force_model": "Earth-centered degree/order-0 point mass",
+  "mu_m3_s2": {
+    "ssatk": 398600441800000.0,
+    "gmat_jgm2": 398600441500000.0,
+    "gmat_minus_ssatk": -300000.0,
+    "relative_difference": -7.526333855659063e-10
+  },
   "ssatk_method": "DOP853, rtol=1e-12, atol=1e-9",
   "cases": [
     {
@@ -43,8 +49,8 @@
         "Orekit 10.3.1 KeplerianPropagator": {
           "rms_position_error_m": 0.0004346883188151335,
           "max_position_error_m": 0.001035670013693912,
-          "rms_velocity_error_m_s": 0.000000031655226477712646,
-          "max_velocity_error_m_s": 0.00000007528124665958538
+          "rms_velocity_error_m_s": 3.1655226477712646E-8,
+          "max_velocity_error_m_s": 7.528124665958538E-8
         }
       }
     },
@@ -65,8 +71,8 @@
         "Orekit 10.3.1 KeplerianPropagator": {
           "rms_position_error_m": 0.0005396683046551754,
           "max_position_error_m": 0.0008766938099814191,
-          "rms_velocity_error_m_s": 0.0000000013073616636738955,
-          "max_velocity_error_m_s": 0.000000002081842352680212
+          "rms_velocity_error_m_s": 1.3073616636738955E-9,
+          "max_velocity_error_m_s": 2.081842352680212E-9
         }
       }
     }
