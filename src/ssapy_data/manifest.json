@@ -7,6 +7,46 @@
       "sha256": "f0dc60b83b2d6481b941051f17335fef67bbfdc2ee34123b428498a25b5a4b9f"
     },
     {
+      "bytes": 857,
+      "path": "benchmarks/README.md",
+      "sha256": "ac59048b128eb7b7263af854f32d2fce46bc1d8feefdd9171e633d1d39f2ff00"
+    },
+    {
+      "bytes": 207806,
+      "path": "benchmarks/long_term/cislunar_radius_gmat_states.csv",
+      "sha256": "cd2a27cfac4d0591570c9da2c093b96b32460c68a0aec524f3de0cde598e5ac3"
+    },
+    {
+      "bytes": 128947,
+      "path": "benchmarks/long_term/cislunar_radius_orekit_states.csv",
+      "sha256": "199d06c3f942ae214feacaf596bdcf4cb0af8d1316f73959b3fe87b05afc66a7"
+    },
+    {
+      "bytes": 413724,
+      "path": "benchmarks/long_term/geo_gmat_states.csv",
+      "sha256": "70f66311eba393385095354032968d0c1c4df317287ecdab0ba57078d70d64e2"
+    },
+    {
+      "bytes": 258127,
+      "path": "benchmarks/long_term/geo_orekit_states.csv",
+      "sha256": "780467bb1cf8dd9a73f1a08e5ee58175a06f303299dfb62fc9e307a1d1ae9787"
+    },
+    {
+      "bytes": 289150,
+      "path": "benchmarks/long_term/leo_gmat_states.csv",
+      "sha256": "2abe2bb8a4336e7bdc57d308bcb0d40ff603bb24c423b93bb57a3f15fbf18f25"
+    },
+    {
+      "bytes": 179157,
+      "path": "benchmarks/long_term/leo_orekit_states.csv",
+      "sha256": "bafeafdaea0fd07d4bb2441c05035c4c75c29550d59b61955e62737705a48584"
+    },
+    {
+      "bytes": 2607,
+      "path": "benchmarks/long_term_propagation_results.json",
+      "sha256": "78ddac97204b0986e7ade25a7e198a74568b1c37d9591f42ac49e30ac3f76a93"
+    },
+    {
       "bytes": 1256924,
       "path": "bright_stars.csv",
       "sha256": "95f0cd3b81e32c0049c99efd7004c394271ebdbf5bf41709ed564a91ecd34f7e"
@@ -6127,9 +6167,9 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 5693,
+      "bytes": 6715,
       "path": "sources.json",
-      "sha256": "054f1eaf44f569dd476d15bdeaea4690c028b820df92344603c900337bac927f"
+      "sha256": "5648963b2ddfbe87b018c590bff7138de52416e510bd238c53ddcdc70e9a6fea"
     }
   ],
   "generated_by": "scripts/update_manifest.py",

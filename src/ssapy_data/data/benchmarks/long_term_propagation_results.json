@@ -1,0 +1,74 @@
+{
+  "benchmark": "SSATK long-term propagation comparison",
+  "cislunar_definition": "Earth-centered two-body case at lunar orbital radius; not an Earth-Moon-Sun model",
+  "force_model": "Earth-centered degree/order-0 point mass",
+  "ssatk_method": "DOP853, rtol=1e-12, atol=1e-9",
+  "cases": [
+    {
+      "name": "leo",
+      "label": "LEO",
+      "radius_m": 7000000.0,
+      "duration_s": 604800.0,
+      "step_s": 300.0,
+      "sample_count": 2017,
+      "tools": {
+        "GMAT R2026a RungeKutta89": {
+          "rms_position_error_m": 3.955219127342245,
+          "max_position_error_m": 6.867613746086121,
+          "rms_velocity_error_m_s": 0.004263746797776044,
+          "max_velocity_error_m_s": 0.007397689498692483
+        },
+        "Orekit 10.3.1 KeplerianPropagator": {
+          "rms_position_error_m": 0.002630074594716381,
+          "max_position_error_m": 0.006283599338528792,
+          "rms_velocity_error_m_s": 0.000002835265652420385,
+          "max_velocity_error_m_s": 0.000006775240503197436
+        }
+      }
+    },
+    {
+      "name": "geo",
+      "label": "GEO",
+      "radius_m": 42164169.0,
+      "duration_s": 2592000.0,
+      "step_s": 900.0,
+      "sample_count": 2881,
+      "tools": {
+        "GMAT R2026a RungeKutta89": {
+          "rms_position_error_m": 6.910058831987373,
+          "max_position_error_m": 11.949910350810754,
+          "rms_velocity_error_m_s": 0.0005038635304858157,
+          "max_velocity_error_m_s": 0.0008725430800348819
+        },
+        "Orekit 10.3.1 KeplerianPropagator": {
+          "rms_position_error_m": 0.0004346883188151335,
+          "max_position_error_m": 0.001035670013693912,
+          "rms_velocity_error_m_s": 0.000000031655226477712646,
+          "max_velocity_error_m_s": 0.00000007528124665958538
+        }
+      }
+    },
+    {
+      "name": "cislunar_radius",
+      "label": "Cislunar radius",
+      "radius_m": 384400000.0,
+      "duration_s": 2592000.0,
+      "step_s": 1800.0,
+      "sample_count": 1441,
+      "tools": {
+        "GMAT R2026a RungeKutta89": {
+          "rms_position_error_m": 2.4530565906403483,
+          "max_position_error_m": 3.647300621058811,
+          "rms_velocity_error_m_s": 0.000006296084574071516,
+          "max_velocity_error_m_s": 0.000010083927241692595
+        },
+        "Orekit 10.3.1 KeplerianPropagator": {
+          "rms_position_error_m": 0.0005396683046551754,
+          "max_position_error_m": 0.0008766938099814191,
+          "rms_velocity_error_m_s": 0.0000000013073616636738955,
+          "max_velocity_error_m_s": 0.000000002081842352680212
+        }
+      }
+    }
+  ]
+}

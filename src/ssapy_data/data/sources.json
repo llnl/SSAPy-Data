@@ -62,6 +62,22 @@
       "notes": "Propulsion source records, including NASA NTRS table transcriptions, digitized NTRS thrust curves, and ThrustCurve.org public-domain imports, are maintained in propulsion/sources.json."
     },
     {
+      "id": "ssatk_long_term_propagation_benchmarks",
+      "title": "SSATK long-term propagation benchmark state histories",
+      "source_title": "GMAT R2026a and Orekit 10.3.1 reference propagators",
+      "source_url": "https://github.com/LLNL/SSAPy-Toolkit/tree/feature/6dof/demos/benchmarks",
+      "reference_urls": [
+        "https://gmat.atlassian.net/wiki/spaces/GW/pages/3801089/GMAT+Documentation",
+        "https://www.orekit.org/"
+      ],
+      "retrieved": "2026-08-25",
+      "packaged_files": [
+        "benchmarks/**"
+      ],
+      "transformation": "The benchmark runner records native Cartesian reports from GMAT R2026a RungeKutta89 and Orekit 10.3.1 KeplerianPropagator for matched Earth-centered degree/order-0 point-mass cases. No state interpolation or smoothing is applied.",
+      "notes": "The cislunar-radius case is an Earth-centered two-body regional comparison and does not represent a full Earth-Moon-Sun dynamical model. GMAT reports km and km/s; Orekit reports m and m/s."
+    },
+    {
       "id": "iers_finals2000a_2026_08_24",
       "title": "IERS Finals2000A Earth orientation snapshot",
       "source_title": "International Earth Rotation and Reference Systems Service (IERS) Bulletin A",
