@@ -78,6 +78,21 @@
       "notes": "The cislunar-radius case is an Earth-centered two-body regional comparison and does not represent a full Earth-Moon-Sun dynamical model. GMAT reports km and km/s; Orekit reports m and m/s."
     },
     {
+      "id": "artemis_ii_maneuver_timeline",
+      "title": "Artemis II / Orion maneuver timeline",
+      "source_title": "NASA Artemis II Press Kit",
+      "source_url": "https://www.nasa.gov/wp-content/uploads/2026/01/artemis-ii-press-kit.pdf",
+      "reference_urls": [
+        "https://www.nasa.gov/mission/artemis-ii/"
+      ],
+      "retrieved": "2026-08-25",
+      "packaged_files": [
+        "benchmarks/artemis_ii_maneuvers.json"
+      ],
+      "transformation": "Mission-elapsed times from the NASA timeline were stored as integer seconds relative to the documented launch epoch. Event status records NASA as-flown updates where available.",
+      "notes": "This is a maneuver-event metadata table, not engine telemetry or a reconstructed delta-v solution. Event times are suitable for selecting nearest hourly Horizons samples, not for high-precision ignition modeling."
+    },
+    {
       "id": "iers_finals2000a_2026_08_24",
       "title": "IERS Finals2000A Earth orientation snapshot",
       "source_title": "International Earth Rotation and Reference Systems Service (IERS) Bulletin A",

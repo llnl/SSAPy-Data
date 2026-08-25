@@ -12,6 +12,11 @@
       "sha256": "8aac38eb27c6759523a39f765ec9f34cbd0f5858707da26136e8584fc4bc7326"
     },
     {
+      "bytes": 1814,
+      "path": "benchmarks/artemis_ii_maneuvers.json",
+      "sha256": "a174fad3f7530c3a3e8087aeb10f68876d93a7ca13fe7d1181a825af716bf487"
+    },
+    {
       "bytes": 207806,
       "path": "benchmarks/long_term/cislunar_radius_gmat_states.csv",
       "sha256": "cd2a27cfac4d0591570c9da2c093b96b32460c68a0aec524f3de0cde598e5ac3"
@@ -6232,9 +6237,9 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 6715,
+      "bytes": 7609,
       "path": "sources.json",
-      "sha256": "5648963b2ddfbe87b018c590bff7138de52416e510bd238c53ddcdc70e9a6fea"
+      "sha256": "03083fb897de43806bc55f5e57a8ffc902732fadb9fe380403da3cfca9000c6f"
     }
   ],
   "generated_by": "scripts/update_manifest.py",
