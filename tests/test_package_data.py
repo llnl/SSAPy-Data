@@ -29,6 +29,8 @@ def test_known_resources_are_packaged():
     assert data_resource("earth_map.npz").is_file()
     assert data_resource("environment/eop/finals2000A.all").is_file()
     assert data_resource("environment/eop/finals2000A.json").is_file()
+    assert data_resource("environment/space_weather/SW-All.csv").is_file()
+    assert data_resource("environment/space_weather/SW-All.json").is_file()
     assert data_resource("propulsion/throttle_maps/electric/next_tt10_thrust_comparison.csv").is_file()
     assert data_resource("propulsion/throttle_maps/electric/hermes_tdu3_throttle_map.csv").is_file()
     assert data_resource("propulsion/throttle_maps/electric/aeps_etu2_throttle_map.csv").is_file()
@@ -73,6 +75,8 @@ def test_manifest_matches_packaged_files():
         "propulsion/throttle_maps/electric/spt140_performance_map.csv",
         "environment/eop/finals2000A.all",
         "environment/eop/finals2000A.json",
+        "environment/space_weather/SW-All.csv",
+        "environment/space_weather/SW-All.json",
     }.issubset(entry_paths)
 
     for entry in entries:
