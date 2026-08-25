@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "dataset_id": "iers_finals2000a_2026-08-24",
+  "file": "finals2000A.all",
+  "source_url": "https://datacenter.iers.org/data/9/finals2000A.all",
+  "mirror_url": "https://maia.usno.navy.mil/ser7/finals2000A.all",
+  "retrieved": "2026-08-24",
+  "sha256": "59aa390fdbcad0b4905ee2887c53fdb488d95b5968a111c5bf4c4fd31653405b",
+  "distribution": "IERS public scientific distribution; attribution required",
+  "spdx_license": null,
+  "record_format": "fixed-width ASCII, 187 bytes per record",
+  "record_count": 20012,
+  "fields": {
+    "utc_date": {"bytes": [1, 6], "units": null},
+    "mjd_utc": {"bytes": [8, 15], "units": "day"},
+    "polar_motion_flag": {"bytes": [17, 17], "units": null},
+    "polar_motion_x": {"bytes": [19, 27], "units": "arcsec"},
+    "polar_motion_x_uncertainty": {"bytes": [28, 36], "units": "arcsec"},
+    "polar_motion_y": {"bytes": [38, 46], "units": "arcsec"},
+    "polar_motion_y_uncertainty": {"bytes": [47, 55], "units": "arcsec"},
+    "ut1_flag": {"bytes": [58, 58], "units": null},
+    "ut1_minus_utc": {"bytes": [59, 68], "units": "s"},
+    "ut1_minus_utc_uncertainty": {"bytes": [69, 78], "units": "s"},
+    "nutation_flag": {"bytes": [96, 96], "units": null},
+    "dX": {"bytes": [98, 106], "units": "mas"},
+    "dY": {"bytes": [117, 125], "units": "mas"}
+  },
+  "notes": [
+    "The source file includes historical, rapid-service, predicted, and trailing date-only records.",
+    "Blank numeric fields are missing values and must not be coerced to zero.",
+    "The file is a frozen release; later source updates require a new dataset_id and checksum."
+  ]
+}

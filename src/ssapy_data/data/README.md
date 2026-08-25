@@ -6,6 +6,10 @@ Source and citation records live in `sources.json`. Propulsion-specific source
 records live in `propulsion/sources.json`. Every new data file should have an
 entry in one of those ledgers before it is merged.
 
+Environment inputs are grouped below `environment/`; the first bundle is the
+frozen IERS Finals2000A Earth orientation series used for reproducible GCRF /
+ITRF and UT1-aware workflows.
+
 After changing files here, run:
 
 ```bash

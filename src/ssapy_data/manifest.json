@@ -2,9 +2,9 @@
   "data_root": "data",
   "files": [
     {
-      "bytes": 498,
+      "bytes": 684,
       "path": "README.md",
-      "sha256": "71c3a620f14eb78993669722fcd44515693c2ceea16c0ac150a3ea8a9761d31c"
+      "sha256": "ee1c7150bde15cc74e54a85c91c34e2f904abacb84e30b76f3a84f6264f66ced"
     },
     {
       "bytes": 1256924,
@@ -45,6 +45,21 @@
       "bytes": 364187,
       "path": "earth_specular_2048.jpg",
       "sha256": "c4dd843e6bac8d2168dccfc810efa56ce336a0a25282d7436cb0ddbe4c4bbac9"
+    },
+    {
+      "bytes": 1035,
+      "path": "environment/eop/README.md",
+      "sha256": "802d528de5e5e69deec5eb4df4f8a0e250a69cfc0276f3c8ed231197ecd182ae"
+    },
+    {
+      "bytes": 3762256,
+      "path": "environment/eop/finals2000A.all",
+      "sha256": "59aa390fdbcad0b4905ee2887c53fdb488d95b5968a111c5bf4c4fd31653405b"
+    },
+    {
+      "bytes": 1616,
+      "path": "environment/eop/finals2000A.json",
+      "sha256": "2da6b9b65f12eedc23c6dfa810934219f9038a6f1f71fcaeb83281082c02bc90"
     },
     {
       "bytes": 1796,
@@ -6097,9 +6112,9 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 3583,
+      "bytes": 4666,
       "path": "sources.json",
-      "sha256": "8a1862ebab54eb1576c1c4c820c08d2797356cc66dd427aec3cadcc3e4b660e7"
+      "sha256": "1ad62fd5d7f88cbd9560397390ccb6132487be1d560633b4638f2060e442c916"
     }
   ],
   "generated_by": "scripts/update_manifest.py",

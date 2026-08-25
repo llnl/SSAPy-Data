@@ -60,6 +60,23 @@
         "propulsion/**"
       ],
       "notes": "Propulsion source records, including NASA NTRS table transcriptions, digitized NTRS thrust curves, and ThrustCurve.org public-domain imports, are maintained in propulsion/sources.json."
+    },
+    {
+      "id": "iers_finals2000a_2026_08_24",
+      "title": "IERS Finals2000A Earth orientation snapshot",
+      "source_title": "International Earth Rotation and Reference Systems Service (IERS) Bulletin A",
+      "source_url": "https://datacenter.iers.org/data/9/finals2000A.all",
+      "mirror_url": "https://maia.usno.navy.mil/ser7/finals2000A.all",
+      "retrieved": "2026-08-24",
+      "packaged_files": [
+        "environment/eop/finals2000A.all",
+        "environment/eop/finals2000A.json",
+        "environment/eop/README.md"
+      ],
+      "distribution": "IERS public scientific distribution; attribution required",
+      "license": "No SPDX license asserted by the source endpoint",
+      "transformation": "The original fixed-width 187-byte source file is frozen without numeric transformation; the JSON sidecar records the checksum, field units, byte ranges, and snapshot metadata.",
+      "notes": "Historical, rapid-service, predicted, and date-only records are retained. Consumers must preserve the I/P status and explicitly opt in to predicted values."
     }
   ]
 }
