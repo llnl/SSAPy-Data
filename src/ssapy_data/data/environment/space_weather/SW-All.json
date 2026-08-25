@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "dataset_id": "celestrak_sw_all_2026-08-24",
+  "file": "SW-All.csv",
+  "source_url": "https://celestrak.org/SpaceData/SW-All.csv",
+  "format_url": "https://celestrak.org/SpaceData/SpaceWx-format.php",
+  "retrieved": "2026-08-24",
+  "sha256": "ff5da5f25762c463084f6f2b4c9b1977abb5032c6f16129cc86972881112aa41",
+  "distribution": "CelesTrak public space-weather distribution; attribution required",
+  "spdx_license": null,
+  "record_count": 25390,
+  "fields": {
+    "DATE": {"units": "UTC date"},
+    "AP1": {"units": "Ap", "description": "3-hour Ap interval 00-03 UTC"},
+    "AP2": {"units": "Ap", "description": "3-hour Ap interval 03-06 UTC"},
+    "AP3": {"units": "Ap", "description": "3-hour Ap interval 06-09 UTC"},
+    "AP4": {"units": "Ap", "description": "3-hour Ap interval 09-12 UTC"},
+    "AP5": {"units": "Ap", "description": "3-hour Ap interval 12-15 UTC"},
+    "AP6": {"units": "Ap", "description": "3-hour Ap interval 15-18 UTC"},
+    "AP7": {"units": "Ap", "description": "3-hour Ap interval 18-21 UTC"},
+    "AP8": {"units": "Ap", "description": "3-hour Ap interval 21-24 UTC"},
+    "AP_AVG": {"units": "Ap", "description": "daily Ap"},
+    "F10.7_OBS": {"units": "sfu"},
+    "F10.7_ADJ": {"units": "sfu", "description": "adjusted daily F10.7"},
+    "F10.7_DATA_TYPE": {"units": null, "values": ["OBS", "INT", "PRD", "PRM"]},
+    "F10.7_ADJ_CENTER81": {"units": "sfu", "description": "centered 81-day adjusted average"}
+  },
+  "notes": [
+    "Monthly PRM records do not contain daily Ap values and are not usable by the NRLMSISE-00 adapter.",
+    "The CSV snapshot includes predicted daily records after the observed boundary; callers must opt in explicitly.",
+    "Later source updates require a new dataset_id and checksum."
+  ]
+}

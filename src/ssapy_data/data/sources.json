@@ -77,6 +77,23 @@
       "license": "No SPDX license asserted by the source endpoint",
       "transformation": "The original fixed-width 187-byte source file is frozen without numeric transformation; the JSON sidecar records the checksum, field units, byte ranges, and snapshot metadata.",
       "notes": "Historical, rapid-service, predicted, and date-only records are retained. Consumers must preserve the I/P status and explicitly opt in to predicted values."
+    },
+    {
+      "id": "celestrak_sw_all_2026_08_24",
+      "title": "CelesTrak Space Weather daily solar and geomagnetic indices",
+      "source_title": "CelesTrak Space Weather Data",
+      "source_url": "https://celestrak.org/SpaceData/SW-All.csv",
+      "format_url": "https://celestrak.org/SpaceData/SpaceWx-format.php",
+      "retrieved": "2026-08-24",
+      "packaged_files": [
+        "environment/space_weather/SW-All.csv",
+        "environment/space_weather/SW-All.json",
+        "environment/space_weather/README.md"
+      ],
+      "distribution": "CelesTrak public space-weather distribution; attribution required",
+      "license": "No SPDX license asserted by the source endpoint",
+      "transformation": "The original CSV is frozen without numeric transformation; the JSON sidecar records the checksum and fields used by SSATK.",
+      "notes": "Observed, interpolated, predicted daily, and predicted monthly records are retained. The NRLMSISE-00 adapter rejects predicted records unless explicitly enabled."
     }
   ]
 }

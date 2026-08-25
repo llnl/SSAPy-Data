@@ -2,9 +2,9 @@
   "data_root": "data",
   "files": [
     {
-      "bytes": 684,
+      "bytes": 827,
       "path": "README.md",
-      "sha256": "ee1c7150bde15cc74e54a85c91c34e2f904abacb84e30b76f3a84f6264f66ced"
+      "sha256": "f0dc60b83b2d6481b941051f17335fef67bbfdc2ee34123b428498a25b5a4b9f"
     },
     {
       "bytes": 1256924,
@@ -60,6 +60,21 @@
       "bytes": 1616,
       "path": "environment/eop/finals2000A.json",
       "sha256": "2da6b9b65f12eedc23c6dfa810934219f9038a6f1f71fcaeb83281082c02bc90"
+    },
+    {
+      "bytes": 890,
+      "path": "environment/space_weather/README.md",
+      "sha256": "0c411e6ad6563789abfa03e373a11c7aebaf137595ec280486b79b24dda70187"
+    },
+    {
+      "bytes": 2885090,
+      "path": "environment/space_weather/SW-All.csv",
+      "sha256": "ff5da5f25762c463084f6f2b4c9b1977abb5032c6f16129cc86972881112aa41"
+    },
+    {
+      "bytes": 1776,
+      "path": "environment/space_weather/SW-All.json",
+      "sha256": "f594ae432dbfeb7f40db206eb397ca7bf94c8373eaea55a80325f3906ab0b464"
     },
     {
       "bytes": 1796,
@@ -6112,9 +6127,9 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 4666,
+      "bytes": 5693,
       "path": "sources.json",
-      "sha256": "1ad62fd5d7f88cbd9560397390ccb6132487be1d560633b4638f2060e442c916"
+      "sha256": "054f1eaf44f569dd476d15bdeaea4690c028b820df92344603c900337bac927f"
     }
   ],
   "generated_by": "scripts/update_manifest.py",
