@@ -13,17 +13,53 @@
   "events": [
     {"name": "perigee_raise", "met_s": 49440, "status": "executed"},
     {"name": "translunar_injection", "met_s": 92220, "status": "executed"},
-    {"name": "outbound_correction_early", "met_s": 170700, "status": "executed"},
+    {
+      "name": "outbound_correction_early",
+      "met_s": 170700,
+      "status": "executed",
+      "duration_s": 17.5,
+      "delta_v_m_s": null,
+      "data_status": "duration_only",
+      "source_url": "https://www.nasa.gov/blogs/missions/2026/04/05/artemis-ii-flight-day-5-correction-burn-complete/"
+    },
     {"name": "outbound_correction_1", "met_s": 173220, "status": "skipped"},
     {"name": "outbound_correction_2", "met_s": 259920, "status": "skipped"},
     {"name": "outbound_correction_3", "met_s": 364980, "status": "executed"},
-    {"name": "return_correction_1", "met_s": 534180, "status": "executed"},
-    {"name": "return_correction_2", "met_s": 707580, "status": "executed"},
-    {"name": "return_correction_3", "met_s": 765180, "status": "executed"}
+    {
+      "name": "return_correction_1",
+      "met_s": 534180,
+      "status": "executed",
+      "duration_s": 15.0,
+      "delta_v_m_s": 0.48768,
+      "delta_v_source_units": "1.6 ft/s",
+      "data_status": "duration_and_delta_v",
+      "source_url": "https://www.nasa.gov/blogs/missions/2026/04/07/artemis-ii-flight-day-7-first-return-correction-burn-complete/"
+    },
+    {
+      "name": "return_correction_2",
+      "met_s": 707580,
+      "status": "executed",
+      "duration_s": 9.0,
+      "delta_v_m_s": 1.61544,
+      "delta_v_source_units": "5.3 ft/s",
+      "data_status": "duration_and_delta_v",
+      "source_url": "https://www.nasa.gov/blogs/missions/2026/04/10/artemis-ii-flight-day-9-second-return-correction-burn-complete/"
+    },
+    {
+      "name": "return_correction_3",
+      "met_s": 765180,
+      "status": "executed",
+      "duration_s": 8.0,
+      "delta_v_m_s": 1.28016,
+      "delta_v_source_units": "4.2 ft/s",
+      "data_status": "duration_and_delta_v",
+      "source_url": "https://www.nasa.gov/blogs/missions/2026/04/10/artemis-ii-flight-day-10-crew-completes-final-burn-before-splashdown/"
+    }
   ],
   "notes": [
     "MET values are from the NASA press-kit timeline.",
     "NASA as-flown updates reported the first two of three planned outbound correction burns as unnecessary; the Flight Day 5 correction was executed.",
-    "Event times are planned/rounded mission timeline times, not reconstructed engine ignition telemetry."
+    "Event times are planned/rounded mission timeline times, not reconstructed engine ignition telemetry.",
+    "NASA published duration for the Flight Day 5 outbound correction and duration plus delta-v for the three return corrections; thrust, specific impulse, mass, and direction vectors remain unpublished."
   ]
 }
