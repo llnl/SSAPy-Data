@@ -27,6 +27,7 @@ def test_known_resources_are_packaged():
     assert data_resource("earth_day_2048.jpg").is_file()
     assert data_resource("earth_clouds_2048.png").is_file()
     assert data_resource("earth_map.npz").is_file()
+    assert data_resource("ssapy_satellites_default.json").is_file()
     assert data_resource("environment/eop/finals2000A.all").is_file()
     assert data_resource("environment/eop/finals2000A.json").is_file()
     assert data_resource("environment/space_weather/SW-All.csv").is_file()

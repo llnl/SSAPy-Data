@@ -53,6 +53,20 @@
       "notes": "The generating script and exact source mosaic checksum were not present in this repository when the citation ledger was added. Keep this entry as legacy provenance until the classification can be regenerated from a recorded NASA source image."
     },
     {
+      "id": "ssatk_default_satellite_catalog",
+      "title": "SSATK default satellite TLE catalog",
+      "source_title": "Space-Track.org GP/TLE data",
+      "source_url": "https://www.space-track.org/",
+      "license": "Space-Track User Agreement; redistribution requires prior express approval",
+      "license_url": "https://www.space-track.org/documentation#/user_agree",
+      "retrieved": "2026-09-28",
+      "packaged_files": [
+        "ssapy_satellites_default.json"
+      ],
+      "transformation": "Copied Space-Track TLE records from SSAPy Toolkit's coverage-analysis satellite list into JSON for the satellite viewer.",
+      "notes": "The retrieval date records the copy into SSAPy-Data because the original Space-Track fetch date was not recorded. Publishing this catalog, including on PyPI, requires prior express redistribution approval from Space-Track. Refresh or revalidate TLEs before operational use."
+    },
+    {
       "id": "propulsion_sources",
       "title": "Propulsion data source ledger",
       "source_url": "propulsion/sources.json",

@@ -6232,14 +6232,14 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 6715,
+      "bytes": 7654,
       "path": "sources.json",
-      "sha256": "5648963b2ddfbe87b018c590bff7138de52416e510bd238c53ddcdc70e9a6fea"
+      "sha256": "a331f05f76cb984532ca57a10a161b96ae31ccbaebac6e6d66e24a2cdb439b1e"
     },
     {
-      "bytes": 39501,
+      "bytes": 34966,
       "path": "ssapy_satellites_default.json",
-      "sha256": "d622aeb83a54ba4b1b1a3248cb4b68fb570a674ef42a6f3dafbc88af2e57b0cc"
+      "sha256": "6fad3f67f72203239f2646495b16d399367d25a6ad40e1d5aadb46501133f097"
     }
   ],
   "generated_by": "scripts/update_manifest.py",
