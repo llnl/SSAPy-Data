@@ -53,22 +53,6 @@
       "notes": "The generating script and exact source mosaic checksum were not present in this repository when the citation ledger was added. Keep this entry as legacy provenance until the classification can be regenerated from a recorded NASA source image."
     },
     {
-      "id": "nasa_svs_lola_ldem_8ppd",
-      "title": "LRO LOLA 8-pixel-per-degree lunar elevation grid",
-      "source_title": "NASA Scientific Visualization Studio CGI Moon Kit",
-      "source_url": "https://svs.gsfc.nasa.gov/4720/",
-      "download_url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_16_uint.tif",
-      "source_sha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
-      "license": "NASA public-domain data (U.S. Government work)",
-      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
-      "retrieved": "2026-09-29",
-      "packaged_files": [
-        "moon_dem.npz"
-      ],
-      "transformation": "The source unsigned 16-bit TIFF values were decoded as (value - 20000) / 2000 kilometres relative to a 1737.4 km sphere. Each adjacent 2x2 cell block was averaged to reduce the 16-pixel-per-degree source to 8 pixels per degree, then stored as the float32 elev_km array in a compressed NumPy archive.",
-      "notes": "The packaged grid is an offline input for SSAPy Toolkit's Moon texture baker; generated WebGL textures are not packaged here."
-    },
-    {
       "id": "propulsion_sources",
       "title": "Propulsion data source ledger",
       "source_url": "propulsion/sources.json",

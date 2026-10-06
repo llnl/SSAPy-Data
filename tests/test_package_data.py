@@ -92,6 +92,8 @@ def test_manifest_matches_packaged_files():
 def test_missing_and_unsafe_paths_are_rejected():
     with pytest.raises(DataResourceNotFoundError, match="missing.dat"):
         data_resource("missing.dat")
+    with pytest.raises(DataResourceNotFoundError, match="ssapy_satellites_default.json"):
+        data_resource("ssapy_satellites_default.json")
     with pytest.raises(ValueError, match="must be relative"):
         data_resource("/earth.png")
     with pytest.raises(ValueError, match="cannot contain"):
