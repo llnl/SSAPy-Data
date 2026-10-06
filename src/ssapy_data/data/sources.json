@@ -54,17 +54,38 @@
     },
     {
       "id": "ssatk_default_satellite_catalog",
-      "title": "SSATK default satellite TLE catalog",
-      "source_title": "Space-Track.org GP/TLE data",
+      "title": "SSATK historical default satellite TLE snapshot",
+      "source_title": "USSPACECOM basic SSA GP/TLE data via Space-Track.org",
       "source_url": "https://www.space-track.org/",
-      "license": "Space-Track User Agreement; redistribution requires prior express approval",
-      "license_url": "https://www.space-track.org/documentation#/user_agree",
+      "license": "USSPACECOM blanket approval for redistribution of basic SSA data, conditioned on appropriate citation",
+      "license_url": "https://www.space-track.org/documentation#/odr",
       "retrieved": "2026-09-28",
       "packaged_files": [
         "ssapy_satellites_default.json"
       ],
-      "transformation": "Copied Space-Track TLE records from SSAPy Toolkit's coverage-analysis satellite list into JSON for the satellite viewer.",
-      "notes": "The retrieval date records the copy into SSAPy-Data because the original Space-Track fetch date was not recorded. Publishing this catalog, including on PyPI, requires prior express redistribution approval from Space-Track. Refresh or revalidate TLEs before operational use."
+      "transformation": "Copied Space-Track TLE records from SSAPy Toolkit coverage analysis into a historical JSON snapshot; the orbital values have not been refreshed or changed by this metadata correction.",
+      "notes": "The retrieved field records the September 28, 2026 copy into SSAPy-Data, not a Space-Track fetch or a current element epoch. The original fetch date is unknown. TLE epochs span October 27, 2025 through July 20, 2026; the snapshot must not be represented as current orbital data. Cite USSPACECOM and Space-Track.org when redistributing these basic TLEs under the documented blanket approval. Refresh and revalidate elements before current-time analysis.",
+      "additional_attribution": [
+        "U.S. Space Command (USSPACECOM), basic Space Situational Awareness data accessed via Space-Track.org"
+      ],
+      "redistribution_policy": {
+        "scope": "basic_ssa_tle",
+        "authorization": "blanket_approval",
+        "condition": "appropriate_citation",
+        "source_url": "https://www.space-track.org/documentation#/odr",
+        "checked": "2026-10-05",
+        "notes": "This policy entry covers the basic TLE records in this snapshot; it makes no authorization claim for advanced or emergency SSA products."
+      },
+      "snapshot": {
+        "status": "historical",
+        "record_count": 152,
+        "epoch_min_utc": "2025-10-27T14:19:01.946784Z",
+        "epoch_max_utc": "2026-07-20T14:43:33.944448Z",
+        "latest_epoch_date": "2026-07-20",
+        "copied_into_package": "2026-09-28",
+        "original_fetch_date": null,
+        "intended_use": "Historical visualization and reproducible example input; refresh and revalidate before current-time tracking or coverage analysis."
+      }
     },
     {
       "id": "propulsion_sources",
@@ -86,10 +107,30 @@
       ],
       "retrieved": "2026-08-25",
       "packaged_files": [
-        "benchmarks/**"
+        "benchmarks/README.md",
+        "benchmarks/long_term/*.csv",
+        "benchmarks/long_term_propagation_results.json"
       ],
       "transformation": "The benchmark runner records native Cartesian reports from GMAT R2026a RungeKutta89 and Orekit 10.3.1 KeplerianPropagator for matched Earth-centered degree/order-0 point-mass cases. No state interpolation or smoothing is applied.",
-      "notes": "The cislunar-radius case is an Earth-centered two-body regional comparison and does not represent a full Earth-Moon-Sun dynamical model. GMAT reports km and km/s; Orekit reports m and m/s."
+      "notes": "The cislunar-radius case is an Earth-centered two-body regional comparison and does not represent a full Earth-Moon-Sun dynamical model. GMAT reports km and km/s; Orekit reports m and m/s. This point-mass/Keplerian characterization applies only to the long_term family, not to the separately recorded nbody family; benchmarks/README.md is the suite documentation."
+    },
+    {
+      "id": "ssatk_nbody_propagation_benchmarks",
+      "title": "SSATK nbody benchmark artifacts; reference-model details pending verification",
+      "source_title": "SSAPy Toolkit nbody benchmark records",
+      "source_url": "https://github.com/LLNL/SSAPy-Toolkit/tree/feature/6dof/demos/benchmarks",
+      "reference_urls": [
+        "https://gmat.atlassian.net/wiki/spaces/GW/pages/3801089/GMAT+Documentation",
+        "https://www.orekit.org/"
+      ],
+      "packaged_files": [
+        "benchmarks/nbody/*.csv",
+        "benchmarks/nbody_propagation_results.json"
+      ],
+      "reference_model_status": "pending_verification",
+      "reference_force_model": null,
+      "transformation": "Records are grouped by their packaged nbody paths. The supplied patch does not include their input decks or output payloads, so reference force models, frames, units, ephemerides, solver settings, and generation versions have not been independently verified.",
+      "notes": "Do not inherit the point-mass/Keplerian description of the long_term record. Inspect original benchmark inputs and outputs on the complete repositories before using these artifacts as evidence of nbody validation. No retrieval or generation date is asserted for this newly separated ledger record."
     },
     {
       "id": "artemis_ii_maneuver_timeline",
