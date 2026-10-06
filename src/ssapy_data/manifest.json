@@ -6237,9 +6237,9 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 6715,
+      "bytes": 7860,
       "path": "sources.json",
-      "sha256": "5648963b2ddfbe87b018c590bff7138de52416e510bd238c53ddcdc70e9a6fea"
+      "sha256": "f328e8793d9ce85522bb038406be574b66b35c7950d6d1d613da8d5156560b12"
     }
   ],
   "generated_by": "scripts/update_manifest.py",
