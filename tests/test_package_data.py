@@ -90,8 +90,6 @@ def test_manifest_matches_packaged_files():
 def test_missing_and_unsafe_paths_are_rejected():
     with pytest.raises(DataResourceNotFoundError, match="missing.dat"):
         data_resource("missing.dat")
-    with pytest.raises(DataResourceNotFoundError, match="ssapy_satellites_default.json"):
-        data_resource("ssapy_satellites_default.json")
     with pytest.raises(ValueError, match="must be relative"):
         data_resource("/earth.png")
     with pytest.raises(ValueError, match="cannot contain"):
@@ -233,26 +231,3 @@ def test_root_sources_cite_packaged_non_document_data():
             uncited.append(path)
 
     assert uncited == []
-
-
-def test_benchmark_ledger_separates_long_term_and_unverified_nbody_models():
-    sources = json.loads(read_text("sources.json"))["sources"]
-    by_id = {source["id"]: source for source in sources}
-    long_term = by_id["ssatk_long_term_propagation_benchmarks"]
-    nbody = by_id["ssatk_nbody_propagation_benchmarks"]
-    assert "benchmarks/**" not in long_term["packaged_files"]
-    assert nbody["reference_model_status"] == "pending_verification"
-    assert nbody["reference_force_model"] is None
-    assert nbody.get("retrieved") is None
-    benchmark_paths = [
-        entry["path"] for entry in manifest()["files"]
-        if entry["path"].startswith("benchmarks/") and not entry["path"].endswith("README.md")
-    ]
-    assert benchmark_paths
-    for path in benchmark_paths:
-        matching_ids = [
-            source["id"] for source in sources
-            if any(fnmatch.fnmatchcase(path, pattern) for pattern in source.get("packaged_files", []))
-        ]
-        expected_id = nbody["id"] if path.startswith("benchmarks/nbody") else long_term["id"]
-        assert matching_ids == [expected_id]

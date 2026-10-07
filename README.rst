@@ -86,8 +86,10 @@ Lunar topography
 
 ``data/moon_dem.npz`` contains an 8-pixel-per-degree LOLA elevation grid from
 NASA's CGI Moon Kit.  The ``elev_km`` array is measured relative to a 1737.4 km
-lunar sphere and is an offline input to SSAPy Toolkit's Moon texture baker.
-The generated WebGL textures are intentionally not packaged here.  Source,
+lunar sphere and is an optional offline input to SSAPy Toolkit's Moon texture
+baker (``ssapy-bake-moon --dem``), which otherwise downloads the
+16-pixel-per-degree source from NASA. The generated WebGL textures are
+intentionally not packaged here.  Source,
 license, and transformation details are recorded in ``data/sources.json``.
 
 Adding data
