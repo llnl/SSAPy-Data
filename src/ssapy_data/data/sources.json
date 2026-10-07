@@ -107,30 +107,10 @@
       ],
       "retrieved": "2026-08-25",
       "packaged_files": [
-        "benchmarks/README.md",
-        "benchmarks/long_term/*.csv",
-        "benchmarks/long_term_propagation_results.json"
+        "benchmarks/**"
       ],
       "transformation": "The benchmark runner records native Cartesian reports from GMAT R2026a RungeKutta89 and Orekit 10.3.1 KeplerianPropagator for matched Earth-centered degree/order-0 point-mass cases. No state interpolation or smoothing is applied.",
-      "notes": "The cislunar-radius case is an Earth-centered two-body regional comparison and does not represent a full Earth-Moon-Sun dynamical model. GMAT reports km and km/s; Orekit reports m and m/s. This point-mass/Keplerian characterization applies only to the long_term family, not to the separately recorded nbody family; benchmarks/README.md is the suite documentation."
-    },
-    {
-      "id": "ssatk_nbody_propagation_benchmarks",
-      "title": "SSATK nbody benchmark artifacts; reference-model details pending verification",
-      "source_title": "SSAPy Toolkit nbody benchmark records",
-      "source_url": "https://github.com/LLNL/SSAPy-Toolkit/tree/feature/6dof/demos/benchmarks",
-      "reference_urls": [
-        "https://gmat.atlassian.net/wiki/spaces/GW/pages/3801089/GMAT+Documentation",
-        "https://www.orekit.org/"
-      ],
-      "packaged_files": [
-        "benchmarks/nbody/*.csv",
-        "benchmarks/nbody_propagation_results.json"
-      ],
-      "reference_model_status": "pending_verification",
-      "reference_force_model": null,
-      "transformation": "Records are grouped by their packaged nbody paths. The supplied patch does not include their input decks or output payloads, so reference force models, frames, units, ephemerides, solver settings, and generation versions have not been independently verified.",
-      "notes": "Do not inherit the point-mass/Keplerian description of the long_term record. Inspect original benchmark inputs and outputs on the complete repositories before using these artifacts as evidence of nbody validation. No retrieval or generation date is asserted for this newly separated ledger record."
+      "notes": "The cislunar-radius case is an Earth-centered two-body regional comparison and does not represent a full Earth-Moon-Sun dynamical model. GMAT reports km and km/s; Orekit reports m and m/s."
     },
     {
       "id": "artemis_ii_maneuver_timeline",

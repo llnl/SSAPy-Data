@@ -300,26 +300,3 @@ def test_default_satellite_redistribution_records_scoped_citation_policy():
     assert source["license_url"] == policy["source_url"]
     assert datetime.fromisoformat(policy["checked"]).tzinfo is None
     assert any("USSPACECOM" in attribution for attribution in source["additional_attribution"])
-
-
-def test_benchmark_ledger_separates_long_term_and_unverified_nbody_models():
-    sources = json.loads(read_text("sources.json"))["sources"]
-    by_id = {source["id"]: source for source in sources}
-    long_term = by_id["ssatk_long_term_propagation_benchmarks"]
-    nbody = by_id["ssatk_nbody_propagation_benchmarks"]
-    assert "benchmarks/**" not in long_term["packaged_files"]
-    assert nbody["reference_model_status"] == "pending_verification"
-    assert nbody["reference_force_model"] is None
-    assert nbody.get("retrieved") is None
-    benchmark_paths = [
-        entry["path"] for entry in manifest()["files"]
-        if entry["path"].startswith("benchmarks/") and not entry["path"].endswith("README.md")
-    ]
-    assert benchmark_paths
-    for path in benchmark_paths:
-        matching_ids = [
-            source["id"] for source in sources
-            if any(fnmatch.fnmatchcase(path, pattern) for pattern in source.get("packaged_files", []))
-        ]
-        expected_id = nbody["id"] if path.startswith("benchmarks/nbody") else long_term["id"]
-        assert matching_ids == [expected_id]

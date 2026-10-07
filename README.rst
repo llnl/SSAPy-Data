@@ -81,6 +81,17 @@ The propulsion directory also includes ``sources.json`` and
 ``source_audit.md`` to record source URLs, rights metadata, transformations,
 and searched sources that were packaged, rejected, or deferred.
 
+Satellite catalog
+-----------------
+
+``ssapy_satellites_default.json`` is a historical snapshot of 152 two-line
+element sets from USSPACECOM basic SSA data, accessed via Space-Track.org. It
+was copied from SSAPy Toolkit's coverage analysis on 2026-09-28; the original
+Space-Track fetch date is unknown. Element epochs run from 2025-10-27 to
+2026-07-20, so refresh the elements before current-time tracking or coverage
+analysis. Source, attribution, and redistribution details are recorded in
+``data/sources.json``.
+
 Adding data
 -----------
 
