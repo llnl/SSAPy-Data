@@ -56,6 +56,38 @@ Access packaged data with ``importlib.resources`` helpers exposed by
 Use the path only inside the context manager because zipped wheels may extract
 resources to temporary locations.
 
+Data organization and submission routing
+----------------------------------------
+
+This repository is the complete archival copy. New data should normally be
+submitted to the matching public component repository and mirrored here when
+the archive is refreshed. Keep each dataset in the narrowest applicable area:
+
+* ``environment/`` — Earth orientation parameters and space-weather records;
+  submit to ``Data-Core``.
+* ``bright_stars*.csv`` and Earth viewer textures/maps — general sky and Earth
+  visualization resources; submit to ``Data-Core``.
+* ``ssapy/`` Earth gravity coefficients (EGM84, EGM96, EGM2008, WGS84) —
+  submit to ``Data-Gravity``.
+* ``ssapy/gggrx_1200a_sha.*`` — the lunar GRGM1200A gravity field; submit to
+  ``Data-Lunar-Gravity``.
+* ``ssapy/de440s.bsp``, ``ssapy/de430_1900_2150.bsp``, lunar orientation,
+  ``moon.png``, and ``moon_dem.npz`` — lunar and planetary ephemeris/visual
+  resources; submit to ``Data-Lunar``.
+* ``propulsion/`` — electric-thruster maps, digitized NASA curves, and public
+  domain solid-motor curves; submit to ``Data-Propulsion``.
+* ``benchmarks/`` and ``ssapy_satellites_default.json`` — reference histories,
+  comparison outputs, and catalog snapshots; submit to ``Data-Benchmarks``.
+* ``sources.json`` and ``propulsion/sources.json`` — provenance ledgers that
+  must be updated with every new file, including source URL, license,
+  retrieval date, and transformation notes.
+
+Do not add generated plots, caches, downloaded kernels outside the declared
+resource set, or files without redistribution rights. Regenerate
+``manifest.json`` with ``python scripts/update_manifest.py`` after changing
+data, then run the package-data tests. The component packages are published to
+PyPI; this repository remains the backup and review record.
+
 Propulsion data
 ---------------
 
