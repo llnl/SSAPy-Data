@@ -2,9 +2,9 @@
   "data_root": "data",
   "files": [
     {
-      "bytes": 827,
+      "bytes": 868,
       "path": "README.md",
-      "sha256": "f0dc60b83b2d6481b941051f17335fef67bbfdc2ee34123b428498a25b5a4b9f"
+      "sha256": "80605d3e6041347911ab766248826748911bc1d55d4684ae07ae335b1e082170"
     },
     {
       "bytes": 1154,
@@ -12,9 +12,9 @@
       "sha256": "8aac38eb27c6759523a39f765ec9f34cbd0f5858707da26136e8584fc4bc7326"
     },
     {
-      "bytes": 1814,
+      "bytes": 3161,
       "path": "benchmarks/artemis_ii_maneuvers.json",
-      "sha256": "a174fad3f7530c3a3e8087aeb10f68876d93a7ca13fe7d1181a825af716bf487"
+      "sha256": "1aaaeb5583fba8ec2b2879cca3535f8522365e61e751101d680ad33fdbbed9c2"
     },
     {
       "bytes": 207806,
@@ -6237,9 +6237,119 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 7609,
+      "bytes": 14486,
       "path": "sources.json",
-      "sha256": "03083fb897de43806bc55f5e57a8ffc902732fadb9fe380403da3cfca9000c6f"
+      "sha256": "eb63015664a2c23d8b6655ef8da3dae5aa7629c2f9acb0a8ab3db74f6b98ebe7"
+    },
+    {
+      "bytes": 22174,
+      "path": "ssapy/Earth_graphics/ne_50m_ocean.README.html",
+      "sha256": "f6987c4011e6215c45bcb9a9e7a62fa417a4f8a91f629be9e13b5f29f1c72d4c"
+    },
+    {
+      "bytes": 7,
+      "path": "ssapy/Earth_graphics/ne_50m_ocean.VERSION.txt",
+      "sha256": "0874a8fe36effb87780f431845b5a7d85be657f2bd998ce8eeace717860d3b78"
+    },
+    {
+      "bytes": 5,
+      "path": "ssapy/Earth_graphics/ne_50m_ocean.cpg",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "bytes": 176,
+      "path": "ssapy/Earth_graphics/ne_50m_ocean.dbf",
+      "sha256": "162d515911b17e35d36e22c5757e75fd37bdd38db2bc0011b9c79888a28bb4f5"
+    },
+    {
+      "bytes": 143,
+      "path": "ssapy/Earth_graphics/ne_50m_ocean.prj",
+      "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+    },
+    {
+      "bytes": 978340,
+      "path": "ssapy/Earth_graphics/ne_50m_ocean.shp",
+      "sha256": "6ff1190e8430e493cf8eed99393f021b7562b600b9a7a11aa23ce45b6035d8b8"
+    },
+    {
+      "bytes": 108,
+      "path": "ssapy/Earth_graphics/ne_50m_ocean.shx",
+      "sha256": "449353f638399c48c4cfe59e8f945e5c3025a4e412e9bcd0eeba64ba137ae7c1"
+    },
+    {
+      "bytes": 27220640,
+      "path": "ssapy/de430_1900_2150.bsp",
+      "sha256": "972338e8cefbe3ee2ea583c68d1988d06224fe5c15821500b9e97a8c98df4950"
+    },
+    {
+      "bytes": 32726016,
+      "path": "ssapy/de440s.bsp",
+      "sha256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2"
+    },
+    {
+      "bytes": 8825662,
+      "path": "ssapy/earth.png",
+      "sha256": "6e8a1296caef991dcdba963fdc72816e4095720d005e7af6688b060e5fb85aa4"
+    },
+    {
+      "bytes": 790,
+      "path": "ssapy/egm2008.egm",
+      "sha256": "031ecae647986faadf3f3a0177ba07ffcb73a2504b084c2e1c82b97cd9e61c75"
+    },
+    {
+      "bytes": 75755304,
+      "path": "ssapy/egm2008.egm.cof",
+      "sha256": "ebed5b09e3da7aeae37ac49e7b8c803fda0a525462bba374f762d6345624d132"
+    },
+    {
+      "bytes": 800,
+      "path": "ssapy/egm84.egm",
+      "sha256": "549e21625b71a0f0daec8477e0f4928338885ed2269ff70e351b15c3e6e0d43e"
+    },
+    {
+      "bytes": 262112,
+      "path": "ssapy/egm84.egm.cof",
+      "sha256": "f95fa2967091b9a0630ae7f34934446f17a02f73e5b648ea919db4174b047633"
+    },
+    {
+      "bytes": 753,
+      "path": "ssapy/egm96.egm",
+      "sha256": "cdf0896bb34c1f8ad7ea1c4126cf949fe5069ad9df17c2a66cf3d81da096970e"
+    },
+    {
+      "bytes": 2085160,
+      "path": "ssapy/egm96.egm.cof",
+      "sha256": "fd427a88a944e2df46d3a3e1aefdb17a68e892e3decdf1382f3ca14de9b6f2ae"
+    },
+    {
+      "bytes": 10637,
+      "path": "ssapy/gggrx_1200a_sha.lbl",
+      "sha256": "8d46351c2e73db699d4669a98da1f47551086cbee321d8f9baa3fdb6b65d3d5f"
+    },
+    {
+      "bytes": 88059844,
+      "path": "ssapy/gggrx_1200a_sha.tab",
+      "sha256": "fa04c3dce9376948ad243f3df74144e2602f12d183ea4d179604ed0a79da7ded"
+    },
+    {
+      "bytes": 13728894,
+      "path": "ssapy/moon.png",
+      "sha256": "4d9e6eebd180262aefe7555a0231927e5142954144cfcf2c4a10876b7c218027"
+    },
+    {
+      "bytes": 12863488,
+      "path": "ssapy/moon_pa_de440_200625.bpc",
+      "sha256": "60cd55aa401ea2ea97360636f567554bfe4e37bb829f901b4460a455dfaf783f"
+    },
+    {
+      "bytes": 724,
+      "path": "ssapy/wgs84.egm",
+      "sha256": "594ff1c9dc2363e50d663003deb9baca2e144d096d70fc9b7a6c1c86f5b781f0"
+    },
+    {
+      "bytes": 192,
+      "path": "ssapy/wgs84.egm.cof",
+      "sha256": "aeedf849678826d171b731eb7a783ab5d7e47552413da551418d21445fc3a2ec"
     }
   ],
   "generated_by": "scripts/update_manifest.py",
