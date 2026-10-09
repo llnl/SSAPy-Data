@@ -6355,6 +6355,11 @@
       "bytes": 192,
       "path": "ssapy/wgs84.egm.cof",
       "sha256": "aeedf849678826d171b731eb7a783ab5d7e47552413da551418d21445fc3a2ec"
+    },
+    {
+      "bytes": 34966,
+      "path": "ssapy_satellites_default.json",
+      "sha256": "6fad3f67f72203239f2646495b16d399367d25a6ad40e1d5aadb46501133f097"
     }
   ],
   "generated_by": "scripts/update_manifest.py",
