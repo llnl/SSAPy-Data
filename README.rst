@@ -9,7 +9,7 @@ repository is retained as the complete archival source and is not published to
 PyPI. Users can receive required data through the split packages without Git
 LFS, git submodules, or runtime GitHub downloads.
 
-Since 0.2.0 this package also carries base SSAPy's own data under ``ssapy/``:
+Since 0.0.1 this package also carries base SSAPy's own data under ``ssapy/``:
 two short planetary ephemerides (JPL DE440's ``de440s.bsp``, 1849-2150, SSAPy's
 default, and a 1900-2150 excerpt of DE430, ``de430_1900_2150.bsp``, for
 reproducing older SSAPy results; SSAPy downloads the full-span kernels from
