@@ -1,11 +1,12 @@
 SSAPy-Data
 ==========
 
-SSAPy-Data stores reusable data resources for `SSAPy <https://github.com/llnl/SSAPy>`_
+SSAPy-Data stores a complete backup of reusable data resources for `SSAPy <https://github.com/llnl/SSAPy>`_
 and `SSAPy Toolkit <https://github.com/llnl/SSAPy-Toolkit>`_. The repository is
-packaged as the ``llnl-ssapy-data`` Python distribution and exposes the
-``ssapy_data`` import package. Data files live under ``src/ssapy_data/data`` so
-users can receive required data through normal ``pip`` installation without Git
+The archive retains the historical ``ssapy_data`` package layout. Data files live under ``src/ssapy_data/data`` so
+The split ``ssatk-data-*`` repositories are the published distributions; this
+repository is retained as the complete archival source and is not published to
+PyPI. Users can receive required data through the split packages without Git
 LFS, git submodules, or runtime GitHub downloads.
 
 Since 0.2.0 this package also carries base SSAPy's own data under ``ssapy/``:
@@ -129,20 +130,9 @@ separate companion package rather than using Git LFS in SSAPy Toolkit.
 Publishing
 ----------
 
-The repository publishes ``llnl-ssapy-data`` to PyPI through GitHub Actions and
-PyPI trusted publishing. Configure PyPI before creating the first release:
-
-* Create a PyPI trusted publisher, or pending publisher, for project
-  ``llnl-ssapy-data``.
-* Set the owner to ``llnl`` and repository to ``SSAPy-Data``.
-* Set the workflow filename to ``publish.yml``.
-* Set the GitHub environment to ``pypi``.
-
-After PyPI trust is configured, publish by pushing a git tag that matches the
-version in ``pyproject.toml``, for example ``v0.1.1``. The ``Publish to PyPI``
-workflow builds a clean wheel and source distribution, runs tests, checks the
-manifest, and uploads through OpenID Connect (OIDC). No PyPI API token is
-required.
+This repository is an archival backup and does not publish to PyPI. Publishable
+components live in the public ``ssatk-data-*`` repositories, each with its own
+PyPI trusted-publishing workflow.
 
 Data provenance
 ---------------
