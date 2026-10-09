@@ -254,6 +254,20 @@
       ],
       "transformation": "none",
       "notes": "Carried over unchanged from base SSAPy's Git LFS data (ssapy/data, llnl-ssapy <= 1.1.10) by scripts/import_ssapy_core_data.py, which checks each file against the SHA-256 in SSAPy's LFS pointer. SSAPy did not record the upstream source or license of these two textures; record them here when known."
+    },
+    {
+      "id": "ssapy_satellites_default",
+      "title": "Default satellite catalog",
+      "source_title": "Space-Track.org public satellite catalog",
+      "source_url": "https://www.space-track.org/",
+      "license": "Space-Track.org terms of use",
+      "license_url": "https://www.space-track.org/legal/disclaimer",
+      "retrieved": "2026-09-29",
+      "packaged_files": [
+        "ssapy_satellites_default.json"
+      ],
+      "transformation": "Catalog metadata and TLE records were normalized to the SSAPy JSON schema.",
+      "notes": "The catalog is a convenience snapshot; refresh it from Space-Track.org when current orbital elements are required."
     }
   ]
 }
