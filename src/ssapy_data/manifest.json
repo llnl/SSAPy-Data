@@ -6237,9 +6237,9 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 14486,
+      "bytes": 16789,
       "path": "sources.json",
-      "sha256": "eb63015664a2c23d8b6655ef8da3dae5aa7629c2f9acb0a8ab3db74f6b98ebe7"
+      "sha256": "8aa1eac36637b98709be69516b7abbca0a063e071a60502df787b6cafdd915cf"
     },
     {
       "bytes": 22174,
@@ -6350,6 +6350,11 @@
       "bytes": 192,
       "path": "ssapy/wgs84.egm.cof",
       "sha256": "aeedf849678826d171b731eb7a783ab5d7e47552413da551418d21445fc3a2ec"
+    },
+    {
+      "bytes": 34966,
+      "path": "ssapy_satellites_default.json",
+      "sha256": "6fad3f67f72203239f2646495b16d399367d25a6ad40e1d5aadb46501133f097"
     }
   ],
   "generated_by": "scripts/update_manifest.py",

@@ -53,6 +53,41 @@
       "notes": "The generating script and exact source mosaic checksum were not present in this repository when the citation ledger was added. Keep this entry as legacy provenance until the classification can be regenerated from a recorded NASA source image."
     },
     {
+      "id": "ssatk_default_satellite_catalog",
+      "title": "SSATK historical default satellite TLE snapshot",
+      "source_title": "USSPACECOM basic SSA GP/TLE data via Space-Track.org",
+      "source_url": "https://www.space-track.org/",
+      "license": "USSPACECOM blanket approval for redistribution of basic SSA data, conditioned on appropriate citation",
+      "license_url": "https://www.space-track.org/documentation#/odr",
+      "retrieved": "2026-09-28",
+      "packaged_files": [
+        "ssapy_satellites_default.json"
+      ],
+      "transformation": "Copied Space-Track TLE records from SSAPy Toolkit coverage analysis into a historical JSON snapshot; the orbital values have not been refreshed or changed by this metadata correction.",
+      "notes": "The retrieved field records the September 28, 2026 copy into SSAPy-Data, not a Space-Track fetch or a current element epoch. The original fetch date is unknown. TLE epochs span October 27, 2025 through July 20, 2026; the snapshot must not be represented as current orbital data. Cite USSPACECOM and Space-Track.org when redistributing these basic TLEs under the documented blanket approval. Refresh and revalidate elements before current-time analysis.",
+      "additional_attribution": [
+        "U.S. Space Command (USSPACECOM), basic Space Situational Awareness data accessed via Space-Track.org"
+      ],
+      "redistribution_policy": {
+        "scope": "basic_ssa_tle",
+        "authorization": "blanket_approval",
+        "condition": "appropriate_citation",
+        "source_url": "https://www.space-track.org/documentation#/odr",
+        "checked": "2026-10-05",
+        "notes": "This policy entry covers the basic TLE records in this snapshot; it makes no authorization claim for advanced or emergency SSA products."
+      },
+      "snapshot": {
+        "status": "historical",
+        "record_count": 152,
+        "epoch_min_utc": "2025-10-27T14:19:01.946784Z",
+        "epoch_max_utc": "2026-07-20T14:43:33.944448Z",
+        "latest_epoch_date": "2026-07-20",
+        "copied_into_package": "2026-09-28",
+        "original_fetch_date": null,
+        "intended_use": "Historical visualization and reproducible example input; refresh and revalidate before current-time tracking or coverage analysis."
+      }
+    },
+    {
       "id": "propulsion_sources",
       "title": "Propulsion data source ledger",
       "source_url": "propulsion/sources.json",
