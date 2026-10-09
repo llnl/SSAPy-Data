@@ -81,16 +81,16 @@ The propulsion directory also includes ``sources.json`` and
 ``source_audit.md`` to record source URLs, rights metadata, transformations,
 and searched sources that were packaged, rejected, or deferred.
 
-Satellite catalog
+Lunar topography
 -----------------
 
-``ssapy_satellites_default.json`` is a historical snapshot of 152 two-line
-element sets from USSPACECOM basic SSA data, accessed via Space-Track.org. It
-was copied from SSAPy Toolkit's coverage analysis on 2026-09-28; the original
-Space-Track fetch date is unknown. Element epochs run from 2025-10-27 to
-2026-07-20, so refresh the elements before current-time tracking or coverage
-analysis. Source, attribution, and redistribution details are recorded in
-``data/sources.json``.
+``data/moon_dem.npz`` contains an 8-pixel-per-degree LOLA elevation grid from
+NASA's CGI Moon Kit.  The ``elev_km`` array is measured relative to a 1737.4 km
+lunar sphere and is an optional offline input to SSAPy Toolkit's Moon texture
+baker (``ssapy-bake-moon --dem``), which otherwise downloads the
+16-pixel-per-degree source from NASA. The generated WebGL textures are
+intentionally not packaged here.  Source,
+license, and transformation details are recorded in ``data/sources.json``.
 
 Adding data
 -----------

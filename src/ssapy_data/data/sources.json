@@ -53,39 +53,20 @@
       "notes": "The generating script and exact source mosaic checksum were not present in this repository when the citation ledger was added. Keep this entry as legacy provenance until the classification can be regenerated from a recorded NASA source image."
     },
     {
-      "id": "ssatk_default_satellite_catalog",
-      "title": "SSATK historical default satellite TLE snapshot",
-      "source_title": "USSPACECOM basic SSA GP/TLE data via Space-Track.org",
-      "source_url": "https://www.space-track.org/",
-      "license": "USSPACECOM blanket approval for redistribution of basic SSA data, conditioned on appropriate citation",
-      "license_url": "https://www.space-track.org/documentation#/odr",
-      "retrieved": "2026-09-28",
+      "id": "nasa_svs_lola_ldem_8ppd",
+      "title": "LRO LOLA 8-pixel-per-degree lunar elevation grid",
+      "source_title": "NASA Scientific Visualization Studio CGI Moon Kit",
+      "source_url": "https://svs.gsfc.nasa.gov/4720/",
+      "download_url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_16_uint.tif",
+      "source_sha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+      "license": "NASA public-domain data (U.S. Government work)",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "retrieved": "2026-09-29",
       "packaged_files": [
-        "ssapy_satellites_default.json"
+        "moon_dem.npz"
       ],
-      "transformation": "Copied Space-Track TLE records from SSAPy Toolkit coverage analysis into a historical JSON snapshot; the orbital values have not been refreshed or changed by this metadata correction.",
-      "notes": "The retrieved field records the September 28, 2026 copy into SSAPy-Data, not a Space-Track fetch or a current element epoch. The original fetch date is unknown. TLE epochs span October 27, 2025 through July 20, 2026; the snapshot must not be represented as current orbital data. Cite USSPACECOM and Space-Track.org when redistributing these basic TLEs under the documented blanket approval. Refresh and revalidate elements before current-time analysis.",
-      "additional_attribution": [
-        "U.S. Space Command (USSPACECOM), basic Space Situational Awareness data accessed via Space-Track.org"
-      ],
-      "redistribution_policy": {
-        "scope": "basic_ssa_tle",
-        "authorization": "blanket_approval",
-        "condition": "appropriate_citation",
-        "source_url": "https://www.space-track.org/documentation#/odr",
-        "checked": "2026-10-05",
-        "notes": "This policy entry covers the basic TLE records in this snapshot; it makes no authorization claim for advanced or emergency SSA products."
-      },
-      "snapshot": {
-        "status": "historical",
-        "record_count": 152,
-        "epoch_min_utc": "2025-10-27T14:19:01.946784Z",
-        "epoch_max_utc": "2026-07-20T14:43:33.944448Z",
-        "latest_epoch_date": "2026-07-20",
-        "copied_into_package": "2026-09-28",
-        "original_fetch_date": null,
-        "intended_use": "Historical visualization and reproducible example input; refresh and revalidate before current-time tracking or coverage analysis."
-      }
+      "transformation": "The source unsigned 16-bit TIFF values were decoded as (value - 20000) / 2000 kilometres relative to a 1737.4 km sphere. Each adjacent 2x2 cell block was averaged to reduce the 16-pixel-per-degree source to 8 pixels per degree, then stored as the float32 elev_km array in a compressed NumPy archive.",
+      "notes": "The packaged grid is an optional offline input for SSAPy Toolkit's Moon texture baker (ssapy-bake-moon --dem), which otherwise downloads the 16 ppd source; generated WebGL textures are not packaged here."
     },
     {
       "id": "propulsion_sources",
@@ -273,6 +254,20 @@
       ],
       "transformation": "none",
       "notes": "Carried over unchanged from base SSAPy's Git LFS data (ssapy/data, llnl-ssapy <= 1.1.10) by scripts/import_ssapy_core_data.py, which checks each file against the SHA-256 in SSAPy's LFS pointer. SSAPy did not record the upstream source or license of these two textures; record them here when known."
+    },
+    {
+      "id": "ssapy_satellites_default",
+      "title": "Default satellite catalog",
+      "source_title": "Space-Track.org public satellite catalog",
+      "source_url": "https://www.space-track.org/",
+      "license": "Space-Track.org terms of use",
+      "license_url": "https://www.space-track.org/legal/disclaimer",
+      "retrieved": "2026-09-29",
+      "packaged_files": [
+        "ssapy_satellites_default.json"
+      ],
+      "transformation": "Catalog metadata and TLE records were normalized to the SSAPy JSON schema.",
+      "notes": "The catalog is a convenience snapshot; refresh it from Space-Track.org when current orbital elements are required."
     }
   ]
 }

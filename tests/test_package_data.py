@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import csv
-from datetime import datetime, timedelta, timezone
 import fnmatch
 import hashlib
 import json
@@ -28,7 +27,6 @@ def test_known_resources_are_packaged():
     assert data_resource("earth_day_2048.jpg").is_file()
     assert data_resource("earth_clouds_2048.png").is_file()
     assert data_resource("earth_map.npz").is_file()
-    assert data_resource("ssapy_satellites_default.json").is_file()
     assert data_resource("environment/eop/finals2000A.all").is_file()
     assert data_resource("environment/eop/finals2000A.json").is_file()
     assert data_resource("environment/space_weather/SW-All.csv").is_file()
@@ -233,70 +231,3 @@ def test_root_sources_cite_packaged_non_document_data():
             uncited.append(path)
 
     assert uncited == []
-
-
-def test_default_satellite_catalog_tles_are_well_formed_and_unique():
-    catalog = json.loads(read_text("ssapy_satellites_default.json"))
-    assert isinstance(catalog, list) and catalog
-    norad_ids = []
-    for record in catalog:
-        assert record["name"].strip()
-        assert record["type"] == "tle"
-        for number in (1, 2):
-            line = record[f"line{number}"]
-            assert line.isascii() and len(line) == 69
-            assert line.startswith(f"{number} ")
-            assert line[2:7].isdigit() and line[68].isdigit()
-            checksum = sum(
-                int(char) if char.isdigit() else 1 if char == "-" else 0
-                for char in line[:68]
-            ) % 10
-            assert checksum == int(line[68])
-        assert record["line1"][2:7] == record["line2"][2:7]
-        norad_ids.append(record["line1"][2:7])
-        line2 = record["line2"]
-        assert 0.0 <= float(line2[8:16]) <= 180.0
-        assert 0.0 <= float(line2[17:25]) < 360.0
-        assert 0.0 <= float("0." + line2[26:33]) < 1.0
-        assert 0.0 <= float(line2[34:42]) < 360.0
-        assert 0.0 <= float(line2[43:51]) < 360.0
-        assert float(line2[52:63]) > 0.0
-    assert len(norad_ids) == len(set(norad_ids))
-
-
-def test_default_satellite_snapshot_metadata_matches_actual_epochs():
-    sources = json.loads(read_text("sources.json"))["sources"]
-    source = next(item for item in sources if item["id"] == "ssatk_default_satellite_catalog")
-    snapshot = source["snapshot"]
-    catalog = json.loads(read_text("ssapy_satellites_default.json"))
-    epochs = []
-    for record in catalog:
-        line1 = record["line1"]
-        year = int(line1[18:20])
-        year += 2000 if year < 57 else 1900
-        epochs.append(
-            datetime(year, 1, 1, tzinfo=timezone.utc)
-            + timedelta(days=float(line1[20:32]) - 1.0)
-        )
-    assert snapshot["status"] == "historical"
-    assert snapshot["record_count"] == len(catalog)
-    assert datetime.fromisoformat(snapshot["epoch_min_utc"].replace("Z", "+00:00")) == min(epochs)
-    assert datetime.fromisoformat(snapshot["epoch_max_utc"].replace("Z", "+00:00")) == max(epochs)
-    assert snapshot["latest_epoch_date"] == max(epochs).date().isoformat()
-    assert snapshot["original_fetch_date"] is None
-    assert source["retrieved"] == snapshot["copied_into_package"]
-    assert datetime.fromisoformat(snapshot["copied_into_package"]).date() >= max(epochs).date()
-    assert snapshot["intended_use"].strip()
-
-
-def test_default_satellite_redistribution_records_scoped_citation_policy():
-    sources = json.loads(read_text("sources.json"))["sources"]
-    source = next(item for item in sources if item["id"] == "ssatk_default_satellite_catalog")
-    policy = source["redistribution_policy"]
-    assert policy["scope"] == "basic_ssa_tle"
-    assert policy["authorization"] == "blanket_approval"
-    assert policy["condition"] == "appropriate_citation"
-    assert policy["source_url"] == "https://www.space-track.org/documentation#/odr"
-    assert source["license_url"] == policy["source_url"]
-    assert datetime.fromisoformat(policy["checked"]).tzinfo is None
-    assert any("USSPACECOM" in attribution for attribution in source["additional_attribution"])

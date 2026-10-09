@@ -187,6 +187,11 @@
       "sha256": "f594ae432dbfeb7f40db206eb397ca7bf94c8373eaea55a80325f3906ab0b464"
     },
     {
+      "bytes": 12599186,
+      "path": "moon_dem.npz",
+      "sha256": "27ecadd35ed2c91e9c5a97cf92f1d3f84ed7baae4410fcf23c098972dafd10c8"
+    },
+    {
       "bytes": 1796,
       "path": "propulsion/README.md",
       "sha256": "3916bea2879feb8d471e4a8ef199e65a53fae0273615f7fc90e834760131becf"
@@ -6237,9 +6242,9 @@
       "sha256": "1423c23f55c74c234e348886469889ad47bda92ac1e002591f11bd464db42fcd"
     },
     {
-      "bytes": 16789,
+      "bytes": 16384,
       "path": "sources.json",
-      "sha256": "8aa1eac36637b98709be69516b7abbca0a063e071a60502df787b6cafdd915cf"
+      "sha256": "bcab5d57ece32c4d76c84ffbdae7f473c38111f8402a43dbf0035276278d3c99"
     },
     {
       "bytes": 22174,
