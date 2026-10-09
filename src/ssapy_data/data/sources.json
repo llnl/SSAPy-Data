@@ -125,6 +125,119 @@
       "license": "No SPDX license asserted by the source endpoint",
       "transformation": "The original CSV is frozen without numeric transformation; the JSON sidecar records the checksum and fields used by SSATK.",
       "notes": "Observed, interpolated, predicted daily, and predicted monthly records are retained. The NRLMSISE-00 adapter rejects predicted records unless explicitly enabled."
+    },
+    {
+      "id": "ssapy_jpl_de440s",
+      "title": "JPL DE440 planetary and lunar ephemeris, short kernel (1849-12-26 to 2150-01-22)",
+      "source_title": "NAIF generic kernels: de440s.bsp",
+      "source_url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440s.bsp",
+      "license": "U.S. Government work (NASA/JPL); no copyright restrictions",
+      "license_url": "https://naif.jpl.nasa.gov/naif/rules.html",
+      "retrieved": "2026-10-09",
+      "packaged_files": [
+        "ssapy/de440s.bsp"
+      ],
+      "transformation": "none; scripts/import_ssapy_core_data.py downloads it and checks SHA-256 c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+      "notes": "Replaces the DE430 kernel base SSAPy shipped through Git LFS (119.7 MB, above GitHub's 100 MB file limit). DE440 is consistent with the moon_pa_de440_200625.bpc lunar orientation SSAPy already uses. Park et al. 2021, AJ 161, 105."
+    },
+    {
+      "id": "ssapy_jpl_de430_excerpt",
+      "title": "JPL DE430 planetary and lunar ephemeris, 1900-2150 excerpt",
+      "source_title": "NAIF generic kernels: de430.bsp",
+      "source_url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp",
+      "license": "U.S. Government work (NASA/JPL); no copyright restrictions",
+      "license_url": "https://naif.jpl.nasa.gov/naif/rules.html",
+      "retrieved": "not recorded (packaged with llnl-ssapy <= 1.1.10; identical to NAIF's de430.bsp, SHA-256 6e1b277c...fca1)",
+      "packaged_files": [
+        "ssapy/de430_1900_2150.bsp"
+      ],
+      "transformation": "python -m jplephem excerpt 1900/1/1 2150/1/1 de430.bsp de430_1900_2150.bsp (the full kernel, 119.7 MB, exceeds GitHub's 100 MB file limit). The excerpt keeps DE430's Chebyshev records for 1900-2150; positions agree with the full kernel to 4e-13 relative.",
+      "notes": "Kept so results made with SSAPy <= 1.1.10 (DE430) can be reproduced; SSAPy downloads the full de430.bsp from NAIF for epochs outside 1900-2150."
+    },
+    {
+      "id": "ssapy_moon_pa_de440",
+      "title": "Lunar principal-axis orientation from DE440",
+      "source_title": "NAIF generic kernels: moon_pa_de440_200625.bpc",
+      "source_url": "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/",
+      "license": "U.S. Government work (NASA/JPL); no copyright restrictions",
+      "license_url": "https://naif.jpl.nasa.gov/naif/rules.html",
+      "retrieved": "not recorded (packaged with llnl-ssapy <= 1.1.10)",
+      "packaged_files": [
+        "ssapy/moon_pa_de440_200625.bpc"
+      ],
+      "transformation": "none",
+      "notes": "Carried over unchanged from base SSAPy's Git LFS data (ssapy/data, llnl-ssapy <= 1.1.10) by scripts/import_ssapy_core_data.py, which checks each file against the SHA-256 in SSAPy's LFS pointer."
+    },
+    {
+      "id": "ssapy_geographiclib_earth_gravity",
+      "title": "Earth gravity models WGS84, EGM84, EGM96 and EGM2008 in GeographicLib format",
+      "source_title": "GeographicLib gravity models (from NGA EGM84, EGM96, EGM2008 and WGS84)",
+      "source_url": "https://geographiclib.sourceforge.io/C++/doc/gravity.html",
+      "license": "NGA gravity models are U.S. Government works; see GeographicLib for its conversions",
+      "license_url": "https://geographiclib.sourceforge.io/C++/doc/gravity.html",
+      "retrieved": "not recorded (packaged with llnl-ssapy <= 1.1.10)",
+      "packaged_files": [
+        "ssapy/wgs84.egm",
+        "ssapy/wgs84.egm.cof",
+        "ssapy/egm84.egm",
+        "ssapy/egm84.egm.cof",
+        "ssapy/egm96.egm",
+        "ssapy/egm96.egm.cof",
+        "ssapy/egm2008.egm",
+        "ssapy/egm2008.egm.cof"
+      ],
+      "transformation": "none",
+      "notes": "Carried over unchanged from base SSAPy's Git LFS data (ssapy/data, llnl-ssapy <= 1.1.10) by scripts/import_ssapy_core_data.py, which checks each file against the SHA-256 in SSAPy's LFS pointer. The .egm headers name the NGA publisher, release date and GeographicLib conversion date."
+    },
+    {
+      "id": "ssapy_grail_grgm1200a",
+      "title": "GRAIL GRGM1200A lunar gravity field (spherical-harmonic coefficients and PDS label)",
+      "source_title": "NASA PDS GRAIL-L-LGRS-5-RDR-V1.0, product GGGRX_1200A_SHA.TAB (GSFC)",
+      "source_url": "https://pgda.gsfc.nasa.gov/products/50",
+      "license": "U.S. Government work (NASA); no copyright restrictions",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "retrieved": "not recorded (packaged with llnl-ssapy <= 1.1.10)",
+      "packaged_files": [
+        "ssapy/gggrx_1200a_sha.tab",
+        "ssapy/gggrx_1200a_sha.lbl"
+      ],
+      "transformation": "none",
+      "notes": "Carried over unchanged from base SSAPy's Git LFS data (ssapy/data, llnl-ssapy <= 1.1.10) by scripts/import_ssapy_core_data.py, which checks each file against the SHA-256 in SSAPy's LFS pointer."
+    },
+    {
+      "id": "ssapy_natural_earth_50m_ocean",
+      "title": "Natural Earth 1:50m ocean polygons (version 4.1.0)",
+      "source_title": "Natural Earth ne_50m_ocean",
+      "source_url": "https://www.naturalearthdata.com/downloads/50m-physical-vectors/",
+      "license": "Public domain",
+      "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "retrieved": "not recorded (packaged with llnl-ssapy <= 1.1.10)",
+      "packaged_files": [
+        "ssapy/Earth_graphics/ne_50m_ocean.README.html",
+        "ssapy/Earth_graphics/ne_50m_ocean.VERSION.txt",
+        "ssapy/Earth_graphics/ne_50m_ocean.cpg",
+        "ssapy/Earth_graphics/ne_50m_ocean.dbf",
+        "ssapy/Earth_graphics/ne_50m_ocean.prj",
+        "ssapy/Earth_graphics/ne_50m_ocean.shp",
+        "ssapy/Earth_graphics/ne_50m_ocean.shx"
+      ],
+      "transformation": "none",
+      "notes": "Carried over unchanged from base SSAPy's Git LFS data (ssapy/data, llnl-ssapy <= 1.1.10) by scripts/import_ssapy_core_data.py, which checks each file against the SHA-256 in SSAPy's LFS pointer."
+    },
+    {
+      "id": "ssapy_earth_moon_textures",
+      "title": "SSAPy Earth and Moon texture maps (earth.png, moon.png)",
+      "source_title": "not recorded in SSAPy",
+      "source_url": "https://github.com/llnl/SSAPy",
+      "license": "not recorded in SSAPy; confirm before redistributing outside SSAPy",
+      "license_url": "https://github.com/llnl/SSAPy/blob/main/LICENSE",
+      "retrieved": "not recorded (packaged with llnl-ssapy <= 1.1.10)",
+      "packaged_files": [
+        "ssapy/earth.png",
+        "ssapy/moon.png"
+      ],
+      "transformation": "none",
+      "notes": "Carried over unchanged from base SSAPy's Git LFS data (ssapy/data, llnl-ssapy <= 1.1.10) by scripts/import_ssapy_core_data.py, which checks each file against the SHA-256 in SSAPy's LFS pointer. SSAPy did not record the upstream source or license of these two textures; record them here when known."
     }
   ]
 }

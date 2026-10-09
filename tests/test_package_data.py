@@ -231,3 +231,37 @@ def test_root_sources_cite_packaged_non_document_data():
             uncited.append(path)
 
     assert uncited == []
+
+
+SSAPY_CORE_FILES = {
+    # path: leading bytes of the file format
+    "ssapy/de440s.bsp": b"DAF/SPK",
+    "ssapy/de430_1900_2150.bsp": b"DAF/SPK",
+    "ssapy/moon_pa_de440_200625.bpc": b"DAF/PCK",
+    "ssapy/wgs84.egm": b"EGMF-1",
+    "ssapy/egm84.egm": b"EGMF-1",
+    "ssapy/egm96.egm": b"EGMF-1",
+    "ssapy/egm2008.egm": b"EGMF-1",
+    "ssapy/gggrx_1200a_sha.lbl": b"PDS_VERSION_ID",
+    "ssapy/earth.png": b"\x89PNG",
+    "ssapy/moon.png": b"\x89PNG",
+}
+
+
+@pytest.mark.parametrize("path, magic", sorted(SSAPY_CORE_FILES.items()))
+def test_base_ssapy_data_is_packaged(path, magic):
+    # Base SSAPy (llnl-ssapy releases after 1.1.10) reads these from here
+    # instead of Git LFS.
+    # Each file must be present, start with its format's signature, and have a
+    # manifest entry; the gravity coefficient files sit next to their headers.
+    assert read_binary(path)[: len(magic)] == magic
+    assert path in {entry["path"] for entry in manifest()["files"]}
+    if path.endswith(".egm"):
+        assert data_resource(path + ".cof").is_file()
+
+
+def test_base_ssapy_data_sources_are_recorded():
+    sources = json.loads(read_text("sources.json"))["sources"]
+    recorded = {name for source in sources for name in source["packaged_files"]}
+    packaged = {entry["path"] for entry in manifest()["files"] if entry["path"].startswith("ssapy/")}
+    assert packaged and packaged <= recorded

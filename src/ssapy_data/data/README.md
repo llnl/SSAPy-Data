@@ -1,6 +1,6 @@
 # SSAPy Data Payload Directory
 
-Add new reusable datasets for SSAPy Toolkit under this directory. Do not add data already packaged by base SSAPy unless a later migration explicitly moves that dependency here.
+Add new reusable datasets for SSAPy Toolkit under this directory. Base SSAPy's own data (ephemerides, gravity models, textures) lives under `ssapy/`; it is imported from SSAPy with `scripts/import_ssapy_core_data.py`.
 
 Source and citation records live in `sources.json`. Propulsion-specific source
 records live in `propulsion/sources.json`. Every new data file should have an

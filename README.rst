@@ -8,10 +8,17 @@ packaged as the ``llnl-ssapy-data`` Python distribution and exposes the
 users can receive required data through normal ``pip`` installation without Git
 LFS, git submodules, or runtime GitHub downloads.
 
-The initial package intentionally does not duplicate data already packaged by
-base SSAPy. New SSAPy Toolkit datasets should be added here when they are needed
-by toolkit functions and are not already available from the base ``llnl-ssapy``
-wheel.
+Since 0.2.0 this package also carries base SSAPy's own data under ``ssapy/``:
+two short planetary ephemerides (JPL DE440's ``de440s.bsp``, 1849-2150, SSAPy's
+default, and a 1900-2150 excerpt of DE430, ``de430_1900_2150.bsp``, for
+reproducing older SSAPy results; SSAPy downloads the full-span kernels from
+NAIF when an epoch needs them), the DE440 lunar orientation kernel, the WGS84/EGM84/EGM96/EGM2008 Earth gravity
+models, the GRGM1200A lunar gravity field, the Natural Earth ocean outline and
+the Earth/Moon textures. ``llnl-ssapy`` depends on this package and no longer
+stores data with Git LFS. ``scripts/import_ssapy_core_data.py`` imports those
+files from an SSAPy data directory, checks them against SSAPy's recorded
+SHA-256 digests, and downloads ``de440s.bsp`` from NAIF against a pinned
+digest.
 
 Installation
 ------------
@@ -79,8 +86,8 @@ Adding data
 
 Add new reusable data below ``src/ssapy_data/data``. Preserve source filenames
 when possible, and use subdirectories when a dataset has multiple sidecar files.
-Do not add files already packaged by base SSAPy unless a later migration
-explicitly moves that dependency here.
+Base SSAPy's data now lives under ``ssapy/``; add files there only for
+base SSAPy, and record their sources in ``sources.json``.
 After adding, replacing, or removing data, regenerate the manifest:
 
 .. code-block:: bash
